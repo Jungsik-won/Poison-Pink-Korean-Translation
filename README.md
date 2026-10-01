@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="artwork/title/poison-pink-ko-logo.png" alt="Poison Pink 포이즌 핑크 한글화 메인 화면 로고" width="512" />
+</p>
+
 # Poison Pink 한국어화 프로젝트
 
 > [!WARNING]
