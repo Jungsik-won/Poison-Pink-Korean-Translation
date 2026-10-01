@@ -9,7 +9,7 @@
 3. xdelta3를 설치합니다.
 4. `Poison_Pink_Korean_DMAP_flow_v1.xdelta`를 적용합니다.
 5. 출력 SHA-256이 `b1ebb5db3d0613ea9fe1160f6636c7481fb4d71c43e6b2d9b67f366ea9ca06b2`인지 확인합니다.
-6. PCSX2에서 대화 표시 문제가 있으면 동봉된 `PCSX2_대화표시_호환패키지.zip`의 안내를 따릅니다.
+6. PCSX2에서 대화 표시 문제가 있으면 동봉된 `PCSX2_dialogue_compat.zip`의 안내를 따릅니다.
 
 macOS/Linux는 `apply_patch_ko.sh`, Windows는 `apply_patch_ko.ps1`을 이용하면 원본·패치·출력 해시를 자동 검증합니다.
 
@@ -27,4 +27,3 @@ macOS/Linux는 `apply_patch_ko.sh`, Windows는 `apply_patch_ko.ps1`을 이용하
 - 원본/수정 ISO는 배포물에 포함되지 않습니다.
 - 출력 ISO는 완전한 디스크 이미지이므로 약 4.25GB입니다. xdelta 파일 자체는 약 297MiB입니다.
 - 일부 이미지, 문맥 의존 번역, 영상 가사와 런타임 분기는 추가 검수가 필요합니다.
-
