@@ -1,0 +1,168 @@
+{
+  "status": "applied_to_iso_static_verified",
+  "iso_built": true,
+  "catalog": "localization/battle_voice_subtitles_v3.json",
+  "catalog_sha256": "b3c26f96311677f5247d0e8da06355ee22a759ef77c7b5e91663f3ff89fe6f1c",
+  "source_catalog": "localization/battle_voice_subtitles_v2.json",
+  "source_catalog_sha256": "251611548bb9ad5d11682c99c58853ed5f773025c3e7d6b8becd14c0d095366d",
+  "service": "AccurateScribe.ai – Transcribe",
+  "service_backend_model_known": false,
+  "user_uploaded_clips": 45,
+  "aligned_clips_with_cues": 42,
+  "no_external_cues": [
+    "kv3_0290_02",
+    "kv3_0290_07",
+    "kv4_0230_02"
+  ],
+  "results": [
+    {
+      "result": "accuratescribe_result.json",
+      "result_sha256": "9dec8c9ec210061a9591d5ba94fb988870e0300736a305f75d96e5c7fd362ad1",
+      "start_offset_seconds": 0,
+      "source_duration_seconds": 129.92,
+      "returned_cues": 21
+    },
+    {
+      "result": "accuratescribe_part2_result.json",
+      "result_sha256": "f3e2f6a06eea1d7eacb01da584879193d696add9a49a4b727bc50b8932a0e783",
+      "start_offset_seconds": 60,
+      "source_duration_seconds": 60,
+      "returned_cues": 18
+    },
+    {
+      "result": "accuratescribe_part3_result.json",
+      "result_sha256": "ab5b8b849f9aedc87db58cef36a51b6809b3401087c655c865b10babf73368b6",
+      "start_offset_seconds": 120,
+      "source_duration_seconds": 9.92,
+      "returned_cues": 3
+    }
+  ],
+  "old_counts": {
+    "non_dialogue": 114,
+    "reviewed_translation": 433,
+    "needs_transcript_review": 45
+  },
+  "counts": {
+    "non_dialogue": 116,
+    "reviewed_translation": 442,
+    "needs_transcript_review": 34
+  },
+  "new_translations": 9,
+  "new_translation_bank_slots": 14,
+  "total_translation_bank_slots": 511,
+  "changes": [
+    {
+      "tag": "kv1_0080_07",
+      "status": "reviewed_translation",
+      "ja": "断罪の許しを",
+      "ko": "단죄를 허락하소서!",
+      "aliases": 2,
+      "reason": "외부 전사의 断罪の許しを와 large-v3 패딩의 断罪の赦しを가 문구를 지지한다. 기존 표음 賛罪/残罪 및 새 원본 길이 惨罪는 첫 한자가 불안정했음을 기록한다. 許し는 용서 외에 행위를 허가한다는 뜻도 있다. 단죄를 수행할 허가를 구하는 주문으로 해석하여 번역한 것이며 공식 대본 확인은 아니다."
+    },
+    {
+      "tag": "kv1_0110_07",
+      "status": "reviewed_translation",
+      "ja": "消えな",
+      "ko": "사라져!",
+      "aliases": 1,
+      "reason": "외부 消えな와 large-v3 패딩 消えなが 일치한다. 과거 キーナ/きゃな와 원본 길이 キーナ는 축약된 표음의 차이를 남기지만, 새 결과에서 명령 어미 な를 지지한다. 죽어라 같은 다른 의미로 변경하지 않는다."
+    },
+    {
+      "tag": "kv1_0290_07",
+      "status": "reviewed_translation",
+      "ja": "邪を滅せよ",
+      "ko": "악을 멸하라!",
+      "aliases": 5,
+      "reason": "외부의 독립된 cue13이 邪を滅せよ 전체를 제공한다. 종전 じゃあお見せよ/ジョームイスシール는 ja-o-mes(se)-yo라는 유사한 표음이며 어절 복원을 뒷받침한다. large-v3의 乗務せよ는 다른 읽기이므로 서비스 결과가 유일한 정확한 문장 인식임을 기록한다. 표음과 명령형에 근거한 후보이며 확정 청취 대본이 아니다."
+    },
+    {
+      "tag": "kv2_0090_07",
+      "status": "reviewed_translation",
+      "ja": "駆逐せよ",
+      "ko": "몰아내라!",
+      "aliases": 1,
+      "reason": "외부 口くせよ에서 口의 읽기 くち와 くせよ를 연결하면 くちくせよ가 된다. 駆逐せよ와 같은 표음의 어절·한자 교정이다. large-v3의 くっつくせよ는 촉음과 자음 차이가 있는 불완전 인식이며 같은 결과의 반복을 정답 보증으로 취급하지 않는다. 기존 번역 용어 몰아내라를 사용한다."
+    },
+    {
+      "tag": "kv2_0140_03",
+      "status": "reviewed_translation",
+      "ja": "助太刀",
+      "ko": "거들어 주마!",
+      "aliases": 1,
+      "reason": "외부의 독립 cue17이 助太刀를 제시한다. 추가 원본 길이 large-v3는 助けたち!로 인식하여 도움 어휘와 뒤 たち 표음을 부분적으로 뒷받침한다. 종전 すげぇどっち/スキルたち는 자음·모음이 달라 동음 한자 교정만으로 확정된 항목은 아니다. 새 서비스의 助太刀에 무게를 둔 검토 후보이며, 구체 대상이나 무기를 보충하지 않고 가세한다는 뜻의 한국어 구호로 옮긴다."
+    },
+    {
+      "tag": "kv2_0150_03",
+      "status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "aliases": 1,
+      "reason": "외부 ええい와 종전 えぇーい/いへい/새 えへへい는 힘을 주는 기합 계열의 표음을 지지한다. 어휘 대사를 새로 만들지 않고 비언어 기합으로 제외한다."
+    },
+    {
+      "tag": "kv2_0220_02",
+      "status": "reviewed_translation",
+      "ja": "死ぬ",
+      "ko": "죽는다!",
+      "aliases": 1,
+      "reason": "외부·large-v3 패딩·원본 길이·종전 turbo가 死ぬ를 반복한다. 처음 small의 シネ와 어미 차이는 기록한다. 새 반복 전사의 평서형을 그대로 옮기며 죽어라 명령형이나 화자·대상 인칭을 추가하지 않는다."
+    },
+    {
+      "tag": "kv2_0230_09",
+      "status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "aliases": 3,
+      "reason": "외부 cue6의 ええ。じゃあ는 직전 기합과 다음 음성 문구의 앞부분이 섞인 결과이다. 현재 음성에 じゃあ를 옮겨 붙이지 않는다. large-v3 はぁっ와 종전 おわっ/パワー는 짧은 외침 계열로 보고 비언어 분류한다."
+    },
+    {
+      "tag": "kv3_0110_05",
+      "status": "reviewed_translation",
+      "ja": "滅べ",
+      "ko": "멸망해라!",
+      "aliases": 1,
+      "reason": "외부 おろべ와 large-v3 패딩 滅べ 및 종전 おろべ가 /oro-be/ 종결을 지지한다. 원본 길이 滅び와 종전 おるび의 /i/ 차이는 남는다. 새 외부 결과가 /e/를 보완한 것으로 보고 명령형 滅べ로 정규화한다."
+    },
+    {
+      "tag": "kv3_0180_05",
+      "status": "reviewed_translation",
+      "ja": "失せろ",
+      "ko": "꺼져라!",
+      "aliases": 1,
+      "reason": "외부 失せろ와 종전 ルセロ/うっせろ, 추가 원본 길이 うっせーろ!는 /se-ro/ 어미를 지지한다. 패딩 うっせーな의 /na/는 새 근거와 달라 채택하지 않는다. 장음·힘준 발음을 제거하고 표준 명령형으로 정규화한다."
+    },
+    {
+      "tag": "kv3_0180_09",
+      "status": "reviewed_translation",
+      "ja": "消えろ",
+      "ko": "사라져라!",
+      "aliases": 1,
+      "reason": "외부 消えろ와 새 원본 길이 消えろ!가 일치한다. 종전 キレろ/切れろ/キネロ 표음과 모음·자음 차이는 남기되 새로운 원본 길이 확인으로 消えろ를 선택한다."
+    }
+  ],
+  "direct_gpt_audio_input": false,
+  "human_listening_audit": false,
+  "runtime_verified": false,
+  "validation": {
+    "existing_translations_preserved": 433,
+    "source_audio_hashes_verified": 45,
+    "source_bank_signatures_verified": 592,
+    "font_and_caption_width_checks_passed": true,
+    "in_memory_assembly_only": true,
+    "instruction_bytes_unchanged": true,
+    "segment_bytes": 20032,
+    "heap_start": "0x655000",
+    "original_v1_catalog_unchanged": true,
+    "prior_v2_catalog_unchanged": true,
+    "additional_native_rechecks": 11,
+    "private_font_mapping_not_exported": true,
+    "user_uploaded_audio_to_service": true,
+    "baseline_iso_sha256_verified": "8ba7111a988b095902e727f089bdf5ac12778c59cfeb127e193402ce17a888b9",
+    "baseline_iso_hash_checked_this_turn": true
+  },
+  "review": "outputs/battle_voice_recheck_v2/external_transcription/final_decisions.json",
+  "gpt_review": "outputs/battle_voice_recheck_v2/external_transcription/gpt_external_review.json",
+  "date": "2026-10-01",
+  "iso_path": "build/korean_update_v4/Poison Pink (Japan) - Korean update v4.iso",
+  "integration_report": "reports/korean_update_v4.json"
+}

@@ -60,7 +60,8 @@
     "user_ui_test_v6_entire_iso_verified": true,
     "dmap_map_ko_v1_entire_iso_verified": true,
     "dmap_flow_ko_v1_entire_iso_verified": true,
-    "iso_dialogue_fix_v1_entire_iso_verified": true
+    "iso_dialogue_fix_v1_entire_iso_verified": true,
+    "korean_update_v4_entire_iso_verified": true
   },
   "gates": {
     "rtb_instruction_boundaries": true,
@@ -141,14 +142,12 @@
   "ui_translation_file": "localization/ui_slice.json",
   "ui_catalog": "localization/ui_catalog.json",
   "latest_experimental_build": {
-    "path": "build/battle_voice_subtitles_v1/Poison Pink (Japan) - Korean battle subtitles v3.iso",
-    "sha256": "8ba7111a988b095902e727f089bdf5ac12778c59cfeb127e193402ce17a888b9",
-    "report": "reports/battle_voice_subtitles_v1.json",
-    "runtime_verified": true,
-    "runtime_verified_scope": "PCSX2 2.6.3 Software 4:3 final v3 fresh boot, segment/code/coordinate/string RAM verification, external patches OFF. Prototype v1 normal card load and battle map/skill-target UI. Final hook controlled KV0/KV3 replay captions tested in copied map/cut-in states. No naturally selected translated attack, full-game, Metal battle or real-hardware verification.",
+    "path": "build/korean_update_v4/Poison Pink (Japan) - Korean update v4.iso",
+    "sha256": "b6601a8b7a6a5c6de956a9ccaa33804a304429e29cfa94bbe9e7d7f59a017445",
+    "report": "reports/korean_update_v4.json",
+    "runtime_verified": false,
     "requires_external_patch": false,
-    "pcsx2_sidecar": null,
-    "incomplete_voice_transcripts": 80
+    "pcsx2_sidecar": null
   },
   "ui_titles_translation_file": "localization/ui_titles.json",
   "ui_remaining_translation_file": "localization/ui_remaining.json",
@@ -707,15 +706,59 @@
     "pcsx2_sidecar": null
   },
   "battle_voice_subtitles": {
-    "catalog": "localization/battle_voice_subtitles_v1.json",
-    "builder": "tools/build_battle_subtitles.py",
+    "catalog": "localization/battle_voice_subtitles_v3.json",
+    "builder": "tools/build_korean_update_v4.py",
     "tests": "tools/test_battle_subtitles.py",
     "counts": {
-      "non_dialogue": 102,
-      "reviewed_translation": 410,
-      "needs_transcript_review": 80
+      "non_dialogue": 116,
+      "reviewed_translation": 442,
+      "needs_transcript_review": 34
     },
-    "review_table": "outputs/battle_voice_subtitles_v1/voice_review.tsv",
+    "review_table": "outputs/battle_voice_subtitles_v3/voice_review.tsv",
     "no_human_audio_audit": true
+  },
+  "battle_voice_recheck_v2": {
+    "status": "reviewed_catalog_ready_not_applied_to_iso",
+    "catalog": "localization/battle_voice_subtitles_v2.json",
+    "report": "reports/battle_voice_recheck_v2.json",
+    "review_table": "outputs/battle_voice_recheck_v2/recheck_review.tsv",
+    "model": "Whisper full large-v3",
+    "counts": {
+      "non_dialogue": 114,
+      "reviewed_translation": 433,
+      "needs_transcript_review": 45
+    },
+    "new_captions": 23,
+    "gpt_review_mode": "text evidence only; no direct audio input",
+    "iso_built": false,
+    "runtime_verified": false,
+    "superseded_by_prepared_catalog": "localization/battle_voice_subtitles_v3.json"
+  },
+  "battle_voice_external_v3": {
+    "status": "applied_to_iso_static_verified",
+    "catalog": "localization/battle_voice_subtitles_v3.json",
+    "catalog_sha256": "b3c26f96311677f5247d0e8da06355ee22a759ef77c7b5e91663f3ff89fe6f1c",
+    "report": "reports/battle_voice_external_v3.json",
+    "review_table": "outputs/battle_voice_recheck_v2/external_transcription/external_review.tsv",
+    "counts": {
+      "non_dialogue": 116,
+      "reviewed_translation": 442,
+      "needs_transcript_review": 34
+    },
+    "new_captions": 9,
+    "new_translation_bank_slots": 14,
+    "total_translation_bank_slots": 511,
+    "gpt_review_mode": "text evidence only; no direct audio input",
+    "iso_built": true,
+    "runtime_verified": false,
+    "iso_path": "build/korean_update_v4/Poison Pink (Japan) - Korean update v4.iso"
+  },
+  "user_shop_dictionary_v1": {
+    "status": "applied_to_iso",
+    "report": "reports/user_shop_dictionary_v1.json",
+    "textures": 4,
+    "iso_built": true,
+    "runtime_verified": false,
+    "iso_path": "build/korean_update_v4/Poison Pink (Japan) - Korean update v4.iso"
   }
 }

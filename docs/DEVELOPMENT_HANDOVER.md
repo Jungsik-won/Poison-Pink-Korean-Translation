@@ -1,6 +1,14 @@
 # Poison Pink 한글화 인계서 — 검수 반영판
 
-## 최신 테스트 ISO: 전투 음성 자막 v3 (2026-10-01)
+## 최신 테스트 ISO: 상점·도감 + 전투 음성 보완 v4 (2026-10-02)
+
+`build/korean_update_v4/Poison Pink (Japan) - Korean update v4.iso`
+
+SHA-256 `b6601a8b7a6a5c6de956a9ccaa33804a304429e29cfa94bbe9e7d7f59a017445`, ELF CRC `04D21A3D`. 최신 실행 v3 기반으로 사용자 dic_pt04/sys007/sys019/dic_pt02 4장과 전투 음성32종 추가. 총442번역(511슬롯)·116비언어·34보류. 전체 ISO 변경 범위 밖 바이트 동일, 이전 게임 로드 세그먼트·대화 보정·heap0x655000 보존, 최신 카탈로그 MIPS 실행 시험4개/592종 매칭 및 새 텍스처 재읽기 통과. 외부 PCSX2 패치 불필요. v4 실제 게임 실행은 미검증. `reports/korean_update_v4.json` 참조.
+
+`reports/user_shop_dictionary_v1.json` applied_assets 4개와 `localization/battle_voice_subtitles_v3.json` 통합 완료. 거절된 자동 식자와 dic_pt03 제외. 공개 자료에 원본 ISO·음성·PSD·저장 데이터·글꼴 매핑 원자료를 포함하지 말 것.
+
+## 이전 테스트 ISO: 전투 음성 자막 v3 (2026-10-01)
 
 `build/battle_voice_subtitles_v1/Poison Pink (Japan) - Korean battle subtitles v3.iso`
 

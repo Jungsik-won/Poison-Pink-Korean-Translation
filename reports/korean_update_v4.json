@@ -1,0 +1,103 @@
+{
+  "status": "built_static_verified",
+  "date": "2026-10-02",
+  "iso_path": "build/korean_update_v4/Poison Pink (Japan) - Korean update v4.iso",
+  "base_iso": "build/battle_voice_subtitles_v1/Poison Pink (Japan) - Korean battle subtitles v3.iso",
+  "iso": {
+    "output_sha256": "b6601a8b7a6a5c6de956a9ccaa33804a304429e29cfa94bbe9e7d7f59a017445",
+    "source_sha256": "8ba7111a988b095902e727f089bdf5ac12778c59cfeb127e193402ce17a888b9",
+    "size": 4245454848,
+    "recovered_existing_output": true,
+    "bytes": 4245454848,
+    "changed_bytes": 34238,
+    "size_preserved": true
+  },
+  "verification": {
+    "passed": true,
+    "changed_bytes": 34238,
+    "all_unplanned_bytes_identical": true,
+    "instruction_execution_tests_passed": 4
+  },
+  "catalog": "localization/battle_voice_subtitles_v3.json",
+  "catalog_sha256": "b3c26f96311677f5247d0e8da06355ee22a759ef77c7b5e91663f3ff89fe6f1c",
+  "counts": {
+    "non_dialogue": 116,
+    "reviewed_translation": 442,
+    "needs_transcript_review": 34
+  },
+  "translated_bank_slots": 511,
+  "new_captions_vs_released": 32,
+  "new_translation_bank_slots_vs_released": 55,
+  "replacements": [
+    {
+      "member": "status/dic_pt04.tm2",
+      "offset": 1544699904,
+      "size": 33856,
+      "before_sha256": "d758e93a860df39de911ebc161eaa95c84d4d45d8998c252917b594db7344d76",
+      "after_sha256": "9e8ad204d5da1fe64412ae91260ceeafae50baa4222e12838245877e5437e728",
+      "outside_edit_regions_preserved": true
+    },
+    {
+      "member": "status/sys007.tm2",
+      "offset": 1539489792,
+      "size": 33856,
+      "before_sha256": "0d21b1b6098e24d3323458017496208ad5119f598d0696f9f67d8b1938caa16a",
+      "after_sha256": "2d341f4b0fa69f1dda6f821667c951a78323af4ebc249dd621d16c7955f6cff8",
+      "outside_edit_regions_preserved": true
+    },
+    {
+      "member": "status/sys019.tm2",
+      "offset": 1542127616,
+      "size": 66624,
+      "before_sha256": "c5aba2020828cd957dce32c48aedb25b9c558a08caf382194110692ceebaf494",
+      "after_sha256": "8fe80b762a50566d0514762d2deaaf5d5d0152920b0c7b4db9ba8e7fb6273dde",
+      "outside_edit_regions_preserved": true
+    },
+    {
+      "member": "status/dic_pt02.tm2",
+      "offset": 1544503296,
+      "size": 66624,
+      "before_sha256": "e0dd01dfe64f6f8a3b4fbdc99bad4175b4f43b7f371cd3d465235e8296df40b4",
+      "after_sha256": "479b273b0fd5f4b26fde60c1ec9580e2c9a48de363d4e628433379c77a0fa9cb",
+      "outside_edit_regions_preserved": true
+    }
+  ],
+  "elf": {
+    "base": 6619136,
+    "state": 6620160,
+    "table": 6620416,
+    "rows": 592,
+    "code_bytes": 516,
+    "segment_bytes": 20032,
+    "labels": {
+      "voice": 6619136,
+      "hash": 6619272,
+      "lookup": 6619348,
+      "next": 6619440,
+      "voice_done": 6619456,
+      "frame": 6619484,
+      "expire": 6619632,
+      "frame_done": 6619636
+    },
+    "translated": 442,
+    "heap_start": 6639616,
+    "heap_reserved_bytes": 25648,
+    "elf_crc": "04D21A3D",
+    "elf_bytes": 4681280,
+    "segment_offset": 4661248
+  },
+  "elf_crc": "04D21A3D",
+  "previous_game_load_segment_identical": true,
+  "previous_translation_images_movies_preserved": true,
+  "requires_external_patch": false,
+  "runtime_verified": false,
+  "direct_gpt_audio_input": false,
+  "human_listening_audit": false,
+  "distribution_validation": {
+    "automatic_apply_script_passed": true,
+    "source_iso_sha256_verified": true,
+    "patch_sha256_verified": true,
+    "decoded_output_sha256_verified": true,
+    "decoded_iso_byte_exact": true
+  }
+}

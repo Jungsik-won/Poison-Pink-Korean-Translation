@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Execute emitted MIPS hook words to check bounds, lookup and caption expiry."""
 import json
+import os
 import struct
 import unittest
 from pathlib import Path
@@ -69,7 +70,8 @@ class Machine:
 class HookTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.rows=json.loads((ROOT/'localization/battle_voice_subtitles_v1.json').read_text())['rows']
+        catalog = os.environ.get('BATTLE_SUBTITLE_CATALOG', 'localization/battle_voice_subtitles_v1.json')
+        cls.rows=json.loads((ROOT/catalog).read_text())['rows']
         cls.payload,cls.meta=assemble(cls.rows)
     def voice(self,row=None,command=0x600,ptr=0x1000000,rate=22050):
         m=Machine(self.payload,self.meta);m.r[4]=command

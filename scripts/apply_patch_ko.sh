@@ -2,12 +2,12 @@
 set -euo pipefail
 
 SOURCE_SHA256="081e5c921fc2b0f517f007dfe053935578174a6880949de961e273426b216103"
-PATCH_SHA256="5ad0db6f2ef2b993c07635ea9f0dc9ce192a5e63f891059fbc8990d61abe8d9e"
-OUTPUT_SHA256="8ba7111a988b095902e727f089bdf5ac12778c59cfeb127e193402ce17a888b9"
-PATCH_NAME="Poison_Pink_Korean_battle_subtitles_v3.xdelta"
+PATCH_SHA256="dfb1389c87fffcfd4350253cf30bf2d3e1f6c8121aab6be3c689bcfc52782267"
+OUTPUT_SHA256="b6601a8b7a6a5c6de956a9ccaa33804a304429e29cfa94bbe9e7d7f59a017445"
+PATCH_NAME="Poison_Pink_Korean_update_v4.xdelta"
 
 source_iso="${1:-}"
-output_iso="${2:-Poison Pink (Japan) - Korean battle subtitles v3.iso}"
+output_iso="${2:-Poison Pink (Japan) - Korean update v4.iso}"
 patch_file="${3:-$PATCH_NAME}"
 
 if [[ -z "$source_iso" ]]; then

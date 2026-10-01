@@ -1,0 +1,1509 @@
+{
+  "status": "reviewed_catalog_ready_not_applied_to_iso",
+  "iso_built": false,
+  "date": "2026-10-01",
+  "catalog": "localization/battle_voice_subtitles_v2.json",
+  "catalog_sha256": "251611548bb9ad5d11682c99c58853ed5f773025c3e7d6b8becd14c0d095366d",
+  "model": "Whisper full large-v3",
+  "model_sha256": "64d182b440b98d5203c4f9bd541544d84c605196c4f7b845dfa11fb23594d1e2",
+  "reprocessed_pending_clips": 80,
+  "reprocessed_non_dialogue_clips": 102,
+  "control_clips": 2,
+  "before_counts": {
+    "non_dialogue": 102,
+    "reviewed_translation": 410,
+    "needs_transcript_review": 80
+  },
+  "after_counts": {
+    "non_dialogue": 114,
+    "reviewed_translation": 433,
+    "needs_transcript_review": 45
+  },
+  "changes": [
+    {
+      "tag": "kv0_0010_00",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "0.147초 공통 짧은 슬롯에서 새·종전 ご視聴ありがとうございました는 발화 길이와 현저히 맞지 않는 전형적 상투문 환각 후보이다. 높은 토큰 확률도 이를 정답으로 만들지 못한다."
+    },
+    {
+      "tag": "kv0_0110_05",
+      "old_status": "needs_transcript_review",
+      "new_status": "reviewed_translation",
+      "ja": "引け",
+      "ko": "물러나라.",
+      "reason": "large-v3의 패딩·원본 길이 패스가 引け로 일치하고 기존 명령 목록에도 있다. 종전 シュ/死는 서로 불일치하므로 새 인식과 명령 문법을 지지하되 0.30초 음성의 청취 정답을 보장하지 않는다."
+    },
+    {
+      "tag": "kv0_0120_02",
+      "old_status": "needs_transcript_review",
+      "new_status": "reviewed_translation",
+      "ja": "命令だ",
+      "ko": "명령이다.",
+      "reason": "새 패딩·원본 길이 인식이 命令だ로 일치한다. 종전 ミリーだ/メリーだ와 모음·길이가 가깝고 기존 용어에 동일 문장이 있다."
+    },
+    {
+      "tag": "kv0_0120_03",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "動き는 명사 또는 동사의 연용형이고 動け는 명령형이다. 둘은 마지막 모음 /i/와 /e/가 달라 단순 한자 수정이 아니다. 새 두 길이 인식과 종전 動き가 반복되어도 명령 의도만으로 動け로 바꿀 수 없다."
+    },
+    {
+      "tag": "kv0_0230_05",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "帰らんや/帰らないよ/もうカラーや가 다르다. 방언의 명령·부정·회귀 뜻을 어느 쪽으로도 확정할 수 없다. 早く와 실제 종결을 청취해야 한다."
+    },
+    {
+      "tag": "kv0_0230_06",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "戻るパッテン은 戻るばってん 후보와 가깝지만 ばってん은 역접(하지만)이어서 戻る의 단순 명령으로 옮기면 의미가 바뀐다. 앞 동사의 실제 활용과 뒤 방언 형태를 확인해야 한다."
+    },
+    {
+      "tag": "kv1_0010_05",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0010_13",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0010_14",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "종전 どうぞ는 의미 있는 어휘이나 새 くっ과 소리·뜻이 일치하지 않는다. 피해반응 slot14에서 확인되는 짧은 신음 외에 대사 추가 근거가 없다."
+    },
+    {
+      "tag": "kv1_0020_02",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0020_13",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0020_14",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0030_02",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0030_05",
+      "old_status": "needs_transcript_review",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "うりゃー 계열 기합 표음이 여러 인식에서 반복된다. 뜻있는 문장으로 복원할 근거가 없다."
+    },
+    {
+      "tag": "kv1_0030_13",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0030_14",
+      "old_status": "non_dialogue",
+      "new_status": "reviewed_translation",
+      "ja": "痛え",
+      "ko": "아파!",
+      "reason": "새 いってぇ는 痛い의 구어형 いてえ/痛え를 힘주어 발음한 표기로 해석할 수 있다. 종전 言って도 いって라는 표음이 맞고 slot14가 다른 피해 반응 음성과 같은 위치다. 뜻있는 통증 표현이므로 텍스트 검토에서는 번역 후보로 본다. 단순 외침과의 최종 구분은 실제 청취로 검증해야 한다."
+    },
+    {
+      "tag": "kv1_0040_05",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0040_09",
+      "old_status": "needs_transcript_review",
+      "new_status": "reviewed_translation",
+      "ja": "白刃一閃",
+      "ko": "칼날 일섬!",
+      "reason": "白人과 白刃은 모두 はくじん으로 읽힌다. 白刃一閃은 칼날이 번쩍이는 일반 관용구여서 공식 기술명 목록 없이 동음 한자를 교정할 수 있다. 一閃은 새 패딩·원본 길이 인식에 일치한다. 한국어는 기술 구호처럼 백인일섬으로 옮기며 정식 기술명이라는 주장은 하지 않는다. 한국어는 백인(白人)과 혼동되지 않도록 칼날 일섬으로 다듬었다."
+    },
+    {
+      "tag": "kv1_0040_13",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "종전 ノック와 새 ノアッ은 같은 짧은 외침을 다르게 문자화한 후보이다. 노크라는 행동을 말한다는 텍스트 근거가 없다."
+    },
+    {
+      "tag": "kv1_0040_14",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0050_13",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0050_14",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0060_07",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "許しをここに는 용서를 여기에, 許しよここに는 용서여 여기에라는 서로 다른 조사 구성이다. 종전 두 모델은 を, 새 패딩은 よ이고 원본 길이 근거가 부족하다. 읽기 유사성만으로 조사를 확정하지 않는다."
+    },
+    {
+      "tag": "kv1_0060_13",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0060_14",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0070_05",
+      "old_status": "needs_transcript_review",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "チェイ/てぇっ 계열 짧은 기합이다. 과거 次回予告는 0.50초 길이와 맞지 않는 상투문 환각 후보이며 이를 대사로 번역하지 않는다."
+    },
+    {
+      "tag": "kv1_0070_13",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0070_14",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0080_05",
+      "old_status": "needs_transcript_review",
+      "new_status": "reviewed_translation",
+      "ja": "行け",
+      "ko": "가라!",
+      "reason": "いっけー/いっけーっ은 명령형 行け의 힘준 장음 표기이다. 새 패딩·원본 길이와 종전 いっけ 표음이 함께 뒷받침한다."
+    },
+    {
+      "tag": "kv1_0080_07",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "断罪の赦しを는 문법적으로 명사구일 수 있지만 단죄의 용서라는 뜻의 조합이며 기존 賛罪/残罪 표음의 첫 자음도 다르다. 자연스러운 종교 구호를 새로 만들거나 断罪を/罪の赦しを로 재작성하지 않는다."
+    },
+    {
+      "tag": "kv1_0080_13",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0080_14",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "종전 ねえ는 부르는 말 후보지만 새 ニャーッ과 일치하지 않는다. 피해반응 슬롯에서 외침이 지속되어 뜻있는 부름말을 추가할 근거가 없다."
+    },
+    {
+      "tag": "kv1_0090_02",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0090_03",
+      "old_status": "needs_transcript_review",
+      "new_status": "reviewed_translation",
+      "ja": "消えろ",
+      "ko": "사라져라!",
+      "reason": "새 패딩·원본 길이가 消えろ로 일치한다. 종전 キロ/キュロ는 축약된 표음으로 볼 수 있고 消えろ는 자연스러운 명령이다."
+    },
+    {
+      "tag": "kv1_0090_05",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0090_13",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "종전 てみて는 불완전한 문장 후보이고 새 うっ은 신음이다. 종전 글자만으로 누락된 동사나 요청을 보충하지 않는다."
+    },
+    {
+      "tag": "kv1_0090_14",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0100_05",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0100_13",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0100_14",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0110_02",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 オッケー는 어휘이나 종전3회는 アーメン/긴 あ/あわわわわ로 불일치한다. 0.54초 기합 슬롯이고 새 낮은 확률은 보조 신호일 뿐이다. 확인된 동의 대사로 추가할 근거가 없어 기존 제외를 유지한다."
+    },
+    {
+      "tag": "kv1_0110_03",
+      "old_status": "needs_transcript_review",
+      "new_status": "reviewed_translation",
+      "ja": "くたばれ",
+      "ko": "죽어 버려!",
+      "reason": "새 두 길이 인식이 くたばれ로 일치한다. 종전 くたもれ/くたまれ와 가깝고 くたばれ는 문법적으로 완결된 비속 명령이다. 한국어는 게임 글꼴에 없는 뒈 대신 거친 명령인 죽어 버려!로 다듬었다."
+    },
+    {
+      "tag": "kv1_0110_07",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "패딩은 消えな, 원본 길이는 キーナ이며 종전 キーナ/きゃな도 확정된 명령어가 아니다. 消えな의 /e/와 말끝 /na/가 확인되어야 한다."
+    },
+    {
+      "tag": "kv1_0110_13",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0110_14",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0120_02",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0120_07",
+      "old_status": "needs_transcript_review",
+      "new_status": "reviewed_translation",
+      "ja": "滅せよ",
+      "ko": "멸하라!",
+      "reason": "メッセよ는 めっせよ로 읽히는 滅せよ와 같은 표음이다. 원본 길이 인식도 メッセよ이며 종전 メシオ 표음과도 유사하다. 문맥에 맞는 동사를 한자로 표기한 것으로, 魔を 등의 내용을 추가하지 않는다."
+    },
+    {
+      "tag": "kv1_0120_13",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "종전 どうやら는 부사 후보이나 새 ぬはぁっ과 의미·소리가 일치하지 않는다. 피해반응 신음으로 유지할 근거가 우세하다."
+    },
+    {
+      "tag": "kv1_0120_14",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "종전 チィ와 새 チーク는 짧은 신음·이를 악무는 소리의 문자화 후보이다. 새 영어 명사 cheek만으로 어휘 대사를 추가하지 않는다."
+    },
+    {
+      "tag": "kv1_0130_05",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 ハート와 종전 HOT는 명사처럼 보이지만 종전재검토2회 はっ와 발음이 가깝다. 기합에 새로운 마음/하트 의미를 부여할 근거가 없다."
+    },
+    {
+      "tag": "kv1_0130_13",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0130_14",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0140_02",
+      "old_status": "needs_transcript_review",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "オーリャー/オーリー/アーレ 계열 기합 표음만 나타난다. 고유명사나 명령 내용을 만들지 않는다."
+    },
+    {
+      "tag": "kv1_0140_05",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0140_13",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0140_14",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0150_02",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0150_03",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0150_13",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0150_14",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0160_03",
+      "old_status": "needs_transcript_review",
+      "new_status": "reviewed_translation",
+      "ja": "逃がすか",
+      "ko": "놓칠 줄 아냐!",
+      "reason": "새 패딩·원본 길이가 逃がすか로 일치한다. 逃がすか는 놓아 주겠냐는 반문으로 자연스러운 전투 구호이며 종전 逃げつか와도 유사하다."
+    },
+    {
+      "tag": "kv1_0160_13",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0160_14",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0170_03",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "こき/コツ/COOK가 짧고 불명확하다. 기합인지 단어인지 텍스트만으로 구분되지 않는다."
+    },
+    {
+      "tag": "kv1_0170_13",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0170_14",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 うん은 응답일 수도 신음일 수도 있다. 종전 あ, 피해반응 slot14, 0.40초 길이를 함께 보면 뜻있는 대답이라고 확정할 증거가 없다. 토큰 확률만으로 대답을 추가하지 않는다."
+    },
+    {
+      "tag": "kv1_0180_02",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0180_13",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0180_14",
+      "old_status": "non_dialogue",
+      "new_status": "reviewed_translation",
+      "ja": "痛っ",
+      "ko": "아야!",
+      "reason": "종전 いったっ!?와 새 패딩 いたっ!, 원본 길이 痛っ!는 통증 어휘 痛い를 짧게 내뱉는 표현으로 일치한다. slot14 피해 반응 문맥도 이를 뒷받침한다. 임의의 문장 내용을 추가하지 않고 통증 감탄으로 옮긴다."
+    },
+    {
+      "tag": "kv1_0190_05",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0190_13",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0190_14",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0200_05",
+      "old_status": "needs_transcript_review",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "テッ/テーッ/긴 あ 계열 기합 표음이다. 뜻있는 문장 근거가 없다."
+    },
+    {
+      "tag": "kv1_0200_13",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0200_14",
+      "old_status": "non_dialogue",
+      "new_status": "reviewed_translation",
+      "ja": "痛い",
+      "ko": "아파!",
+      "reason": "종전 small 인식과 새 large-v3 패딩 인식이 모두 痛い!로 일치한다. 이는 뜻있는 형용사 통증 표현으로, 단순 무의미 외침보다 번역 후보가 적절하다. 원본 길이 추가 인식은 아직 제공되지 않았다."
+    },
+    {
+      "tag": "kv1_0210_02",
+      "old_status": "needs_transcript_review",
+      "new_status": "reviewed_translation",
+      "ja": "クズめ",
+      "ko": "쓰레기 같은 놈!",
+      "reason": "종전 두 재인식 くずめ와 새 패딩·원본 길이 クズめ가 일치한다. め는 경멸을 나타내는 접미어로, 기존 クズが 번역과 말투를 맞출 수 있다."
+    },
+    {
+      "tag": "kv1_0210_13",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0210_14",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0220_02",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0220_05",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0220_13",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "종전 ニョー와 새 ニュー는 모음성 외침 표음이다. 새 뉴라는 영어 단어 의미를 덧붙일 근거가 없다."
+    },
+    {
+      "tag": "kv1_0220_14",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0230_02",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "クラス는 방언 くらす(때리다) 후보와 동음이다. 그러나 종전 コールラップ/コラフ와는 차이가 있으며 짧은 발화에 물음표도 붙어 있어 정확한 동사·말끝은 보류한다."
+    },
+    {
+      "tag": "kv1_0230_03",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "さぁしか/さあすかん/さすか는 서로 불일치한다. 방언 어휘를 임의로 끼워 완결하지 않는다."
+    },
+    {
+      "tag": "kv1_0230_05",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "勝ったり交代와 語り込んだい는 의미가 크게 다르다. 같아 보이는 발음 조각만으로 かたる 등의 방언을 확정할 수 없다."
+    },
+    {
+      "tag": "kv1_0230_07",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "魔法라는 앞부분은 반복되지만 뒤 ぐたる/ぐたん/固体가 불분명하다. 魔法を撃つ 등의 구체 행동을 보충하지 않는다."
+    },
+    {
+      "tag": "kv1_0230_09",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 おやすみなさい는 약8모라의 인사말인데 음성 길이는 0.466초이며 종전 두 인식이 모두 あ!이다. 길이·표음의 큰 불일치로 상투문 환각이 의심되며 새 문장만으로 잘 자라는 자막을 추가하지 않는다."
+    },
+    {
+      "tag": "kv1_0230_13",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "종전 ハウギント와 새 ハギン은 불명확한 표음이다. 피해반응 슬롯에서 고통 외침 후보가 있지만 특정 방언 어휘나 대사 내용을 확인할 근거가 없어 기존 제외를 유지한다."
+    },
+    {
+      "tag": "kv1_0230_14",
+      "old_status": "non_dialogue",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "새 あげる(주다/올리다)는 실제 동사이고 종전 おげる도 표음이 가깝다. 1.181초 slot14 피해반응이라 신음·방언 표음 후보도 남는다. 원음을 듣지 않고 뜻있는 어휘 가능성을 완전히 배제할 수 없어 needs_transcript_review를 권고한다. 한국어 뜻이나 일본어 정본을 확정하지 않는다."
+    },
+    {
+      "tag": "kv1_0290_02",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0290_07",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "乗務せよ는 문법적이어도 전투 문맥을 입증하지 못하며 종전 ジョーマスイル/ジョームイスシール/じゃあお見せよ와 다르다. 浄化せよ/邪を滅せよ 같은 그럴듯한 주문은 발음 근거 없이 만들지 않는다."
+    },
+    {
+      "tag": "kv1_0290_13",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "종전 NO와 새 NOTE는 짧은 외침을 영어 낱말로 오인한 후보이다. 노트나 거절을 뜻하는 어휘 근거는 없다."
+    },
+    {
+      "tag": "kv1_0290_14",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0300_13",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv1_0300_14",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv2_0010_02",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv2_0010_05",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv2_0020_05",
+      "old_status": "needs_transcript_review",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "여러 인식의 はぁー 계열은 기합 표음으로 일치한다."
+    },
+    {
+      "tag": "kv2_0020_07",
+      "old_status": "needs_transcript_review",
+      "new_status": "reviewed_translation",
+      "ja": "うせろ",
+      "ko": "꺼져라!",
+      "reason": "새 두 길이 패스가 うせろ로 일치하고 종전 おせろ와도 표음이 가깝다. 이미 등록된 명령형이다."
+    },
+    {
+      "tag": "kv2_0030_02",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv2_0030_07",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv2_0040_09",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv2_0050_07",
+      "old_status": "needs_transcript_review",
+      "new_status": "reviewed_translation",
+      "ja": "滅せよ",
+      "ko": "멸하라!",
+      "reason": "새 패딩·원본 길이 모두 滅せよ로 일치하고 종전 ミスセオ/メシュー도 유사하다. 기존 용어의 번역을 적용한다."
+    },
+    {
+      "tag": "kv2_0060_02",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv2_0060_05",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv2_0070_05",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv2_0080_05",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv2_0090_07",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "くっつくせよ는 자연스러운 명령 구성으로 읽기 어렵고 駆逐せよ는 /くちくせよ/로 자음이 다르다. 후자가 전투에서 자연스럽다는 이유만으로 치환하지 않는다."
+    },
+    {
+      "tag": "kv2_0100_05",
+      "old_status": "needs_transcript_review",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "せいっ/SEI/SIN 계열의 짧은 기합이다. 漢字의 命令 등을 추론하지 않는다."
+    },
+    {
+      "tag": "kv2_0110_02",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "새 消えろ는 자연스럽지만 종전 シェルム/キャロン과 음절 차이가 있다. 원본 길이 또는 음성으로 명령형을 추가 확인해야 한다."
+    },
+    {
+      "tag": "kv2_0120_03",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv2_0140_02",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "チェロッ/ゼロ/チェループ는 단어인지 기합인지 불명확하다. 消えろ로 만들면 음소가 추가·변경된다."
+    },
+    {
+      "tag": "kv2_0140_03",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "すげぇどっち/スキルたち/スキュートチ는 모두 불명확하다. 구체적인 기술이나 명령을 창작하지 않는다."
+    },
+    {
+      "tag": "kv2_0150_02",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "네 인식의 はい 일치는 표음을 지지하지만, 응답 예인지 힘을 쓰는 기합인지 의미 기능을 판별하지 못한다. 슬롯의 전투 문맥만으로 비언어나 응답을 확정하지 않는다."
+    },
+    {
+      "tag": "kv2_0150_03",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "えへへい/えぇーい/いへい/てはい는 기합 후보이나 표음이 넓게 흔들린다. 낱말 대사 여부를 원음으로 확인해야 한다."
+    },
+    {
+      "tag": "kv2_0150_09",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv2_0160_05",
+      "old_status": "needs_transcript_review",
+      "new_status": "reviewed_translation",
+      "ja": "終わりです",
+      "ko": "끝입니다!",
+      "reason": "패딩 인식과 종전 인식은 終わりで로 끝났으나 원본 길이 패스는 終わりでーす를 제시한다. 이를 장음만 제거하여 終わりです로 정규화한다. 한국어는 근거가 새로 확보된 です까지 반영한다."
+    },
+    {
+      "tag": "kv2_0170_02",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv2_0170_05",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv2_0170_07",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "魔を出させよ는 마가 나오게 하라/내보내게 하라는 사역 명령으로 읽힌다. 魔を滅せよ/魔を駆逐せよ와는 소리·문법·뜻이 다르다. 기존 マを出してください도 출현시키는 방향을 지지하므로 문맥만으로 퇴마 명령으로 바꾸지 않는다."
+    },
+    {
+      "tag": "kv2_0170_09",
+      "old_status": "needs_transcript_review",
+      "new_status": "reviewed_translation",
+      "ja": "散れ",
+      "ko": "스러져라!",
+      "reason": "새 패딩·원본 길이가 散れ로 일치한다. 종전 チレ 표음도 같은 음절에 가깝다. 자동사 散る의 명령형으로 자연스럽다."
+    },
+    {
+      "tag": "kv2_0180_07",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "一徹과 一鉄은 いってつ라는 동음 표기이고 一徹은 완고함·한 뜻을 밀고 감을 뜻한다. 이를 신의 철퇴/일격으로 번역하면 의미가 바뀐다. 神の一撃(いちげき)/神の鉄槌(てっつい) 후보는 발음도 달라 별도 청취 없이는 선택하지 않는다."
+    },
+    {
+      "tag": "kv2_0190_02",
+      "old_status": "needs_transcript_review",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "はっ/はーっ/はぁー가 반복되는 기합이다."
+    },
+    {
+      "tag": "kv2_0190_09",
+      "old_status": "needs_transcript_review",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "긴 はー 계열 기합이다. 이전 ハーバー 같은 명사는 음성의 문장 의미를 입증하지 못한다."
+    },
+    {
+      "tag": "kv2_0200_02",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv2_0200_05",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv2_0210_02",
+      "old_status": "needs_transcript_review",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "종전 はぁっ/HOP와 새 ハープ는 기합을 다르게 문자화한 후보로 보인다. 전투에서 하프라는 명사를 말한다는 근거는 없다. 비언어는 청취 판정이 아니라 텍스트 근거의 권고다."
+    },
+    {
+      "tag": "kv2_0220_02",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "종전 シネ는 명령 死ね, 새 두 길이와 종전 재검토 死ぬ는 종지형 죽는다에 해당한다. 두 끝모음이 다르고 한국어 명령으로 강제 변환하면 의미가 달라지므로 보류한다."
+    },
+    {
+      "tag": "kv2_0230_02",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "クラストよ/くらえすとよ는 방언 くらす(때리다)와 とよ 후보를 떠올리게 하지만 경계와 실제 활용이 불명확하다. 표준어 くらえ와도 다르므로 확정하지 않는다."
+    },
+    {
+      "tag": "kv2_0230_03",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "じゃ確か/ちょこだしか/どこですか/わたす는 의미와 소리가 충분히 일치하지 않는다."
+    },
+    {
+      "tag": "kv2_0230_05",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "カズム/カデル/カジマ/彼女의 짧은 표음만으로 방언 동사를 확정할 수 없다."
+    },
+    {
+      "tag": "kv2_0230_07",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "あげれ/あげる/パゲリ가 서로 다른 활용·표음이다. 주는 행위인지 공격 구호인지 보류한다."
+    },
+    {
+      "tag": "kv2_0230_09",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "종전 おわり는 끝이라는 어휘지만 새 はぁっ과 パワー/おわっ는 기합 후보이다. 의미 대사와 비언어를 구분하려면 음성 확인이 필요하다."
+    },
+    {
+      "tag": "kv2_0300_07",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "じゃあお召せよ와 종전 じゃおめせよ는 사역·명령을 확정하지 못한다. 邪を滅せよ 같은 퇴마 주문으로 바꾸는 것은 발음과 단어 경계 추론이다."
+    },
+    {
+      "tag": "kv3_0020_07",
+      "old_status": "needs_transcript_review",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 긴 はぁ와 종전 はぁー가 기합을 뒷받침한다."
+    },
+    {
+      "tag": "kv3_0030_05",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv3_0040_02",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv3_0050_02",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv3_0050_03",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv3_0060_03",
+      "old_status": "needs_transcript_review",
+      "new_status": "reviewed_translation",
+      "ja": "終わり",
+      "ko": "끝이다!",
+      "reason": "종전 おわり와 새 패딩·원본 길이 終わり가 일치한다. です/だ 등 음성에 없는 일본어 어미는 보충하지 않는다."
+    },
+    {
+      "tag": "kv3_0070_02",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv3_0080_02",
+      "old_status": "needs_transcript_review",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 ダァ와 종전 チャッ/ダーッ의 기합 표음이다. 종전 はい만으로 예/대답이라는 의미를 확정할 수 없다."
+    },
+    {
+      "tag": "kv3_0110_03",
+      "old_status": "needs_transcript_review",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 긴 あ는 외침이고 종전 (ガブッ) 등도 대사 내용으로 일치하지 않는다. ご視聴ありがとうございました는 0.78초에서 상투문 환각 후보다."
+    },
+    {
+      "tag": "kv3_0110_05",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "패딩 滅べ는 문법적 명령 ほろべ지만 원본 길이 滅び와 종전 フォロビ는 /i/로 끝난다. 음소·활용의 차이라 단순 표기 수정으로 볼 수 없다."
+    },
+    {
+      "tag": "kv3_0120_05",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "引き는 명사·연용형이고 引け는 명령이다. 종전 シチュ/スティー와도 소리가 다르므로 적당한 명령을 보충하지 않는다."
+    },
+    {
+      "tag": "kv3_0130_02",
+      "old_status": "needs_transcript_review",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "はっ/ハッ 계열 짧은 기합으로 인식들이 일치한다."
+    },
+    {
+      "tag": "kv3_0130_07",
+      "old_status": "needs_transcript_review",
+      "new_status": "reviewed_translation",
+      "ja": "死ね",
+      "ko": "죽어라!",
+      "reason": "새 패딩·원본 길이 모두 死ね이고 종전 死でっ과도 표음이 가깝다. 문법적 명령형이 확인된다."
+    },
+    {
+      "tag": "kv3_0140_02",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv3_0150_03",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv3_0160_02",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 짧은 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv3_0160_09",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "またまだ/またまた/待ったまだ는 반복되지만 まだまだ와 다르다. 유성음 /d/를 문맥만으로 고치면 어휘가 바뀌므로 보류한다."
+    },
+    {
+      "tag": "kv3_0170_05",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "せーの는 박자를 맞추는 실제 구호일 수 있고 종전 セア/ステア는 기합일 수 있다. 의미 대사·비언어의 경계가 불명확하다."
+    },
+    {
+      "tag": "kv3_0180_05",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "うっせーな는 시끄럽다는 말이며 うせろ는 꺼져라라는 명령이다. 새 인식과 종전 うっせろ/ルセロ가 달라 어느 쪽을 선택해도 의미가 달라진다."
+    },
+    {
+      "tag": "kv3_0180_09",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "キレろ는 화내라/끊겨라 등으로 해석될 수 있고 消えろ는 사라져라이다. 첫 형태가 불명확하여 일반적인 전투 명령으로 교정하지 않는다."
+    },
+    {
+      "tag": "kv3_0200_03",
+      "old_status": "needs_transcript_review",
+      "new_status": "reviewed_translation",
+      "ja": "仕上げよ",
+      "ko": "마무리해라!",
+      "reason": "새 패딩·원본 길이가 仕上げよ로 일치한다. 仕上げる의 문어 명령형으로 문법적이며 종전 知らげよう/地下げよう의 표음과 가깝다. 消えろ 등 더 흔한 명령으로 바꾸지 않는다."
+    },
+    {
+      "tag": "kv3_0230_02",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "じゃけれ/ざけろい/さっきね/サピラー는 방언인지 기합인지 불명확하다."
+    },
+    {
+      "tag": "kv3_0230_03",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "シカランスカー/スカラスか/シカロシカ는 방언 せからしか(시끄럽다)의 후보지만 여러 음절이 달라진다. 방언 사전이 후보의 존재를 입증해도 이 음성의 실제 문구를 입증하지 않는다."
+    },
+    {
+      "tag": "kv3_0230_05",
+      "old_status": "needs_transcript_review",
+      "new_status": "reviewed_translation",
+      "ja": "ちかっぱくらす",
+      "ko": "세게 패 주마!",
+      "reason": "종전 패딩 チカッパグラス와 새 チカッパクラス는 같은 구성이며 종전 재검토 チカッパンカラス도 가깝다. RKB 방언 자료에서 ちかっぱ=매우, くらす=때리다를 확인했다. 카타카나를 방언의 히라가나로 옮겨 의미를 번역하며 ぞ/たい 등의 종결어미를 추가하지 않는다."
+    },
+    {
+      "tag": "kv3_0230_09",
+      "old_status": "needs_transcript_review",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "ほいっ/ほい/ホリー/はえーっ은 기합·감탄 표음에 가깝다. 독립 명령의 내용은 없다."
+    },
+    {
+      "tag": "kv3_0290_02",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "ギュッ/キュッ/来よ/You는 단어와 기합 후보가 충돌한다. 어휘 의미를 만들어 넣거나 비언어로 확정하지 않는다."
+    },
+    {
+      "tag": "kv3_0290_07",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "気され/くされ/いざれ는 命令 去れ 등의 후보로 강제 정규화할 수 없다."
+    },
+    {
+      "tag": "kv3_0300_07",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "スキルオープン은 종전 スキロー/つけろー보다 길고 다른 단어를 추가한다. 기술명·영어 구호라는 근거도 없어 보류한다."
+    },
+    {
+      "tag": "kv4_0050_03",
+      "old_status": "needs_transcript_review",
+      "new_status": "reviewed_translation",
+      "ja": "死ね",
+      "ko": "죽어라!",
+      "reason": "새 패딩 死ね와 원본 길이 死ねっ이 일치한다. 종전 しめっ/死べっ과도 가깝다."
+    },
+    {
+      "tag": "kv4_0050_05",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv4_0080_02",
+      "old_status": "needs_transcript_review",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "0.36초 ひゃっ/HIT/ケット 계열 기합·외침이다. 百 등의 숫자 의미를 붙이지 않는다."
+    },
+    {
+      "tag": "kv4_0100_02",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv4_0100_03",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv4_0120_05",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv4_0140_03",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv4_0140_05",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv4_0140_09",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 인식과 종전 표음을 대조하면 기합·피해반응 외침 또는 신음 표음이 중심이다. 뜻있는 문장으로 일치하는 어휘 근거가 없어 기존 자막 제외를 유지한다. 이는 원음을 듣고 내린 비언어 확정 판정이 아니다."
+    },
+    {
+      "tag": "kv4_0160_05",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "オラヤッタ/オラやった/おらやっと는 기합 또는 やった의 성공 감탄 후보가 모두 가능하다. 대사 의미를 확정하지 않는다."
+    },
+    {
+      "tag": "kv4_0190_09",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 うふふ와 종전 うふふっ는 웃음소리 표음이다. 종전 반복 うっ도 문장 어휘를 제공하지 않으므로 기존 제외를 유지한다."
+    },
+    {
+      "tag": "kv4_0200_02",
+      "old_status": "needs_transcript_review",
+      "new_status": "reviewed_translation",
+      "ja": "突撃",
+      "ko": "돌격!",
+      "reason": "새 패딩·원본 길이가 突撃로 일치하고 종전 とっつげき 계열 표음이 모두 비슷하다. 어휘를 보충한 장문이 아니다."
+    },
+    {
+      "tag": "kv4_0200_03",
+      "old_status": "needs_transcript_review",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "キャー/きゃーっ/やあ는 외침으로 볼 근거가 있다. 인사말 야아로 옮길 문맥 증거는 없다."
+    },
+    {
+      "tag": "kv4_0210_03",
+      "old_status": "non_dialogue",
+      "new_status": "non_dialogue",
+      "ja": "",
+      "ko": "",
+      "reason": "새 ふん, 종전 ん 및 (笑)는 짧은 코웃음·신음·감탄 후보이다. 구체적인 의미 문장으로 확정되는 대사 근거가 없어 기존 제외를 유지한다."
+    },
+    {
+      "tag": "kv4_0220_07",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "覚悟는 자연스러운 전투 어휘이나 종전 カンゴ/かんを와 /かくご/가 완전히 일치하지 않는다. 원본 길이 또는 실제 음성 확인 전에는 문맥만으로 확정하지 않는다."
+    },
+    {
+      "tag": "kv4_0230_02",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "違った와 종전 近く/ちかった/近ぱー가 불일치한다. 방언 ちかっぱ의 일부를 임의로 완성하지 않는다."
+    },
+    {
+      "tag": "kv4_0230_05",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "シカパクラスター/シカッパクロスター는 ちかっぱくらすたい라는 방언 후보와 가깝다. 하지만 마지막 ター가 たい인지 기술명의 일부인지 확인되지 않아 종결을 만들지 않는다."
+    },
+    {
+      "tag": "kv4_0230_07",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "やったりだぞ/やたるパフォー는 앞 행동을 확정하지 못한다. やったる 등 방언 활용을 새로 구성하지 않는다."
+    },
+    {
+      "tag": "kv4_0290_02",
+      "old_status": "needs_transcript_review",
+      "new_status": "needs_transcript_review",
+      "ja": "",
+      "ko": "",
+      "reason": "死に와 死ぬぃ는 死ね의 명령형과 어미가 다르다. 기존 シリー의 표음을 죽어라라고 의미만으로 확정하지 않는다."
+    },
+    {
+      "tag": "kv4_0290_07",
+      "old_status": "needs_transcript_review",
+      "new_status": "reviewed_translation",
+      "ja": "滅びよ",
+      "ko": "멸하라!",
+      "reason": "종전 おろびよ/おろみよ는 ほろびよ와 가깝다. 새 패딩 オロビオ는 불명확하지만 원본 길이 패스에서 滅びよ가 나와 문법적 명령형을 뒷받침한다."
+    }
+  ],
+  "newly_translated": 23,
+  "newly_translated_bank_slots": 41,
+  "source_audio_uploaded": false,
+  "human_listening_audit": false,
+  "runtime_verified": false,
+  "gpt_review": "outputs/battle_voice_recheck_v2/gpt_text_review.json",
+  "gpt_review_mode": "text evidence only; GPT did not receive or listen to audio",
+  "native_length_rechecks": 30,
+  "baseline_iso": "build/battle_voice_subtitles_v1/Poison Pink (Japan) - Korean battle subtitles v3.iso",
+  "baseline_iso_unchanged": true,
+  "discarded_shop_dictionary_artwork_not_included": true,
+  "private_font_mapping_not_exported": true,
+  "validation": {
+    "catalog_rows": 592,
+    "existing_translations_preserved": 410,
+    "source_wav_hashes_verified": 184,
+    "padded_wav_hashes_verified": 184,
+    "source_bank_hashes_and_unique_signatures_verified": 592,
+    "font_encoding_and_caption_width_checks_passed": true,
+    "compiled_in_memory_only": true,
+    "iso_built": false,
+    "runtime_instruction_bytes_unchanged": true,
+    "segment_bytes": 19936,
+    "proposed_heap_start": "0x655000",
+    "previous_segment_bytes": 19712,
+    "baseline_iso_sha256": "8ba7111a988b095902e727f089bdf5ac12778c59cfeb127e193402ce17a888b9",
+    "baseline_iso_hash_verified": true,
+    "runtime_verified": false
+  }
+}

@@ -1,9 +1,9 @@
 {
-  "release": "v0.3.0-dev",
-  "build": "battle_voice_subtitles_v1_revision_3",
+  "release": "v0.4.0-dev",
+  "build": "korean_update_v4",
   "status": "development_test",
-  "created_at": "2026-10-01",
-  "runtime_verified": true,
+  "created_at": "2026-10-02",
+  "runtime_verified": false,
   "full_game_verified": false,
   "requires_external_patch": false,
   "source_iso": {
@@ -12,35 +12,46 @@
   },
   "patch": {
     "format": "xdelta3",
-    "filename": "Poison_Pink_Korean_battle_subtitles_v3.xdelta",
-    "size": 316602347,
-    "sha256": "5ad0db6f2ef2b993c07635ea9f0dc9ce192a5e63f891059fbc8990d61abe8d9e"
+    "filename": "Poison_Pink_Korean_update_v4.xdelta",
+    "size": 316619009,
+    "sha256": "dfb1389c87fffcfd4350253cf30bf2d3e1f6c8121aab6be3c689bcfc52782267"
   },
   "output_iso": {
-    "filename": "Poison Pink (Japan) - Korean battle subtitles v3.iso",
+    "filename": "Poison Pink (Japan) - Korean update v4.iso",
     "size": 4245454848,
-    "sha256": "8ba7111a988b095902e727f089bdf5ac12778c59cfeb127e193402ce17a888b9",
-    "elf_crc": "0A6FFA91"
+    "sha256": "b6601a8b7a6a5c6de956a9ccaa33804a304429e29cfa94bbe9e7d7f59a017445",
+    "elf_crc": "04D21A3D"
   },
   "preserved_work": {
     "translations_images_movies": true,
-    "standalone_dialogue_layout": true
+    "standalone_dialogue_layout": true,
+    "previous_game_load_segment_identical": true
+  },
+  "user_artwork": {
+    "textures": 4,
+    "members": [
+      "status/dic_pt04.tm2",
+      "status/sys007.tm2",
+      "status/sys019.tm2",
+      "status/dic_pt02.tm2"
+    ],
+    "font_and_tracking_preserved": true,
+    "outside_edit_indices_preserved": true
   },
   "battle_voice_subtitles": {
     "deduplicated_voices": 592,
-    "reviewed_translations": 410,
-    "translated_bank_slots": 456,
-    "excluded_non_dialogue": 102,
-    "withheld_uncertain_transcripts": 80,
+    "reviewed_translations": 442,
+    "translated_bank_slots": 511,
+    "excluded_non_dialogue": 116,
+    "withheld_uncertain_transcripts": 34,
+    "new_captions_vs_v030": 32,
     "display_seconds": "2-4",
-    "replaced_by_next_translated_utterance": true,
     "y_coordinate": 330,
-    "review_method": "Japanese and Korean text review from local ASR; no complete human audio audit"
+    "review_method": "Whisper full large-v3 + user-uploaded AccurateScribe; GPT text evidence review, no direct GPT listening or full human listening audit"
   },
   "verification": {
-    "patch_decode": "passed",
-    "output_sha256": "passed",
-    "byte_for_byte_compare": "passed",
+    "whole_iso_unplanned_bytes_identical": true,
+    "original_game_load_segment_identical": true,
     "instruction_execution_tests": {
       "passed": 4,
       "all_592_voice_signatures": true,
@@ -48,29 +59,25 @@
       "timer_and_reset": true,
       "new_elf_segment_and_heap": true
     },
-    "targeted_pcsx2_2_6_3": {
-      "final_v3_software_4_3_cold_boot": "RAM code, strings and coordinates checked with external patches off",
-      "prototype_v1_same_code": "copied memory-card load, battle preparation, battle map and magic target UI checked",
-      "controlled_voice_replay": [
-        "가거라!",
-        "조디아여!"
-      ],
-      "controlled_replay_helper_in_output_iso": false,
-      "report": "reports/battle_voice_subtitles_v1.json"
-    }
+    "patch_decode": "passed",
+    "output_sha256": "passed",
+    "byte_for_byte_compare": "passed",
+    "latest_build_pcsx2_runtime": "not performed; previous v0.3.0 limited checks remain historical",
+    "automatic_apply_script": "passed"
   },
   "limitations": [
-    "Not a complete human listening audit",
-    "No naturally initiated translated attack was completed for final subtitle confirmation",
-    "Full game, Metal battles and real PlayStation 2 hardware are unverified",
-    "Cold boot the new ISO and use an in-game memory-card save instead of an old savestate"
+    "Incomplete Korean localization; remaining images and text need review",
+    "34 uncertain battle voices remain withheld",
+    "No direct GPT listening or full human audio audit",
+    "New v4 game runtime, full game, Metal battles and real PS2 hardware unverified",
+    "Cold boot the new ISO and load an in-game memory-card save"
   ],
   "excluded_from_public_release": [
     "ISO and BIOS files",
-    "original or extracted AGS/WAV assets",
-    "RAM dumps, savestates and memory cards",
-    "runtime screenshots and evidence",
+    "original or extracted assets and audio",
+    "user PSD originals",
+    "RAM, savestates and memory cards",
     "private font mapping source data",
-    "PCSX2 pnach, iso.pcsx2 and compatibility ZIP files"
+    "PCSX2 pnach and compatibility sidecars"
   ]
 }

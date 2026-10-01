@@ -1,0 +1,593 @@
+tag	status	ja	ko	bank_slots
+kv0_0010_00	non_dialogue			2551
+kv0_0010_01	reviewed_translation	終わらせて	끝내 버려.	1
+kv0_0010_02	reviewed_translation	行きなさい	가거라!	1
+kv0_0010_03	reviewed_translation	命令よ	명령이야!	1
+kv0_0010_04	reviewed_translation	今よ	지금이야!	1
+kv0_0010_05	reviewed_translation	もういいわ	이제 됐어.	1
+kv0_0010_06	reviewed_translation	戻りなさい	돌아오거라.	1
+kv0_0020_05	reviewed_translation	戻れ	돌아와라.	1
+kv0_0020_06	reviewed_translation	もうよい	이제 됐다.	1
+kv0_0030_05	reviewed_translation	帰れ	돌아가라.	1
+kv0_0030_06	reviewed_translation	もういい	이제 됐어.	1
+kv0_0040_01	reviewed_translation	頼むぞ	부탁한다.	1
+kv0_0040_02	reviewed_translation	仕留めろ	해치워라!	1
+kv0_0040_03	reviewed_translation	行け	가라!	1
+kv0_0040_04	reviewed_translation	今だ	지금이다!	1
+kv0_0040_05	reviewed_translation	戻れ	돌아와라.	1
+kv0_0040_06	reviewed_translation	去れ	물러가라!	1
+kv0_0050_05	reviewed_translation	戻れ	돌아와라.	1
+kv0_0050_06	reviewed_translation	もういい	이제 됐어.	1
+kv0_0060_05	reviewed_translation	戻れ	돌아와라.	1
+kv0_0060_06	reviewed_translation	もういい	이제 됐어.	1
+kv0_0070_05	reviewed_translation	もういいわ	이제 됐어.	1
+kv0_0070_06	reviewed_translation	戻れ	돌아와라.	1
+kv0_0080_01	reviewed_translation	お願い	부탁해.	1
+kv0_0080_02	reviewed_translation	頼んだよ	부탁한다.	1
+kv0_0080_03	reviewed_translation	任せたわ	네게 맡길게.	1
+kv0_0080_04	reviewed_translation	今よ	지금이야!	1
+kv0_0080_05	reviewed_translation	戻れ	돌아와라.	1
+kv0_0080_06	reviewed_translation	帰りなさい	돌아가거라.	1
+kv0_0090_05	reviewed_translation	戻れ	돌아와라.	1
+kv0_0090_06	reviewed_translation	もういい	이제 됐어.	1
+kv0_0100_05	reviewed_translation	戻れ	돌아와라.	1
+kv0_0100_06	reviewed_translation	邪魔だ	방해된다!	1
+kv0_0110_01	reviewed_translation	頼んだぞ	네게 맡긴다.	1
+kv0_0110_02	reviewed_translation	お前だ	네 차례다!	1
+kv0_0110_03	reviewed_translation	行け	가라!	1
+kv0_0110_04	reviewed_translation	今だ	지금이다!	1
+kv0_0110_05	reviewed_translation	引け	물러나라.	1
+kv0_0110_06	reviewed_translation	戻れ	돌아와라.	1
+kv0_0120_01	reviewed_translation	行け	가라!	2
+kv0_0120_02	reviewed_translation	命令だ	명령이다.	2
+kv0_0120_03	needs_transcript_review			2
+kv0_0120_04	reviewed_translation	貴様だ	네놈 차례다!	2
+kv0_0120_05	reviewed_translation	戻れ	돌아와라.	2
+kv0_0120_06	reviewed_translation	邪魔だ	방해된다!	2
+kv0_0130_05	reviewed_translation	戻れ	돌아와라.	1
+kv0_0130_06	reviewed_translation	帰れ	돌아가라.	1
+kv0_0140_05	reviewed_translation	戻れ	돌아와라.	1
+kv0_0140_06	reviewed_translation	いらん	필요 없다.	1
+kv0_0150_05	reviewed_translation	帰って	돌아가.	1
+kv0_0150_06	reviewed_translation	戻って	돌아와.	1
+kv0_0160_05	reviewed_translation	戻りな	돌아와.	1
+kv0_0160_06	reviewed_translation	帰れ	돌아가라.	1
+kv0_0170_05	reviewed_translation	去れ	물러가라!	1
+kv0_0170_06	reviewed_translation	戻れ	돌아와라.	1
+kv0_0180_05	reviewed_translation	戻れ	돌아와라.	1
+kv0_0180_06	reviewed_translation	帰れ	돌아가라.	1
+kv0_0190_05	reviewed_translation	戻れ	돌아와라.	1
+kv0_0190_06	reviewed_translation	帰りなさい	돌아가거라.	1
+kv0_0200_05	reviewed_translation	戻れ	돌아와라.	1
+kv0_0200_06	reviewed_translation	帰って	돌아가.	1
+kv0_0210_05	reviewed_translation	戻れ	돌아와라.	1
+kv0_0210_06	reviewed_translation	うせろ	꺼져라!	1
+kv0_0220_05	reviewed_translation	戻れ	돌아와라.	1
+kv0_0220_06	reviewed_translation	邪魔だ	방해된다!	1
+kv0_0230_05	needs_transcript_review			3
+kv0_0230_06	needs_transcript_review			3
+kv1_0010_02	reviewed_translation	雑魚が	잔챙이가!	1
+kv1_0010_03	reviewed_translation	とどめ	마무리다!	1
+kv1_0010_05	non_dialogue			1
+kv1_0010_07	reviewed_translation	ひれ伏せ	엎드려라!	1
+kv1_0010_09	reviewed_translation	終わりね	끝이네.	1
+kv1_0010_13	non_dialogue			4
+kv1_0010_14	non_dialogue			4
+kv1_0020_02	non_dialogue			1
+kv1_0020_03	reviewed_translation	決めるか	끝내 볼까!	1
+kv1_0020_05	reviewed_translation	行くぞ	간다!	1
+kv1_0020_07	reviewed_translation	滅びよ	멸하라!	1
+kv1_0020_09	reviewed_translation	そこまでだ	거기까지다!	1
+kv1_0020_13	non_dialogue			4
+kv1_0020_14	non_dialogue			4
+kv1_0030_02	non_dialogue			1
+kv1_0030_03	reviewed_translation	まだだ	아직이다!	1
+kv1_0030_05	non_dialogue			1
+kv1_0030_07	reviewed_translation	くらえ	받아라!	1
+kv1_0030_09	reviewed_translation	なめるなよ	얕보지 마라!	1
+kv1_0030_13	non_dialogue			4
+kv1_0030_14	reviewed_translation	痛え	아파!	4
+kv1_0040_02	reviewed_translation	くらえ	받아라!	1
+kv1_0040_03	reviewed_translation	消えろ	사라져라!	1
+kv1_0040_05	non_dialogue			1
+kv1_0040_07	reviewed_translation	後悔しろ	후회해라!	1
+kv1_0040_09	reviewed_translation	白刃一閃	칼날 일섬!	1
+kv1_0040_13	non_dialogue			4
+kv1_0040_14	non_dialogue			4
+kv1_0050_02	reviewed_translation	苦しめ	고통받아라!	1
+kv1_0050_03	reviewed_translation	とどめだ	마무리다!	1
+kv1_0050_05	reviewed_translation	行くぞ	간다!	1
+kv1_0050_07	reviewed_translation	死ね	죽어라!	1
+kv1_0050_09	reviewed_translation	終わりだ	끝이다!	1
+kv1_0050_13	non_dialogue			4
+kv1_0050_14	non_dialogue			4
+kv1_0060_02	reviewed_translation	さあ	자!	1
+kv1_0060_03	reviewed_translation	これでも	이것도 받아라!	1
+kv1_0060_05	reviewed_translation	行け	가라!	1
+kv1_0060_07	needs_transcript_review			1
+kv1_0060_09	reviewed_translation	残念です	유감이군요.	1
+kv1_0060_13	non_dialogue			4
+kv1_0060_14	non_dialogue			4
+kv1_0070_02	reviewed_translation	これで	이걸로!	1
+kv1_0070_03	reviewed_translation	とどめよ	마무리야!	1
+kv1_0070_05	non_dialogue			1
+kv1_0070_07	reviewed_translation	女神よ	여신이여!	1
+kv1_0070_09	reviewed_translation	終わりね	끝이네.	1
+kv1_0070_13	non_dialogue			4
+kv1_0070_14	non_dialogue			4
+kv1_0080_02	reviewed_translation	くらえ	받아라!	2
+kv1_0080_03	reviewed_translation	最後よ	마지막이야!	2
+kv1_0080_05	reviewed_translation	行け	가라!	2
+kv1_0080_07	reviewed_translation	断罪の許しを	단죄를 허락하소서!	2
+kv1_0080_09	reviewed_translation	終わりよ	끝이야!	2
+kv1_0080_13	non_dialogue			8
+kv1_0080_14	non_dialogue			8
+kv1_0090_02	non_dialogue			1
+kv1_0090_03	reviewed_translation	消えろ	사라져라!	1
+kv1_0090_05	non_dialogue			1
+kv1_0090_07	reviewed_translation	破魔の力よ	마를 물리치는 힘이여!	1
+kv1_0090_09	reviewed_translation	後悔しろ	후회해라!	1
+kv1_0090_13	non_dialogue			4
+kv1_0090_14	non_dialogue			4
+kv1_0100_02	reviewed_translation	行くぞ	간다!	1
+kv1_0100_03	reviewed_translation	まだ	아직이다!	1
+kv1_0100_05	non_dialogue			1
+kv1_0100_07	reviewed_translation	聖なる力よ	성스러운 힘이여!	1
+kv1_0100_09	reviewed_translation	情け無用	자비는 없다!	1
+kv1_0100_13	non_dialogue			4
+kv1_0100_14	non_dialogue			4
+kv1_0110_02	non_dialogue			1
+kv1_0110_03	reviewed_translation	くたばれ	죽어 버려!	1
+kv1_0110_05	reviewed_translation	行くぞ	간다!	1
+kv1_0110_07	reviewed_translation	消えな	사라져!	1
+kv1_0110_09	reviewed_translation	地獄に落ちろ	지옥에 떨어져라!	1
+kv1_0110_13	non_dialogue			4
+kv1_0110_14	non_dialogue			4
+kv1_0120_02	non_dialogue			2
+kv1_0120_03	reviewed_translation	邪魔だ	방해된다!	2
+kv1_0120_05	reviewed_translation	消えろ	사라져라!	2
+kv1_0120_07	reviewed_translation	滅せよ	멸하라!	2
+kv1_0120_09	reviewed_translation	くらえ	받아라!	2
+kv1_0120_13	non_dialogue			8
+kv1_0120_14	non_dialogue			8
+kv1_0130_02	reviewed_translation	参ります	갑니다!	1
+kv1_0130_03	reviewed_translation	消えろ	사라져라!	1
+kv1_0130_05	non_dialogue			1
+kv1_0130_07	reviewed_translation	聖なる力よ	성스러운 힘이여!	1
+kv1_0130_09	reviewed_translation	くらえ	받아라!	1
+kv1_0130_13	non_dialogue			4
+kv1_0130_14	non_dialogue			4
+kv1_0140_02	non_dialogue			1
+kv1_0140_03	reviewed_translation	よっしゃ	좋았어!	1
+kv1_0140_05	non_dialogue			1
+kv1_0140_07	reviewed_translation	女神の力よ	여신의 힘이여!	1
+kv1_0140_09	reviewed_translation	そこまでだ	거기까지다!	1
+kv1_0140_13	non_dialogue			4
+kv1_0140_14	non_dialogue			4
+kv1_0150_02	non_dialogue			1
+kv1_0150_03	non_dialogue			1
+kv1_0150_05	reviewed_translation	行け	가라!	1
+kv1_0150_07	reviewed_translation	神の息吹を	신의 숨결을!	1
+kv1_0150_09	reviewed_translation	ごめんなさい	미안해요.	1
+kv1_0150_13	non_dialogue			4
+kv1_0150_14	non_dialogue			4
+kv1_0160_02	reviewed_translation	決めるぜ	끝내 주마!	1
+kv1_0160_03	reviewed_translation	逃がすか	놓칠 줄 아냐!	1
+kv1_0160_05	reviewed_translation	決めるぜ	끝내 주마!	1
+kv1_0160_07	reviewed_translation	万物の力よ	만물의 힘이여!	1
+kv1_0160_09	reviewed_translation	決めてやるぜ	끝내 주겠어!	1
+kv1_0160_13	non_dialogue			4
+kv1_0160_14	non_dialogue			4
+kv1_0170_02	reviewed_translation	行くぞ	간다!	1
+kv1_0170_03	needs_transcript_review			1
+kv1_0170_05	reviewed_translation	これで	이걸로!	1
+kv1_0170_07	reviewed_translation	破魔の力よ	마를 물리치는 힘이여!	1
+kv1_0170_09	reviewed_translation	消えろ	사라져라!	1
+kv1_0170_13	non_dialogue			4
+kv1_0170_14	non_dialogue			4
+kv1_0180_02	non_dialogue			1
+kv1_0180_03	reviewed_translation	もう一回	한 번 더!	1
+kv1_0180_05	reviewed_translation	行け	가라!	1
+kv1_0180_07	reviewed_translation	破魔の力よ	마를 물리치는 힘이여!	1
+kv1_0180_09	reviewed_translation	僕だって	나도 할 수 있어!	1
+kv1_0180_13	non_dialogue			4
+kv1_0180_14	reviewed_translation	痛っ	아야!	4
+kv1_0190_02	reviewed_translation	これで	이걸로!	1
+kv1_0190_03	reviewed_translation	消えて	사라져!	1
+kv1_0190_05	non_dialogue			1
+kv1_0190_07	reviewed_translation	女神の力よ	여신의 힘이여!	1
+kv1_0190_09	reviewed_translation	さようなら	잘 가.	1
+kv1_0190_13	non_dialogue			4
+kv1_0190_14	non_dialogue			4
+kv1_0200_02	reviewed_translation	それ	받아라!	1
+kv1_0200_03	reviewed_translation	バイバイ	잘 가!	1
+kv1_0200_05	non_dialogue			1
+kv1_0200_07	reviewed_translation	聖なる力よ	성스러운 힘이여!	1
+kv1_0200_09	reviewed_translation	邪魔なの	방해된다고!	1
+kv1_0200_13	non_dialogue			4
+kv1_0200_14	reviewed_translation	痛い	아파!	4
+kv1_0210_02	reviewed_translation	クズめ	쓰레기 같은 놈!	1
+kv1_0210_03	reviewed_translation	終わりだ	끝이다!	1
+kv1_0210_05	reviewed_translation	行くぞ	간다!	1
+kv1_0210_07	reviewed_translation	聖なる力よ	성스러운 힘이여!	1
+kv1_0210_09	reviewed_translation	消え失せろ	꺼져 버려라!	1
+kv1_0210_13	non_dialogue			4
+kv1_0210_14	non_dialogue			4
+kv1_0220_02	non_dialogue			1
+kv1_0220_03	reviewed_translation	行きます	갑니다!	1
+kv1_0220_05	non_dialogue			1
+kv1_0220_07	reviewed_translation	女神の恩恵よ	여신의 은총이여!	1
+kv1_0220_09	reviewed_translation	終わりです	끝입니다!	1
+kv1_0220_13	non_dialogue			4
+kv1_0220_14	non_dialogue			4
+kv1_0230_02	needs_transcript_review			3
+kv1_0230_03	needs_transcript_review			3
+kv1_0230_05	needs_transcript_review			3
+kv1_0230_07	needs_transcript_review			3
+kv1_0230_09	non_dialogue			3
+kv1_0230_13	non_dialogue			12
+kv1_0230_14	needs_transcript_review			12
+kv1_0290_02	non_dialogue			5
+kv1_0290_07	reviewed_translation	邪を滅せよ	악을 멸하라!	5
+kv1_0290_13	non_dialogue			20
+kv1_0290_14	non_dialogue			20
+kv1_0300_02	reviewed_translation	死ね	죽어라!	1
+kv1_0300_07	reviewed_translation	浄化の力よ	정화의 힘이여!	1
+kv1_0300_13	non_dialogue			4
+kv1_0300_14	non_dialogue			4
+kv2_0010_02	non_dialogue			1
+kv2_0010_03	reviewed_translation	まだよ	아직이야!	1
+kv2_0010_05	non_dialogue			1
+kv2_0010_07	reviewed_translation	消え去れ	사라져라!	1
+kv2_0010_09	reviewed_translation	残念	안됐군.	1
+kv2_0020_02	reviewed_translation	行くぞ	간다!	1
+kv2_0020_03	reviewed_translation	まだだ	아직이다!	1
+kv2_0020_05	non_dialogue			1
+kv2_0020_07	reviewed_translation	うせろ	꺼져라!	1
+kv2_0020_09	reviewed_translation	後悔しろ	후회해라!	1
+kv2_0030_02	non_dialogue			1
+kv2_0030_03	reviewed_translation	ここで	여기서!	1
+kv2_0030_05	reviewed_translation	行け	가라!	1
+kv2_0030_07	non_dialogue			1
+kv2_0030_09	reviewed_translation	任せろ	맡겨라!	1
+kv2_0040_02	reviewed_translation	消えろ	사라져라!	1
+kv2_0040_03	reviewed_translation	まだだ	아직이다!	1
+kv2_0040_05	reviewed_translation	死ね	죽어라!	1
+kv2_0040_07	reviewed_translation	神の裁きを	신의 심판을!	1
+kv2_0040_09	non_dialogue			1
+kv2_0050_02	reviewed_translation	死ね	죽어라!	1
+kv2_0050_03	reviewed_translation	消えろ	사라져라!	1
+kv2_0050_05	reviewed_translation	消えろ	사라져라!	1
+kv2_0050_07	reviewed_translation	滅せよ	멸하라!	1
+kv2_0050_09	reviewed_translation	死ね	죽어라!	1
+kv2_0060_02	non_dialogue			1
+kv2_0060_03	reviewed_translation	とどめです	마무리입니다!	1
+kv2_0060_05	non_dialogue			1
+kv2_0060_07	reviewed_translation	我らに加護を	우리에게 가호를!	1
+kv2_0060_09	reviewed_translation	行け	가라!	1
+kv2_0070_02	reviewed_translation	邪魔よ	방해돼!	1
+kv2_0070_03	reviewed_translation	決めるわ	끝내 주겠어!	1
+kv2_0070_05	non_dialogue			1
+kv2_0070_07	reviewed_translation	浄化の力よ	정화의 힘이여!	1
+kv2_0070_09	reviewed_translation	目障りよ	눈에 거슬려!	1
+kv2_0080_02	reviewed_translation	行くわよ	간다!	2
+kv2_0080_03	reviewed_translation	とどめ	마무리다!	2
+kv2_0080_05	non_dialogue			2
+kv2_0080_07	reviewed_translation	祈りを天に	하늘에 기도를!	2
+kv2_0080_09	reviewed_translation	来なさい	덤비세요!	2
+kv2_0090_02	reviewed_translation	やるぞ	간다!	1
+kv2_0090_03	reviewed_translation	そこまでだ	거기까지다!	1
+kv2_0090_05	reviewed_translation	終わりだ	끝이다!	1
+kv2_0090_07	reviewed_translation	駆逐せよ	몰아내라!	1
+kv2_0090_09	reviewed_translation	覚悟はいいか	각오는 됐나!	1
+kv2_0100_02	reviewed_translation	消えろ	사라져라!	1
+kv2_0100_03	reviewed_translation	決めるぞ	끝내 주마!	1
+kv2_0100_05	non_dialogue			1
+kv2_0100_07	reviewed_translation	加護	가호를!	1
+kv2_0100_09	reviewed_translation	覚悟しろ	각오해라!	1
+kv2_0110_02	needs_transcript_review			1
+kv2_0110_03	reviewed_translation	消えろ	사라져라!	1
+kv2_0110_05	reviewed_translation	終わりだ	끝이다!	1
+kv2_0110_07	reviewed_translation	終わりだ	끝이다!	1
+kv2_0110_09	reviewed_translation	後悔させてやる	후회하게 해 주마!	1
+kv2_0120_02	reviewed_translation	死に	죽어라!	2
+kv2_0120_03	non_dialogue			2
+kv2_0120_05	reviewed_translation	死に	죽어라!	2
+kv2_0120_07	reviewed_translation	消え失せろ	꺼져 버려라!	2
+kv2_0120_09	reviewed_translation	滅びろ	멸하라!	2
+kv2_0130_02	reviewed_translation	これで	이걸로!	1
+kv2_0130_03	reviewed_translation	決めます	끝내겠습니다!	1
+kv2_0130_05	reviewed_translation	行け	가라!	1
+kv2_0130_07	reviewed_translation	女神の恩恵よ	여신의 은총이여!	1
+kv2_0130_09	reviewed_translation	終わりです	끝입니다!	1
+kv2_0140_02	needs_transcript_review			1
+kv2_0140_03	reviewed_translation	助太刀	거들어 주마!	1
+kv2_0140_05	reviewed_translation	死ね	죽어라!	1
+kv2_0140_07	reviewed_translation	聖なる力よ	성스러운 힘이여!	1
+kv2_0140_09	reviewed_translation	終わりだ	끝이다!	1
+kv2_0150_02	needs_transcript_review			1
+kv2_0150_03	non_dialogue			1
+kv2_0150_05	reviewed_translation	これで	이걸로!	1
+kv2_0150_07	reviewed_translation	私に力を	내게 힘을!	1
+kv2_0150_09	non_dialogue			1
+kv2_0160_02	reviewed_translation	くらえ	받아라!	1
+kv2_0160_03	reviewed_translation	ここか	여기냐!	1
+kv2_0160_05	reviewed_translation	終わりです	끝입니다!	1
+kv2_0160_07	reviewed_translation	竜神の息吹	용신의 숨결이여!	1
+kv2_0160_09	reviewed_translation	終わりだな	끝이군.	1
+kv2_0170_02	non_dialogue			1
+kv2_0170_03	reviewed_translation	追撃する	추격한다!	1
+kv2_0170_05	non_dialogue			1
+kv2_0170_07	needs_transcript_review			1
+kv2_0170_09	reviewed_translation	散れ	스러져라!	1
+kv2_0180_02	reviewed_translation	消えろ	사라져라!	1
+kv2_0180_03	reviewed_translation	まだですよ	아직입니다!	1
+kv2_0180_05	reviewed_translation	貫け	꿰뚫어라!	1
+kv2_0180_07	needs_transcript_review			1
+kv2_0180_09	reviewed_translation	終わらせる	끝내 주겠다!	1
+kv2_0190_02	non_dialogue			1
+kv2_0190_03	reviewed_translation	残念	안됐군.	1
+kv2_0190_05	reviewed_translation	これで	이걸로!	1
+kv2_0190_07	reviewed_translation	魔を滅せよ	마를 멸하라!	1
+kv2_0190_09	non_dialogue			1
+kv2_0200_02	non_dialogue			1
+kv2_0200_03	reviewed_translation	じゃあね	잘 가!	1
+kv2_0200_05	non_dialogue			1
+kv2_0200_07	reviewed_translation	魔を駆逐せよ	마를 몰아내라!	1
+kv2_0200_09	reviewed_translation	どっか行って	저리 가!	1
+kv2_0210_02	non_dialogue			1
+kv2_0210_03	reviewed_translation	死ね	죽어라!	1
+kv2_0210_05	reviewed_translation	終われ	끝나라!	1
+kv2_0210_07	reviewed_translation	滅せよ	멸하라!	1
+kv2_0210_09	reviewed_translation	消し飛べ	날아가 버려!	1
+kv2_0220_02	reviewed_translation	死ぬ	죽는다!	1
+kv2_0220_03	reviewed_translation	終わりです	끝입니다!	1
+kv2_0220_05	reviewed_translation	行きます	갑니다!	1
+kv2_0220_07	reviewed_translation	消えたまえ	사라지거라!	1
+kv2_0220_09	reviewed_translation	残念です	유감이군요.	1
+kv2_0230_02	needs_transcript_review			3
+kv2_0230_03	needs_transcript_review			3
+kv2_0230_05	needs_transcript_review			3
+kv2_0230_07	needs_transcript_review			3
+kv2_0230_09	non_dialogue			3
+kv2_0290_02	reviewed_translation	当てろ	맞혀라!	5
+kv2_0290_07	reviewed_translation	女神の力よ	여신의 힘이여!	5
+kv2_0300_02	reviewed_translation	愚か者が	어리석은 놈이!	1
+kv2_0300_07	needs_transcript_review			1
+kv3_0010_02	reviewed_translation	目障りよ	눈에 거슬려!	1
+kv3_0010_03	reviewed_translation	終わりよ	끝이야!	1
+kv3_0010_05	reviewed_translation	消えろ	사라져라!	1
+kv3_0010_07	reviewed_translation	ゾディアよ	조디아여!	1
+kv3_0010_09	reviewed_translation	決めるわ	끝내 주겠어!	1
+kv3_0020_02	reviewed_translation	受けてみよう	받아 보아라!	1
+kv3_0020_03	reviewed_translation	終わりだ	끝이다!	1
+kv3_0020_05	reviewed_translation	死ね	죽어라!	1
+kv3_0020_07	non_dialogue			1
+kv3_0020_09	reviewed_translation	終わりだ	끝이다!	1
+kv3_0030_02	reviewed_translation	行くぞ	간다!	1
+kv3_0030_03	reviewed_translation	今だ	지금이다!	1
+kv3_0030_05	non_dialogue			1
+kv3_0030_07	reviewed_translation	これで	이걸로!	1
+kv3_0030_09	reviewed_translation	行け	가라!	1
+kv3_0040_02	non_dialogue			1
+kv3_0040_03	reviewed_translation	決める	끝내 주지!	1
+kv3_0040_05	reviewed_translation	終わりだ	끝이다!	1
+kv3_0040_07	reviewed_translation	悪く思うなよ	원망하지 마라!	1
+kv3_0040_09	reviewed_translation	消え去れ	사라져라!	1
+kv3_0050_02	non_dialogue			1
+kv3_0050_03	non_dialogue			1
+kv3_0050_05	reviewed_translation	終わりだ	끝이다!	1
+kv3_0050_07	reviewed_translation	神の裁きよ	신의 심판이여!	1
+kv3_0050_09	reviewed_translation	失せろ	꺼져라!	1
+kv3_0060_02	reviewed_translation	いきますよ	갑니다!	1
+kv3_0060_03	reviewed_translation	終わり	끝이다!	1
+kv3_0060_05	reviewed_translation	消えろ	사라져라!	1
+kv3_0060_07	reviewed_translation	愚者に浄化を	어리석은 자에게 정화를!	1
+kv3_0060_09	reviewed_translation	終わりです	끝입니다!	1
+kv3_0070_02	non_dialogue			1
+kv3_0070_03	reviewed_translation	終わりね	끝이네.	1
+kv3_0070_05	reviewed_translation	消え去れ	사라져라!	1
+kv3_0070_07	reviewed_translation	愚者に救いを	어리석은 자에게 구원을!	1
+kv3_0070_09	reviewed_translation	消えなさい	사라지세요!	1
+kv3_0080_02	non_dialogue			2
+kv3_0080_03	reviewed_translation	まだ	아직이다!	2
+kv3_0080_05	reviewed_translation	終わり	끝이다!	2
+kv3_0080_07	reviewed_translation	我らに力を	우리에게 힘을!	2
+kv3_0080_09	reviewed_translation	行くよ	간다!	2
+kv3_0090_02	reviewed_translation	去れ	물러가라!	1
+kv3_0090_03	reviewed_translation	決める	끝내 주지!	1
+kv3_0090_05	reviewed_translation	これで	이걸로!	1
+kv3_0090_07	reviewed_translation	滅びろ	멸하라!	1
+kv3_0090_09	reviewed_translation	消え去る	사라져라!	1
+kv3_0100_02	reviewed_translation	くらえ	받아라!	1
+kv3_0100_03	reviewed_translation	今だ	지금이다!	1
+kv3_0100_05	reviewed_translation	終わりだ	끝이다!	1
+kv3_0100_07	reviewed_translation	駆逐せよ	몰아내라!	1
+kv3_0100_09	reviewed_translation	残念だったな	유감이군!	1
+kv3_0110_02	reviewed_translation	邪魔だ	방해된다!	1
+kv3_0110_03	non_dialogue			1
+kv3_0110_05	reviewed_translation	滅べ	멸망해라!	1
+kv3_0110_07	reviewed_translation	うせろ	꺼져라!	1
+kv3_0110_09	reviewed_translation	残念だったな	유감이군!	1
+kv3_0120_02	reviewed_translation	滅びよ	멸하라!	2
+kv3_0120_03	reviewed_translation	行くぞ	간다!	2
+kv3_0120_05	needs_transcript_review			2
+kv3_0120_07	reviewed_translation	地獄へ落ちろ	지옥에 떨어져라!	2
+kv3_0120_09	reviewed_translation	最後だ	마지막이다!	2
+kv3_0130_02	non_dialogue			1
+kv3_0130_03	reviewed_translation	とどめ	마무리다!	1
+kv3_0130_05	reviewed_translation	これで	이걸로!	1
+kv3_0130_07	reviewed_translation	死ね	죽어라!	1
+kv3_0130_09	reviewed_translation	容赦しません	봐드리지 않겠습니다!	1
+kv3_0140_02	non_dialogue			1
+kv3_0140_03	reviewed_translation	まだ	아직이다!	1
+kv3_0140_05	reviewed_translation	終わりだ	끝이다!	1
+kv3_0140_07	reviewed_translation	魔を滅せよ	마를 멸하라!	1
+kv3_0140_09	reviewed_translation	消え去れ	사라져라!	1
+kv3_0150_02	reviewed_translation	やめて	그만해!	1
+kv3_0150_03	non_dialogue			1
+kv3_0150_05	reviewed_translation	いなくなれ	사라져!	1
+kv3_0150_07	reviewed_translation	聖なる力よ	성스러운 힘이여!	1
+kv3_0150_09	reviewed_translation	来ないで	오지 마!	1
+kv3_0160_02	non_dialogue			1
+kv3_0160_03	reviewed_translation	とどめだ	마무리다!	1
+kv3_0160_05	reviewed_translation	行くぜ	간다!	1
+kv3_0160_07	reviewed_translation	覚悟はいいか	각오는 됐나!	1
+kv3_0160_09	needs_transcript_review			1
+kv3_0170_02	reviewed_translation	終わりだ	끝이다!	1
+kv3_0170_03	reviewed_translation	まだだ	아직이다!	1
+kv3_0170_05	needs_transcript_review			1
+kv3_0170_07	reviewed_translation	時間の無駄だ	시간 낭비다!	1
+kv3_0170_09	reviewed_translation	消去する	제거한다!	1
+kv3_0180_02	reviewed_translation	くらえ	받아라!	1
+kv3_0180_03	reviewed_translation	僕も	나도!	1
+kv3_0180_05	reviewed_translation	失せろ	꺼져라!	1
+kv3_0180_07	reviewed_translation	消し飛べ	날아가 버려!	1
+kv3_0180_09	reviewed_translation	消えろ	사라져라!	1
+kv3_0190_02	reviewed_translation	終わり	끝이다!	1
+kv3_0190_03	reviewed_translation	私も	나도!	1
+kv3_0190_05	reviewed_translation	うせろ	꺼져라!	1
+kv3_0190_07	reviewed_translation	消え去る	사라져라!	1
+kv3_0190_09	reviewed_translation	終わりね	끝이네.	1
+kv3_0200_02	reviewed_translation	行くわよ	간다!	1
+kv3_0200_03	reviewed_translation	仕上げよ	마무리해라!	1
+kv3_0200_05	reviewed_translation	行くよ	간다!	1
+kv3_0200_07	reviewed_translation	消えちゃえ	사라져 버려!	1
+kv3_0200_09	reviewed_translation	目障りなの	눈에 거슬린다고!	1
+kv3_0210_02	reviewed_translation	うせろ	꺼져라!	1
+kv3_0210_03	reviewed_translation	とどめだ	마무리다!	1
+kv3_0210_05	reviewed_translation	最後だ	마지막이다!	1
+kv3_0210_07	reviewed_translation	愚かだな	어리석군!	1
+kv3_0210_09	reviewed_translation	死して償え	죽음으로 갚아라!	1
+kv3_0220_02	reviewed_translation	消えろ	사라져라!	1
+kv3_0220_03	reviewed_translation	消えろ	사라져라!	1
+kv3_0220_05	reviewed_translation	滅びろ	멸하라!	1
+kv3_0220_07	reviewed_translation	滅せよ	멸하라!	1
+kv3_0220_09	reviewed_translation	さよなら	잘 가.	1
+kv3_0230_02	needs_transcript_review			3
+kv3_0230_03	needs_transcript_review			3
+kv3_0230_05	reviewed_translation	ちかっぱくらす	세게 패 주마!	3
+kv3_0230_07	reviewed_translation	終わりだよ	끝이야!	3
+kv3_0230_09	non_dialogue			3
+kv3_0290_02	needs_transcript_review			5
+kv3_0290_07	needs_transcript_review			5
+kv3_0300_02	reviewed_translation	消え去れ	사라져라!	1
+kv3_0300_07	needs_transcript_review			1
+kv4_0010_02	reviewed_translation	消えなさい	사라지세요!	1
+kv4_0010_03	reviewed_translation	これで	이걸로!	1
+kv4_0010_05	reviewed_translation	行け	가라!	1
+kv4_0010_07	reviewed_translation	暗黒の力を	암흑의 힘을!	1
+kv4_0010_09	reviewed_translation	さようなら	잘 가.	1
+kv4_0020_02	reviewed_translation	死に	죽어라!	1
+kv4_0020_03	reviewed_translation	これで	이걸로!	1
+kv4_0020_05	reviewed_translation	終わりだ	끝이다!	1
+kv4_0020_07	reviewed_translation	消え去れ	사라져라!	1
+kv4_0020_09	reviewed_translation	これで最後だ	이걸로 마지막이다!	1
+kv4_0030_02	reviewed_translation	くらえ	받아라!	1
+kv4_0030_03	reviewed_translation	さあ	자!	1
+kv4_0030_05	reviewed_translation	終わりだ	끝이다!	1
+kv4_0030_07	reviewed_translation	破魔の力よ	마를 물리치는 힘이여!	1
+kv4_0030_09	reviewed_translation	終わらせる	끝내 주겠다!	1
+kv4_0040_02	reviewed_translation	いざ	자, 간다!	1
+kv4_0040_03	reviewed_translation	終わりだ	끝이다!	1
+kv4_0040_05	reviewed_translation	消えろ	사라져라!	1
+kv4_0040_07	reviewed_translation	女神の加護	여신의 가호를!	1
+kv4_0040_09	reviewed_translation	この一撃で	이 일격으로!	1
+kv4_0050_02	reviewed_translation	ぶっ潰し	박살 내 주마!	1
+kv4_0050_03	reviewed_translation	死ね	죽어라!	1
+kv4_0050_05	non_dialogue			1
+kv4_0050_07	reviewed_translation	女神の加護	여신의 가호를!	1
+kv4_0050_09	reviewed_translation	後悔しろ	후회해라!	1
+kv4_0060_02	reviewed_translation	負けません	지지 않겠습니다!	1
+kv4_0060_03	reviewed_translation	まだですよ	아직입니다!	1
+kv4_0060_05	reviewed_translation	おわりだ	끝이다!	1
+kv4_0060_07	reviewed_translation	汚れし御霊よ	더럽혀진 영혼이여!	1
+kv4_0060_09	reviewed_translation	覚悟	각오해라!	1
+kv4_0070_02	reviewed_translation	行くわよ	간다!	1
+kv4_0070_03	reviewed_translation	これで	이걸로!	1
+kv4_0070_05	reviewed_translation	終わりよ	끝이야!	1
+kv4_0070_07	reviewed_translation	加護	가호를!	1
+kv4_0070_09	reviewed_translation	散りなさい	스러지세요!	1
+kv4_0080_02	non_dialogue			2
+kv4_0080_03	reviewed_translation	私も	나도!	2
+kv4_0080_05	reviewed_translation	滅せよ	멸하라!	2
+kv4_0080_07	reviewed_translation	神の鉄よ	신의 철퇴여!	2
+kv4_0080_09	reviewed_translation	決めるわ	끝내 주겠어!	2
+kv4_0090_02	reviewed_translation	くらえ	받아라!	1
+kv4_0090_03	reviewed_translation	終わりだ	끝이다!	1
+kv4_0090_05	reviewed_translation	消えろ	사라져라!	1
+kv4_0090_07	reviewed_translation	恩恵よ	은혜여!	1
+kv4_0090_09	reviewed_translation	うせろ	꺼져라!	1
+kv4_0100_02	non_dialogue			1
+kv4_0100_03	non_dialogue			1
+kv4_0100_05	reviewed_translation	決める	끝내 주지!	1
+kv4_0100_07	reviewed_translation	断罪よ	단죄하라!	1
+kv4_0100_09	reviewed_translation	行け	가라!	1
+kv4_0110_02	reviewed_translation	うせろ	꺼져라!	1
+kv4_0110_03	reviewed_translation	さあ	자!	1
+kv4_0110_05	reviewed_translation	邪魔だ	방해된다!	1
+kv4_0110_07	reviewed_translation	一気に	단숨에!	1
+kv4_0110_09	reviewed_translation	これで終わりだ	이걸로 끝이다!	1
+kv4_0120_02	reviewed_translation	うせろ	꺼져라!	2
+kv4_0120_03	reviewed_translation	終わりだ	끝이다!	2
+kv4_0120_05	non_dialogue			2
+kv4_0120_07	reviewed_translation	慈悲だ	자비다!	2
+kv4_0120_09	reviewed_translation	消え失せろ	꺼져 버려라!	2
+kv4_0130_02	reviewed_translation	覚悟	각오해라!	1
+kv4_0130_03	reviewed_translation	まだです	아직입니다!	1
+kv4_0130_05	reviewed_translation	滅せよ	멸하라!	1
+kv4_0130_07	reviewed_translation	魔を滅せよ	마를 멸하라!	1
+kv4_0130_09	reviewed_translation	消えなさい	사라지세요!	1
+kv4_0140_02	reviewed_translation	行くぞ	간다!	1
+kv4_0140_03	non_dialogue			1
+kv4_0140_05	non_dialogue			1
+kv4_0140_07	reviewed_translation	壊滅せよ	섬멸하라!	1
+kv4_0140_09	non_dialogue			1
+kv4_0150_02	reviewed_translation	行きます	갑니다!	1
+kv4_0150_03	reviewed_translation	これで	이걸로!	1
+kv4_0150_05	reviewed_translation	消えて	사라져!	1
+kv4_0150_07	reviewed_translation	魔を滅せよ	마를 멸하라!	1
+kv4_0150_09	reviewed_translation	終わりです	끝입니다!	1
+kv4_0160_02	reviewed_translation	死にな	죽어라!	1
+kv4_0160_03	reviewed_translation	今だ	지금이다!	1
+kv4_0160_05	needs_transcript_review			1
+kv4_0160_07	reviewed_translation	決めるぞ	끝내 주마!	1
+kv4_0160_09	reviewed_translation	とどめだ	마무리다!	1
+kv4_0170_02	reviewed_translation	消えろ	사라져라!	1
+kv4_0170_03	reviewed_translation	続くぞ	계속 간다!	1
+kv4_0170_05	reviewed_translation	終わりだ	끝이다!	1
+kv4_0170_07	reviewed_translation	破魔の恩恵を	마를 물리치는 은혜를!	1
+kv4_0170_09	reviewed_translation	失せろ	꺼져라!	1
+kv4_0180_02	reviewed_translation	終わりです	끝입니다!	1
+kv4_0180_03	reviewed_translation	これで	이걸로!	1
+kv4_0180_05	reviewed_translation	消えろ	사라져라!	1
+kv4_0180_07	reviewed_translation	行くよ	간다!	1
+kv4_0180_09	reviewed_translation	くらえ	받아라!	1
+kv4_0190_02	reviewed_translation	行く	간다!	1
+kv4_0190_03	reviewed_translation	まだよ	아직이야!	1
+kv4_0190_05	reviewed_translation	終わりよ	끝이야!	1
+kv4_0190_07	reviewed_translation	加護よ	가호여!	1
+kv4_0190_09	non_dialogue			1
+kv4_0200_02	reviewed_translation	突撃	돌격!	1
+kv4_0200_03	non_dialogue			1
+kv4_0200_05	reviewed_translation	へへんだ	흥, 어때!	1
+kv4_0200_07	reviewed_translation	女神の恩恵を	여신의 은총을!	1
+kv4_0200_09	reviewed_translation	うざいんだけど	짜증 나거든!	1
+kv4_0210_02	reviewed_translation	消えろ	사라져라!	1
+kv4_0210_03	non_dialogue			1
+kv4_0210_05	reviewed_translation	そこまでだ	거기까지다!	1
+kv4_0210_07	reviewed_translation	女神の加護	여신의 가호를!	1
+kv4_0210_09	reviewed_translation	もがき苦しめ	고통 속에 발버둥 쳐라!	1
+kv4_0220_02	reviewed_translation	滅せよ	멸하라!	1
+kv4_0220_03	reviewed_translation	決めるん	끝내 주겠어!	1
+kv4_0220_05	reviewed_translation	消えろ	사라져라!	1
+kv4_0220_07	needs_transcript_review			1
+kv4_0220_09	reviewed_translation	後悔しなさい	후회하세요!	1
+kv4_0230_02	needs_transcript_review			3
+kv4_0230_05	needs_transcript_review			3
+kv4_0230_07	needs_transcript_review			3
+kv4_0230_09	reviewed_translation	覚悟せんね	각오하라고!	3
+kv4_0290_02	needs_transcript_review			5
+kv4_0290_07	reviewed_translation	滅びよ	멸하라!	5
+kv4_0300_02	reviewed_translation	クズが	쓰레기 같은 놈!	1
+kv4_0300_07	reviewed_translation	消え失せろ	꺼져 버려라!	1
