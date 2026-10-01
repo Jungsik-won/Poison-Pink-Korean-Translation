@@ -1,13 +1,13 @@
 param(
     [Parameter(Mandatory = $true)][string]$SourceIso,
-    [string]$OutputIso = "Poison Pink (Japan) - Korean standalone v1.iso",
-    [string]$PatchFile = "Poison_Pink_Korean_standalone_v1.xdelta"
+    [string]$OutputIso = "Poison Pink (Japan) - Korean battle subtitles v3.iso",
+    [string]$PatchFile = "Poison_Pink_Korean_battle_subtitles_v3.xdelta"
 )
 
 $ErrorActionPreference = "Stop"
 $SourceSha256 = "081e5c921fc2b0f517f007dfe053935578174a6880949de961e273426b216103"
-$PatchSha256 = "02d32af31433a7016a94e49f93efdd97d5bb1dc6dd6a3672ad2d9fb6c0715714"
-$OutputSha256 = "f7276bfe1da4b9599d5242daa74ee094ac87e3044173e3c943b6320890fed072"
+$PatchSha256 = "5ad0db6f2ef2b993c07635ea9f0dc9ce192a5e63f891059fbc8990d61abe8d9e"
+$OutputSha256 = "8ba7111a988b095902e727f089bdf5ac12778c59cfeb127e193402ce17a888b9"
 
 if (-not (Get-Command xdelta3 -ErrorAction SilentlyContinue)) {
     throw "xdelta3를 먼저 설치해 주세요."

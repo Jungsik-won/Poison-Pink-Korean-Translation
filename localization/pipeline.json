@@ -141,13 +141,14 @@
   "ui_translation_file": "localization/ui_slice.json",
   "ui_catalog": "localization/ui_catalog.json",
   "latest_experimental_build": {
-    "path": "build/iso_dialogue_fix_v1/Poison Pink (Japan) - Korean standalone v1.iso",
-    "sha256": "f7276bfe1da4b9599d5242daa74ee094ac87e3044173e3c943b6320890fed072",
-    "report": "reports/iso_dialogue_fix_v1.json",
+    "path": "build/battle_voice_subtitles_v1/Poison Pink (Japan) - Korean battle subtitles v3.iso",
+    "sha256": "8ba7111a988b095902e727f089bdf5ac12778c59cfeb127e193402ce17a888b9",
+    "report": "reports/battle_voice_subtitles_v1.json",
     "runtime_verified": true,
-    "runtime_verified_scope": "PCSX2 2.6.3: Software 4:3 fresh Tei intro, two-line/multiple-speaker portrait dialogue, first main battle dialogue and unit movement; default Metal 4:3 intro; Software 16:9 existing Lv23 memory-card load. Not full-game coverage. Saved Lv23 battle also loaded successfully in Software 16:9.",
+    "runtime_verified_scope": "PCSX2 2.6.3 Software 4:3 final v3 fresh boot, segment/code/coordinate/string RAM verification, external patches OFF. Prototype v1 normal card load and battle map/skill-target UI. Final hook controlled KV0/KV3 replay captions tested in copied map/cut-in states. No naturally selected translated attack, full-game, Metal battle or real-hardware verification.",
     "requires_external_patch": false,
-    "pcsx2_sidecar": null
+    "pcsx2_sidecar": null,
+    "incomplete_voice_transcripts": 80
   },
   "ui_titles_translation_file": "localization/ui_titles.json",
   "ui_remaining_translation_file": "localization/ui_remaining.json",
@@ -695,5 +696,26 @@
     "external_patch_required": false,
     "preserve_in_future_builds": true,
     "report": "reports/iso_dialogue_fix_v1.json"
+  },
+  "previous_standalone_baseline": {
+    "path": "build/iso_dialogue_fix_v1/Poison Pink (Japan) - Korean standalone v1.iso",
+    "sha256": "f7276bfe1da4b9599d5242daa74ee094ac87e3044173e3c943b6320890fed072",
+    "report": "reports/iso_dialogue_fix_v1.json",
+    "runtime_verified": true,
+    "runtime_verified_scope": "PCSX2 2.6.3: Software 4:3 fresh Tei intro, two-line/multiple-speaker portrait dialogue, first main battle dialogue and unit movement; default Metal 4:3 intro; Software 16:9 existing Lv23 memory-card load. Not full-game coverage. Saved Lv23 battle also loaded successfully in Software 16:9.",
+    "requires_external_patch": false,
+    "pcsx2_sidecar": null
+  },
+  "battle_voice_subtitles": {
+    "catalog": "localization/battle_voice_subtitles_v1.json",
+    "builder": "tools/build_battle_subtitles.py",
+    "tests": "tools/test_battle_subtitles.py",
+    "counts": {
+      "non_dialogue": 102,
+      "reviewed_translation": 410,
+      "needs_transcript_review": 80
+    },
+    "review_table": "outputs/battle_voice_subtitles_v1/voice_review.tsv",
+    "no_human_audio_audit": true
   }
 }

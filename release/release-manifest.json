@@ -1,10 +1,9 @@
 {
-  "release": "v0.2.0-dev",
-  "build": "iso_dialogue_fix_v1",
-  "status": "development_review",
+  "release": "v0.3.0-dev",
+  "build": "battle_voice_subtitles_v1_revision_3",
+  "status": "development_test",
   "created_at": "2026-10-01",
   "runtime_verified": true,
-  "runtime_verified_scope": "PCSX2 2.6.3 limited scene coverage only",
   "full_game_verified": false,
   "requires_external_patch": false,
   "source_iso": {
@@ -13,70 +12,65 @@
   },
   "patch": {
     "format": "xdelta3",
-    "filename": "Poison_Pink_Korean_standalone_v1.xdelta",
-    "size": 311221978,
-    "sha256": "02d32af31433a7016a94e49f93efdd97d5bb1dc6dd6a3672ad2d9fb6c0715714"
+    "filename": "Poison_Pink_Korean_battle_subtitles_v3.xdelta",
+    "size": 316602347,
+    "sha256": "5ad0db6f2ef2b993c07635ea9f0dc9ce192a5e63f891059fbc8990d61abe8d9e"
   },
   "output_iso": {
-    "filename": "Poison Pink (Japan) - Korean standalone v1.iso",
+    "filename": "Poison Pink (Japan) - Korean battle subtitles v3.iso",
     "size": 4245454848,
-    "sha256": "f7276bfe1da4b9599d5242daa74ee094ac87e3044173e3c943b6320890fed072",
-    "elf_crc": "15A5210D"
+    "sha256": "8ba7111a988b095902e727f089bdf5ac12778c59cfeb127e193402ce17a888b9",
+    "elf_crc": "0A6FFA91"
   },
-  "integrated_dialogue_layout": {
-    "base_build": "dmap_flow_ko_v1",
-    "changed_bytes": 6,
-    "all_unplanned_bytes_identical": true,
-    "original_fov_font_width_and_code_preserved": true,
-    "values": [
-      {
-        "address": "005526F4",
-        "original": "43D10000",
-        "value": "43C80000",
-        "meaning": "message indicator Y: 418 -> 400"
-      },
-      {
-        "address": "00552768",
-        "original": "42B00000",
-        "value": "42C00000",
-        "meaning": "dialogue frame extent: 88 -> 96"
-      },
-      {
-        "address": "0055276C",
-        "original": "43CF8000",
-        "value": "00000000",
-        "meaning": "dialogue frame offset: 415 -> 0"
-      },
-      {
-        "address": "0055278C",
-        "original": "439C0000",
-        "value": "43C00000",
-        "meaning": "lower panel Y: 312 -> 384"
-      }
-    ]
+  "preserved_work": {
+    "translations_images_movies": true,
+    "standalone_dialogue_layout": true
+  },
+  "battle_voice_subtitles": {
+    "deduplicated_voices": 592,
+    "reviewed_translations": 410,
+    "translated_bank_slots": 456,
+    "excluded_non_dialogue": 102,
+    "withheld_uncertain_transcripts": 80,
+    "display_seconds": "2-4",
+    "replaced_by_next_translated_utterance": true,
+    "y_coordinate": 330,
+    "review_method": "Japanese and Korean text review from local ASR; no complete human audio audit"
   },
   "verification": {
     "patch_decode": "passed",
     "output_sha256": "passed",
     "byte_for_byte_compare": "passed",
-    "runtime_compatibility_tests": {
-      "command": "PYTHONPATH=tools python3 -m unittest test_runtime_compat",
-      "passed": 14
+    "instruction_execution_tests": {
+      "passed": 4,
+      "all_592_voice_signatures": true,
+      "invalid_descriptor_ranges": true,
+      "timer_and_reset": true,
+      "new_elf_segment_and_heap": true
     },
     "targeted_pcsx2_2_6_3": {
-      "software_4_3_fresh_game": "first portrait dialogue, multiple speakers, two-line dialogue, prebattle menu, first main battle dialogue and unit movement passed",
-      "default_metal_4_3_fresh_game": "first portrait dialogue and subsequent progress passed",
-      "software_16_9_memory_card_copy": "existing level 23 in-game save and saved battle load passed",
-      "external_patches": false,
-      "cheats": false,
-      "widescreen_patches": false,
-      "report": "reports/iso_dialogue_fix_v1.json"
+      "final_v3_software_4_3_cold_boot": "RAM code, strings and coordinates checked with external patches off",
+      "prototype_v1_same_code": "copied memory-card load, battle preparation, battle map and magic target UI checked",
+      "controlled_voice_replay": [
+        "가거라!",
+        "조디아여!"
+      ],
+      "controlled_replay_helper_in_output_iso": false,
+      "report": "reports/battle_voice_subtitles_v1.json"
     }
   },
   "limitations": [
-    "Not full-game verified",
-    "Other PCSX2 versions and real PlayStation 2 hardware are unverified",
-    "Known incomplete and unconfirmed translation items remain",
+    "Not a complete human listening audit",
+    "No naturally initiated translated attack was completed for final subtitle confirmation",
+    "Full game, Metal battles and real PlayStation 2 hardware are unverified",
     "Cold boot the new ISO and use an in-game memory-card save instead of an old savestate"
+  ],
+  "excluded_from_public_release": [
+    "ISO and BIOS files",
+    "original or extracted AGS/WAV assets",
+    "RAM dumps, savestates and memory cards",
+    "runtime screenshots and evidence",
+    "private font mapping source data",
+    "PCSX2 pnach, iso.pcsx2 and compatibility ZIP files"
   ]
 }

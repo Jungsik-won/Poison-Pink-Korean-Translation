@@ -1,6 +1,18 @@
 # Poison Pink 한글화 인계서 — 검수 반영판
 
-## 최신 실행 ISO: 외부 패치 없는 독립 실행 v1 (2026-10-01)
+## 최신 테스트 ISO: 전투 음성 자막 v3 (2026-10-01)
+
+`build/battle_voice_subtitles_v1/Poison Pink (Japan) - Korean battle subtitles v3.iso`
+
+SHA-256 `8ba7111a988b095902e727f089bdf5ac12778c59cfeb127e193402ce17a888b9`, ELF CRC `0A6FFA91`. 기존 standalone v1 전체 번역·이미지·영상 유지. 음성 592종 중 410종/456뱅크 슬롯 한글 자막, 102종 비언어 기합/무음 제외, 80종 불확실하여 보류. ASR 결과의 일본어·한국어 텍스트 검토이며 사람이 모든 음성을 청취한 검수는 아님.
+
+KV SPU 0x600 재생에 FNV/길이 연결. 0x650000 새 ELF PT_LOAD, heap 시작 0x655000, BSS clear 끝 원래 값 유지. 렌더 기존 글꼴, y330/흰색+검정 그림자, 2~4초, 다음 발화 갱신. 외부 pnach 불필요. ISO 전체 계획 밖 바이트 동일 검증. 새 부팅+정상 메모리카드 저장 사용. 오래된 상태저장은 실행코드/폰트/좌표를 되돌리므로 사용하지 말 것.
+
+검증: 최종 v3 Software 4:3 새 부팅 및 RAM 코드/문구/좌표 대조. 이전 v1 동일 코드의 정상 카드 불러오기·전투맵·마법 대상 화면. 복사 상태에서 게임 음성 재생 함수를 호출하여 맵 가거라!/컷인 조디아여! 표시 확인. 시험용 일회 재생 헬퍼는 ISO에서 제외. 자연스러운 공격 조작으로 자막을 확인한 것은 아니며 전체 게임/Metal 전투/실기 미검증. 생성 MIPS 명령 실행 시험 4개(592종 매칭/범위/타이머/메모리) 통과.
+
+보고서 `reports/battle_voice_subtitles_v1.json`; 검토표 `outputs/battle_voice_subtitles_v1/voice_review.tsv`; 안내 `outputs/battle_voice_subtitles_v1/README_KO.txt`. 다음 작업에서 이 ISO와 추가 ELF 세그먼트/heap 예약을 보존할 것. 재빌드 원본은 standalone v1로 고정되어 있음.
+
+## 이전 기반 ISO: 외부 패치 없는 독립 실행 v1 (2026-10-01)
 
 `build/iso_dialogue_fix_v1/Poison Pink (Japan) - Korean standalone v1.iso`
 

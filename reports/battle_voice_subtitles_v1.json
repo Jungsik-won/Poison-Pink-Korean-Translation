@@ -1,0 +1,160 @@
+{
+  "base": 6619136,
+  "state": 6620160,
+  "table": 6620416,
+  "rows": 592,
+  "code_bytes": 516,
+  "segment_bytes": 19712,
+  "labels": {
+    "voice": 6619136,
+    "hash": 6619272,
+    "lookup": 6619348,
+    "next": 6619440,
+    "voice_done": 6619456,
+    "frame": 6619484,
+    "expire": 6619632,
+    "frame_done": 6619636
+  },
+  "translated": 410,
+  "heap_start": 6639616,
+  "heap_reserved_bytes": 25648,
+  "elf_crc": "0A6FFA91",
+  "elf_bytes": 4680960,
+  "segment_offset": 4661248,
+  "status": "built_static_verified",
+  "requires_external_patch": false,
+  "base_iso": "build/iso_dialogue_fix_v1/Poison Pink (Japan) - Korean standalone v1.iso",
+  "base_iso_sha256": "f7276bfe1da4b9599d5242daa74ee094ac87e3044173e3c943b6320890fed072",
+  "iso_path": "build/battle_voice_subtitles_v1/Poison Pink (Japan) - Korean battle subtitles v3.iso",
+  "iso": {
+    "source_sha256": "f7276bfe1da4b9599d5242daa74ee094ac87e3044173e3c943b6320890fed072",
+    "output_sha256": "8ba7111a988b095902e727f089bdf5ac12778c59cfeb127e193402ce17a888b9",
+    "bytes": 4245454848,
+    "changed_bytes": 2872241,
+    "size_preserved": true,
+    "runtime_compatibility": {
+      "elf_crc": "0A6FFA91",
+      "requires_external_patch": false,
+      "integrated_dialogue_layout": [
+        {
+          "address": "005526F4",
+          "original": "43D10000",
+          "value": "43C80000",
+          "meaning": "message indicator Y: 418 -> 400"
+        },
+        {
+          "address": "00552768",
+          "original": "42B00000",
+          "value": "42C00000",
+          "meaning": "dialogue frame extent: 88 -> 96"
+        },
+        {
+          "address": "0055276C",
+          "original": "43CF8000",
+          "value": "00000000",
+          "meaning": "dialogue frame offset: 415 -> 0"
+        },
+        {
+          "address": "0055278C",
+          "original": "439C0000",
+          "value": "43C00000",
+          "meaning": "lower panel Y: 312 -> 384"
+        }
+      ],
+      "checked_patch_addresses": 34
+    },
+    "replacements": [
+      {
+        "offset": 534844,
+        "size": 8,
+        "before_sha256": "7a772c42a03f3d8bae50fdeb2d88ecaa26359d8b697f48e8140d41658a392e54",
+        "after_sha256": "bbfa81de023cbd93d2c7fff402b2e2c8163435b9a286939555c3d17ee765614b"
+      },
+      {
+        "offset": 534852,
+        "size": 8,
+        "before_sha256": "1b6cba6c50aa9064b8b71206c587a46704e39156028bbfa68ad193e4d716a880",
+        "after_sha256": "a3507d599ebb093f8668617371ffd9556ea0bbe0c8bf5c623dddd692042e3366"
+      },
+      {
+        "offset": 1529741312,
+        "size": 4680960,
+        "before_sha256": "c46e1471673e6f7b6e6df8d1989fe5affd58e8bf83077c11dfccbee440a61836",
+        "after_sha256": "ef36036b341cef7fcc389edc47c89f556b96e640b6c17eebd2ba13b0466b7212"
+      }
+    ]
+  },
+  "verification": {
+    "passed": true,
+    "changed_bytes": 2872241,
+    "all_unplanned_bytes_identical": true
+  },
+  "relocation": {
+    "old_lba": 332,
+    "new_lba": 746944
+  },
+  "runtime_verified": true,
+  "voice_catalog_counts": {
+    "non_dialogue": 102,
+    "reviewed_translation": 410,
+    "needs_transcript_review": 80
+  },
+  "translated_bank_slots": 456,
+  "transcript_review_method": "Japanese phrase and Korean text review from local ASR; uncertain clips withheld, no human audio audit",
+  "natural_gameplay_test": "Prototype v1: fresh boot, copied Lv23 memory-card load, battle preparation, battle map and skill-target UI. Voice triggers for normal gameplay grunts detected; no naturally initiated translated attack completed.",
+  "controlled_voice_tests": [
+    {
+      "scene": "battle_map",
+      "tag": "kv0_0010_02",
+      "ja": "行きなさい",
+      "ko": "가거라!",
+      "method": "Loaded game bank, game voice routine replayed once in copied runtime state",
+      "screenshot": "build/battle_voice_subtitles_v1/evidence/map_voice_position.png"
+    },
+    {
+      "scene": "battle_animation",
+      "tag": "kv3_0010_07",
+      "ja": "ゾディアよ",
+      "ko": "조디아여!",
+      "method": "User slot1 copy, loaded game bank, game voice routine replayed once",
+      "screenshot": "build/battle_voice_subtitles_v1/evidence/cut_in_voice_caption.png"
+    }
+  ],
+  "controlled_replay_helper_excluded_from_iso": true,
+  "instruction_execution_tests": {
+    "passed": true,
+    "tests": 4,
+    "all_592_voice_signatures": true,
+    "invalid_descriptors": true,
+    "draw_expiry_clock_reset": true,
+    "heap_bss_layout": true
+  },
+  "runtime_verified_scope": "PCSX2 2.6.3 Software 4:3 final v3 fresh boot, segment/code/coordinate/string RAM verification, external patches OFF. Prototype v1 normal card load and battle map/skill-target UI. Final hook controlled KV0/KV3 replay captions tested in copied map/cut-in states. No naturally selected translated attack, full-game, Metal battle or real-hardware verification.",
+  "user_slot1_backup_sha256": "redacted",
+  "user_files_written_by_task": false,
+  "final_iso_cold_boot_verified": true,
+  "final_loaded_segment_checked": true,
+  "runtime_test_evidence": [
+    "build/battle_voice_subtitles_v1/evidence/cut_in_voice_caption.png",
+    "build/battle_voice_subtitles_v1/evidence/embedded_battle.png",
+    "build/battle_voice_subtitles_v1/evidence/embedded_card_list.png",
+    "build/battle_voice_subtitles_v1/evidence/embedded_cast_confirm.png",
+    "build/battle_voice_subtitles_v1/evidence/embedded_cast_unit.png",
+    "build/battle_voice_subtitles_v1/evidence/embedded_load_menu.png",
+    "build/battle_voice_subtitles_v1/evidence/embedded_loaded.png",
+    "build/battle_voice_subtitles_v1/evidence/embedded_magic.png",
+    "build/battle_voice_subtitles_v1/evidence/embedded_magic_target.png",
+    "build/battle_voice_subtitles_v1/evidence/embedded_menu.png",
+    "build/battle_voice_subtitles_v1/evidence/embedded_menu_retry.png",
+    "build/battle_voice_subtitles_v1/evidence/embedded_next_turn.png",
+    "build/battle_voice_subtitles_v1/evidence/embedded_skills.png",
+    "build/battle_voice_subtitles_v1/evidence/embedded_start_battle.png",
+    "build/battle_voice_subtitles_v1/evidence/embedded_tei_ready.png",
+    "build/battle_voice_subtitles_v1/evidence/embedded_tei_turn.png",
+    "build/battle_voice_subtitles_v1/evidence/embedded_title.png",
+    "build/battle_voice_subtitles_v1/evidence/embedded_unit_menu.png",
+    "build/battle_voice_subtitles_v1/evidence/final_cold_boot_title.png",
+    "build/battle_voice_subtitles_v1/evidence/map_voice_caption.png",
+    "build/battle_voice_subtitles_v1/evidence/map_voice_position.png"
+  ]
+}

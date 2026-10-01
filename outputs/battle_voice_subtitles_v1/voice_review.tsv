@@ -1,0 +1,601 @@
+tag	status	japanese	korean	audio	asr_individual	asr_small	asr_padded
+kv0_0010_00	non_dialogue			build/battle_voice_subtitles_v1/audio/kv0_0010_00.wav	ご視聴ありがとうございました		
+kv0_0010_01	reviewed_translation	終わらせて	끝내 버려.	build/battle_voice_subtitles_v1/audio/kv0_0010_01.wav	終わらせて		
+kv0_0010_02	reviewed_translation	行きなさい	가거라!	build/battle_voice_subtitles_v1/audio/kv0_0010_02.wav	生きなさい	行きなさい	
+kv0_0010_03	reviewed_translation	命令よ	명령이야!	build/battle_voice_subtitles_v1/audio/kv0_0010_03.wav	メレヨ	命令よ!	
+kv0_0010_04	reviewed_translation	今よ	지금이야!	build/battle_voice_subtitles_v1/audio/kv0_0010_04.wav	今よ		
+kv0_0010_05	reviewed_translation	もういいわ	이제 됐어.	build/battle_voice_subtitles_v1/audio/kv0_0010_05.wav	もういいわ		
+kv0_0010_06	reviewed_translation	戻りなさい	돌아오거라.	build/battle_voice_subtitles_v1/audio/kv0_0010_06.wav	戻りなさい。		
+kv0_0020_05	reviewed_translation	戻れ	돌아와라.	build/battle_voice_subtitles_v1/audio/kv0_0020_05.wav	戻り	戻れ	
+kv0_0020_06	reviewed_translation	もうよい	이제 됐다.	build/battle_voice_subtitles_v1/audio/kv0_0020_06.wav	もよい	もうよい	
+kv0_0030_05	reviewed_translation	帰れ	돌아가라.	build/battle_voice_subtitles_v1/audio/kv0_0030_05.wav	はじめ!	はいね!	帰れ!
+kv0_0030_06	reviewed_translation	もういい	이제 됐어.	build/battle_voice_subtitles_v1/audio/kv0_0030_06.wav	もい	もういい	
+kv0_0040_01	reviewed_translation	頼むぞ	부탁한다.	build/battle_voice_subtitles_v1/audio/kv0_0040_01.wav	TANOSO	ダナウンス!	頼むぞ
+kv0_0040_02	reviewed_translation	仕留めろ	해치워라!	build/battle_voice_subtitles_v1/audio/kv0_0040_02.wav	しとめろ!	シトメロ!	
+kv0_0040_03	reviewed_translation	行け	가라!	build/battle_voice_subtitles_v1/audio/kv0_0040_03.wav	イキー!		
+kv0_0040_04	reviewed_translation	今だ	지금이다!	build/battle_voice_subtitles_v1/audio/kv0_0040_04.wav	今だ!		
+kv0_0040_05	reviewed_translation	戻れ	돌아와라.	build/battle_voice_subtitles_v1/audio/kv0_0040_05.wav	戻れ!		
+kv0_0040_06	reviewed_translation	去れ	물러가라!	build/battle_voice_subtitles_v1/audio/kv0_0040_06.wav	され!	され!	
+kv0_0050_05	reviewed_translation	戻れ	돌아와라.	build/battle_voice_subtitles_v1/audio/kv0_0050_05.wav	戻れ		
+kv0_0050_06	reviewed_translation	もういい	이제 됐어.	build/battle_voice_subtitles_v1/audio/kv0_0050_06.wav	もい	もういい	
+kv0_0060_05	reviewed_translation	戻れ	돌아와라.	build/battle_voice_subtitles_v1/audio/kv0_0060_05.wav	戻れ		
+kv0_0060_06	reviewed_translation	もういい	이제 됐어.	build/battle_voice_subtitles_v1/audio/kv0_0060_06.wav	もい	もういい?	
+kv0_0070_05	reviewed_translation	もういいわ	이제 됐어.	build/battle_voice_subtitles_v1/audio/kv0_0070_05.wav	もいわ	もういいわ	
+kv0_0070_06	reviewed_translation	戻れ	돌아와라.	build/battle_voice_subtitles_v1/audio/kv0_0070_06.wav	戻れ		
+kv0_0080_01	reviewed_translation	お願い	부탁해.	build/battle_voice_subtitles_v1/audio/kv0_0080_01.wav	お願い!		
+kv0_0080_02	reviewed_translation	頼んだよ	부탁한다.	build/battle_voice_subtitles_v1/audio/kv0_0080_02.wav	サノだよ	頼んだよ	
+kv0_0080_03	reviewed_translation	任せたわ	네게 맡길게.	build/battle_voice_subtitles_v1/audio/kv0_0080_03.wav	任せたわ		
+kv0_0080_04	reviewed_translation	今よ	지금이야!	build/battle_voice_subtitles_v1/audio/kv0_0080_04.wav	いないよ!	今よ!	
+kv0_0080_05	reviewed_translation	戻れ	돌아와라.	build/battle_voice_subtitles_v1/audio/kv0_0080_05.wav	戻れ!		
+kv0_0080_06	reviewed_translation	帰りなさい	돌아가거라.	build/battle_voice_subtitles_v1/audio/kv0_0080_06.wav	帰りなさい!		
+kv0_0090_05	reviewed_translation	戻れ	돌아와라.	build/battle_voice_subtitles_v1/audio/kv0_0090_05.wav	戻れ!		
+kv0_0090_06	reviewed_translation	もういい	이제 됐어.	build/battle_voice_subtitles_v1/audio/kv0_0090_06.wav	もういい		
+kv0_0100_05	reviewed_translation	戻れ	돌아와라.	build/battle_voice_subtitles_v1/audio/kv0_0100_05.wav	戻れ!		
+kv0_0100_06	reviewed_translation	邪魔だ	방해된다!	build/battle_voice_subtitles_v1/audio/kv0_0100_06.wav	ティアマダ!	邪魔だ	
+kv0_0110_01	reviewed_translation	頼んだぞ	네게 맡긴다.	build/battle_voice_subtitles_v1/audio/kv0_0110_01.wav	頼んだぞ		
+kv0_0110_02	reviewed_translation	お前だ	네 차례다!	build/battle_voice_subtitles_v1/audio/kv0_0110_02.wav	お前だ		
+kv0_0110_03	reviewed_translation	行け	가라!	build/battle_voice_subtitles_v1/audio/kv0_0110_03.wav	イティ	行け!	
+kv0_0110_04	reviewed_translation	今だ	지금이다!	build/battle_voice_subtitles_v1/audio/kv0_0110_04.wav	今だ		
+kv0_0110_05	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv0_0110_05.wav	シュ	シュッ!	死
+kv0_0110_06	reviewed_translation	戻れ	돌아와라.	build/battle_voice_subtitles_v1/audio/kv0_0110_06.wav	モドリー	戻り!	戻れ!
+kv0_0120_01	reviewed_translation	行け	가라!	build/battle_voice_subtitles_v1/audio/kv0_0120_01.wav	ユキ	行き!	行け!
+kv0_0120_02	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv0_0120_02.wav	ミリーだ	みーでー!	メリーだ
+kv0_0120_03	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv0_0120_03.wav	動き	ウォッキー!	動き
+kv0_0120_04	reviewed_translation	貴様だ	네놈 차례다!	build/battle_voice_subtitles_v1/audio/kv0_0120_04.wav	さまだ	貴様だ!	
+kv0_0120_05	reviewed_translation	戻れ	돌아와라.	build/battle_voice_subtitles_v1/audio/kv0_0120_05.wav	戻り	戻り!!	戻れ!
+kv0_0120_06	reviewed_translation	邪魔だ	방해된다!	build/battle_voice_subtitles_v1/audio/kv0_0120_06.wav	キャマダ	邪魔だ!	
+kv0_0130_05	reviewed_translation	戻れ	돌아와라.	build/battle_voice_subtitles_v1/audio/kv0_0130_05.wav	戻れ		
+kv0_0130_06	reviewed_translation	帰れ	돌아가라.	build/battle_voice_subtitles_v1/audio/kv0_0130_06.wav	カレ	帰れ!	
+kv0_0140_05	reviewed_translation	戻れ	돌아와라.	build/battle_voice_subtitles_v1/audio/kv0_0140_05.wav	戻れ!		
+kv0_0140_06	reviewed_translation	いらん	필요 없다.	build/battle_voice_subtitles_v1/audio/kv0_0140_06.wav	イラン		
+kv0_0150_05	reviewed_translation	帰って	돌아가.	build/battle_voice_subtitles_v1/audio/kv0_0150_05.wav	帰って		
+kv0_0150_06	reviewed_translation	戻って	돌아와.	build/battle_voice_subtitles_v1/audio/kv0_0150_06.wav	戻って?		
+kv0_0160_05	reviewed_translation	戻りな	돌아와.	build/battle_voice_subtitles_v1/audio/kv0_0160_05.wav	戻りな		
+kv0_0160_06	reviewed_translation	帰れ	돌아가라.	build/battle_voice_subtitles_v1/audio/kv0_0160_06.wav	こえる	カイディ!	帰れ!
+kv0_0170_05	reviewed_translation	去れ	물러가라!	build/battle_voice_subtitles_v1/audio/kv0_0170_05.wav	され	され!	
+kv0_0170_06	reviewed_translation	戻れ	돌아와라.	build/battle_voice_subtitles_v1/audio/kv0_0170_06.wav	戻れ!		
+kv0_0180_05	reviewed_translation	戻れ	돌아와라.	build/battle_voice_subtitles_v1/audio/kv0_0180_05.wav	戻れ		
+kv0_0180_06	reviewed_translation	帰れ	돌아가라.	build/battle_voice_subtitles_v1/audio/kv0_0180_06.wav	カイレ	帰れ!	
+kv0_0190_05	reviewed_translation	戻れ	돌아와라.	build/battle_voice_subtitles_v1/audio/kv0_0190_05.wav	戻れ		
+kv0_0190_06	reviewed_translation	帰りなさい	돌아가거라.	build/battle_voice_subtitles_v1/audio/kv0_0190_06.wav	帰りなさい		
+kv0_0200_05	reviewed_translation	戻れ	돌아와라.	build/battle_voice_subtitles_v1/audio/kv0_0200_05.wav	バドリ!	戻れ!	
+kv0_0200_06	reviewed_translation	帰って	돌아가.	build/battle_voice_subtitles_v1/audio/kv0_0200_06.wav	帰って!		
+kv0_0210_05	reviewed_translation	戻れ	돌아와라.	build/battle_voice_subtitles_v1/audio/kv0_0210_05.wav	ノードレ	戻れ!	
+kv0_0210_06	reviewed_translation	うせろ	꺼져라!	build/battle_voice_subtitles_v1/audio/kv0_0210_06.wav	うせろ		
+kv0_0220_05	reviewed_translation	戻れ	돌아와라.	build/battle_voice_subtitles_v1/audio/kv0_0220_05.wav	モドレ	戻れ	
+kv0_0220_06	reviewed_translation	邪魔だ	방해된다!	build/battle_voice_subtitles_v1/audio/kv0_0220_06.wav	ジャマダ	邪魔だ	
+kv0_0230_05	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv0_0230_05.wav	もうカラーや	早く帰らないよ!	カラヤ:還有カラヤ!
+kv0_0230_06	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv0_0230_06.wav	戻るパッケン	戻る、パッケー!	戻るパッテン
+kv1_0010_02	reviewed_translation	雑魚が	잔챙이가!	build/battle_voice_subtitles_v1/audio/kv1_0010_02.wav	ザコが	ザコが	
+kv1_0010_03	reviewed_translation	とどめ	마무리다!	build/battle_voice_subtitles_v1/audio/kv1_0010_03.wav	とどめ		
+kv1_0010_05	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0010_05.wav	って!?	てぇ!?	
+kv1_0010_07	reviewed_translation	ひれ伏せ	엎드려라!	build/battle_voice_subtitles_v1/audio/kv1_0010_07.wav	ヒレフセ		
+kv1_0010_09	reviewed_translation	終わりね	끝이네.	build/battle_voice_subtitles_v1/audio/kv1_0010_09.wav	終わりね		
+kv1_0010_13	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0010_13.wav	キャー!		
+kv1_0010_14	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0010_14.wav	どうぞ		
+kv1_0020_02	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0020_02.wav	ホード	はぁ!?	ほっと
+kv1_0020_03	reviewed_translation	決めるか	끝내 볼까!	build/battle_voice_subtitles_v1/audio/kv1_0020_03.wav	締める	決めるか?	
+kv1_0020_05	reviewed_translation	行くぞ	간다!	build/battle_voice_subtitles_v1/audio/kv1_0020_05.wav	いく zoom		
+kv1_0020_07	reviewed_translation	滅びよ	멸하라!	build/battle_voice_subtitles_v1/audio/kv1_0020_07.wav	ホロビュー	滅びよう	
+kv1_0020_09	reviewed_translation	そこまでだ	거기까지다!	build/battle_voice_subtitles_v1/audio/kv1_0020_09.wav	そこまでな	そこまでだ	
+kv1_0020_13	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0020_13.wav	2		
+kv1_0020_14	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0020_14.wav	NOW		
+kv1_0030_02	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0030_02.wav	ファ	はっ!	
+kv1_0030_03	reviewed_translation	まだだ	아직이다!	build/battle_voice_subtitles_v1/audio/kv1_0030_03.wav	まだだ!		
+kv1_0030_05	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv1_0030_05.wav	うにゃー!	うりゃー!!	うりゃー!
+kv1_0030_07	reviewed_translation	くらえ	받아라!	build/battle_voice_subtitles_v1/audio/kv1_0030_07.wav	食らえ!		
+kv1_0030_09	reviewed_translation	なめるなよ	얕보지 마라!	build/battle_voice_subtitles_v1/audio/kv1_0030_09.wav	なめるなよ		
+kv1_0030_13	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0030_13.wav	うわぁ!		
+kv1_0030_14	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0030_14.wav	言って		
+kv1_0040_02	reviewed_translation	くらえ	받아라!	build/battle_voice_subtitles_v1/audio/kv1_0040_02.wav	くらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえくらえ	くらえ!	
+kv1_0040_03	reviewed_translation	消えろ	사라져라!	build/battle_voice_subtitles_v1/audio/kv1_0040_03.wav	消えろ!		
+kv1_0040_05	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0040_05.wav	あーーーっ	あ゛あ゛あ゛あ゛あ゛!	ううううううううううううううううううううううううううう!
+kv1_0040_07	reviewed_translation	後悔しろ	후회해라!	build/battle_voice_subtitles_v1/audio/kv1_0040_07.wav	後悔しろ!		
+kv1_0040_09	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv1_0040_09.wav	白人に千	白人2000!	白人一戦
+kv1_0040_13	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0040_13.wav	ノック!		
+kv1_0040_14	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0040_14.wav	ク		
+kv1_0050_02	reviewed_translation	苦しめ	고통받아라!	build/battle_voice_subtitles_v1/audio/kv1_0050_02.wav	苦しめ		
+kv1_0050_03	reviewed_translation	とどめだ	마무리다!	build/battle_voice_subtitles_v1/audio/kv1_0050_03.wav	とどめだ!		
+kv1_0050_05	reviewed_translation	行くぞ	간다!	build/battle_voice_subtitles_v1/audio/kv1_0050_05.wav	行くぞ!		
+kv1_0050_07	reviewed_translation	死ね	죽어라!	build/battle_voice_subtitles_v1/audio/kv1_0050_07.wav	死ねー!		
+kv1_0050_09	reviewed_translation	終わりだ	끝이다!	build/battle_voice_subtitles_v1/audio/kv1_0050_09.wav	ワリダル?	終わりだ!	
+kv1_0050_13	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0050_13.wav	ご視聴ありがとうございました。		
+kv1_0050_14	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0050_14.wav	ネット!		
+kv1_0060_02	reviewed_translation	さあ	자!	build/battle_voice_subtitles_v1/audio/kv1_0060_02.wav	チャー!	さあ!	
+kv1_0060_03	reviewed_translation	これでも	이것도 받아라!	build/battle_voice_subtitles_v1/audio/kv1_0060_03.wav	これでも		
+kv1_0060_05	reviewed_translation	行け	가라!	build/battle_voice_subtitles_v1/audio/kv1_0060_05.wav	いけ!	行け!	
+kv1_0060_07	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv1_0060_07.wav	許しをここに	許しをここに	
+kv1_0060_09	reviewed_translation	残念です	유감이군요.	build/battle_voice_subtitles_v1/audio/kv1_0060_09.wav	残念です		
+kv1_0060_13	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0060_13.wav	ふわー!		
+kv1_0060_14	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0060_14.wav	ああああああ		
+kv1_0070_02	reviewed_translation	これで	이걸로!	build/battle_voice_subtitles_v1/audio/kv1_0070_02.wav	これで		
+kv1_0070_03	reviewed_translation	とどめよ	마무리야!	build/battle_voice_subtitles_v1/audio/kv1_0070_03.wav	それとメルを	とどめよ!	
+kv1_0070_05	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv1_0070_05.wav	T	チェイ!!	次回予告
+kv1_0070_07	reviewed_translation	女神よ	여신이여!	build/battle_voice_subtitles_v1/audio/kv1_0070_07.wav	メガミヨ	女神よ	
+kv1_0070_09	reviewed_translation	終わりね	끝이네.	build/battle_voice_subtitles_v1/audio/kv1_0070_09.wav	終わりね		
+kv1_0070_13	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0070_13.wav	けっ!		
+kv1_0070_14	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0070_14.wav	あ!		
+kv1_0080_02	reviewed_translation	くらえ	받아라!	build/battle_voice_subtitles_v1/audio/kv1_0080_02.wav	クライク	くれっ!	くらえ!
+kv1_0080_03	reviewed_translation	最後よ	마지막이야!	build/battle_voice_subtitles_v1/audio/kv1_0080_03.wav	最後よ!		
+kv1_0080_05	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv1_0080_05.wav	いっ けっ	ひっけー!	き、けえ!?
+kv1_0080_07	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv1_0080_07.wav	賛罪の許しを	残罪の許しを。	
+kv1_0080_09	reviewed_translation	終わりよ	끝이야!	build/battle_voice_subtitles_v1/audio/kv1_0080_09.wav	オーバリオ?	終わりよ!	
+kv1_0080_13	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0080_13.wav	NOW!		
+kv1_0080_14	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0080_14.wav	ねえ		
+kv1_0090_02	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0090_02.wav	ハート!	はぁっ!!	はぁっ!
+kv1_0090_03	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv1_0090_03.wav	キロ	キロ!	キュロ!
+kv1_0090_05	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0090_05.wav	ハァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァ	はあああああああああああああああああああ!	
+kv1_0090_07	reviewed_translation	破魔の力よ	마를 물리치는 힘이여!	build/battle_voice_subtitles_v1/audio/kv1_0090_07.wav	浜の力よ!	はまのつからよ!!	
+kv1_0090_09	reviewed_translation	後悔しろ	후회해라!	build/battle_voice_subtitles_v1/audio/kv1_0090_09.wav	後悔しろ!		
+kv1_0090_13	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0090_13.wav	てみて		
+kv1_0090_14	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0090_14.wav	なぁ		
+kv1_0100_02	reviewed_translation	行くぞ	간다!	build/battle_voice_subtitles_v1/audio/kv1_0100_02.wav	いずう!	行くぞ!	
+kv1_0100_03	reviewed_translation	まだ	아직이다!	build/battle_voice_subtitles_v1/audio/kv1_0100_03.wav	なだ!	なだ!	まだっ!
+kv1_0100_05	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0100_05.wav	HOT?	はっ!	はぁっ!!
+kv1_0100_07	reviewed_translation	聖なる力よ	성스러운 힘이여!	build/battle_voice_subtitles_v1/audio/kv1_0100_07.wav	聖なる力よ!		
+kv1_0100_09	reviewed_translation	情け無用	자비는 없다!	build/battle_voice_subtitles_v1/audio/kv1_0100_09.wav	情け無用!		
+kv1_0100_13	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0100_13.wav	ご視聴ありがとうございました		
+kv1_0100_14	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0100_14.wav	なぁ		
+kv1_0110_02	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0110_02.wav	アーメン	あ゛あ゛あ゛あ゛!	あわわわわ
+kv1_0110_03	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv1_0110_03.wav	くたもり!	くたまれ!	くたもれ!
+kv1_0110_05	reviewed_translation	行くぞ	간다!	build/battle_voice_subtitles_v1/audio/kv1_0110_05.wav	ユクゾーン	行くぞ!	
+kv1_0110_07	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv1_0110_07.wav	キーナー	きゃな	キーナ
+kv1_0110_09	reviewed_translation	地獄に落ちろ	지옥에 떨어져라!	build/battle_voice_subtitles_v1/audio/kv1_0110_09.wav	地獄に落ちろ!		
+kv1_0110_13	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0110_13.wav	Nope		
+kv1_0110_14	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0110_14.wav	ニーモア!		
+kv1_0120_02	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0120_02.wav	ハァー!	あ゛あ゛あ゛あ゛あ゛あ゛あ゛あ゛あ゛	ハァァァァァァァァァァァァァァァァァァァァァf
+kv1_0120_03	reviewed_translation	邪魔だ	방해된다!	build/battle_voice_subtitles_v1/audio/kv1_0120_03.wav	邪魔だ		
+kv1_0120_05	reviewed_translation	消えろ	사라져라!	build/battle_voice_subtitles_v1/audio/kv1_0120_05.wav	ちえろん!	消えろ!	
+kv1_0120_07	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv1_0120_07.wav	メシオ	Messiou!	メシオ
+kv1_0120_09	reviewed_translation	くらえ	받아라!	build/battle_voice_subtitles_v1/audio/kv1_0120_09.wav	未来!	くらえ!	
+kv1_0120_13	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0120_13.wav	どうやら!		
+kv1_0120_14	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0120_14.wav	チィ		
+kv1_0130_02	reviewed_translation	参ります	갑니다!	build/battle_voice_subtitles_v1/audio/kv1_0130_02.wav	参ります		
+kv1_0130_03	reviewed_translation	消えろ	사라져라!	build/battle_voice_subtitles_v1/audio/kv1_0130_03.wav	消えろ!		
+kv1_0130_05	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0130_05.wav	HOT	はっ!	はっ
+kv1_0130_07	reviewed_translation	聖なる力よ	성스러운 힘이여!	build/battle_voice_subtitles_v1/audio/kv1_0130_07.wav	聖なる力よ		
+kv1_0130_09	reviewed_translation	くらえ	받아라!	build/battle_voice_subtitles_v1/audio/kv1_0130_09.wav	食らえ		
+kv1_0130_13	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0130_13.wav	やっ		
+kv1_0130_14	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0130_14.wav	な		
+kv1_0140_02	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv1_0140_02.wav	バーリー	オーリー!	アーレ!
+kv1_0140_03	reviewed_translation	よっしゃ	좋았어!	build/battle_voice_subtitles_v1/audio/kv1_0140_03.wav	よせー!	よっしゃ!	
+kv1_0140_05	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0140_05.wav	ハァ!	はぁっ!	
+kv1_0140_07	reviewed_translation	女神の力よ	여신의 힘이여!	build/battle_voice_subtitles_v1/audio/kv1_0140_07.wav	女神の力よ		
+kv1_0140_09	reviewed_translation	そこまでだ	거기까지다!	build/battle_voice_subtitles_v1/audio/kv1_0140_09.wav	そこまでだ。		
+kv1_0140_13	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0140_13.wav	グーッハ!		
+kv1_0140_14	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0140_14.wav	かっ		
+kv1_0150_02	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0150_02.wav	ティオ!	えぇっ!	えいっ!
+kv1_0150_03	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0150_03.wav	ああああああ	はっ!	
+kv1_0150_05	reviewed_translation	行け	가라!	build/battle_voice_subtitles_v1/audio/kv1_0150_05.wav	いた!	イケー!	イケー!!
+kv1_0150_07	reviewed_translation	神の息吹を	신의 숨결을!	build/battle_voice_subtitles_v1/audio/kv1_0150_07.wav	神の息吹を	神のいぶきを	
+kv1_0150_09	reviewed_translation	ごめんなさい	미안해요.	build/battle_voice_subtitles_v1/audio/kv1_0150_09.wav	ごめんなさい	ごめんなさい!	
+kv1_0150_13	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0150_13.wav	キャー		
+kv1_0150_14	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0150_14.wav	やっ		
+kv1_0160_02	reviewed_translation	決めるぜ	끝내 주마!	build/battle_voice_subtitles_v1/audio/kv1_0160_02.wav	決めるぜ!	決めるぜ!	
+kv1_0160_03	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv1_0160_03.wav	逃げさ!	2月か!	逃げつか!
+kv1_0160_05	reviewed_translation	決めるぜ	끝내 주마!	build/battle_voice_subtitles_v1/audio/kv1_0160_05.wav	決めるぜ!	キメるぜ!	
+kv1_0160_07	reviewed_translation	万物の力よ	만물의 힘이여!	build/battle_voice_subtitles_v1/audio/kv1_0160_07.wav	万物の力よ	万物の力よ	
+kv1_0160_09	reviewed_translation	決めてやるぜ	끝내 주겠어!	build/battle_voice_subtitles_v1/audio/kv1_0160_09.wav	決めてやるぜ!	決めてやるぜ!	
+kv1_0160_13	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0160_13.wav	P		
+kv1_0160_14	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0160_14.wav	ご視聴ありがとうございました		
+kv1_0170_02	reviewed_translation	行くぞ	간다!	build/battle_voice_subtitles_v1/audio/kv1_0170_02.wav	行くぞ!		
+kv1_0170_03	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv1_0170_03.wav	コツ	COOK!	こき!
+kv1_0170_05	reviewed_translation	これで	이걸로!	build/battle_voice_subtitles_v1/audio/kv1_0170_05.wav	これで		
+kv1_0170_07	reviewed_translation	破魔の力よ	마를 물리치는 힘이여!	build/battle_voice_subtitles_v1/audio/kv1_0170_07.wav	ハマの力よ	浜の力よ	
+kv1_0170_09	reviewed_translation	消えろ	사라져라!	build/battle_voice_subtitles_v1/audio/kv1_0170_09.wav	quiero	キイエロ	
+kv1_0170_13	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0170_13.wav	「ク」		
+kv1_0170_14	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0170_14.wav	あ		
+kv1_0180_02	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0180_02.wav	ハァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァ	はぁっ!	
+kv1_0180_03	reviewed_translation	もう一回	한 번 더!	build/battle_voice_subtitles_v1/audio/kv1_0180_03.wav	もう一回		
+kv1_0180_05	reviewed_translation	行け	가라!	build/battle_voice_subtitles_v1/audio/kv1_0180_05.wav	いっけー!	いっけー!	
+kv1_0180_07	reviewed_translation	破魔の力よ	마를 물리치는 힘이여!	build/battle_voice_subtitles_v1/audio/kv1_0180_07.wav	ハマの力よ	ハマの力よ!!	
+kv1_0180_09	reviewed_translation	僕だって	나도 할 수 있어!	build/battle_voice_subtitles_v1/audio/kv1_0180_09.wav	僕だって		
+kv1_0180_13	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0180_13.wav	うわぁ!		
+kv1_0180_14	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0180_14.wav	いったっ!?		
+kv1_0190_02	reviewed_translation	これで	이걸로!	build/battle_voice_subtitles_v1/audio/kv1_0190_02.wav	コレレレッ	これで	
+kv1_0190_03	reviewed_translation	消えて	사라져!	build/battle_voice_subtitles_v1/audio/kv1_0190_03.wav	消えて		
+kv1_0190_05	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0190_05.wav	Hub	はぁっ!	はーっ!
+kv1_0190_07	reviewed_translation	女神の力よ	여신의 힘이여!	build/battle_voice_subtitles_v1/audio/kv1_0190_07.wav	女神の力よ		
+kv1_0190_09	reviewed_translation	さようなら	잘 가.	build/battle_voice_subtitles_v1/audio/kv1_0190_09.wav	さようなら		
+kv1_0190_13	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0190_13.wav	だ		
+kv1_0190_14	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0190_14.wav	キラー!		
+kv1_0200_02	reviewed_translation	それ	받아라!	build/battle_voice_subtitles_v1/audio/kv1_0200_02.wav	それ	それっ!	それ!
+kv1_0200_03	reviewed_translation	バイバイ	잘 가!	build/battle_voice_subtitles_v1/audio/kv1_0200_03.wav	バイバーイ!		
+kv1_0200_05	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv1_0200_05.wav	かぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁぁ	テッ!	あーーーっ!!!
+kv1_0200_07	reviewed_translation	聖なる力よ	성스러운 힘이여!	build/battle_voice_subtitles_v1/audio/kv1_0200_07.wav	聖なる力よ		
+kv1_0200_09	reviewed_translation	邪魔なの	방해된다고!	build/battle_voice_subtitles_v1/audio/kv1_0200_09.wav	邪魔なの!		
+kv1_0200_13	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0200_13.wav	スキャ!		
+kv1_0200_14	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0200_14.wav	痛い!		
+kv1_0210_02	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv1_0210_02.wav	絡	くずめ	くずめ
+kv1_0210_03	reviewed_translation	終わりだ	끝이다!	build/battle_voice_subtitles_v1/audio/kv1_0210_03.wav	終わりだ。		
+kv1_0210_05	reviewed_translation	行くぞ	간다!	build/battle_voice_subtitles_v1/audio/kv1_0210_05.wav	行くぞ!		
+kv1_0210_07	reviewed_translation	聖なる力よ	성스러운 힘이여!	build/battle_voice_subtitles_v1/audio/kv1_0210_07.wav	聖なる力よ		
+kv1_0210_09	reviewed_translation	消え失せろ	꺼져 버려라!	build/battle_voice_subtitles_v1/audio/kv1_0210_09.wav	キーへうせろ!	消え移せろ!	消え失せろ!!
+kv1_0210_13	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0210_13.wav	ううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううう		
+kv1_0210_14	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0210_14.wav	ユーロー		
+kv1_0220_02	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0220_02.wav	ハーン!	はぁー!	
+kv1_0220_03	reviewed_translation	行きます	갑니다!	build/battle_voice_subtitles_v1/audio/kv1_0220_03.wav	生きのす	行きます	行きます!
+kv1_0220_05	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0220_05.wav	ハーン	はぁっ!	
+kv1_0220_07	reviewed_translation	女神の恩恵よ	여신의 은총이여!	build/battle_voice_subtitles_v1/audio/kv1_0220_07.wav	女神の恩恵よ		
+kv1_0220_09	reviewed_translation	終わりです	끝입니다!	build/battle_voice_subtitles_v1/audio/kv1_0220_09.wav	終わりです。		
+kv1_0220_13	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0220_13.wav	ニョー		
+kv1_0220_14	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0220_14.wav	ううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううう		
+kv1_0230_02	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv1_0230_02.wav	コールラップ	クラス!	コラフ!
+kv1_0230_03	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv1_0230_03.wav	さすか?	さぁすっか!	さあすかん!
+kv1_0230_05	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv1_0230_05.wav	勝ったり交代!	勝ったり交代!	カッタリ交代!
+kv1_0230_07	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv1_0230_07.wav	マホーグた!	魔法固体!	まほうぐたん!
+kv1_0230_09	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0230_09.wav	あ!	あ!	
+kv1_0230_13	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0230_13.wav	ハウギント		
+kv1_0230_14	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0230_14.wav	おげる!		
+kv1_0290_02	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0290_02.wav	ホールは	はぁっ!!	ハープ!
+kv1_0290_07	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv1_0290_07.wav	ジョーマスイル	じゃあお見せよ!	ジョームイスシール!
+kv1_0290_13	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0290_13.wav	NO!		
+kv1_0290_14	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0290_14.wav	NUHA!		
+kv1_0300_02	reviewed_translation	死ね	죽어라!	build/battle_voice_subtitles_v1/audio/kv1_0300_02.wav	死ね!		
+kv1_0300_07	reviewed_translation	浄化の力よ	정화의 힘이여!	build/battle_voice_subtitles_v1/audio/kv1_0300_07.wav	浄化の力よ。		
+kv1_0300_13	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0300_13.wav	なぁ		
+kv1_0300_14	non_dialogue			build/battle_voice_subtitles_v1/audio/kv1_0300_14.wav	あ!		
+kv2_0010_02	non_dialogue			build/battle_voice_subtitles_v1/audio/kv2_0010_02.wav	はっ!	はっ!!	
+kv2_0010_03	reviewed_translation	まだよ	아직이야!	build/battle_voice_subtitles_v1/audio/kv2_0010_03.wav	まだよ		
+kv2_0010_05	non_dialogue			build/battle_voice_subtitles_v1/audio/kv2_0010_05.wav	ハァ!	はっ!	
+kv2_0010_07	reviewed_translation	消え去れ	사라져라!	build/battle_voice_subtitles_v1/audio/kv2_0010_07.wav	キエサレ	消えされ	
+kv2_0010_09	reviewed_translation	残念	안됐군.	build/battle_voice_subtitles_v1/audio/kv2_0010_09.wav	つあんね	残念	
+kv2_0020_02	reviewed_translation	行くぞ	간다!	build/battle_voice_subtitles_v1/audio/kv2_0020_02.wav	やつぞー	行くぞ!	
+kv2_0020_03	reviewed_translation	まだだ	아직이다!	build/battle_voice_subtitles_v1/audio/kv2_0020_03.wav	まだだ		
+kv2_0020_05	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv2_0020_05.wav	ハーク	はぁー!	はぁぁぁぁぁぁぁ!
+kv2_0020_07	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv2_0020_07.wav	0	ゼロ!	おせろ
+kv2_0020_09	reviewed_translation	後悔しろ	후회해라!	build/battle_voice_subtitles_v1/audio/kv2_0020_09.wav	後悔しろ		
+kv2_0030_02	non_dialogue			build/battle_voice_subtitles_v1/audio/kv2_0030_02.wav	やっ	やっ!!	
+kv2_0030_03	reviewed_translation	ここで	여기서!	build/battle_voice_subtitles_v1/audio/kv2_0030_03.wav	ここで!		
+kv2_0030_05	reviewed_translation	行け	가라!	build/battle_voice_subtitles_v1/audio/kv2_0030_05.wav	キカー!	行けー!	
+kv2_0030_07	non_dialogue			build/battle_voice_subtitles_v1/audio/kv2_0030_07.wav	ハァーッ!	はぁーっ!	
+kv2_0030_09	reviewed_translation	任せろ	맡겨라!	build/battle_voice_subtitles_v1/audio/kv2_0030_09.wav	任せろ!		
+kv2_0040_02	reviewed_translation	消えろ	사라져라!	build/battle_voice_subtitles_v1/audio/kv2_0040_02.wav	消えろ!		
+kv2_0040_03	reviewed_translation	まだだ	아직이다!	build/battle_voice_subtitles_v1/audio/kv2_0040_03.wav	まだだ!		
+kv2_0040_05	reviewed_translation	死ね	죽어라!	build/battle_voice_subtitles_v1/audio/kv2_0040_05.wav	死ねー!		
+kv2_0040_07	reviewed_translation	神の裁きを	신의 심판을!	build/battle_voice_subtitles_v1/audio/kv2_0040_07.wav	神の裁きを		
+kv2_0040_09	non_dialogue			build/battle_voice_subtitles_v1/audio/kv2_0040_09.wav	ハァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァァ	はぁああああああああああ!	
+kv2_0050_02	reviewed_translation	死ね	죽어라!	build/battle_voice_subtitles_v1/audio/kv2_0050_02.wav	シネー!	死ねえ!	
+kv2_0050_03	reviewed_translation	消えろ	사라져라!	build/battle_voice_subtitles_v1/audio/kv2_0050_03.wav	チェロ!	死えろ!	消えろ
+kv2_0050_05	reviewed_translation	消えろ	사라져라!	build/battle_voice_subtitles_v1/audio/kv2_0050_05.wav	シロップ	消えろ!	
+kv2_0050_07	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv2_0050_07.wav	メシュウ!	ミスセオ!	メシュー
+kv2_0050_09	reviewed_translation	死ね	죽어라!	build/battle_voice_subtitles_v1/audio/kv2_0050_09.wav	死ぬれ!	死ねえ!	
+kv2_0060_02	non_dialogue			build/battle_voice_subtitles_v1/audio/kv2_0060_02.wav	はい	えぇ!?	えいっ!
+kv2_0060_03	reviewed_translation	とどめです	마무리입니다!	build/battle_voice_subtitles_v1/audio/kv2_0060_03.wav	Tudo medes	とどめです!	
+kv2_0060_05	non_dialogue			build/battle_voice_subtitles_v1/audio/kv2_0060_05.wav	タッ!	(パァッ!)	かっ!
+kv2_0060_07	reviewed_translation	我らに加護を	우리에게 가호를!	build/battle_voice_subtitles_v1/audio/kv2_0060_07.wav	我らに加護を		
+kv2_0060_09	reviewed_translation	行け	가라!	build/battle_voice_subtitles_v1/audio/kv2_0060_09.wav	イカッ	いけっ!	いけ
+kv2_0070_02	reviewed_translation	邪魔よ	방해돼!	build/battle_voice_subtitles_v1/audio/kv2_0070_02.wav	邪魔よ!		
+kv2_0070_03	reviewed_translation	決めるわ	끝내 주겠어!	build/battle_voice_subtitles_v1/audio/kv2_0070_03.wav	決めるわ		
+kv2_0070_05	non_dialogue			build/battle_voice_subtitles_v1/audio/kv2_0070_05.wav	ハラッ	はぁ?	はぁ!?
+kv2_0070_07	reviewed_translation	浄化の力よ	정화의 힘이여!	build/battle_voice_subtitles_v1/audio/kv2_0070_07.wav	浄化の力よ		
+kv2_0070_09	reviewed_translation	目障りよ	눈에 거슬려!	build/battle_voice_subtitles_v1/audio/kv2_0070_09.wav	メサワリオ	目覚まるよ!	目障りよ。
+kv2_0080_02	reviewed_translation	行くわよ	간다!	build/battle_voice_subtitles_v1/audio/kv2_0080_02.wav	いくよ!	行くわよ!	
+kv2_0080_03	reviewed_translation	とどめ	마무리다!	build/battle_voice_subtitles_v1/audio/kv2_0080_03.wav	とどめ?		
+kv2_0080_05	non_dialogue			build/battle_voice_subtitles_v1/audio/kv2_0080_05.wav	ハァーッ!	はぁぁぁぁぁぁぁぁぁぁ!	
+kv2_0080_07	reviewed_translation	祈りを天に	하늘에 기도를!	build/battle_voice_subtitles_v1/audio/kv2_0080_07.wav	祈りをてね	祈りを天に	
+kv2_0080_09	reviewed_translation	来なさい	덤비세요!	build/battle_voice_subtitles_v1/audio/kv2_0080_09.wav	来なさい!		
+kv2_0090_02	reviewed_translation	やるぞ	간다!	build/battle_voice_subtitles_v1/audio/kv2_0090_02.wav	やるぞ!		
+kv2_0090_03	reviewed_translation	そこまでだ	거기까지다!	build/battle_voice_subtitles_v1/audio/kv2_0090_03.wav	そこまでだ		
+kv2_0090_05	reviewed_translation	終わりだ	끝이다!	build/battle_voice_subtitles_v1/audio/kv2_0090_05.wav	終わりだ!		
+kv2_0090_07	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv2_0090_07.wav	スクリル!	スクシュ!	くっつくせよっ!
+kv2_0090_09	reviewed_translation	覚悟はいいか	각오는 됐나!	build/battle_voice_subtitles_v1/audio/kv2_0090_09.wav	覚悟はいいか?		
+kv2_0100_02	reviewed_translation	消えろ	사라져라!	build/battle_voice_subtitles_v1/audio/kv2_0100_02.wav	キデロ!	切れろ!	消えろ!
+kv2_0100_03	reviewed_translation	決めるぞ	끝내 주마!	build/battle_voice_subtitles_v1/audio/kv2_0100_03.wav	決めるぞ!		
+kv2_0100_05	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv2_0100_05.wav	SIN!	SEI!	"C
+C
+C
+C
+C"
+kv2_0100_07	reviewed_translation	加護	가호를!	build/battle_voice_subtitles_v1/audio/kv2_0100_07.wav	カロ!	カゴ!	カゴー!
+kv2_0100_09	reviewed_translation	覚悟しろ	각오해라!	build/battle_voice_subtitles_v1/audio/kv2_0100_09.wav	格納しよ	覚悟しよう!	覚悟しろ!
+kv2_0110_02	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv2_0110_02.wav	シェルム	キャロン!	キャロン!
+kv2_0110_03	reviewed_translation	消えろ	사라져라!	build/battle_voice_subtitles_v1/audio/kv2_0110_03.wav	ヒーロー	キエロ!	消えろ!
+kv2_0110_05	reviewed_translation	終わりだ	끝이다!	build/battle_voice_subtitles_v1/audio/kv2_0110_05.wav	わりゃ	終わりだ!	
+kv2_0110_07	reviewed_translation	終わりだ	끝이다!	build/battle_voice_subtitles_v1/audio/kv2_0110_07.wav	終わりだ		
+kv2_0110_09	reviewed_translation	後悔させてやる	후회하게 해 주마!	build/battle_voice_subtitles_v1/audio/kv2_0110_09.wav	後悔させてやる		
+kv2_0120_02	reviewed_translation	死に	죽어라!	build/battle_voice_subtitles_v1/audio/kv2_0120_02.wav	シニー	死ぬ!!	死に!
+kv2_0120_03	non_dialogue			build/battle_voice_subtitles_v1/audio/kv2_0120_03.wav	ん	ん!	
+kv2_0120_05	reviewed_translation	死に	죽어라!	build/battle_voice_subtitles_v1/audio/kv2_0120_05.wav	死に	死ぬ!!!	
+kv2_0120_07	reviewed_translation	消え失せろ	꺼져 버려라!	build/battle_voice_subtitles_v1/audio/kv2_0120_07.wav	消え失せろ!	消え失せろ!	
+kv2_0120_09	reviewed_translation	滅びろ	멸하라!	build/battle_voice_subtitles_v1/audio/kv2_0120_09.wav	オロビオ	滅びろ!!	
+kv2_0130_02	reviewed_translation	これで	이걸로!	build/battle_voice_subtitles_v1/audio/kv2_0130_02.wav	これで!		
+kv2_0130_03	reviewed_translation	決めます	끝내겠습니다!	build/battle_voice_subtitles_v1/audio/kv2_0130_03.wav	キメバス	決めます!	
+kv2_0130_05	reviewed_translation	行け	가라!	build/battle_voice_subtitles_v1/audio/kv2_0130_05.wav	イケット	いけ!	いけっ!
+kv2_0130_07	reviewed_translation	女神の恩恵よ	여신의 은총이여!	build/battle_voice_subtitles_v1/audio/kv2_0130_07.wav	女神の恩恵よ		
+kv2_0130_09	reviewed_translation	終わりです	끝입니다!	build/battle_voice_subtitles_v1/audio/kv2_0130_09.wav	終わりです		
+kv2_0140_02	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv2_0140_02.wav	チェループ	チェロ!	ゼロッ!
+kv2_0140_03	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv2_0140_03.wav	スキュートチ	すげぇどっち!	スキルたち!
+kv2_0140_05	reviewed_translation	死ね	죽어라!	build/battle_voice_subtitles_v1/audio/kv2_0140_05.wav	シネット!	死ねえ!	
+kv2_0140_07	reviewed_translation	聖なる力よ	성스러운 힘이여!	build/battle_voice_subtitles_v1/audio/kv2_0140_07.wav	聖なる力よ		
+kv2_0140_09	reviewed_translation	終わりだ	끝이다!	build/battle_voice_subtitles_v1/audio/kv2_0140_09.wav	おわりで!	終わりで!	終わりだ!
+kv2_0150_02	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv2_0150_02.wav	はい	はい	はい
+kv2_0150_03	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv2_0150_03.wav	てはい!	いへい!	えぇーい!
+kv2_0150_05	reviewed_translation	これで	이걸로!	build/battle_voice_subtitles_v1/audio/kv2_0150_05.wav	これで!		
+kv2_0150_07	reviewed_translation	私に力を	내게 힘을!	build/battle_voice_subtitles_v1/audio/kv2_0150_07.wav	私に力を		
+kv2_0150_09	non_dialogue			build/battle_voice_subtitles_v1/audio/kv2_0150_09.wav	あーーーっ	はぁー!	
+kv2_0160_02	reviewed_translation	くらえ	받아라!	build/battle_voice_subtitles_v1/audio/kv2_0160_02.wav	くれ!	くれっ!	くらえ!
+kv2_0160_03	reviewed_translation	ここか	여기냐!	build/battle_voice_subtitles_v1/audio/kv2_0160_03.wav	ココカン	ここか!	
+kv2_0160_05	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv2_0160_05.wav	終わりで	おーわりでー!	終わりで
+kv2_0160_07	reviewed_translation	竜神の息吹	용신의 숨결이여!	build/battle_voice_subtitles_v1/audio/kv2_0160_07.wav	竜神の息吹		
+kv2_0160_09	reviewed_translation	終わりだな	끝이군.	build/battle_voice_subtitles_v1/audio/kv2_0160_09.wav	終わりだな。		
+kv2_0170_02	non_dialogue			build/battle_voice_subtitles_v1/audio/kv2_0170_02.wav	はぁ!?	はぁっ!	
+kv2_0170_03	reviewed_translation	追撃する	추격한다!	build/battle_voice_subtitles_v1/audio/kv2_0170_03.wav	通撃する	追撃する!	
+kv2_0170_05	non_dialogue			build/battle_voice_subtitles_v1/audio/kv2_0170_05.wav	ハッ!	はっ!	
+kv2_0170_07	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv2_0170_07.wav	マを出してください。	まお、ダウンしてよ!	弾丸に隠れば、敵が逃げてしまいました。
+kv2_0170_09	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv2_0170_09.wav	チレ	次ね	切れ
+kv2_0180_02	reviewed_translation	消えろ	사라져라!	build/battle_voice_subtitles_v1/audio/kv2_0180_02.wav	エロー!	消えろ!	
+kv2_0180_03	reviewed_translation	まだですよ	아직입니다!	build/battle_voice_subtitles_v1/audio/kv2_0180_03.wav	まだですよ		
+kv2_0180_05	reviewed_translation	貫け	꿰뚫어라!	build/battle_voice_subtitles_v1/audio/kv2_0180_05.wav	貫け!		
+kv2_0180_07	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv2_0180_07.wav	神の一徹	神の一鉄!	
+kv2_0180_09	reviewed_translation	終わらせる	끝내 주겠다!	build/battle_voice_subtitles_v1/audio/kv2_0180_09.wav	終わらせる!		
+kv2_0190_02	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv2_0190_02.wav	ハープ	ハッ!	はーっ!
+kv2_0190_03	reviewed_translation	残念	안됐군.	build/battle_voice_subtitles_v1/audio/kv2_0190_03.wav	残念	残念	
+kv2_0190_05	reviewed_translation	これで	이걸로!	build/battle_voice_subtitles_v1/audio/kv2_0190_05.wav	コレデ		
+kv2_0190_07	reviewed_translation	魔を滅せよ	마를 멸하라!	build/battle_voice_subtitles_v1/audio/kv2_0190_07.wav	マオメシオ	まをめっせよ!	マオメッセよ
+kv2_0190_09	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv2_0190_09.wav	Hub	はーーーーーーーーーーーーーーーーーー!!	"ハーバー
+ハーバー"
+kv2_0200_02	non_dialogue			build/battle_voice_subtitles_v1/audio/kv2_0200_02.wav	A	ええっ!?	えいっ!
+kv2_0200_03	reviewed_translation	じゃあね	잘 가!	build/battle_voice_subtitles_v1/audio/kv2_0200_03.wav	じゃあねー		
+kv2_0200_05	non_dialogue			build/battle_voice_subtitles_v1/audio/kv2_0200_05.wav	たーーーーーーーーー!	ターッ!!	
+kv2_0200_07	reviewed_translation	魔を駆逐せよ	마를 몰아내라!	build/battle_voice_subtitles_v1/audio/kv2_0200_07.wav	マウクチクセヨ!	まおくちくせよ!!	真を駆逐せよ
+kv2_0200_09	reviewed_translation	どっか行って	저리 가!	build/battle_voice_subtitles_v1/audio/kv2_0200_09.wav	ロかいて?	どっか行って!	どっか行って!
+kv2_0210_02	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv2_0210_02.wav	ハープ	HOP!	はぁっ!
+kv2_0210_03	reviewed_translation	死ね	죽어라!	build/battle_voice_subtitles_v1/audio/kv2_0210_03.wav	シネ	死ね	
+kv2_0210_05	reviewed_translation	終われ	끝나라!	build/battle_voice_subtitles_v1/audio/kv2_0210_05.wav	終われ	(終われ!)	終われ
+kv2_0210_07	reviewed_translation	滅せよ	멸하라!	build/battle_voice_subtitles_v1/audio/kv2_0210_07.wav	メシオ	メセオ!	メッセよ
+kv2_0210_09	reviewed_translation	消し飛べ	날아가 버려!	build/battle_voice_subtitles_v1/audio/kv2_0210_09.wav	ケストベ	ケストベ!	消し飛べ!
+kv2_0220_02	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv2_0220_02.wav	シネ!	「死ぬ!」	死ぬ!
+kv2_0220_03	reviewed_translation	終わりです	끝입니다!	build/battle_voice_subtitles_v1/audio/kv2_0220_03.wav	通りです!	終わりです!	
+kv2_0220_05	reviewed_translation	行きます	갑니다!	build/battle_voice_subtitles_v1/audio/kv2_0220_05.wav	行きます!	いきます!	
+kv2_0220_07	reviewed_translation	消えたまえ	사라지거라!	build/battle_voice_subtitles_v1/audio/kv2_0220_07.wav	消えたまえ		
+kv2_0220_09	reviewed_translation	残念です	유감이군요.	build/battle_voice_subtitles_v1/audio/kv2_0220_09.wav	残念です		
+kv2_0230_02	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv2_0230_02.wav	コーンスプレイヤー	くらえすとよー!	クラストよー!
+kv2_0230_03	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv2_0230_03.wav	どこですか?	"わたす!
+わたす!"	ちょこだしかー!
+kv2_0230_05	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv2_0230_05.wav	カジマ	カデル!	彼女!
+kv2_0230_07	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv2_0230_07.wav	パゲリ!	あげる!	あげれ!
+kv2_0230_09	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv2_0230_09.wav	おわり!	パワー!	おわっ!
+kv2_0290_02	reviewed_translation	当てろ	맞혀라!	build/battle_voice_subtitles_v1/audio/kv2_0290_02.wav	おてろ!	当てろ!	当てろ!
+kv2_0290_07	reviewed_translation	女神の力よ	여신의 힘이여!	build/battle_voice_subtitles_v1/audio/kv2_0290_07.wav	女神の力よ!		
+kv2_0300_02	reviewed_translation	愚か者が	어리석은 놈이!	build/battle_voice_subtitles_v1/audio/kv2_0300_02.wav	鱗か者が!	うろかものが!	愚か者が!
+kv2_0300_07	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv2_0300_07.wav	私は私を	じゃあおめせよ!	じゃおめせよ
+kv3_0010_02	reviewed_translation	目障りよ	눈에 거슬려!	build/battle_voice_subtitles_v1/audio/kv3_0010_02.wav	目触りよ		
+kv3_0010_03	reviewed_translation	終わりよ	끝이야!	build/battle_voice_subtitles_v1/audio/kv3_0010_03.wav	おありよ	終わりよ	
+kv3_0010_05	reviewed_translation	消えろ	사라져라!	build/battle_voice_subtitles_v1/audio/kv3_0010_05.wav	「キーロ」	キエロー!	
+kv3_0010_07	reviewed_translation	ゾディアよ	조디아여!	build/battle_voice_subtitles_v1/audio/kv3_0010_07.wav	Zodiaよ		
+kv3_0010_09	reviewed_translation	決めるわ	끝내 주겠어!	build/battle_voice_subtitles_v1/audio/kv3_0010_09.wav	決めるわ		
+kv3_0020_02	reviewed_translation	受けてみよう	받아 보아라!	build/battle_voice_subtitles_v1/audio/kv3_0020_02.wav	受けてみよう。	受けてみよう	
+kv3_0020_03	reviewed_translation	終わりだ	끝이다!	build/battle_voice_subtitles_v1/audio/kv3_0020_03.wav	終わりだ		
+kv3_0020_05	reviewed_translation	死ね	죽어라!	build/battle_voice_subtitles_v1/audio/kv3_0020_05.wav	死ねえ	死ね!	
+kv3_0020_07	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv3_0020_07.wav	ハード	はぁー!	ハート
+kv3_0020_09	reviewed_translation	終わりだ	끝이다!	build/battle_voice_subtitles_v1/audio/kv3_0020_09.wav	ワリダン	終わりだ!	
+kv3_0030_02	reviewed_translation	行くぞ	간다!	build/battle_voice_subtitles_v1/audio/kv3_0030_02.wav	いくぞ!	行くぞ!	
+kv3_0030_03	reviewed_translation	今だ	지금이다!	build/battle_voice_subtitles_v1/audio/kv3_0030_03.wav	芋だ!	今だ!	
+kv3_0030_05	non_dialogue			build/battle_voice_subtitles_v1/audio/kv3_0030_05.wav	ファーッ!	はぁー!	
+kv3_0030_07	reviewed_translation	これで	이걸로!	build/battle_voice_subtitles_v1/audio/kv3_0030_07.wav	これで		
+kv3_0030_09	reviewed_translation	行け	가라!	build/battle_voice_subtitles_v1/audio/kv3_0030_09.wav	行け!		
+kv3_0040_02	non_dialogue			build/battle_voice_subtitles_v1/audio/kv3_0040_02.wav	ハァーガー!	はぁあああああああああああああああああああああああああああああああああああああああああああ	
+kv3_0040_03	reviewed_translation	決める	끝내 주지!	build/battle_voice_subtitles_v1/audio/kv3_0040_03.wav	決める!		
+kv3_0040_05	reviewed_translation	終わりだ	끝이다!	build/battle_voice_subtitles_v1/audio/kv3_0040_05.wav	終わりだ!		
+kv3_0040_07	reviewed_translation	悪く思うなよ	원망하지 마라!	build/battle_voice_subtitles_v1/audio/kv3_0040_07.wav	悪く思うなよ!		
+kv3_0040_09	reviewed_translation	消え去れ	사라져라!	build/battle_voice_subtitles_v1/audio/kv3_0040_09.wav	消され!	消えされ!	
+kv3_0050_02	non_dialogue			build/battle_voice_subtitles_v1/audio/kv3_0050_02.wav	ローク!	うおおおおおおおおおおお!	
+kv3_0050_03	non_dialogue			build/battle_voice_subtitles_v1/audio/kv3_0050_03.wav	ハァー!	あ゛あ゛あ゛あ゛!	ご視聴ありがとうございました
+kv3_0050_05	reviewed_translation	終わりだ	끝이다!	build/battle_voice_subtitles_v1/audio/kv3_0050_05.wav	ワリゾル!	終わりだ!	
+kv3_0050_07	reviewed_translation	神の裁きよ	신의 심판이여!	build/battle_voice_subtitles_v1/audio/kv3_0050_07.wav	神の裁きよ		
+kv3_0050_09	reviewed_translation	失せろ	꺼져라!	build/battle_voice_subtitles_v1/audio/kv3_0050_09.wav	無せろ	ゼロ	失せろ!
+kv3_0060_02	reviewed_translation	いきますよ	갑니다!	build/battle_voice_subtitles_v1/audio/kv3_0060_02.wav	行きますよ!	いきますよ!	
+kv3_0060_03	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv3_0060_03.wav	わり	わい!	おわり!
+kv3_0060_05	reviewed_translation	消えろ	사라져라!	build/battle_voice_subtitles_v1/audio/kv3_0060_05.wav	ケロ!	消えろ!	
+kv3_0060_07	reviewed_translation	愚者に浄化を	어리석은 자에게 정화를!	build/battle_voice_subtitles_v1/audio/kv3_0060_07.wav	偶者に浄化を	偶射に浄化を	
+kv3_0060_09	reviewed_translation	終わりです	끝입니다!	build/battle_voice_subtitles_v1/audio/kv3_0060_09.wav	終わりです		
+kv3_0070_02	non_dialogue			build/battle_voice_subtitles_v1/audio/kv3_0070_02.wav	ファー	はっ!	
+kv3_0070_03	reviewed_translation	終わりね	끝이네.	build/battle_voice_subtitles_v1/audio/kv3_0070_03.wav	終わりね		
+kv3_0070_05	reviewed_translation	消え去れ	사라져라!	build/battle_voice_subtitles_v1/audio/kv3_0070_05.wav	消え去れ!		
+kv3_0070_07	reviewed_translation	愚者に救いを	어리석은 자에게 구원을!	build/battle_voice_subtitles_v1/audio/kv3_0070_07.wav	愚者に救よう	ぐしゃにすくいよ	愚者に救いよう
+kv3_0070_09	reviewed_translation	消えなさい	사라지세요!	build/battle_voice_subtitles_v1/audio/kv3_0070_09.wav	消えなさい。		
+kv3_0080_02	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv3_0080_02.wav	はい	チャッ!	ダーッ
+kv3_0080_03	reviewed_translation	まだ	아직이다!	build/battle_voice_subtitles_v1/audio/kv3_0080_03.wav	まだまだ!		
+kv3_0080_05	reviewed_translation	終わり	끝이다!	build/battle_voice_subtitles_v1/audio/kv3_0080_05.wav	おり	終わり!!	
+kv3_0080_07	reviewed_translation	我らに力を	우리에게 힘을!	build/battle_voice_subtitles_v1/audio/kv3_0080_07.wav	我らに力を		
+kv3_0080_09	reviewed_translation	行くよ	간다!	build/battle_voice_subtitles_v1/audio/kv3_0080_09.wav	行くよ!		
+kv3_0090_02	reviewed_translation	去れ	물러가라!	build/battle_voice_subtitles_v1/audio/kv3_0090_02.wav	され!	されっ!	
+kv3_0090_03	reviewed_translation	決める	끝내 주지!	build/battle_voice_subtitles_v1/audio/kv3_0090_03.wav	キミルク!	ちみる!	決める
+kv3_0090_05	reviewed_translation	これで	이걸로!	build/battle_voice_subtitles_v1/audio/kv3_0090_05.wav	これで!		
+kv3_0090_07	reviewed_translation	滅びろ	멸하라!	build/battle_voice_subtitles_v1/audio/kv3_0090_07.wav	Horubiro!	滅びろ!	
+kv3_0090_09	reviewed_translation	消え去る	사라져라!	build/battle_voice_subtitles_v1/audio/kv3_0090_09.wav	キーサル!	消え去る!	消え去る!
+kv3_0100_02	reviewed_translation	くらえ	받아라!	build/battle_voice_subtitles_v1/audio/kv3_0100_02.wav	食らえ!		
+kv3_0100_03	reviewed_translation	今だ	지금이다!	build/battle_voice_subtitles_v1/audio/kv3_0100_03.wav	今ら	今だ!	
+kv3_0100_05	reviewed_translation	終わりだ	끝이다!	build/battle_voice_subtitles_v1/audio/kv3_0100_05.wav	終わりだ!		
+kv3_0100_07	reviewed_translation	駆逐せよ	몰아내라!	build/battle_voice_subtitles_v1/audio/kv3_0100_07.wav	クチックセオ!	くちくせよ!	駆逐せよ
+kv3_0100_09	reviewed_translation	残念だったな	유감이군!	build/battle_voice_subtitles_v1/audio/kv3_0100_09.wav	残念だったな		
+kv3_0110_02	reviewed_translation	邪魔だ	방해된다!	build/battle_voice_subtitles_v1/audio/kv3_0110_02.wav	邪魔だ!		
+kv3_0110_03	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv3_0110_03.wav	シャワー!	(ガブッ)	ご視聴ありがとうございました
+kv3_0110_05	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv3_0110_05.wav	フォロビ	おるび!	おろべ!
+kv3_0110_07	reviewed_translation	うせろ	꺼져라!	build/battle_voice_subtitles_v1/audio/kv3_0110_07.wav	ウソロ	うせろ	
+kv3_0110_09	reviewed_translation	残念だったな	유감이군!	build/battle_voice_subtitles_v1/audio/kv3_0110_09.wav	残念だったな		
+kv3_0120_02	reviewed_translation	滅びよ	멸하라!	build/battle_voice_subtitles_v1/audio/kv3_0120_02.wav	ホロビオ	フルビオ!	滅びよ!
+kv3_0120_03	reviewed_translation	行くぞ	간다!	build/battle_voice_subtitles_v1/audio/kv3_0120_03.wav	いくぞ	行くぞ!	
+kv3_0120_05	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv3_0120_05.wav	スティー!	シチッ!	シチュッ!
+kv3_0120_07	reviewed_translation	地獄へ落ちろ	지옥에 떨어져라!	build/battle_voice_subtitles_v1/audio/kv3_0120_07.wav	地獄へおじろ	地獄へ応じる!	地獄へ落ちろ
+kv3_0120_09	reviewed_translation	最後だ	마지막이다!	build/battle_voice_subtitles_v1/audio/kv3_0120_09.wav	最後だ		
+kv3_0130_02	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv3_0130_02.wav	HOT	ハッ!!	ハッ!
+kv3_0130_03	reviewed_translation	とどめ	마무리다!	build/battle_voice_subtitles_v1/audio/kv3_0130_03.wav	とどめ!		
+kv3_0130_05	reviewed_translation	これで	이걸로!	build/battle_voice_subtitles_v1/audio/kv3_0130_05.wav	これで!		
+kv3_0130_07	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv3_0130_07.wav	チレット!	死でっ!	お疲れ様でした。
+kv3_0130_09	reviewed_translation	容赦しません	봐드리지 않겠습니다!	build/battle_voice_subtitles_v1/audio/kv3_0130_09.wav	容赦しません		
+kv3_0140_02	non_dialogue			build/battle_voice_subtitles_v1/audio/kv3_0140_02.wav	あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは、あなたは	あ゛あ゛あ゛あ゛あ゛!!	アッ
+kv3_0140_03	reviewed_translation	まだ	아직이다!	build/battle_voice_subtitles_v1/audio/kv3_0140_03.wav	まだまだ!		
+kv3_0140_05	reviewed_translation	終わりだ	끝이다!	build/battle_voice_subtitles_v1/audio/kv3_0140_05.wav	ワリアイ!	終わりだ!	
+kv3_0140_07	reviewed_translation	魔を滅せよ	마를 멸하라!	build/battle_voice_subtitles_v1/audio/kv3_0140_07.wav	マオメシオ	まおめせよ!	まおめせよ
+kv3_0140_09	reviewed_translation	消え去れ	사라져라!	build/battle_voice_subtitles_v1/audio/kv3_0140_09.wav	消え去れ!		
+kv3_0150_02	reviewed_translation	やめて	그만해!	build/battle_voice_subtitles_v1/audio/kv3_0150_02.wav	やめて!		
+kv3_0150_03	non_dialogue			build/battle_voice_subtitles_v1/audio/kv3_0150_03.wav	ダンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンンン	(シャッ)	ご視聴ありがとうございました
+kv3_0150_05	reviewed_translation	いなくなれ	사라져!	build/battle_voice_subtitles_v1/audio/kv3_0150_05.wav	いなくなれ!		
+kv3_0150_07	reviewed_translation	聖なる力よ	성스러운 힘이여!	build/battle_voice_subtitles_v1/audio/kv3_0150_07.wav	聖なる力よ		
+kv3_0150_09	reviewed_translation	来ないで	오지 마!	build/battle_voice_subtitles_v1/audio/kv3_0150_09.wav	来ないで!		
+kv3_0160_02	non_dialogue			build/battle_voice_subtitles_v1/audio/kv3_0160_02.wav	ハァ!	はっ!	
+kv3_0160_03	reviewed_translation	とどめだ	마무리다!	build/battle_voice_subtitles_v1/audio/kv3_0160_03.wav	とどみだ!	とどめだ!!	
+kv3_0160_05	reviewed_translation	行くぜ	간다!	build/battle_voice_subtitles_v1/audio/kv3_0160_05.wav	行くぜ!		
+kv3_0160_07	reviewed_translation	覚悟はいいか	각오는 됐나!	build/battle_voice_subtitles_v1/audio/kv3_0160_07.wav	覚悟はいいか?		
+kv3_0160_09	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv3_0160_09.wav	待ったまだ!	またまた!	"待ったまだ
+待ったまだ"
+kv3_0170_02	reviewed_translation	終わりだ	끝이다!	build/battle_voice_subtitles_v1/audio/kv3_0170_02.wav	桜りだ!	オリガ!	終わりだ!
+kv3_0170_03	reviewed_translation	まだだ	아직이다!	build/battle_voice_subtitles_v1/audio/kv3_0170_03.wav	まだだ		
+kv3_0170_05	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv3_0170_05.wav	ステア	セア!	セア!
+kv3_0170_07	reviewed_translation	時間の無駄だ	시간 낭비다!	build/battle_voice_subtitles_v1/audio/kv3_0170_07.wav	時間の無駄だ		
+kv3_0170_09	reviewed_translation	消去する	제거한다!	build/battle_voice_subtitles_v1/audio/kv3_0170_09.wav	消去する		
+kv3_0180_02	reviewed_translation	くらえ	받아라!	build/battle_voice_subtitles_v1/audio/kv3_0180_02.wav	くらえ!		
+kv3_0180_03	reviewed_translation	僕も	나도!	build/battle_voice_subtitles_v1/audio/kv3_0180_03.wav	僕の	僕は	ボクも!
+kv3_0180_05	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv3_0180_05.wav	ルセロ!	うっせろ!	ルセロ!
+kv3_0180_07	reviewed_translation	消し飛べ	날아가 버려!	build/battle_voice_subtitles_v1/audio/kv3_0180_07.wav	ケイストベ!	ケストベー!	消し飛べ!
+kv3_0180_09	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv3_0180_09.wav	キネロ!	切れろ!	キレロー!
+kv3_0190_02	reviewed_translation	終わり	끝이다!	build/battle_voice_subtitles_v1/audio/kv3_0190_02.wav	終わり		
+kv3_0190_03	reviewed_translation	私も	나도!	build/battle_voice_subtitles_v1/audio/kv3_0190_03.wav	私も	私も	私も
+kv3_0190_05	reviewed_translation	うせろ	꺼져라!	build/battle_voice_subtitles_v1/audio/kv3_0190_05.wav	うせろ		
+kv3_0190_07	reviewed_translation	消え去る	사라져라!	build/battle_voice_subtitles_v1/audio/kv3_0190_07.wav	消え去る	消え去る!	消え去る
+kv3_0190_09	reviewed_translation	終わりね	끝이네.	build/battle_voice_subtitles_v1/audio/kv3_0190_09.wav	終わりね		
+kv3_0200_02	reviewed_translation	行くわよ	간다!	build/battle_voice_subtitles_v1/audio/kv3_0200_02.wav	一個はよ	行くわよ!	
+kv3_0200_03	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv3_0200_03.wav	地下げよう?	知らげよう!	地下げよう
+kv3_0200_05	reviewed_translation	行くよ	간다!	build/battle_voice_subtitles_v1/audio/kv3_0200_05.wav	一両?	いくよ!	行くよ!
+kv3_0200_07	reviewed_translation	消えちゃえ	사라져 버려!	build/battle_voice_subtitles_v1/audio/kv3_0200_07.wav	ケジャイ?	消えちゃえ!	
+kv3_0200_09	reviewed_translation	目障りなの	눈에 거슬린다고!	build/battle_voice_subtitles_v1/audio/kv3_0200_09.wav	目触りなの!		
+kv3_0210_02	reviewed_translation	うせろ	꺼져라!	build/battle_voice_subtitles_v1/audio/kv3_0210_02.wav	うせろ		
+kv3_0210_03	reviewed_translation	とどめだ	마무리다!	build/battle_voice_subtitles_v1/audio/kv3_0210_03.wav	トドミダ	とどめだ	
+kv3_0210_05	reviewed_translation	最後だ	마지막이다!	build/battle_voice_subtitles_v1/audio/kv3_0210_05.wav	最後だ		
+kv3_0210_07	reviewed_translation	愚かだな	어리석군!	build/battle_voice_subtitles_v1/audio/kv3_0210_07.wav	愚かだな		
+kv3_0210_09	reviewed_translation	死して償え	죽음으로 갚아라!	build/battle_voice_subtitles_v1/audio/kv3_0210_09.wav	死して償え		
+kv3_0220_02	reviewed_translation	消えろ	사라져라!	build/battle_voice_subtitles_v1/audio/kv3_0220_02.wav	キエル	消えろ!	
+kv3_0220_03	reviewed_translation	消えろ	사라져라!	build/battle_voice_subtitles_v1/audio/kv3_0220_03.wav	キャロ	消えろ!	
+kv3_0220_05	reviewed_translation	滅びろ	멸하라!	build/battle_voice_subtitles_v1/audio/kv3_0220_05.wav	滅びろ!		
+kv3_0220_07	reviewed_translation	滅せよ	멸하라!	build/battle_voice_subtitles_v1/audio/kv3_0220_07.wav	メシオ	ミスセヨ!	メッセよ!
+kv3_0220_09	reviewed_translation	さよなら	잘 가.	build/battle_voice_subtitles_v1/audio/kv3_0220_09.wav	さよなら		
+kv3_0230_02	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv3_0230_02.wav	サピラー!	さっきね!	ざけろい!
+kv3_0230_03	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv3_0230_03.wav	シカロシカ!	しがらした!	スカラスか!?
+kv3_0230_05	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv3_0230_05.wav	しかっぱんから!	チカッパンカラス!	チカッパグラス
+kv3_0230_07	reviewed_translation	終わりだよ	끝이야!	build/battle_voice_subtitles_v1/audio/kv3_0230_07.wav	困りたやん	終わりだよ!	終わりだよ!
+kv3_0230_09	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv3_0230_09.wav	ホリー!	ほい!	はえーっ!
+kv3_0290_02	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv3_0290_02.wav	You	キュッ!	来よ!
+kv3_0290_07	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv3_0290_07.wav	イサリク!	いざれ!	くされ!
+kv3_0300_02	reviewed_translation	消え去れ	사라져라!	build/battle_voice_subtitles_v1/audio/kv3_0300_02.wav	死へされ!	消え去れ!	
+kv3_0300_07	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv3_0300_07.wav	スキロー!	スキロー!	つけろー!
+kv4_0010_02	reviewed_translation	消えなさい	사라지세요!	build/battle_voice_subtitles_v1/audio/kv4_0010_02.wav	消えなさい		
+kv4_0010_03	reviewed_translation	これで	이걸로!	build/battle_voice_subtitles_v1/audio/kv4_0010_03.wav	これで		
+kv4_0010_05	reviewed_translation	行け	가라!	build/battle_voice_subtitles_v1/audio/kv4_0010_05.wav	行け!		
+kv4_0010_07	reviewed_translation	暗黒の力を	암흑의 힘을!	build/battle_voice_subtitles_v1/audio/kv4_0010_07.wav	暗黒の力を		
+kv4_0010_09	reviewed_translation	さようなら	잘 가.	build/battle_voice_subtitles_v1/audio/kv4_0010_09.wav	さようなら		
+kv4_0020_02	reviewed_translation	死に	죽어라!	build/battle_voice_subtitles_v1/audio/kv4_0020_02.wav	死に	死ぬ!	
+kv4_0020_03	reviewed_translation	これで	이걸로!	build/battle_voice_subtitles_v1/audio/kv4_0020_03.wav	これでこれで	これで	
+kv4_0020_05	reviewed_translation	終わりだ	끝이다!	build/battle_voice_subtitles_v1/audio/kv4_0020_05.wav	終わりだ!		
+kv4_0020_07	reviewed_translation	消え去れ	사라져라!	build/battle_voice_subtitles_v1/audio/kv4_0020_07.wav	小さり!	消えされ!	
+kv4_0020_09	reviewed_translation	これで最後だ	이걸로 마지막이다!	build/battle_voice_subtitles_v1/audio/kv4_0020_09.wav	これで最後だ		
+kv4_0030_02	reviewed_translation	くらえ	받아라!	build/battle_voice_subtitles_v1/audio/kv4_0030_02.wav	食らえ!		
+kv4_0030_03	reviewed_translation	さあ	자!	build/battle_voice_subtitles_v1/audio/kv4_0030_03.wav	さあ		
+kv4_0030_05	reviewed_translation	終わりだ	끝이다!	build/battle_voice_subtitles_v1/audio/kv4_0030_05.wav	終わりだ!		
+kv4_0030_07	reviewed_translation	破魔の力よ	마를 물리치는 힘이여!	build/battle_voice_subtitles_v1/audio/kv4_0030_07.wav	ハマの力よ!	ハマの力よ!	
+kv4_0030_09	reviewed_translation	終わらせる	끝내 주겠다!	build/battle_voice_subtitles_v1/audio/kv4_0030_09.wav	終わらせる!		
+kv4_0040_02	reviewed_translation	いざ	자, 간다!	build/battle_voice_subtitles_v1/audio/kv4_0040_02.wav	イザー!	いざ!	
+kv4_0040_03	reviewed_translation	終わりだ	끝이다!	build/battle_voice_subtitles_v1/audio/kv4_0040_03.wav	終わりだ!		
+kv4_0040_05	reviewed_translation	消えろ	사라져라!	build/battle_voice_subtitles_v1/audio/kv4_0040_05.wav	消えろ!		
+kv4_0040_07	reviewed_translation	女神の加護	여신의 가호를!	build/battle_voice_subtitles_v1/audio/kv4_0040_07.wav	女神の加護		
+kv4_0040_09	reviewed_translation	この一撃で	이 일격으로!	build/battle_voice_subtitles_v1/audio/kv4_0040_09.wav	この一ガキで!	この一撃で!	
+kv4_0050_02	reviewed_translation	ぶっ潰し	박살 내 주마!	build/battle_voice_subtitles_v1/audio/kv4_0050_02.wav	とちみす	ズズッ!	ぶっ潰し
+kv4_0050_03	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv4_0050_03.wav	しめっ	シュッ!!	死べっ!
+kv4_0050_05	non_dialogue			build/battle_voice_subtitles_v1/audio/kv4_0050_05.wav	ホーク	はあああああああああああああああああああああああああああああああああああああああああああああああああああああ	
+kv4_0050_07	reviewed_translation	女神の加護	여신의 가호를!	build/battle_voice_subtitles_v1/audio/kv4_0050_07.wav	女神の加護		
+kv4_0050_09	reviewed_translation	後悔しろ	후회해라!	build/battle_voice_subtitles_v1/audio/kv4_0050_09.wav	後悔しろ		
+kv4_0060_02	reviewed_translation	負けません	지지 않겠습니다!	build/battle_voice_subtitles_v1/audio/kv4_0060_02.wav	負けません!		
+kv4_0060_03	reviewed_translation	まだですよ	아직입니다!	build/battle_voice_subtitles_v1/audio/kv4_0060_03.wav	まだですよ		
+kv4_0060_05	reviewed_translation	おわりだ	끝이다!	build/battle_voice_subtitles_v1/audio/kv4_0060_05.wav	おいだ!	おわりだ!!	
+kv4_0060_07	reviewed_translation	汚れし御霊よ	더럽혀진 영혼이여!	build/battle_voice_subtitles_v1/audio/kv4_0060_07.wav	汚れし見たまよ	汚れし見たまよ	
+kv4_0060_09	reviewed_translation	覚悟	각오해라!	build/battle_voice_subtitles_v1/audio/kv4_0060_09.wav	角度	カクゴ!	覚悟
+kv4_0070_02	reviewed_translation	行くわよ	간다!	build/battle_voice_subtitles_v1/audio/kv4_0070_02.wav	行くわよ		
+kv4_0070_03	reviewed_translation	これで	이걸로!	build/battle_voice_subtitles_v1/audio/kv4_0070_03.wav	これで		
+kv4_0070_05	reviewed_translation	終わりよ	끝이야!	build/battle_voice_subtitles_v1/audio/kv4_0070_05.wav	終わりよ!		
+kv4_0070_07	reviewed_translation	加護	가호를!	build/battle_voice_subtitles_v1/audio/kv4_0070_07.wav	カゴー	かご!	カゴー
+kv4_0070_09	reviewed_translation	散りなさい	스러지세요!	build/battle_voice_subtitles_v1/audio/kv4_0070_09.wav	散りなさい		
+kv4_0080_02	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv4_0080_02.wav	100	HIT!	ケット!
+kv4_0080_03	reviewed_translation	私も	나도!	build/battle_voice_subtitles_v1/audio/kv4_0080_03.wav	ふてしもう!	私も!	私も!
+kv4_0080_05	reviewed_translation	滅せよ	멸하라!	build/battle_voice_subtitles_v1/audio/kv4_0080_05.wav	メッセル!	メッセー!	めせよ!
+kv4_0080_07	reviewed_translation	神の鉄よ	신의 철퇴여!	build/battle_voice_subtitles_v1/audio/kv4_0080_07.wav	神の鉄よ	神の鉄よ	
+kv4_0080_09	reviewed_translation	決めるわ	끝내 주겠어!	build/battle_voice_subtitles_v1/audio/kv4_0080_09.wav	決めるわ!		
+kv4_0090_02	reviewed_translation	くらえ	받아라!	build/battle_voice_subtitles_v1/audio/kv4_0090_02.wav	喰らえ!		
+kv4_0090_03	reviewed_translation	終わりだ	끝이다!	build/battle_voice_subtitles_v1/audio/kv4_0090_03.wav	終わりだ!		
+kv4_0090_05	reviewed_translation	消えろ	사라져라!	build/battle_voice_subtitles_v1/audio/kv4_0090_05.wav	キーロー	消えろ!	
+kv4_0090_07	reviewed_translation	恩恵よ	은혜여!	build/battle_voice_subtitles_v1/audio/kv4_0090_07.wav	オンケヨ	オンケヨ!	オンケーよ!
+kv4_0090_09	reviewed_translation	うせろ	꺼져라!	build/battle_voice_subtitles_v1/audio/kv4_0090_09.wav	0	うせろ!	
+kv4_0100_02	non_dialogue			build/battle_voice_subtitles_v1/audio/kv4_0100_02.wav	た	はぁっ!	
+kv4_0100_03	non_dialogue			build/battle_voice_subtitles_v1/audio/kv4_0100_03.wav	はぁーっ!	はぁっ!	
+kv4_0100_05	reviewed_translation	決める	끝내 주지!	build/battle_voice_subtitles_v1/audio/kv4_0100_05.wav	締める!	決める!	
+kv4_0100_07	reviewed_translation	断罪よ	단죄하라!	build/battle_voice_subtitles_v1/audio/kv4_0100_07.wav	断在よ!	だんざいよ!	だんざよ!
+kv4_0100_09	reviewed_translation	行け	가라!	build/battle_voice_subtitles_v1/audio/kv4_0100_09.wav	いけ	いけ!	行け!
+kv4_0110_02	reviewed_translation	うせろ	꺼져라!	build/battle_voice_subtitles_v1/audio/kv4_0110_02.wav	うせろ		
+kv4_0110_03	reviewed_translation	さあ	자!	build/battle_voice_subtitles_v1/audio/kv4_0110_03.wav	さあ		
+kv4_0110_05	reviewed_translation	邪魔だ	방해된다!	build/battle_voice_subtitles_v1/audio/kv4_0110_05.wav	邪魔だ!		
+kv4_0110_07	reviewed_translation	一気に	단숨에!	build/battle_voice_subtitles_v1/audio/kv4_0110_07.wav	一気に		
+kv4_0110_09	reviewed_translation	これで終わりだ	이걸로 끝이다!	build/battle_voice_subtitles_v1/audio/kv4_0110_09.wav	これで終わりだ。		
+kv4_0120_02	reviewed_translation	うせろ	꺼져라!	build/battle_voice_subtitles_v1/audio/kv4_0120_02.wav	後ろ	うせろ!	
+kv4_0120_03	reviewed_translation	終わりだ	끝이다!	build/battle_voice_subtitles_v1/audio/kv4_0120_03.wav	終わりだ!		
+kv4_0120_05	non_dialogue			build/battle_voice_subtitles_v1/audio/kv4_0120_05.wav	ハァーアー	はぁー!	
+kv4_0120_07	reviewed_translation	慈悲だ	자비다!	build/battle_voice_subtitles_v1/audio/kv4_0120_07.wav	G-C-D	ジヒーダー!	慈悲だ。
+kv4_0120_09	reviewed_translation	消え失せろ	꺼져 버려라!	build/battle_voice_subtitles_v1/audio/kv4_0120_09.wav	きえぐしろ!	消え失せろ!	
+kv4_0130_02	reviewed_translation	覚悟	각오해라!	build/battle_voice_subtitles_v1/audio/kv4_0130_02.wav	覚悟		
+kv4_0130_03	reviewed_translation	まだです	아직입니다!	build/battle_voice_subtitles_v1/audio/kv4_0130_03.wav	まだです!		
+kv4_0130_05	reviewed_translation	滅せよ	멸하라!	build/battle_voice_subtitles_v1/audio/kv4_0130_05.wav	メセル!	メッセイ!	メッセよ!
+kv4_0130_07	reviewed_translation	魔を滅せよ	마를 멸하라!	build/battle_voice_subtitles_v1/audio/kv4_0130_07.wav	マオメシオ!	まおめっせよ!	"マオメセヨ
+マオメセヨ"
+kv4_0130_09	reviewed_translation	消えなさい	사라지세요!	build/battle_voice_subtitles_v1/audio/kv4_0130_09.wav	消えなさい!		
+kv4_0140_02	reviewed_translation	行くぞ	간다!	build/battle_voice_subtitles_v1/audio/kv4_0140_02.wav	いくぞ!	行くぞ!	
+kv4_0140_03	non_dialogue			build/battle_voice_subtitles_v1/audio/kv4_0140_03.wav	ハーク?	はあああああああああ!	
+kv4_0140_05	non_dialogue			build/battle_voice_subtitles_v1/audio/kv4_0140_05.wav	ううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううううう	うあああああああああ!!	
+kv4_0140_07	reviewed_translation	壊滅せよ	섬멸하라!	build/battle_voice_subtitles_v1/audio/kv4_0140_07.wav	壊滅せよ		
+kv4_0140_09	non_dialogue			build/battle_voice_subtitles_v1/audio/kv4_0140_09.wav	ぬぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅぅ�	あ゛あ゛あ゛あ゛	レアーク!
+kv4_0150_02	reviewed_translation	行きます	갑니다!	build/battle_voice_subtitles_v1/audio/kv4_0150_02.wav	いきます		
+kv4_0150_03	reviewed_translation	これで	이걸로!	build/battle_voice_subtitles_v1/audio/kv4_0150_03.wav	これで!		
+kv4_0150_05	reviewed_translation	消えて	사라져!	build/battle_voice_subtitles_v1/audio/kv4_0150_05.wav	きいで	消えて!	
+kv4_0150_07	reviewed_translation	魔を滅せよ	마를 멸하라!	build/battle_voice_subtitles_v1/audio/kv4_0150_07.wav	マオメシオ	まーおめせよ!	まおめせよ!
+kv4_0150_09	reviewed_translation	終わりです	끝입니다!	build/battle_voice_subtitles_v1/audio/kv4_0150_09.wav	終わりです		
+kv4_0160_02	reviewed_translation	死にな	죽어라!	build/battle_voice_subtitles_v1/audio/kv4_0160_02.wav	シニナ	死にない!	死にな
+kv4_0160_03	reviewed_translation	今だ	지금이다!	build/battle_voice_subtitles_v1/audio/kv4_0160_03.wav	今だ!		
+kv4_0160_05	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv4_0160_05.wav	オラやった!	オラヨッド!	おらやっと
+kv4_0160_07	reviewed_translation	決めるぞ	끝내 주마!	build/battle_voice_subtitles_v1/audio/kv4_0160_07.wav	決めるぞ!		
+kv4_0160_09	reviewed_translation	とどめだ	마무리다!	build/battle_voice_subtitles_v1/audio/kv4_0160_09.wav	とドミナー	とどめる!	とどめだ!
+kv4_0170_02	reviewed_translation	消えろ	사라져라!	build/battle_voice_subtitles_v1/audio/kv4_0170_02.wav	quiero	きえろ!	キーロ
+kv4_0170_03	reviewed_translation	続くぞ	계속 간다!	build/battle_voice_subtitles_v1/audio/kv4_0170_03.wav	鈴木ぞ	続くぞ!	続くぞ
+kv4_0170_05	reviewed_translation	終わりだ	끝이다!	build/battle_voice_subtitles_v1/audio/kv4_0170_05.wav	オリオ!	終わりだ!	
+kv4_0170_07	reviewed_translation	破魔の恩恵を	마를 물리치는 은혜를!	build/battle_voice_subtitles_v1/audio/kv4_0170_07.wav	浜の恩恵を	浜の恩恵を	浜の恩恵を
+kv4_0170_09	reviewed_translation	失せろ	꺼져라!	build/battle_voice_subtitles_v1/audio/kv4_0170_09.wav	0	ゼロ!	失せろ!
+kv4_0180_02	reviewed_translation	終わりです	끝입니다!	build/battle_voice_subtitles_v1/audio/kv4_0180_02.wav	終わりです!		
+kv4_0180_03	reviewed_translation	これで	이걸로!	build/battle_voice_subtitles_v1/audio/kv4_0180_03.wav	コレデン	これで	
+kv4_0180_05	reviewed_translation	消えろ	사라져라!	build/battle_voice_subtitles_v1/audio/kv4_0180_05.wav	キエラ!	消えろ!	
+kv4_0180_07	reviewed_translation	行くよ	간다!	build/battle_voice_subtitles_v1/audio/kv4_0180_07.wav	行くよ!		
+kv4_0180_09	reviewed_translation	くらえ	받아라!	build/battle_voice_subtitles_v1/audio/kv4_0180_09.wav	くらえ!		
+kv4_0190_02	reviewed_translation	行く	간다!	build/battle_voice_subtitles_v1/audio/kv4_0190_02.wav	いく	行く!	
+kv4_0190_03	reviewed_translation	まだよ	아직이야!	build/battle_voice_subtitles_v1/audio/kv4_0190_03.wav	まだよ?		
+kv4_0190_05	reviewed_translation	終わりよ	끝이야!	build/battle_voice_subtitles_v1/audio/kv4_0190_05.wav	終わりよ?		
+kv4_0190_07	reviewed_translation	加護よ	가호여!	build/battle_voice_subtitles_v1/audio/kv4_0190_07.wav	かごよ	かのよ	カゴよ
+kv4_0190_09	non_dialogue			build/battle_voice_subtitles_v1/audio/kv4_0190_09.wav	うっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっうっう	うふふっ!	
+kv4_0200_02	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv4_0200_02.wav	とっつガキー!	とっつがきー!	とっつけきー!
+kv4_0200_03	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv4_0200_03.wav	キャン!	キャー!	きゃーっ!
+kv4_0200_05	reviewed_translation	へへんだ	흥, 어때!	build/battle_voice_subtitles_v1/audio/kv4_0200_05.wav	エヘンダー!	ヘヘンだ!	へへーんだー
+kv4_0200_07	reviewed_translation	女神の恩恵を	여신의 은총을!	build/battle_voice_subtitles_v1/audio/kv4_0200_07.wav	女神の恩恵を		
+kv4_0200_09	reviewed_translation	うざいんだけど	짜증 나거든!	build/battle_voice_subtitles_v1/audio/kv4_0200_09.wav	うざいんだけど		
+kv4_0210_02	reviewed_translation	消えろ	사라져라!	build/battle_voice_subtitles_v1/audio/kv4_0210_02.wav	きいえろ	消えろ!	
+kv4_0210_03	non_dialogue			build/battle_voice_subtitles_v1/audio/kv4_0210_03.wav	ん	(笑)	
+kv4_0210_05	reviewed_translation	そこまでだ	거기까지다!	build/battle_voice_subtitles_v1/audio/kv4_0210_05.wav	そこまでだ		
+kv4_0210_07	reviewed_translation	女神の加護	여신의 가호를!	build/battle_voice_subtitles_v1/audio/kv4_0210_07.wav	女神の看護	女神の加護!	
+kv4_0210_09	reviewed_translation	もがき苦しめ	고통 속에 발버둥 쳐라!	build/battle_voice_subtitles_v1/audio/kv4_0210_09.wav	もがき苦しめ		
+kv4_0220_02	reviewed_translation	滅せよ	멸하라!	build/battle_voice_subtitles_v1/audio/kv4_0220_02.wav	メシオ	メッセヨ!	滅せよ!
+kv4_0220_03	reviewed_translation	決めるん	끝내 주겠어!	build/battle_voice_subtitles_v1/audio/kv4_0220_03.wav	キメルム	キメる?	決めるん
+kv4_0220_05	reviewed_translation	消えろ	사라져라!	build/battle_voice_subtitles_v1/audio/kv4_0220_05.wav	切る	消えろ!	
+kv4_0220_07	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv4_0220_07.wav	Kanu	かんを	カンゴ
+kv4_0220_09	reviewed_translation	後悔しなさい	후회하세요!	build/battle_voice_subtitles_v1/audio/kv4_0220_09.wav	後悔しなさい		
+kv4_0230_02	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv4_0230_02.wav	近く!	ちかったー!	近ぱー!
+kv4_0230_05	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv4_0230_05.wav	シカッパクロスター!	シカッパクラスター!	シカッパクロスター!
+kv4_0230_07	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv4_0230_07.wav	やたるパフォー!	やったりだぞ!	やったりだぞー!
+kv4_0230_09	reviewed_translation	覚悟せんね	각오하라고!	build/battle_voice_subtitles_v1/audio/kv4_0230_09.wav	覚悟せんね!	カクゴセンレ!	覚悟せんね!
+kv4_0290_02	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv4_0290_02.wav	シリー!	シリー!	シリー!
+kv4_0290_07	needs_transcript_review			build/battle_voice_subtitles_v1/audio/kv4_0290_07.wav	おろみよ	おろれよ!	おろびよ!
+kv4_0300_02	reviewed_translation	クズが	쓰레기 같은 놈!	build/battle_voice_subtitles_v1/audio/kv4_0300_02.wav	フズが	くずか!	クズが!
+kv4_0300_07	reviewed_translation	消え失せろ	꺼져 버려라!	build/battle_voice_subtitles_v1/audio/kv4_0300_07.wav	キユセロ!	ギューセロー!	消えうせろ!

@@ -7,4 +7,4 @@
 *.pnach text eol=crlf
 *.sh text eol=lf
 *.ps1 text eol=crlf
-
+outputs/battle_voice_subtitles_v1/voice_review.tsv text eol=lf whitespace=-blank-at-eol
