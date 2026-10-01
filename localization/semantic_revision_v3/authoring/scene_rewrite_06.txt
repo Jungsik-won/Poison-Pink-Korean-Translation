@@ -1,0 +1,110 @@
+dmap/script/ft_03.rtb:0x0000a086|발드 왕
+dmap/script/ft_03.rtb:0x0000a268|발드 왕
+dmap/script/ft_03.rtb:0x0000a31a|발드 왕
+dmap/script/ft_08.rtb:0x0000b161|테트라크... 튀스?
+dmap/script/ft_08.rtb:0x0000b61a|누가 무슨 목적으로 베세크를\n나타나게 했느냐는 질문인가?
+dmap/script/ft_08.rtb:0x0000b6dc|흥, 그걸 알면 고생하지 않지
+dmap/script/ft_10.rtb:0x00008fe9|하슈
+dmap/script/ft_10.rtb:0x0000913d|하슈
+dmap/script/ft_10.rtb:0x0000928f|하슈
+dmap/script/ft_10.rtb:0x0000932c|하슈
+dmap/script/ft_10.rtb:0x0000947e|하슈
+dmap/script/ft_10.rtb:0x0000967c|하슈
+dmap/script/ft_10.rtb:0x000097c5|하슈
+dmap/script/ft_10.rtb:0x00009917|하슈
+dmap/script/ft_10.rtb:0x00009e8f|하슈
+dmap/script/ft_10.rtb:0x00009f41|하슈
+dmap/script/ft_10.rtb:0x0000a072|하슈
+dmap/script/ft_10.rtb:0x0000a12a|하슈
+dmap/script/ft_10.rtb:0x0000a3d2|하슈
+dmap/script/ft_10.rtb:0x0000a51b|하슈
+dmap/script/ft_10.rtb:0x0000a5c1|하슈
+dmap/script/ft_14.rtb:0x0000d87d|...'이제트'여\n그리고 '인도의 현자'여
+dmap/script/ft_14.rtb:0x0000d9d5|무슨 헛소리를...
+dmap/script/ft_14.rtb:0x0000da68|베세크는 약육강식의 세계\n약자가 강자에게 먹히는 건 당연하다
+dmap/script/ft_14.rtb:0x0000dbca|네놈에게 '이제트'의 앞길을\n막을 이유는 없을 텐데?
+dmap/script/ft_14.rtb:0x0000ddd0|후후후후...\n아하하하하하하!
+dmap/script/ft_14.rtb:0x0000de70|테이지?
+dmap/script/ft_14.rtb:0x0000dfaf|방해야, 사라져
+dmap/script/ft_14.rtb:0x0000e1aa|후회하는 건 너야
+dmap/script/ft_14.rtb:0x0000e2d5|나, 대체...?
+dmap/script/ft_14.rtb:0x0000e362|후후후...\n재미있어지겠는걸
+dmap/script/ft_14.rtb:0x0000e816|드디어 최심부로 향하는\n문이 열렸네...
+dmap/script/ft_14.rtb:0x0000e8ba|그래, 이 앞 신의 자리에\n'궁극의 독'이 있다
+dmap/script/ft_14.rtb:0x0000eb2d|테이지, 저 녀석의 말을\n곧이곧대로 믿으면 안 돼
+dmap/script/ft_14.rtb:0x0000ebe5|저 녀석은 널 '이제트'라는\n무언가로 만들려고 하고 있어
+dmap/script/ft_14.rtb:0x0000ec9d|네놈...!
+dmap/script/ft_14.rtb:0x0000ed28|난 사실을 말하는 것뿐이야
+dmap/script/ft_14.rtb:0x0000edc1|테이지, 저 녀석의 말 따위에\n귀를 기울이지 마라
+dmap/script/ft_14.rtb:0x0000ee71|저 녀석은 널 속이고 있어!!
+dmap/script/ft_14.rtb:0x0000ef0c|최심부에 가도 분명\n'궁극의 독'은 못 얻을 거야!!
+dmap/script/ft_14.rtb:0x0000efc2|그렇지 않다!
+dmap/script/ft_14.rtb:0x0000f04f|테이지, 난 네 목적을 위해\n함께하고 있는 것이다!
+dmap/script/ft_14.rtb:0x0000f182|테이지...?
+dmap/script/ft_14.rtb:0x0000f20d|아, 미안해\n갑자기 우스운 말을 하길래
+dmap/script/ft_14.rtb:0x0000f2c1|우스운 말이라니\n난 널 걱정해서...!!
+dmap/script/ft_14.rtb:0x0000f36f|이미 알고 있던\n일이니까...
+dmap/script/ft_14.rtb:0x0000f415|뭐라고...?
+dmap/script/ft_14.rtb:0x0000f4a0|라키가 다른 목적을 가지고\n접근했다는 건 알고 있었어
+dmap/script/ft_14.rtb:0x0000f556|하지만 베세크 최심부에 가려면\n라키의 지식이 필요했지
+dmap/script/ft_14.rtb:0x0000f608|그래서 힘을 빌린 거야\n그게 전부야
+dmap/script/ft_14.rtb:0x0000f6ae|그럼 최심부에 가기 위해\n라키를 이용했다는 거야?
+dmap/script/ft_14.rtb:0x0000f764|어머, 그러면 안 돼?
+dmap/script/ft_14.rtb:0x0000f7fb|라키도 날 이용했잖아\n서로 마찬가지지
+dmap/script/ft_14.rtb:0x0000f936|난 이 책을 완성해서\n세계를 파괴할 거야...
+dmap/script/ft_14.rtb:0x0000f9de|라키... 안타깝지만 난\n네가 말하는 '이제트'는 되지 않아
+dmap/script/ft_14.rtb:0x0000fa9a|여기서 헤어질지, 아니면\n내게 복종하고 끝까지 따를지
+dmap/script/ft_14.rtb:0x0000fb50|지금 여기서 결정해
+dmap/script/ft_14.rtb:0x0000fd24|어떻게 할 거야?
+dmap/script/ft_14.rtb:0x0000fdab|...테이지
+dmap/script/ft_14.rtb:0x0000fe34|루티카, 잠시 자리를 비워 줄래?
+dmap/script/ft_14.rtb:0x000100ba|테이지, 내 소원은 '이제트'의 탄생\n그것만은 바꿀 수 없다...
+dmap/script/ft_14.rtb:0x0001017a|마신의 현자들이 베세크를 이용해\n하려는 일이 그거구나
+dmap/script/ft_14.rtb:0x00010236|하지만 내가 베세크 최심부에\n도착한다고 해도...
+dmap/script/ft_14.rtb:0x000102ec|'이제트'가 될 수는\n없을 거야
+dmap/script/ft_14.rtb:0x00010390|엑스플리카티오 라난큘러스
+dmap/script/ft_14.rtb:0x0001042f|에고 얌 도미나우스
+dmap/script/ft_14.rtb:0x000104c2|이제 알겠지...?
+dmap/script/ft_14.rtb:0x00010557|테이지, 너 설마...?
+dmap/script/ft_14.rtb:0x000105f0|너도 '은랑의 현자'라면\n끝까지 네 눈으로 지켜보도록 해
+dmap/script/ft_14.rtb:0x00010741|테이지, 다시 너를 주인으로 인정하고\n너를 따를 것을 맹세하겠다
+dmap/script/ft_14.rtb:0x000107f7|후후, 착하네...
+dmap/script/ft_14.rtb:0x00010913|(이것도 개입자의 짓인가...)
+dmap/script/ft_14.rtb:0x00010da7|이상하네\n길이 열리지 않아...?!
+dmap/script/ft_14.rtb:0x00010ed4|루티카, 힘들면\n마을로 돌아가
+dmap/script/ft_14.rtb:0x000110a5|괜찮아 보이지\n않는데?
+dmap/script/ft_14.rtb:0x00011141|하아, 하아...\n으윽...!
+dmap/script/ft_14.rtb:0x00011209|대체 어떻게 된 거지?\n뭐가 부족하다는 거야?
+dmap/script/ft_14.rtb:0x000112b5|으윽, 커헉!
+dmap/script/ft_14.rtb:0x0001145a|으아아아아아악!!!
+dmap/script/ft_14.rtb:0x00011611|라키, 일단 마을로 돌아가자
+dmap/script/ft_14.rtb:0x000116a2|루티카를 돌보려 해도\n여긴 마력이 너무 강해...
+dmap/script/ft_14.rtb:0x00011758|길이 열리지 않는다는 건\n어딘가에서 조건을 놓쳤다는 뜻이다
+dmap/script/ft_14.rtb:0x00011808|그걸 찾지 못하면\n최심부에는 도달할 수 없어
+dmap/script/ft_14.rtb:0x000118ae|알고 있어\n하지만 그건 나중에...
+dmap/script/ft_14.rtb:0x00011954|으아아아아아아악!!!!!
+dmap/script/ft_14.rtb:0x000119f3|베세크 탐색은\n루티카가 진정된 다음에 하자...
+dmap/script/ft_14.rtb:0x00011aaf|테이지, 역시 이 꼬마는\n재앙일 뿐인 것 같은데...
+dmap/script/ft_14.rtb:0x00011b63|더 말하면 책 속으로\n넣어 버릴 거야
+dmap/script/ft_14.rtb:0x00011c8c|(테이지의 이런 변화...\n 계획이 조금씩 어긋나고 있다)
+dmap/script/ft_14.rtb:0x00011d46|(이단아의 존재가\n 테이지를 바꾼 것인가?)
+dmap/script/ft_14.rtb:0x000120a9|(상관없다...\n 베세크는 아직 존재한다)
+dmap/script/ft_14.rtb:0x00012126|(반드시 조건을 찾아내서\n 테이지를 신의 자리로...)
+dmap/script/ft_16.rtb:0x00008958|발드 왕
+dmap/script/ft_16.rtb:0x00008a97|발드 왕
+dmap/script/ft_16.rtb:0x00008be9|발드 왕
+dmap/script/ft_16.rtb:0x00008dd8|발드 왕
+dmap/script/ft_16.rtb:0x00008fd5|발드 왕
+dmap/script/ft_16.rtb:0x0000911e|발드 왕
+dmap/script/ft_16.rtb:0x000091ce|발드 왕
+dmap/script/ft_16.rtb:0x00009288|발드 왕
+dmap/script/ft_16.rtb:0x000095f6|발드 왕
+dmap/script/ft_16.rtb:0x000096aa|발드 왕
+dmap/script/ft_16.rtb:0x00009754|발드 왕
+dmap/script/ft_16.rtb:0x000097fe|발드 왕
+dmap/script/ft_16.rtb:0x00009ac0|발드 왕
+dmap/script/ft_16.rtb:0x00009b72|발드 왕
+dmap/script/ft_16.rtb:0x00009c2a|발드 왕
+dmap/script/ft_16.rtb:0x00009c9c|발드 왕
+dmap/script/ft_01.rtb:0x0000acdc|쿠쿠, 쿠쿠\n어디 다친 데는 없당가?
+dmap/script/ft_08.rtb:0x0000b1f0|마신의 말로\n'신에 이르는 길'이라는 뜻이다

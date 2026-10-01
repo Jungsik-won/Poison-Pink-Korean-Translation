@@ -1,0 +1,131 @@
+dmap/script/ft_01.rtb:0x000080c9|젠장, 마신이 왜 이렇게 많아!!
+dmap/script/ft_01.rtb:0x00008344|이런 곳에 아이가?
+dmap/script/ft_01.rtb:0x000083d7|너, 너희는 뭐야?!
+dmap/script/ft_01.rtb:0x00008466|흐음, 그렇구나...
+dmap/script/ft_01.rtb:0x000084fb|뭐, 뭐야, 너...!
+dmap/script/ft_01.rtb:0x0000858e|넌 이름이 뭐니?
+dmap/script/ft_01.rtb:0x00008619|보통 자기 이름부터\n밝히는 게 예의잖아?
+dmap/script/ft_01.rtb:0x000086c1|나는 테이지.\n그리고 이 아이는...
+dmap/script/ft_01.rtb:0x0000875d|라난큘러스...\n라키다
+dmap/script/ft_01.rtb:0x000087f7|개, 개가 말을 했어...?\n너, 설마!
+dmap/script/ft_01.rtb:0x0000889b|늑대 마신이라는 것이다
+dmap/script/ft_01.rtb:0x0000892e|마, 마신이라고?!
+dmap/script/ft_01.rtb:0x000089bd|그래서 네 이름은?
+dmap/script/ft_01.rtb:0x00008add|루티카, 나와 계약하렴
+dmap/script/ft_01.rtb:0x00008b72|테이지!
+dmap/script/ft_01.rtb:0x00008bf9|계약...?\n대체 뭘 위한 계약인데...
+dmap/script/ft_01.rtb:0x00008c97|그럼 시작할게
+dmap/script/ft_01.rtb:0x00008d2a|그러니까, 대체 무슨...!
+dmap/script/ft_01.rtb:0x00008ddb|암흑의 불꽃에 휘감겨\n어둠의 공주에게 안기리라
+dmap/script/ft_01.rtb:0x00008e7b|나, 이곳에 계약의 증표와\n의지를 새기노라
+dmap/script/ft_01.rtb:0x00008f27|무슨 짓을...?!\n아, 뜨거워!!
+dmap/script/ft_01.rtb:0x0000906e|그만둬어어어어어어!!!
+dmap/script/ft_01.rtb:0x000091c5|으아아아아아아아!!!
+dmap/script/ft_01.rtb:0x0000934f|계약은 끝났어
+dmap/script/ft_01.rtb:0x00009469|테이지, 가까이서\n마신의 기척이 느껴진다
+dmap/script/ft_01.rtb:0x000094fe|...가자
+dmap/script/ft_01.rtb:0x0000967a|자, 잠깐만!!
+dmap/script/ft_01.rtb:0x00009709|대체 뭐가 어떻게 된 거야...!
+dmap/script/ft_01.rtb:0x00009ad5|이봐... '종속의 계약'이\n대체 뭐야!
+dmap/script/ft_01.rtb:0x00009b7b|네가 내 종이 된다는 뜻이야.\n말 그대로인데, 모르겠니?
+dmap/script/ft_01.rtb:0x00009c2f|그게 아니라, 왜 내가\n계약을 해야 하냐고!
+dmap/script/ft_01.rtb:0x00009ce3|네가 거기 있었으니까
+dmap/script/ft_01.rtb:0x00009d7a|...뭐?
+dmap/script/ft_01.rtb:0x00009e03|나도 알아들을 수 있게\n제대로 설명해 줘!
+dmap/script/ft_01.rtb:0x00009ea9|이래도 모르겠다면\n설명할 필요도 없겠네
+dmap/script/ft_01.rtb:0x00009f55|뭐야, 말이 너무\n심하잖아?!
+dmap/script/ft_01.rtb:0x0000a1b9|마... 마신
+dmap/script/ft_01.rtb:0x0000a240|저쪽에서 팔사스를 발견했다
+dmap/script/ft_01.rtb:0x0000a2db|팔사스...?
+dmap/script/ft_01.rtb:0x0000a36a|마신의 말로\n우리 인간을 뜻해
+dmap/script/ft_01.rtb:0x0000a410|그런 사람은 나와 상관없어.\n라키, 그냥 내버려 둬
+dmap/script/ft_01.rtb:0x0000a4c6|뭐, 너...\n무슨 생각을 하는 거야?
+dmap/script/ft_01.rtb:0x0000a564|이곳에 있는 사람이라면\n납치돼 온 사람들이잖아?!
+dmap/script/ft_01.rtb:0x0000a616|우리가 구하지 않으면\n대체 누가 구하겠어!!
+dmap/script/ft_01.rtb:0x0000a6c0|...시끄럽네.\n지금 내게 이래라저래라하는 거니?
+dmap/script/ft_01.rtb:0x0000a76c|이래라저래라하는 게 아니잖아?!
+dmap/script/ft_01.rtb:0x0000ab2f|레페리! 레페리!!
+dmap/script/ft_01.rtb:0x0000abc0|뭐, 뭐야, 이 녀석은?!
+dmap/script/ft_01.rtb:0x0000ac4f|이건...!
+dmap/script/ft_01.rtb:0x0000ad7f|이런 곳에서\n무슨 일이십니까?
+dmap/script/ft_01.rtb:0x0000ae1b|카우포, 카우포!!
+dmap/script/ft_01.rtb:0x0000b34f|...당신이 소문의 후작,\n듀파스톤이구나?
+dmap/script/ft_01.rtb:0x0000b538|저를 아시다니 영광입니다.\n아름다운 공주님
+dmap/script/ft_01.rtb:0x0000b5d8|...그래서 무슨 볼일이지?
+dmap/script/ft_01.rtb:0x0000b675|뭔가 곤란해 보이시기에요
+dmap/script/ft_01.rtb:0x0000b70e|저기, 베세크로 납치된 사람을\n구했는데요...
+dmap/script/ft_01.rtb:0x0000b7c4|어떻게 해야 할지 몰라서요
+dmap/script/ft_01.rtb:0x0000b9bc|예, 여기는 위험하니\n어서 이동하시지요
+dmap/script/ft_05.rtb:0x00008695|제 몸을 지키고 싶다면\n어서 떠나는 게 좋을 텐데?
+dmap/script/ft_05.rtb:0x000087e4|지금까지 지나온 곳과\n이 앞은 완전히 다른 세계다
+dmap/script/ft_05.rtb:0x000093d8|그 정도 싸움에\n지치다니...
+dmap/script/ft_05.rtb:0x000098e4|...너와는\n상관없는 일이야
+dmap/script/ft_05.rtb:0x00009955|들어 봤자\n이해할 수도 없을 거고
+dmap/script/ft_05.rtb:0x000099da|바, 바보 취급하지 마!!
+dmap/script/ft_05.rtb:0x00009a44|바보 취급하는 게 아니야.\n너로선 무리라는 말이지
+dmap/script/ft_05.rtb:0x00009acf|그, 그래도 그런 식으로...
+dmap/script/ft_05.rtb:0x00009c3f|그러는 넌 왜 그렇게\n마신을 혐오하는 거니?
+dmap/script/ft_05.rtb:0x00009cef|인간이 마신을 싫어하는 건\n당연하잖아?
+dmap/script/ft_05.rtb:0x00009d93|그렇긴 하지만\n넌 정도가 지나친걸
+dmap/script/ft_05.rtb:0x00009e39|그러다 라키한테\n잡아먹힐지도 몰라?
+dmap/script/ft_05.rtb:0x00009f91|착각하지 마. 내가 너 따위를\n걱정할 리 없잖아?
+dmap/script/ft_05.rtb:0x0000a047|하지만 그 녀석은 마신이잖아
+dmap/script/ft_05.rtb:0x0000a0e0|라난큘러스는\n그런 잡졸들과는 달라
+dmap/script/ft_05.rtb:0x0000a18c|라키는 '인도의 현자'라\n불리는 특별한 마신이야...
+dmap/script/ft_05.rtb:0x0000a23a|특별하다면\n더더욱 경계해야지!
+dmap/script/ft_05.rtb:0x0000a382|너도 들어 봤겠지?\n은랑 라난큘러스의 이름을
+dmap/script/ft_05.rtb:0x0000a57d|라키는 고위 마신이야.\n조금은 경외심을 가지렴
+dmap/script/ft_05.rtb:0x0000a62f|마신을 숭배해서 뭐 하게?!
+dmap/script/ft_05.rtb:0x0000a77c|그래... 마음대로 해
+dmap/script/ft_06.rtb:0x0000810c|쿠쿠, 쿠쿠!!!
+dmap/script/ft_06.rtb:0x0000822a|쿠쿠, 쿠쿠!\n루나셰는 어디 갔당가?
+dmap/script/ft_06.rtb:0x000082d4|루나셰라면\n루나셰 공주 말이니?
+dmap/script/ft_06.rtb:0x00008374|테치, 테치!!\n정말 맞구먼!
+dmap/script/ft_06.rtb:0x000084b1|테치, 테치!!!
+dmap/script/ft_06.rtb:0x00008542|그, 그래...
+dmap/script/ft_06.rtb:0x000085ac|실례합니다, 아름다운 공주님...
+dmap/script/ft_06.rtb:0x0000863f|무슨 볼일이지, 후작님?
+dmap/script/ft_06.rtb:0x000088be|당신의 안위가 걱정돼서요
+dmap/script/ft_06.rtb:0x00008957|어머, 이런 소녀에게 말을 걸다니\n별난 취미를 가진 귀족도 있네...
+dmap/script/ft_06.rtb:0x00008a13|슬슬 책에 관해\n물으러 올 때라고 생각했어
+dmap/script/ft_06.rtb:0x00008ac7|호오, 그럼 이야기가 쉽겠군요
+dmap/script/ft_06.rtb:0x00008b58|하지만 유감이네.\n아무것도 알려 줄 수 없어
+dmap/script/ft_06.rtb:0x00008bfa|왜냐하면 이 책은\n아직 불완전하거든
+dmap/script/ft_06.rtb:0x00008ca6|그렇습니까...\n잠시 살펴봐도 되겠습니까?
+dmap/script/ft_06.rtb:0x00008d4e|불완전한 물건을\n당신 같은 분께 보일 순 없지
+dmap/script/ft_06.rtb:0x00008e0a|참으로 아쉽군요
+dmap/script/ft_06.rtb:0x00008ea1|하지만 머지않아\n꼭 살펴보고 싶습니다
+dmap/script/ft_06.rtb:0x00008fea|...'인도의 현자'가 반드시\n당신 뜻대로 이끌지는 않습니다
+dmap/script/ft_06.rtb:0x000090b6|이것은 제 충고입니다
+dmap/script/ft_07.rtb:0x0000800c|(슬슬 때가 된 건지도 모르겠군)
+dmap/script/ft_07.rtb:0x000081a5|네놈인가...
+dmap/script/ft_07.rtb:0x0000822c|책에 관한 일이라면\n해 줄 말은 없다
+dmap/script/ft_07.rtb:0x000082d2|오늘 용건은 그쪽이 아닙니다
+dmap/script/ft_07.rtb:0x0000836d|그러고 보니 테이지에게\n이상한 말을 했더군
+dmap/script/ft_07.rtb:0x00008570|여행은 아슬아슬해야\n재미있지 않겠습니까?
+dmap/script/ft_07.rtb:0x00008610|흥, 도락에 빠진 네놈다운\n생각이로군...
+dmap/script/ft_07.rtb:0x000086c0|도락이라는 점에서는\n당신도 다르지 않을 텐데요?
+dmap/script/ft_07.rtb:0x0000876e|...루티카 말이냐
+dmap/script/ft_07.rtb:0x00008809|이대로라면 분명\n당신의 계획에 해가 됩니다
+dmap/script/ft_07.rtb:0x000088bd|원래 그런 생물이니까요
+dmap/script/ft_07.rtb:0x00008a87|네놈 손을 빌리지 않아도\n충분하다
+dmap/script/ft_07.rtb:0x00008b21|...하지만 테이지가 허락하지\n않는 한 건드릴 수 없다
+dmap/script/ft_07.rtb:0x00008bd9|하지만 시간이\n얼마 남지 않았습니다
+dmap/script/ft_07.rtb:0x00008c77|흥, 네놈이 말하지 않아도\n알고 있다
+dmap/script/ft_07.rtb:0x00008d35|네놈이 말하지 않아도...
+dmap/script/ft_07.rtb:0x00008f1e|루티, 루티!\n어디 많이 아프당가?
+dmap/script/ft_07.rtb:0x00008fe6|나를 죽인다고...?!
+dmap/script/ft_07.rtb:0x00009077|루티, 루티!!
+dmap/script/ft_07.rtb:0x000091c6|(테이지도 뭔가에\n이용당하는 것 같고...)
+dmap/script/ft_07.rtb:0x00009274|어떻게든 해야 해...!
+dmap/script/ft_07.rtb:0x00009315|루티, 루티!\n억수로 불안해 보이구먼
+dmap/script/ft_07.rtb:0x000093c3|어? 아, 괜찮아.\n괜찮아...
+dmap/script/ft_02.rtb:0x00009886|큭...!
+dmap/script/ft_02.rtb:0x00009a65|'궁극의 독'...?
+dmap/script/ft_03.rtb:0x00007f52|큭...!
+dmap/script/ft_03.rtb:0x0000829e|...무슨 일이야?
+dmap/script/ft_03.rtb:0x00009193|당신, 설마...!!
+dmap/script/ft_03.rtb:0x000097d3|...대답할 의무는 없습니다
+dmap/script/ft_03.rtb:0x00009e9b|발드 왕
+dmap/script/ft_04.rtb:0x0000900f|인간과 마신의 혼혈은...
+dmap/script/ft_05.rtb:0x00008e4f|'궁극의 독'이라고...?

@@ -1,0 +1,11 @@
+{
+  "serial": "SLPS-25854",
+  "elf": "SLPS_258.54",
+  "original_crc": "F7786EE4",
+  "original_elf_sha256": "e5656bc081796cffc28a34df0fa1b399a0ae9f1494471e5a002e62d973e797d9",
+  "patch_source": "SLPS-25854_F7786EE4.pnach",
+  "patch_source_sha256": "101689deff1ce5d27cf1e31953a4865a8128053dc659c71c5da265641bc8eb3f",
+  "provenance": "PCSX2 2.6.3 bundled patches.zip; author Arapapa",
+  "crc_algorithm_source": "https://github.com/PCSX2/pcsx2/blob/v2.6.3/pcsx2/Elfheader.cpp#L233",
+  "patch_count": 34
+}

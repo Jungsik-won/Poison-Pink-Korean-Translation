@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "tool": "built-in image_gen.imagegen",
+  "reproduction": "Builds consume the saved authored PNGs with SHA-256 guards. Image generation itself is not deterministic. Only reviewed rectangles are imported; changes elsewhere in generated images are discarded.",
+  "prompts": [
+    {
+      "output": "build/ui_audit/menu-generated.png",
+      "input": "build/ui_audit/sys000.tm2.png",
+      "prompt": "Use case: text-localization. Edit target is a PS2 game menu texture atlas, 512x256, preserve EXACT atlas layout and dimensions/aspect 2:1, all textures/backgrounds/arrows and empty areas. Replace ONLY Japanese text in the top-left 256x240 area with Korean labels listed below; keep each label in its original 64x24 pixel tile, exactly four columns, ten rows, same colors/font size/readability. Preserve alternating active warm red/gold-outline and inactive muted gold styles. No new decoration, no borders, no headings. Korean text verbatim by row (left to right): row0 이동 | 이동 | 퇴각 | 퇴각; row1 공격 | 공격 | 닫기 | 닫기; row2 스킬 | 스킬 | 포획 | 포획; row3 명령 | 명령 | 도구 | 도구; row4 닫기 | 포획 | 상태 | 상태; row5 도구 | 스킬 | 대기 | 대기; row6 재행동 | 이동 | 설정 | 행동순; row7 재행동 | 공격 | 설정 | 행동순; row8 재행동 | 쌍격 | 마신 | 조건; row9 쌍격 | 쌍격 | 마신 | 조건. Important: Only localize these 40 tiles; do not change anything to the right of x256 or below y240. Keep small Korean glyphs crisp and fully inside their tiles with spacing.",
+      "review_note": "The mistaken 닫기 translation is rejected and overridden by the third authored image. Advanced labels outside the nine-command scope were not imported."
+    },
+    {
+      "output": "build/ui_audit/help-generated.png",
+      "input": "build/ui_audit/ev135.tm2.png",
+      "prompt": "Use case: text-localization. Edit this PS2 game help image at the identical 640x384 composition/aspect ratio 5:3. Replace only two Japanese text regions with exact Korean. Region 1 title at x236..410,y28..63: '유닛 턴' in bold white with original black outline, centered. Region 2 blue speech bubble text at x350..565,y202..250: exactly two lines '왼쪽 유닛부터' and '차례로 조작!' in the original bold white lettering with black outline; emphasize 왼쪽 in warm gold like the original. Erase the original Japanese lettering completely within these two regions. Keep the text fully inside these coordinate boxes with margin. Preserve EVERY other element and its exact position: game screenshot, character and creatures, blue/white selection squares, arrow indicator, blue speech-bubble shape and tail, portraits/turn queue, orange directional arrow, stats HP/EXP/numbers, original Japanese character name in the inset screenshot, Help label, all ornate borders and outer margins. Do not redraw or reinterpret the scene. This is a small text replacement for an in-game asset, no new headings, decorations, or layout changes."
+    },
+    {
+      "output": "build/ui_audit/menu-open-corrected.png",
+      "input": "build/ui_audit/sys000.tm2.png",
+      "prompt": "Use case: text-localization. Exact PS2 texture atlas, keep 512x256 composition/aspect ratio 2:1. The Japanese menu word 開ける means OPEN. Replace ONLY these THREE 64x24 tiles with the exact Korean text '열기' (two syllables 열 기): tile x128..192 y24..48 active red with pale gold outline; tile x192..256 y24..48 inactive muted gold; tile x0..64 y96..120 inactive muted gold. Keep these words entirely inside their precise tiles, align them like the original, center each Korean word, retain native small sprite typography, black/teal backgrounds. All other tiles, text, decorative arrows and geometry must stay unchanged. Do NOT use 닫기. Do NOT translate any other labels. No extra borders or new graphics."
+    }
+  ]
+}

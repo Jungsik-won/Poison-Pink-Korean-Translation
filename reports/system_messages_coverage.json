@@ -1,0 +1,15 @@
+{
+  "structured_rows_inspected": 128274,
+  "untranslated_japanese_word_rows": 0,
+  "japanese_word_rows_in_targets": 0,
+  "scope": "Structured translation catalog (dialogue, speakers, item/skill/character DB), not OCR of images or proof of runtime reachability",
+  "elf_added_literals": 540,
+  "existing_elf_literals_preserved_in_scope": 126,
+  "unresolved_reviewed_literals": 0,
+  "tests": {
+    "test_system_messages": 6,
+    "test_ui_titles": 2,
+    "test_iso_font_stage": 10
+  },
+  "runtime_verified": false
+}

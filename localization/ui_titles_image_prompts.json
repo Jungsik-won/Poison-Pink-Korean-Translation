@@ -1,0 +1,18 @@
+{
+  "mode": "built-in image_gen",
+  "input": "build/ui_audit/sys011.tm2.png",
+  "accepted": false,
+  "attempts": [
+    {
+      "prompt": "Use case: text-localization. Edit target: supplied PS2 skill-title texture atlas, original grid 256 by 128 (2:1 aspect). Replace ONLY three Japanese labels, maintaining their exact row placement and all surrounding graphics. Row rectangle x=0 y=32 w=152 h=32: アクティブスキル -> exact Korean \"액티브 스킬\". Row x=0 y=64 w=136 h=32: マジックスキル -> \"마법 스킬\". Row x=0 y=96 w=88 h=32: 魔神召喚 -> \"마신 소환\". Coordinates are relative to original 256x128, scale uniformly if output larger. Keep each text at original left margin x8, vertically centered in its row, white/ivory bold clean Korean lettering with thin dark outline matching original legibility. Fit entire labels within given row bounds. Preserve upper decorative gold rule and all patches to the right, atlas alignment, existing background colors, transparency and semi-transparency. Use actual alpha transparency for transparent regions; do not flatten or add checkerboard. Do not add headings, labels, borders or extra text. Strictly retain 2:1 whole-atlas composition.",
+      "output": "build/ui_titles/artwork/rejected-yellow.png",
+      "rejection": "RGB without alpha; invented yellow halo/backing."
+    },
+    {
+      "prompt": "Use case: text-localization. Reference: original 256x128 PS2 texture atlas. Create corrected version with exactly the same 2:1 layout and three Korean labels in place of Japanese. Require an actual RGBA PNG with transparent background (alpha zero), NOT black RGB background. All text white/light ivory, thin dark gray outline only. NO yellow, NO glow, NO surrounding pill, NO colored backing behind text. Place \"액티브 스킬\" inside original coordinates x8..145 y40..57; \"마법 스킬\" x8..129 y72..89; \"마신 소환\" x8..83 y104..121. Positions scale uniformly with whole 256x128 atlas, same left margin. Lettering modest, readable Korean sans serif, original text size. Every word must fit these exact bounds, do not enlarge beyond rows or relocate. Preserve decorative gold line at top and right-side non-text pieces from original. Everything that was empty should be transparent. Output the full 2:1 atlas, no cropping. Do not add any yellow backing or halo to lettering. Alpha channel is mandatory because this is a game overlay sprite.",
+      "output": "build/ui_titles/artwork/rejected-checkerboard.png",
+      "rejection": "RGB without alpha; checkerboard baked into pixels."
+    }
+  ],
+  "next": "Provide a reviewed true RGBA sprite before enabling rgba_palette import. Original sys011 is retained in this build."
+}

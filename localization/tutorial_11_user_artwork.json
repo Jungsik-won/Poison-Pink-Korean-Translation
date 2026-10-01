@@ -1,0 +1,94 @@
+{
+  "base_iso": "build/user_help_artwork_v1/Poison Pink (Japan) - user artwork and help.iso",
+  "base_iso_sha256": "bc4d5a4e4a764d1a1c69dae80c89bd6a938b918dff4b77251d3519287eb776ec",
+  "output_iso": "build/tutorial_11_user_v1/Poison Pink (Japan) - expanded user help.iso",
+  "report_path": "reports/tutorial_11_user_artwork.json",
+  "assets": [
+    {
+      "path": "dmap/ev/ev150.tm2",
+      "png": "localization/artwork/tutorial_11_user_v1/ev150.tm2.png",
+      "user_source": "<LOCAL_USER_HOME>/Documents/Codex/2026-09-16/referenced-chatgpt-conversation-this-is-an/outputs/tutorial_11_KO/ev150.tm2.png",
+      "png_sha256": "51eb29322098f739806209ef4bc9ceab3df72f005ec77df94885258e322d167f",
+      "source_tim2_sha256": "759c1cbcc334cc23a524f8abc7dfbd07cb8c886befc45576f8de3765bb2afc2c"
+    },
+    {
+      "path": "dmap/ev/ev151.tm2",
+      "png": "localization/artwork/tutorial_11_user_v1/ev151.tm2.png",
+      "user_source": "<LOCAL_USER_HOME>/Documents/Codex/2026-09-16/referenced-chatgpt-conversation-this-is-an/outputs/tutorial_11_KO/ev151.tm2.png",
+      "png_sha256": "fc15db8f66d13669b23cd32c4a9f8f1a97eb2a176bcc1b62e1cf16e65f64fbc8",
+      "source_tim2_sha256": "a78eeb56550d36c98588b21d22167088dfd40d8fbcf366a7c379ad84560e3e78"
+    },
+    {
+      "path": "dmap/ev/ev154.tm2",
+      "png": "localization/artwork/tutorial_11_user_v1/ev154.tm2.png",
+      "user_source": "<LOCAL_USER_HOME>/Documents/Codex/2026-09-16/referenced-chatgpt-conversation-this-is-an/outputs/tutorial_11_KO/ev154.tm2.png",
+      "png_sha256": "094234b1ddb34c4f54fb8fd1ab22af6325a311b201d1d84c68492829ae80f3a0",
+      "source_tim2_sha256": "bfdb78b6d5e67373bb8fe09ef2ed27c6e9d52456fd47f1ab54b560eafea1119e"
+    },
+    {
+      "path": "dmap/ev/ev155.tm2",
+      "png": "localization/artwork/tutorial_11_user_v1/ev155.tm2.png",
+      "user_source": "<LOCAL_USER_HOME>/Documents/Codex/2026-09-16/referenced-chatgpt-conversation-this-is-an/outputs/tutorial_11_KO/ev155.tm2.png",
+      "png_sha256": "0ed347e0d5fa80e4d9aa96ad395eabaa0ce87d8cc17714422193e79c2d725797",
+      "source_tim2_sha256": "7d37cbf3e7f5625737b58b97f6d54b4d95cad72a33f01f4bc55628362b6eb776"
+    },
+    {
+      "path": "dmap/ev/ev156.tm2",
+      "png": "localization/artwork/tutorial_11_user_v1/ev156.tm2.png",
+      "user_source": "<LOCAL_USER_HOME>/Documents/Codex/2026-09-16/referenced-chatgpt-conversation-this-is-an/outputs/tutorial_11_KO/ev156.tm2.png",
+      "png_sha256": "5aeca63289b19294e9b92aacf6e505908ab4bc216b39ff40751db1f6f1d23388",
+      "source_tim2_sha256": "7074f6cd4ff14539fe3fd9625d93257fc6af1457c118b77798f50c0b6db53e68"
+    },
+    {
+      "path": "dmap/ev/ev157.tm2",
+      "png": "localization/artwork/tutorial_11_user_v1/ev157.tm2.png",
+      "user_source": "<LOCAL_USER_HOME>/Documents/Codex/2026-09-16/referenced-chatgpt-conversation-this-is-an/outputs/tutorial_11_KO/ev157.tm2.png",
+      "png_sha256": "980bb16f9eca917cd71d39f54a2568dc9b0266ff0f948b4f4bd9c7fab017720e",
+      "source_tim2_sha256": "322152ae4d618100ea8d23de5d1a93e5b758fef13e9237f8c6660fbf5534c9bd"
+    },
+    {
+      "path": "dmap/ev/ev158.tm2",
+      "png": "localization/artwork/tutorial_11_user_v1/ev158.tm2.png",
+      "user_source": "<LOCAL_USER_HOME>/Documents/Codex/2026-09-16/referenced-chatgpt-conversation-this-is-an/outputs/tutorial_11_KO/ev158.tm2.png",
+      "png_sha256": "e52e0c01f6327d631f79ff299401ae78754400d6998de2730cd7f1adc9d6ac4e",
+      "source_tim2_sha256": "6a375f623651df56fefb576782410be78655188ff9599f3fa668d5b354e3ebdc"
+    },
+    {
+      "path": "dmap/ev/ev159.tm2",
+      "png": "localization/artwork/tutorial_11_user_v1/ev159.tm2.png",
+      "user_source": "<LOCAL_USER_HOME>/Documents/Codex/2026-09-16/referenced-chatgpt-conversation-this-is-an/outputs/tutorial_11_KO/ev159.tm2.png",
+      "png_sha256": "ee384cd8bf07238dc0f66455b822a64910ae9a3a320f4252c36b7f8a75c34a04",
+      "source_tim2_sha256": "831b8d642f77d0f71aa4ad509b143598791c898213e4f9024a026de94bb250ac"
+    },
+    {
+      "path": "dmap/ev/ev160.tm2",
+      "png": "localization/artwork/tutorial_11_user_v1/ev160.tm2.png",
+      "user_source": "<LOCAL_USER_HOME>/Documents/Codex/2026-09-16/referenced-chatgpt-conversation-this-is-an/outputs/tutorial_11_KO/ev160.tm2.png",
+      "png_sha256": "16628ea2b58374b2a2a3b46a4927c5539b33f724644fbd08d8e8e79890306a1b",
+      "source_tim2_sha256": "573c32f9a5dceaaa8de1702c9b4e054d84f7ecf6c0adba256753fdd82c12c29e"
+    },
+    {
+      "path": "dmap/ev/ev161.tm2",
+      "png": "localization/artwork/tutorial_11_user_v1/ev161.tm2.png",
+      "user_source": "<LOCAL_USER_HOME>/Documents/Codex/2026-09-16/referenced-chatgpt-conversation-this-is-an/outputs/tutorial_11_KO/ev161.tm2.png",
+      "png_sha256": "015f11eef343381e68616f97695f07179bdb69ea6ad65ba21fbd0974758ef280",
+      "source_tim2_sha256": "8f0412e03a931b013b19f359c2bf4c9ab6604fd6f81b0de851b11ad5aa6e1a03"
+    },
+    {
+      "path": "dmap/ev/ev162.tm2",
+      "png": "localization/artwork/tutorial_11_user_v1/ev162.tm2.png",
+      "user_source": "<LOCAL_USER_HOME>/Documents/Codex/2026-09-16/referenced-chatgpt-conversation-this-is-an/outputs/tutorial_11_KO/ev162.tm2.png",
+      "png_sha256": "e3a7a9fc5e02e1aeb747749e63dd61fbf5cceb5cb52f007d733a7d2208a6b07a",
+      "source_tim2_sha256": "84807a2cb1e239a840fc176cf22757bc3e0c406d702c3f6940551833a16c32ca"
+    }
+  ],
+  "review": {
+    "status": "accepted",
+    "policy": "Standing user instruction to adopt user-authored images without reconfirmation",
+    "dimensions": "All original dimensions retained: 640x384, 640x448 and 512x512",
+    "alpha": "Matches original on all 11 inputs",
+    "wording": "Reviewed supplied text and original capture/minigame/control/resistance instructions; no blocking error found",
+    "unchanged": "ev154 GAME OVER is byte-identical to extracted original PNG; preserve original TIM2",
+    "runtime": "deferred"
+  }
+}

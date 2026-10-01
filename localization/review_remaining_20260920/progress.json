@@ -1,0 +1,12 @@
+{
+  "reviewed_unit_ranges": [
+    [
+      1,
+      13714
+    ]
+  ],
+  "complete": true,
+  "notes": "Readthrough and confirmed corrections integrated in revision v4. Five ambiguous units retained, actual gameplay/voice verification not performed.",
+  "semantic_readthrough_complete": true,
+  "pending_units": 5
+}

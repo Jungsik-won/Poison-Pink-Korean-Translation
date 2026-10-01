@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "offset": 2,
+    "name_len": 10,
+    "name": "テージ"
+  },
+  {
+    "id": 2,
+    "offset": 69,
+    "name_len": 20,
+    "name": "ラナンキュラス"
+  },
+  {
+    "id": 3,
+    "offset": 144,
+    "name_len": 30,
+    "name": "ルティカ"
+  },
+  {
+    "id": 4,
+    "offset": 213,
+    "name_len": 40,
+    "name": "オリフェン"
+  },
+  {
+    "id": 5,
+    "offset": 3435,
+    "name_len": 12,
+    "name": ""
+  },
+  {
+    "id": 6,
+    "offset": 4311,
+    "name_len": 12,
+    "name": ""
+  },
+  {
+    "id": 7,
+    "offset": 24501,
+    "name_len": 20,
+    "name": "F\u0001体当たり"
+  },
+  {
+    "id": 9,
+    "offset": 38066,
+    "name_len": 4,
+    "name": "\u0001\u0001\n"
+  },
+  {
+    "id": 10,
+    "offset": 41455,
+    "name_len": 48,
+    "name": "\u000fﾈｯ"
+  },
+  {
+    "id": 256,
+    "offset": 42677,
+    "name_len": 36,
+    "name": "\u0002"
+  }
+]

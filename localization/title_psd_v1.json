@@ -1,0 +1,15 @@
+{
+  "base_iso": "build/system_messages_v1/Poison Pink (Japan) - Korean system v1.iso",
+  "base_iso_sha256": "d78c7ae9fc1bf691f76e46e117802c83a131652b743ffd72b1d66603eab4ecbd",
+  "output_iso": "build/title_psd_v1/Poison Pink (Japan) - Korean system and title v2.iso",
+  "method": "PSD merged RGBA decoded from white-associated preview, original palette premultiplied mapping, no resizing",
+  "assets": [
+    {
+      "path": "dmap/title/tit_tx01.tm2",
+      "user_file": "extracted/original/images/DMAP/dmap/title/tit_tx01.tm2.psd",
+      "png": "localization/artwork/title_user_psd_v1/tit_tx01.png",
+      "png_sha256": "d771d8b8706eca7bc350b75bc3ab21f3683248fee421122c0b793f104c93d493",
+      "original_tim2_sha256": "1e3a13550b383d285bfde9619b74cd86a2d9b497fb42e45ba7e7c3e326c2e22a"
+    }
+  ]
+}

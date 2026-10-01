@@ -1,0 +1,645 @@
+{
+  "schema_version": 1,
+  "help_and_related": [
+    {
+      "path": "dmap/ev/ev135.tm2",
+      "sha256": "51b141c812ae09d6d3821efac112be494da35c43e1b09ce5c689cf2f3ea4c8d2",
+      "size": [
+        640,
+        384
+      ],
+      "korean_title_draft": "유닛 턴",
+      "classification": "help",
+      "priority": 0,
+      "status": "runtime_verified_title_body",
+      "preview": "build/ui_audit/ev135.tm2.png",
+      "notes": "Inset screenshot name/stats preserved"
+    },
+    {
+      "path": "dmap/ev/ev136.tm2",
+      "sha256": "c953cf9ca7cb993479daf0f7a6015e9a43d552d3aee0213472264ff9648eb8fa",
+      "size": [
+        640,
+        384
+      ],
+      "korean_title_draft": "이동과 공격",
+      "classification": "help",
+      "priority": 1,
+      "status": "user_artwork_adopted_runtime_deferred",
+      "preview": "build/ui_audit/ev136.tm2.png",
+      "notes": "100 total reviewed title/body/navigation regions; embedded screenshot text retained. Further image verification deferred by user.",
+      "translation_review": "localization/help_pages.json",
+      "runtime_report": "reports/help_pages_runtime.json",
+      "runtime_evidence": "build/status_slice/evidence/help-ev136.png",
+      "built_preview": "build/help_pages_v7/ev136.tm2.png",
+      "build_sha256": "a3f2c6c3fe10fe0ce3d15e78838a235a69730f332550f297e1b32d62f5481630",
+      "historical_status": "runtime_verified_primary_text",
+      "current_user_artwork": "localization/artwork/help_user_corrected_v1/ev136.png",
+      "current_integrated_build": "build/tutorial_11_user_v1/Poison Pink (Japan) - expanded user help.iso",
+      "current_runtime_verified": false
+    },
+    {
+      "path": "dmap/ev/ev137.tm2",
+      "sha256": "66e0df8f25ea4609635346f5aae39eebc1d564cbc7a49b0f457c96173505e99f",
+      "size": [
+        640,
+        384
+      ],
+      "korean_title_draft": "공격",
+      "classification": "help",
+      "priority": 1,
+      "status": "user_artwork_adopted_runtime_deferred",
+      "preview": "build/ui_audit/ev137.tm2.png",
+      "notes": "100 total reviewed title/body/navigation regions; embedded screenshot text retained. Further image verification deferred by user.",
+      "translation_review": "localization/help_pages.json",
+      "runtime_report": "reports/help_pages_runtime.json",
+      "runtime_evidence": "build/status_slice/evidence/help-ev137.png",
+      "built_preview": "build/help_pages_v7/ev137.tm2.png",
+      "build_sha256": "a3f2c6c3fe10fe0ce3d15e78838a235a69730f332550f297e1b32d62f5481630",
+      "historical_status": "runtime_verified_primary_text",
+      "current_user_artwork": "localization/artwork/help_user_corrected_v1/ev137.png",
+      "current_integrated_build": "build/tutorial_11_user_v1/Poison Pink (Japan) - expanded user help.iso",
+      "current_runtime_verified": false
+    },
+    {
+      "path": "dmap/ev/ev138.tm2",
+      "sha256": "07aca6d9a87888ea85b3d36dcd51671250f8624f59b70cc3a7188c3803e5bd95",
+      "size": [
+        640,
+        384
+      ],
+      "korean_title_draft": "피해 보정",
+      "classification": "help",
+      "priority": 1,
+      "status": "user_artwork_adopted_runtime_deferred",
+      "preview": "build/ui_audit/ev138.tm2.png",
+      "notes": "100 total reviewed title/body/navigation regions; embedded screenshot text retained. Further image verification deferred by user.",
+      "translation_review": "localization/help_pages.json",
+      "runtime_report": "reports/help_pages_runtime.json",
+      "runtime_evidence": "build/status_slice/evidence/help-ev138.png",
+      "built_preview": "build/help_pages_v7/ev138.tm2.png",
+      "build_sha256": "a3f2c6c3fe10fe0ce3d15e78838a235a69730f332550f297e1b32d62f5481630",
+      "historical_status": "runtime_verified_primary_text",
+      "current_user_artwork": "localization/artwork/help_user_v1/ev138.png",
+      "current_integrated_build": "build/tutorial_11_user_v1/Poison Pink (Japan) - expanded user help.iso",
+      "current_runtime_verified": false
+    },
+    {
+      "path": "dmap/ev/ev139.tm2",
+      "sha256": "2a335e4294b0afe48637758999d8022a5cffc4eaeb7a85049f76c747c77a8ada",
+      "size": [
+        640,
+        384
+      ],
+      "korean_title_draft": "사정거리에 따른 피해 보정",
+      "classification": "help",
+      "priority": 1,
+      "status": "user_artwork_adopted_runtime_deferred",
+      "preview": "build/ui_audit/ev139.tm2.png",
+      "notes": "100 total reviewed title/body/navigation regions; embedded screenshot text retained. Further image verification deferred by user.",
+      "translation_review": "localization/help_pages.json",
+      "runtime_report": "reports/help_pages_runtime.json",
+      "runtime_evidence": "build/status_slice/evidence/help-ev139.png",
+      "built_preview": "build/help_pages_v7/ev139.tm2.png",
+      "build_sha256": "a3f2c6c3fe10fe0ce3d15e78838a235a69730f332550f297e1b32d62f5481630",
+      "historical_status": "runtime_verified_primary_text",
+      "current_user_artwork": "localization/artwork/help_user_v1/ev139.png",
+      "current_integrated_build": "build/tutorial_11_user_v1/Poison Pink (Japan) - expanded user help.iso",
+      "current_runtime_verified": false
+    },
+    {
+      "path": "dmap/ev/ev140.tm2",
+      "sha256": "f22d7a8a79b1da41a796e576dabde631272bf370ba576b6cb3b95ea5c74c50b4",
+      "size": [
+        640,
+        384
+      ],
+      "korean_title_draft": "스킬 사용",
+      "classification": "help",
+      "priority": 1,
+      "status": "user_artwork_adopted_runtime_deferred",
+      "preview": "build/ui_audit/ev140.tm2.png",
+      "notes": "100 total reviewed title/body/navigation regions; embedded screenshot text retained. Further image verification deferred by user.",
+      "translation_review": "localization/help_pages.json",
+      "runtime_report": "reports/help_pages_runtime.json",
+      "runtime_evidence": "build/status_slice/evidence/help-ev140.png",
+      "built_preview": "build/help_pages_v7/ev140.tm2.png",
+      "build_sha256": "a3f2c6c3fe10fe0ce3d15e78838a235a69730f332550f297e1b32d62f5481630",
+      "historical_status": "runtime_verified_primary_text",
+      "current_user_artwork": "localization/artwork/help_user_corrected_v1/ev140.png",
+      "current_integrated_build": "build/tutorial_11_user_v1/Poison Pink (Japan) - expanded user help.iso",
+      "current_runtime_verified": false
+    },
+    {
+      "path": "dmap/ev/ev141.tm2",
+      "sha256": "06ab899f4019a69452c267d8bd39da9fdd74d6228522ec8d88ee0ce6aeba5b88",
+      "size": [
+        640,
+        384
+      ],
+      "korean_title_draft": "스킬의 종류",
+      "classification": "help",
+      "priority": 1,
+      "status": "user_artwork_adopted_runtime_deferred",
+      "preview": "build/ui_audit/ev141.tm2.png",
+      "notes": "100 total reviewed title/body/navigation regions; embedded screenshot text retained. Further image verification deferred by user.",
+      "translation_review": "localization/help_pages.json",
+      "runtime_report": "reports/help_pages_runtime.json",
+      "built_preview": "build/help_pages_v7/ev141.tm2.png",
+      "build_sha256": "a3f2c6c3fe10fe0ce3d15e78838a235a69730f332550f297e1b32d62f5481630",
+      "historical_status": "built_runtime_deferred_by_user",
+      "current_user_artwork": "localization/artwork/help_user_v1/ev141.png",
+      "current_integrated_build": "build/tutorial_11_user_v1/Poison Pink (Japan) - expanded user help.iso",
+      "current_runtime_verified": false
+    },
+    {
+      "path": "dmap/ev/ev142.tm2",
+      "sha256": "05e9ef8ba622bdf10faf42d5005197bbfb3488c8edea070639f27235d8cc705a",
+      "size": [
+        640,
+        384
+      ],
+      "korean_title_draft": "스킬 획득 방법",
+      "classification": "help",
+      "priority": 1,
+      "status": "user_artwork_adopted_runtime_deferred",
+      "preview": "build/ui_audit/ev142.tm2.png",
+      "notes": "100 total reviewed title/body/navigation regions; embedded screenshot text retained. Further image verification deferred by user.",
+      "translation_review": "localization/help_pages.json",
+      "runtime_report": "reports/help_pages_runtime.json",
+      "built_preview": "build/help_pages_v7/ev142.tm2.png",
+      "build_sha256": "a3f2c6c3fe10fe0ce3d15e78838a235a69730f332550f297e1b32d62f5481630",
+      "historical_status": "built_runtime_deferred_by_user",
+      "current_user_artwork": "localization/artwork/help_user_v1/ev142.png",
+      "current_integrated_build": "build/tutorial_11_user_v1/Poison Pink (Japan) - expanded user help.iso",
+      "current_runtime_verified": false
+    },
+    {
+      "path": "dmap/ev/ev143.tm2",
+      "sha256": "f26b21d13d635c93ae14261060bfe6521df41390de2d3d9608d581266d383e56",
+      "size": [
+        640,
+        384
+      ],
+      "korean_title_draft": "오버킬",
+      "classification": "help",
+      "priority": 1,
+      "status": "user_artwork_adopted_runtime_deferred",
+      "preview": "build/ui_audit/ev143.tm2.png",
+      "notes": "100 total reviewed title/body/navigation regions; embedded screenshot text retained. Further image verification deferred by user.",
+      "translation_review": "localization/help_pages.json",
+      "runtime_report": "reports/help_pages_runtime.json",
+      "built_preview": "build/help_pages_v7/ev143.tm2.png",
+      "build_sha256": "a3f2c6c3fe10fe0ce3d15e78838a235a69730f332550f297e1b32d62f5481630",
+      "historical_status": "built_runtime_deferred_by_user",
+      "current_user_artwork": "localization/artwork/help_user_v1/ev143.png",
+      "current_integrated_build": "build/tutorial_11_user_v1/Poison Pink (Japan) - expanded user help.iso",
+      "current_runtime_verified": false
+    },
+    {
+      "path": "dmap/ev/ev144.tm2",
+      "sha256": "6cbfb26e3ffbcf3758fc98f53bdb7923f4adf9d4081ee632971e0406cfa9acf6",
+      "size": [
+        640,
+        384
+      ],
+      "korean_title_draft": "마신 포획",
+      "classification": "help",
+      "priority": 1,
+      "status": "user_artwork_adopted_runtime_deferred",
+      "preview": "build/ui_audit/ev144.tm2.png",
+      "notes": "100 total reviewed title/body/navigation regions; embedded screenshot text retained. Further image verification deferred by user.",
+      "translation_review": "localization/help_pages.json",
+      "runtime_report": "reports/help_pages_runtime.json",
+      "built_preview": "build/help_pages_v7/ev144.tm2.png",
+      "build_sha256": "a3f2c6c3fe10fe0ce3d15e78838a235a69730f332550f297e1b32d62f5481630",
+      "historical_status": "built_runtime_deferred_by_user",
+      "current_user_artwork": "localization/artwork/help_user_v1/ev144.png",
+      "current_integrated_build": "build/tutorial_11_user_v1/Poison Pink (Japan) - expanded user help.iso",
+      "current_runtime_verified": false
+    },
+    {
+      "path": "dmap/ev/ev145.tm2",
+      "sha256": "c9047f0ab8a1e921750d8f1a1e1d132750a4a335e76793bd56f0de2cfde3cfa1",
+      "size": [
+        640,
+        384
+      ],
+      "korean_title_draft": "포획한 마신의 활용",
+      "classification": "help",
+      "priority": 1,
+      "status": "user_artwork_adopted_runtime_deferred",
+      "preview": "build/ui_audit/ev145.tm2.png",
+      "notes": "100 total reviewed title/body/navigation regions; embedded screenshot text retained. Further image verification deferred by user.",
+      "translation_review": "localization/help_pages.json",
+      "runtime_report": "reports/help_pages_runtime.json",
+      "built_preview": "build/help_pages_v7/ev145.tm2.png",
+      "build_sha256": "a3f2c6c3fe10fe0ce3d15e78838a235a69730f332550f297e1b32d62f5481630",
+      "historical_status": "built_runtime_deferred_by_user",
+      "current_user_artwork": "localization/artwork/help_user_v1/ev145.png",
+      "current_integrated_build": "build/tutorial_11_user_v1/Poison Pink (Japan) - expanded user help.iso",
+      "current_runtime_verified": false
+    },
+    {
+      "path": "dmap/ev/ev146.tm2",
+      "sha256": "8bc6e13dd56ec514db2f9db6ee784fd7352187cb3de7a2a1739a0aacb408d2af",
+      "size": [
+        640,
+        384
+      ],
+      "korean_title_draft": "마신 장벽",
+      "classification": "help",
+      "priority": 1,
+      "status": "user_artwork_adopted_runtime_deferred",
+      "preview": "build/ui_audit/ev146.tm2.png",
+      "notes": "100 total reviewed title/body/navigation regions; embedded screenshot text retained. Further image verification deferred by user.",
+      "translation_review": "localization/help_pages.json",
+      "runtime_report": "reports/help_pages_runtime.json",
+      "built_preview": "build/help_pages_v7/ev146.tm2.png",
+      "build_sha256": "a3f2c6c3fe10fe0ce3d15e78838a235a69730f332550f297e1b32d62f5481630",
+      "historical_status": "built_runtime_deferred_by_user",
+      "current_user_artwork": "localization/artwork/help_user_v1/ev146.png",
+      "current_integrated_build": "build/tutorial_11_user_v1/Poison Pink (Japan) - expanded user help.iso",
+      "current_runtime_verified": false
+    },
+    {
+      "path": "dmap/ev/ev147.tm2",
+      "sha256": "14c5f170d540ec1af0641b193a945be7e5edc52544fadb22d530defdcad124c5",
+      "size": [
+        640,
+        384
+      ],
+      "korean_title_draft": "마신의 약점",
+      "classification": "help",
+      "priority": 1,
+      "status": "user_artwork_adopted_runtime_deferred",
+      "preview": "build/ui_audit/ev147.tm2.png",
+      "notes": "100 total reviewed title/body/navigation regions; embedded screenshot text retained. Further image verification deferred by user.",
+      "translation_review": "localization/help_pages.json",
+      "runtime_report": "reports/help_pages_runtime.json",
+      "built_preview": "build/help_pages_v7/ev147.tm2.png",
+      "build_sha256": "a3f2c6c3fe10fe0ce3d15e78838a235a69730f332550f297e1b32d62f5481630",
+      "historical_status": "built_runtime_deferred_by_user",
+      "current_user_artwork": "localization/artwork/help_user_v1/ev147.png",
+      "current_integrated_build": "build/tutorial_11_user_v1/Poison Pink (Japan) - expanded user help.iso",
+      "current_runtime_verified": false
+    },
+    {
+      "path": "dmap/ev/ev148.tm2",
+      "sha256": "af33d7b98f677c515ccaf68e1bdcf8c69b75ad9e048a91df5aa262baacd13086",
+      "size": [
+        640,
+        384
+      ],
+      "korean_title_draft": "유닛 재행동",
+      "classification": "help",
+      "priority": 1,
+      "status": "user_artwork_adopted_runtime_deferred",
+      "preview": "build/ui_audit/ev148.tm2.png",
+      "notes": "100 total reviewed title/body/navigation regions; embedded screenshot text retained. Further image verification deferred by user.",
+      "translation_review": "localization/help_pages.json",
+      "runtime_report": "reports/help_pages_runtime.json",
+      "built_preview": "build/help_pages_v7/ev148.tm2.png",
+      "build_sha256": "a3f2c6c3fe10fe0ce3d15e78838a235a69730f332550f297e1b32d62f5481630",
+      "historical_status": "built_runtime_deferred_by_user",
+      "current_user_artwork": "localization/artwork/help_user_corrected_v1/ev148.png",
+      "current_integrated_build": "build/tutorial_11_user_v1/Poison Pink (Japan) - expanded user help.iso",
+      "current_runtime_verified": false
+    },
+    {
+      "path": "dmap/ev/ev149.tm2",
+      "sha256": "d9d57163defeadf11ca9a16c21f6e6207a1513cb9d7bdd688fd9d0a72e914ec1",
+      "size": [
+        640,
+        384
+      ],
+      "korean_title_draft": "쌍격",
+      "classification": "help",
+      "priority": 1,
+      "status": "user_artwork_adopted_runtime_deferred",
+      "preview": "build/ui_audit/ev149.tm2.png",
+      "notes": "100 total reviewed title/body/navigation regions; embedded screenshot text retained. Further image verification deferred by user.",
+      "translation_review": "localization/help_pages.json",
+      "runtime_report": "reports/help_pages_runtime.json",
+      "built_preview": "build/help_pages_v7/ev149.tm2.png",
+      "build_sha256": "a3f2c6c3fe10fe0ce3d15e78838a235a69730f332550f297e1b32d62f5481630",
+      "historical_status": "built_runtime_deferred_by_user",
+      "current_user_artwork": "localization/artwork/help_user_corrected_v1/ev149.png",
+      "current_integrated_build": "build/tutorial_11_user_v1/Poison Pink (Japan) - expanded user help.iso",
+      "current_runtime_verified": false
+    },
+    {
+      "path": "dmap/ev/ev150.tm2",
+      "sha256": "759c1cbcc334cc23a524f8abc7dfbd07cb8c886befc45576f8de3765bb2afc2c",
+      "size": [
+        640,
+        384
+      ],
+      "korean_title_draft": "대형 마신 포획 방법",
+      "classification": "help",
+      "priority": 2,
+      "status": "user_artwork_adopted_runtime_deferred",
+      "preview": "build/ui_audit/ev150.tm2.png",
+      "notes": "Full body transcription and translation pending",
+      "historical_status": "source_identified",
+      "current_user_artwork": "localization/artwork/tutorial_11_user_v1/ev150.tm2.png",
+      "current_integrated_build": "build/tutorial_11_user_v1/Poison Pink (Japan) - expanded user help.iso",
+      "current_runtime_verified": false
+    },
+    {
+      "path": "dmap/ev/ev151.tm2",
+      "sha256": "a78eeb56550d36c98588b21d22167088dfd40d8fbcf366a7c379ad84560e3e78",
+      "size": [
+        640,
+        384
+      ],
+      "korean_title_draft": "둘러싸서 포획",
+      "classification": "help",
+      "priority": 2,
+      "status": "user_artwork_adopted_runtime_deferred",
+      "preview": "build/ui_audit/ev151.tm2.png",
+      "notes": "Full body transcription and translation pending",
+      "historical_status": "source_identified",
+      "current_user_artwork": "localization/artwork/tutorial_11_user_v1/ev151.tm2.png",
+      "current_integrated_build": "build/tutorial_11_user_v1/Poison Pink (Japan) - expanded user help.iso",
+      "current_runtime_verified": false
+    },
+    {
+      "path": "dmap/ev/ev153.tm2",
+      "sha256": "f9f39660636a13f605cebb5d1123ff6e78ab3c6c8229daa1e6c593fb1c5ca7a2",
+      "size": [
+        512,
+        512
+      ],
+      "korean_title_draft": "게임 이용 안내",
+      "classification": "health_notice",
+      "priority": 2,
+      "status": "source_identified",
+      "preview": "build/ui_audit/ev153.tm2.png",
+      "notes": "Full body transcription and translation pending"
+    },
+    {
+      "path": "dmap/ev/ev154.tm2",
+      "sha256": "bfdb78b6d5e67373bb8fe09ef2ed27c6e9d52456fd47f1ab54b560eafea1119e",
+      "size": [
+        512,
+        512
+      ],
+      "korean_title_draft": "GAME OVER",
+      "classification": "game_over",
+      "priority": 2,
+      "status": "user_artwork_adopted_runtime_deferred",
+      "preview": "build/ui_audit/ev154.tm2.png",
+      "notes": "Full body transcription and translation pending",
+      "historical_status": "source_identified",
+      "current_user_artwork": "localization/artwork/tutorial_11_user_v1/ev154.tm2.png",
+      "current_integrated_build": "build/tutorial_11_user_v1/Poison Pink (Japan) - expanded user help.iso",
+      "current_runtime_verified": false
+    },
+    {
+      "path": "dmap/ev/ev155.tm2",
+      "sha256": "7d37cbf3e7f5625737b58b97f6d54b4d95cad72a33f01f4bc55628362b6eb776",
+      "size": [
+        640,
+        384
+      ],
+      "korean_title_draft": "춘희의 저택",
+      "classification": "help",
+      "priority": 2,
+      "status": "user_artwork_adopted_runtime_deferred",
+      "preview": "build/ui_audit/ev155.tm2.png",
+      "notes": "Full body transcription and translation pending",
+      "historical_status": "source_identified",
+      "current_user_artwork": "localization/artwork/tutorial_11_user_v1/ev155.tm2.png",
+      "current_integrated_build": "build/tutorial_11_user_v1/Poison Pink (Japan) - expanded user help.iso",
+      "current_runtime_verified": false
+    },
+    {
+      "path": "dmap/ev/ev156.tm2",
+      "sha256": "7074f6cd4ff14539fe3fd9625d93257fc6af1457c118b77798f50c0b6db53e68",
+      "size": [
+        640,
+        384
+      ],
+      "korean_title_draft": "포획한 마신의 활용 가치",
+      "classification": "help",
+      "priority": 2,
+      "status": "user_artwork_adopted_runtime_deferred",
+      "preview": "build/ui_audit/ev156.tm2.png",
+      "notes": "Full body transcription and translation pending",
+      "historical_status": "source_identified",
+      "current_user_artwork": "localization/artwork/tutorial_11_user_v1/ev156.tm2.png",
+      "current_integrated_build": "build/tutorial_11_user_v1/Poison Pink (Japan) - expanded user help.iso",
+      "current_runtime_verified": false
+    },
+    {
+      "path": "dmap/ev/ev157.tm2",
+      "sha256": "322152ae4d618100ea8d23de5d1a93e5b758fef13e9237f8c6660fbf5534c9bd",
+      "size": [
+        640,
+        384
+      ],
+      "korean_title_draft": "포획한 마신의 활용 가치",
+      "classification": "help",
+      "priority": 2,
+      "status": "user_artwork_adopted_runtime_deferred",
+      "preview": "build/ui_audit/ev157.tm2.png",
+      "notes": "Full body transcription and translation pending",
+      "historical_status": "source_identified",
+      "current_user_artwork": "localization/artwork/tutorial_11_user_v1/ev157.tm2.png",
+      "current_integrated_build": "build/tutorial_11_user_v1/Poison Pink (Japan) - expanded user help.iso",
+      "current_runtime_verified": false
+    },
+    {
+      "path": "dmap/ev/ev158.tm2",
+      "sha256": "6a375f623651df56fefb576782410be78655188ff9599f3fa668d5b354e3ebdc",
+      "size": [
+        640,
+        448
+      ],
+      "korean_title_draft": "스텝 스톤 규칙·조작",
+      "classification": "minigame_help",
+      "priority": 2,
+      "status": "user_artwork_adopted_runtime_deferred",
+      "preview": "build/ui_audit/ev158.tm2.png",
+      "notes": "Full body transcription and translation pending",
+      "historical_status": "source_identified",
+      "current_user_artwork": "localization/artwork/tutorial_11_user_v1/ev158.tm2.png",
+      "current_integrated_build": "build/tutorial_11_user_v1/Poison Pink (Japan) - expanded user help.iso",
+      "current_runtime_verified": false
+    },
+    {
+      "path": "dmap/ev/ev159.tm2",
+      "sha256": "831b8d642f77d0f71aa4ad509b143598791c898213e4f9024a026de94bb250ac",
+      "size": [
+        640,
+        448
+      ],
+      "korean_title_draft": "스텝 스톤 규칙·조작",
+      "classification": "minigame_help",
+      "priority": 2,
+      "status": "user_artwork_adopted_runtime_deferred",
+      "preview": "build/ui_audit/ev159.tm2.png",
+      "notes": "Full body transcription and translation pending",
+      "historical_status": "source_identified",
+      "current_user_artwork": "localization/artwork/tutorial_11_user_v1/ev159.tm2.png",
+      "current_integrated_build": "build/tutorial_11_user_v1/Poison Pink (Japan) - expanded user help.iso",
+      "current_runtime_verified": false
+    },
+    {
+      "path": "dmap/ev/ev160.tm2",
+      "sha256": "573c32f9a5dceaaa8de1702c9b4e054d84f7ecf6c0adba256753fdd82c12c29e",
+      "size": [
+        640,
+        448
+      ],
+      "korean_title_draft": "스텝 스톤 규칙·조작",
+      "classification": "minigame_help",
+      "priority": 2,
+      "status": "user_artwork_adopted_runtime_deferred",
+      "preview": "build/ui_audit/ev160.tm2.png",
+      "notes": "Full body transcription and translation pending",
+      "historical_status": "source_identified",
+      "current_user_artwork": "localization/artwork/tutorial_11_user_v1/ev160.tm2.png",
+      "current_integrated_build": "build/tutorial_11_user_v1/Poison Pink (Japan) - expanded user help.iso",
+      "current_runtime_verified": false
+    },
+    {
+      "path": "dmap/ev/ev161.tm2",
+      "sha256": "8f0412e03a931b013b19f359c2bf4c9ab6604fd6f81b0de851b11ad5aa6e1a03",
+      "size": [
+        640,
+        448
+      ],
+      "korean_title_draft": "스텝 스톤 규칙·조작",
+      "classification": "minigame_help",
+      "priority": 2,
+      "status": "user_artwork_adopted_runtime_deferred",
+      "preview": "build/ui_audit/ev161.tm2.png",
+      "notes": "Full body transcription and translation pending",
+      "historical_status": "source_identified",
+      "current_user_artwork": "localization/artwork/tutorial_11_user_v1/ev161.tm2.png",
+      "current_integrated_build": "build/tutorial_11_user_v1/Poison Pink (Japan) - expanded user help.iso",
+      "current_runtime_verified": false
+    },
+    {
+      "path": "dmap/ev/ev162.tm2",
+      "sha256": "84807a2cb1e239a840fc176cf22757bc3e0c406d702c3f6940551833a16c32ca",
+      "size": [
+        640,
+        384
+      ],
+      "korean_title_draft": "내성",
+      "classification": "help",
+      "priority": 2,
+      "status": "user_artwork_adopted_runtime_deferred",
+      "preview": "build/ui_audit/ev162.tm2.png",
+      "notes": "Full body transcription and translation pending",
+      "historical_status": "source_identified",
+      "current_user_artwork": "localization/artwork/tutorial_11_user_v1/ev162.tm2.png",
+      "current_integrated_build": "build/tutorial_11_user_v1/Poison Pink (Japan) - expanded user help.iso",
+      "current_runtime_verified": false
+    }
+  ],
+  "menu_atlases": [
+    {
+      "path": "status/sys000.tm2",
+      "sha256": "14e60d7062061be2778154c4e3f18f521eb225d86d3fd4038cc0d49c6d908cc0",
+      "purpose": "전투 명령 9종과 추가 명령",
+      "priority": 1,
+      "sprite_rectangles": 59,
+      "status": "user_artwork_adopted_runtime_deferred",
+      "preview": "build/ui_audit/sys000.tm2.png",
+      "historical_status": "9_commands_25_tiles_authored",
+      "current_user_artwork": "localization/artwork/battle_menu_user_v1/sys000.png",
+      "current_integrated_build": "build/tutorial_11_user_v1/Poison Pink (Japan) - expanded user help.iso",
+      "current_runtime_verified": false
+    },
+    {
+      "path": "status/sys009.tm2",
+      "sha256": "61ae8b0afad568f488388ce40997ae6276d2b87151595943c3265d5b8bcd7d24",
+      "purpose": "결정·취소·선택 안내",
+      "priority": 1,
+      "sprite_rectangles": 22,
+      "status": "source_identified",
+      "preview": "build/ui_audit/sys009.tm2.png"
+    },
+    {
+      "path": "status/sys011.tm2",
+      "sha256": "c78d577d9df3f3b7ffe8dba4ec09a2bf0900686ba001589ce04bd68ef4524881",
+      "purpose": "스킬 종류 제목",
+      "priority": 1,
+      "sprite_rectangles": 10,
+      "status": "source_identified",
+      "preview": "build/ui_audit/sys011.tm2.png"
+    },
+    {
+      "path": "status/sys015.tm2",
+      "sha256": "65cb17d0b8899de4c7275ed3a8b7a2878936dfbb194cc8a076a0fa6ad2430a41",
+      "purpose": "출격 준비·승패 조건·저장·로드",
+      "priority": 1,
+      "sprite_rectangles": 39,
+      "status": "source_identified",
+      "preview": "build/ui_audit/sys015.tm2.png"
+    },
+    {
+      "path": "status/sys019.tm2",
+      "sha256": "c5aba2020828cd957dce32c48aedb25b9c558a08caf382194110692ceebaf494",
+      "purpose": "상점·장비·스킬 조작",
+      "priority": 1,
+      "sprite_rectangles": 13,
+      "status": "source_identified",
+      "preview": "build/ui_audit/sys019.tm2.png"
+    },
+    {
+      "path": "status/sys021.tm2",
+      "sha256": "d1a059e89142370e9092186418ac67f25ee70970d1456989de53ddb4f2f1188a",
+      "purpose": "아이템 분류 탭",
+      "priority": 1,
+      "sprite_rectangles": 24,
+      "status": "source_identified",
+      "preview": "build/ui_audit/sys021.tm2.png"
+    },
+    {
+      "path": "status/sys027.tm2",
+      "sha256": "0bac18faf09c550df04e02ea964fdc256e7283169a11680f73f204dda6902988",
+      "purpose": "저장 슬롯 안내",
+      "priority": 1,
+      "sprite_rectangles": 20,
+      "status": "source_identified",
+      "preview": "build/ui_audit/sys027.tm2.png"
+    },
+    {
+      "path": "status/sys036.tm2",
+      "sha256": "29f6d1bfc446d7a43c13768bdb93013bfbe450c0c34cec19778bb792e9928e27",
+      "purpose": "대화 상대 선택 안내",
+      "priority": 1,
+      "sprite_rectangles": 10,
+      "status": "source_identified",
+      "preview": "build/ui_audit/sys036.tm2.png"
+    },
+    {
+      "path": "status/sys040.tm2",
+      "sha256": "8b93ad1a9f91d4842b81891856d75319f13a2cd977a197e7660219775780f9f7",
+      "purpose": "거점 메뉴",
+      "priority": 1,
+      "sprite_rectangles": 29,
+      "status": "source_identified",
+      "preview": "build/ui_audit/sys040.tm2.png"
+    },
+    {
+      "path": "status/sys045.tm2",
+      "sha256": "4f3deca5e34a3a26bb5c03d63fab2253415dee0788abf04373a746fd01fae12b",
+      "purpose": "장비 제목",
+      "priority": 1,
+      "sprite_rectangles": 4,
+      "status": "source_identified",
+      "preview": "build/ui_audit/sys045.tm2.png"
+    }
+  ],
+  "notes": [
+    "Titles outside the authored sample are translation drafts, not approved terminology.",
+    "ev153 is a play-health notice and ev154 is GAME OVER, not help pages.",
+    "RTB common choice strings and ELF menu strings require separate field/reference mapping."
+  ]
+}

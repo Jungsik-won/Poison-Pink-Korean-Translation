@@ -1,0 +1,110 @@
+{
+  "status": "applied_to_iso",
+  "date": "2026-09-30",
+  "base_iso": "build/user_ui_test_v6/Poison Pink (Japan) - Korean user UI test v6.iso",
+  "base_iso_sha256": "3086890c313ffcbf1303671e3e0f11a1dded4194c0ad742cb54a59e61b5b3771",
+  "iso_built": true,
+  "runtime_verified": false,
+  "rows": [
+    {
+      "offset": 4051332,
+      "source": "何体購入するんだい？",
+      "target": "몇 마리 구매할 거야?",
+      "capacity": 20,
+      "encoded_bytes": 20,
+      "original_nul_offset": 4051352
+    },
+    {
+      "offset": 4051460,
+      "source": "@n体で@gになるよ\nいいんだね？",
+      "target": "@n마리에 @g가 돼.\n괜찮지?",
+      "capacity": 29,
+      "encoded_bytes": 25,
+      "original_nul_offset": 4051489
+    },
+    {
+      "offset": 4051720,
+      "source": "何体売却するんだい？",
+      "target": "몇 마리 팔 거야?",
+      "capacity": 20,
+      "encoded_bytes": 16,
+      "original_nul_offset": 4051740
+    },
+    {
+      "offset": 4051848,
+      "source": "@n体で@gになるよ\nいいんだね？",
+      "target": "@n마리에 @g가 돼.\n괜찮지?",
+      "capacity": 29,
+      "encoded_bytes": 25,
+      "original_nul_offset": 4051877
+    },
+    {
+      "offset": 4052108,
+      "source": "何個購入するんじゃ？",
+      "target": "몇 개 구매할 게냐?",
+      "capacity": 20,
+      "encoded_bytes": 18,
+      "original_nul_offset": 4052128
+    },
+    {
+      "offset": 4052236,
+      "source": "@n個で@gになるのぉ\nいいんじゃな？",
+      "target": "@n개에 @g가 된다.\n괜찮겠지?",
+      "capacity": 33,
+      "encoded_bytes": 27,
+      "original_nul_offset": 4052269
+    },
+    {
+      "offset": 4052496,
+      "source": "何個売却するんじゃ？",
+      "target": "몇 개 팔 게냐?",
+      "capacity": 20,
+      "encoded_bytes": 14,
+      "original_nul_offset": 4052516
+    },
+    {
+      "offset": 4052624,
+      "source": "@n個で@gになるのぉ\nいいんじゃな？",
+      "target": "@n개에 @g가 된다.\n괜찮겠지?",
+      "capacity": 33,
+      "encoded_bytes": 27,
+      "original_nul_offset": 4052657
+    },
+    {
+      "offset": 4052884,
+      "source": "何体使用するんだい？",
+      "target": "몇 마리 사용할 거야?",
+      "capacity": 20,
+      "encoded_bytes": 20,
+      "original_nul_offset": 4052904
+    },
+    {
+      "offset": 4053012,
+      "source": "@n体\nこれで実行するよ。いいんだね？",
+      "target": "@n마리\n이대로 실행할게. 괜찮지?",
+      "capacity": 35,
+      "encoded_bytes": 31,
+      "original_nul_offset": 4053047
+    }
+  ],
+  "checks": {
+    "original_nul_positions_preserved": true,
+    "control_tokens_preserved": true,
+    "existing_font_mapping_verified": true,
+    "executable_sections_unchanged": true,
+    "outside_literal_spans_identical": true
+  },
+  "changed_bytes": 249,
+  "pending_files": [
+    {
+      "path": "SLPS_258.54",
+      "replacement": "build/shop_messages_v1/SLPS_258.54",
+      "expected_sha256": "0a5f61a95c9a881d2c0f75f484209482da2c47589c8b03c1f0f0119ef88f760a",
+      "sha256": "748a923e54997d8fdbcd68ec1a9cca8d7d36482a3a3fb47ed868fc945048c1a4"
+    }
+  ],
+  "superseded_for_next_integration_by": "reports/class_change_review_v1.json",
+  "iso_path": "build/dmap_map_ko_v1/Poison Pink (Japan) - Korean DMAP maps v1.iso",
+  "integration_report": "reports/dmap_map_ko_v1.json",
+  "applied_via": "class_change_review_v1"
+}

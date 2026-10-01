@@ -1,0 +1,2924 @@
+{
+  "status": "applied_to_iso",
+  "missing": [],
+  "prepared_count": 75,
+  "expected_vd_count": 73,
+  "image_generation_mode": "built-in image_gen",
+  "runtime_verified": false,
+  "iso_path": "build/dmap_map_ko_v1/Poison Pink (Japan) - Korean DMAP maps v1.iso",
+  "base_iso": "build/user_ui_test_v6/Poison Pink (Japan) - Korean user UI test v6.iso",
+  "iso": {
+    "source_sha256": "3086890c313ffcbf1303671e3e0f11a1dded4194c0ad742cb54a59e61b5b3771",
+    "output_sha256": "481a8ea8e042b0dd3385bb5ed56aa3b3d8e41dad222fef053c81c751854f1f3e",
+    "bytes": 4245454848,
+    "changed_bytes": 12209601,
+    "size_preserved": true,
+    "runtime_compatibility": {
+      "elf_crc": "565FA10D",
+      "sidecar": "<LOCAL_USER_HOME>/Desktop/poison pink/build/dmap_map_ko_v1/Poison Pink (Japan) - Korean DMAP maps v1.iso.pcsx2",
+      "checked_patch_addresses": 34
+    },
+    "replacements": [
+      {
+        "offset": 679936,
+        "size": 4659936,
+        "before_sha256": "0a5f61a95c9a881d2c0f75f484209482da2c47589c8b03c1f0f0119ef88f760a",
+        "after_sha256": "499cf324700815b3a617350677e3b87a582653875aa9f7070203451bfbd8e4ac"
+      },
+      {
+        "offset": 6916096,
+        "size": 9548,
+        "before_sha256": "53d114ac7eaa959c39cea81f55d53f0887160cae8a6373331e447351df603577",
+        "after_sha256": "5ace591713a98522f13103bc3be6fbc6303323e9e0fedbe0969784b5d9cf731c"
+      },
+      {
+        "offset": 1537376256,
+        "size": 12255232,
+        "before_sha256": "09457ccb3b607b8db0f42d472cb22e0eaae235abf36066052c11ca5382d27988",
+        "after_sha256": "6c023df5125cf8b2b1e6930c964f187dd50c68030b40c3ac3ded578f1289fc9b"
+      },
+      {
+        "offset": 1946861568,
+        "size": 263232,
+        "before_sha256": "778d834dfd777c06c5bfa79128a07082577493fee74d219b41ea9bee0e82cdfa",
+        "after_sha256": "86476a1be45ae26ef4c306ed5eefc43e5223fba8a8ebd9a33aa8ca637a9476af"
+      },
+      {
+        "offset": 1951727616,
+        "size": 263232,
+        "before_sha256": "74dac18f658527109438cc2c0763f9f64cfd4f6059b7cee3f9fb932a8ff2766c",
+        "after_sha256": "57835c2d6d3a6b0294f2e44f9141fe264ba68d8bbcfe6777de00080390bbabc5"
+      },
+      {
+        "offset": 1956184064,
+        "size": 263232,
+        "before_sha256": "d09e6e887422d037677d9a2a2a5d53d6c40af155be2991c47130826087a7e94d",
+        "after_sha256": "cc166d50d568723c819c1577ba4062e283e6fc150cf61026cdecc9fd7d97d8cd"
+      },
+      {
+        "offset": 1960427520,
+        "size": 263232,
+        "before_sha256": "f1e520d0135d398366f2565e6d7b7e59482fb6dd59c38dc682404ee3a2f2dcc8",
+        "after_sha256": "a9228747ff7d9c6d4dffb1831e01bdb101713dc9fc8024751256b43c5834b9b0"
+      },
+      {
+        "offset": 1960722432,
+        "size": 263232,
+        "before_sha256": "cced543244aee38bc02ba85f5d0ee35f003760d8ed18bf0e05895010c9f5bf35",
+        "after_sha256": "21c568139778d4c90648236582a2a0941257725cc8df4775e2df5b66df403115"
+      },
+      {
+        "offset": 1965735936,
+        "size": 263232,
+        "before_sha256": "8446b2d7d182625416627a9171f76f4d8e17d548aede99a98004c8a6fe61120c",
+        "after_sha256": "f8ea755ef6847bece3207972a9dedd1ac887e7096f64e0ea6feb485918c7dcb1"
+      },
+      {
+        "offset": 1971535872,
+        "size": 263232,
+        "before_sha256": "e2c05eeb625bd2d5b5f42583ef3b33859751a48db8ad8d320e2bc328ae0a1123",
+        "after_sha256": "576dc9ef4e0bf97fc1675007df61f2eefdbe427c3b5ad74b205d3b785976d21f"
+      },
+      {
+        "offset": 1971830784,
+        "size": 263232,
+        "before_sha256": "2b9e492a842a4a9dd101d923eeaf7f5635544b85d66af174c569554b8a574f59",
+        "after_sha256": "f1557c3ec33af0b94292d831e37b0c6533e3e489a8bbabde6036b0e9ca23abc6"
+      },
+      {
+        "offset": 1975730176,
+        "size": 263232,
+        "before_sha256": "efd985f8d5f5dc7e227b2f77fb23f4bae3c61fe37c65f597a3034b68a30a52bc",
+        "after_sha256": "7beb3c6afaa53b9c675b6e115edd315b11ff7dbad525e34372645c5c74dbcfea"
+      },
+      {
+        "offset": 1980989440,
+        "size": 263232,
+        "before_sha256": "3569de19e71c8488fa3338d215742c57ca9fe5f615ddcd5707f627f7a3a4b77b",
+        "after_sha256": "1e1dae15ba92985804c23aa8d17313ddec63c17e97db908534a3c4dcf086e73f"
+      },
+      {
+        "offset": 1981399040,
+        "size": 263232,
+        "before_sha256": "04e2fda33d5426ccdf91382697840bd03a4a40b5cfd0d6a9797c324d61db12d8",
+        "after_sha256": "21a71d71ddff91bd138bf70c0e1ff55badbdb907cdcc619f76188481f498399c"
+      },
+      {
+        "offset": 1984413696,
+        "size": 263232,
+        "before_sha256": "20b0f7ae3ba9d996359807aa7c6e215330abcfe18f4216b28ffd4917743fe573",
+        "after_sha256": "bd534aca1676d2142d9614ab1767c8fd0ed2c1a2c61d100c35133c3114e64116"
+      },
+      {
+        "offset": 1989509120,
+        "size": 263232,
+        "before_sha256": "570aca9e76032f1eff0283f46fa99192737a751555d69fb1e1cbdc231c25e717",
+        "after_sha256": "bff376463fbbb629e9e80595de6aaeb72a31991d7a9beceb3cd646d8e1ac2529"
+      },
+      {
+        "offset": 1989804032,
+        "size": 263232,
+        "before_sha256": "8b86ab6fabe7d2f1f9b442a4bdcedf563ef626a3ea13d1c48b6932e3e5725051",
+        "after_sha256": "304f713209f07504742481e9bbd1d36186f8ee2a8deee5e6c649ef37b995c566"
+      },
+      {
+        "offset": 1992818688,
+        "size": 263232,
+        "before_sha256": "27aacfed553c7f8450b3208e37938b82468d2fce7896daf799a12d2e1aee7ab9",
+        "after_sha256": "c55f310e19b73ac1a7e458ae2550cec634bc256b430a28644ac61613497f5f5e"
+      },
+      {
+        "offset": 1998848000,
+        "size": 263232,
+        "before_sha256": "f631ee701a68bc8f68e34c1e8d5571c614b5defc32d1e7bd478aad38c4a4a95a",
+        "after_sha256": "9b7b13d8d15aba69d14555d209e56b33fb2a7414033139e3875054b85d9eb504"
+      },
+      {
+        "offset": 2003238912,
+        "size": 263232,
+        "before_sha256": "a3afc2edbd51a8a56ffcfb7f5a331ba9e02830c30b36bb1e35d1f97c494c3266",
+        "after_sha256": "bdbef5b6f20bd90b59d62883121c24137b568c6a4981972fe4be26e82e3d70e1"
+      },
+      {
+        "offset": 2003664896,
+        "size": 263232,
+        "before_sha256": "173ff2773885e4e2b03ece79fa2943e9ebf050dab807dca9130e18c8feb5de94",
+        "after_sha256": "21ac5c5f80f59b0d96cd9ca121e1c00d11f7f09e35f98c4c446df53eed543d0e"
+      },
+      {
+        "offset": 2007711744,
+        "size": 263232,
+        "before_sha256": "81fff908adb2a4369a90524e59a6a4c902a6609422294d98f7ada218c0f0ebbf",
+        "after_sha256": "818bcb7a88f2aa1ef320531c11db15860d577a0d40a9f880401bd136160b77c9"
+      },
+      {
+        "offset": 2011316224,
+        "size": 263232,
+        "before_sha256": "6ae1cbb119c9ae5a55e5c9b882256d9431fb5ff628a6adbce2f827695267f7a8",
+        "after_sha256": "6918dc578a06839b3d8aee95725faf3fd31450db93dc86c19497b87b67a255c0"
+      },
+      {
+        "offset": 2015870976,
+        "size": 263232,
+        "before_sha256": "7e2d71c5fa60302ce1c331b15cedc5c771cdbfc4e53ed44189fa3d7cd1e4e5a2",
+        "after_sha256": "5f1b8a917cbcd7469d1a82946378c2f5113fb7e81075a08e0ff9d7cf669942cf"
+      },
+      {
+        "offset": 2016165888,
+        "size": 263232,
+        "before_sha256": "c3fb375bed1af92c04ec502b4672f9d2a4e1a8c99a670120c0b7999dadf36222",
+        "after_sha256": "f0d089668a674b3431345a6521cd833de8a2a4d74dabae058de3ba4a53139749"
+      },
+      {
+        "offset": 2022801408,
+        "size": 33856,
+        "before_sha256": "066bca49ba2a907754e4f9479bd3c53e37eb74b6c4fe64fbfde5cb506dc0a1ec",
+        "after_sha256": "4f87b817d00af09c2c1a0d27bc89f6154fbab8c91fba2edea093f17a5968639e"
+      },
+      {
+        "offset": 2022850560,
+        "size": 66624,
+        "before_sha256": "0c964944221f6cb8dc8b9290987f429a2fe86a6d83ec7dbcdd3738239e0c439c",
+        "after_sha256": "79081094d9f9e0ebad7952280a1a7f42ad9a3c0495612f93ca89181699d727ba"
+      },
+      {
+        "offset": 2027667456,
+        "size": 263232,
+        "before_sha256": "d4835a9702a53d49dfc2929dedc90de94306141a4bce1e4bcc930d5c9941812c",
+        "after_sha256": "7e80a8a1d9147a1c3eaf104ffc37c1685edd4740aec4b8893b1296de12a4d4f4"
+      },
+      {
+        "offset": 2031550464,
+        "size": 263232,
+        "before_sha256": "9ca8550ac6bafaa53f6e701afde90c18bfc7f3a6b9ea8f82d814ea81e96ec7e2",
+        "after_sha256": "e4c38ec39c480380ab2ca55c7f70f810e3e130ddb419ce7518655fde64d6c329"
+      },
+      {
+        "offset": 2031943680,
+        "size": 263232,
+        "before_sha256": "5c2ef6da22ca594380c1da0c0c4d4a2f2d698d611b875722ab7f79388b4c3345",
+        "after_sha256": "0e6009801f0c39f8da38c03813a2c8d53fcd45ffa9ace90421d20b31ecb35f88"
+      },
+      {
+        "offset": 2035908608,
+        "size": 263232,
+        "before_sha256": "fc2d9717b6d81b6966e935045d06e35d3e58a777c2d63ca250b46ca501d0f3da",
+        "after_sha256": "69b4273d6a0fafedce18cd10d43e5633d84a6fe4ca4976d383dfa31eb593388a"
+      },
+      {
+        "offset": 2039857152,
+        "size": 263232,
+        "before_sha256": "a517d2bce8c0e45cb0156b7e27d636cfd28c7f16555a0552cd05680b142e130f",
+        "after_sha256": "e076e9cbb9995cdc4398c398506eb6705d38d95aec1a35d14b4fc65a1d68e34f"
+      },
+      {
+        "offset": 2043002880,
+        "size": 263232,
+        "before_sha256": "c7c2e2bf79b12b7f0feb7c485d485f2f76273ee4928565fd7c2b168592dc1146",
+        "after_sha256": "f1ee4bb473c0e79d2fc5a69f51e0324260351c239c7c1dedb1bf50d65a50c25a"
+      },
+      {
+        "offset": 2043396096,
+        "size": 263232,
+        "before_sha256": "91f13b4dc36a198ee593e3e5b0068180829c4d2142cd6f9e51a8ab36b6341587",
+        "after_sha256": "386cb96b5b63f5d572f487a0573d5e2ce3e2d0500420b7f3f6073a505d38e602"
+      },
+      {
+        "offset": 2048016384,
+        "size": 263232,
+        "before_sha256": "d37e445c9517887fe89a4bb310cf5087783304e703ba91cd762b5bc0962416d8",
+        "after_sha256": "556c48a8ba9f40695f149e084e4022f659e50aed2f00abaf6b6a71c6242da0e4"
+      },
+      {
+        "offset": 2048311296,
+        "size": 263232,
+        "before_sha256": "ed5cdf288873cf515cae03b1220c930731fae98fe3ff36b51027c6c47691e72b",
+        "after_sha256": "6a8ee3b67073f067adf6db7c915d837571fc19bd2b6aaa514d226fee11132cfe"
+      },
+      {
+        "offset": 2053652480,
+        "size": 263232,
+        "before_sha256": "ff703bc8e2a29d36ce7179462ae1b0cb8f53e7c6bafca17640fa3fcd6dcb122e",
+        "after_sha256": "8ce5dcd5853abdb14fea37447fd232a61880d900c351541dcef35cb8e00aeede"
+      },
+      {
+        "offset": 2053947392,
+        "size": 263232,
+        "before_sha256": "4c6ae83b37143eb6cfb27e9419bd2abadf8f7a428cb68616e66ea078bca7678c",
+        "after_sha256": "11ec717f147a0f2f1041d21fcc85e4b38e4f4760f569c8fcc555571f135e6be7"
+      },
+      {
+        "offset": 2059632640,
+        "size": 263232,
+        "before_sha256": "22e18fc282d79d76b68291f33ce0c949b9feb8b7705ff13e607df5474a8b4878",
+        "after_sha256": "e73831f39ce1260a0b3cfecaf200a1ca329e5d17426916f7c6a3f19982a3ebbc"
+      },
+      {
+        "offset": 2065055744,
+        "size": 263232,
+        "before_sha256": "d7a4c5eda55b7c531e2127140d1262c0df504bcad7c3bb94de690146df67e8cc",
+        "after_sha256": "e6df3286ad07411e0d4a4dadd2f9668c707ac90095e87380873ecd58fdfe56b2"
+      },
+      {
+        "offset": 2069676032,
+        "size": 263232,
+        "before_sha256": "9ea78baaa44591112bac936c77fad8b04d74a4d9f0d53d538d9be4660c594867",
+        "after_sha256": "e316446e7868d9ba7ecfc910c04a5c7693badf7609c22c497c5afd7bb94b8b84"
+      },
+      {
+        "offset": 2070085632,
+        "size": 263232,
+        "before_sha256": "44d65e2f221250096e4c5f74fdf30d9deaf26d8bde200773bf5380054d08a327",
+        "after_sha256": "9a00df5f70b1c9ab6f46676a346e9034ca9164699d0ab54dfd26d9b2f3519149"
+      },
+      {
+        "offset": 2072821760,
+        "size": 263232,
+        "before_sha256": "1cffdeb01f6de2aed8e5560e4c976f8e10298130f4ad264918ac25bf99e6c443",
+        "after_sha256": "f6666a3d45f4a416ecb1856c6507ddd00362ed5cc024b74dac0adfc0e5265191"
+      },
+      {
+        "offset": 2078408704,
+        "size": 263232,
+        "before_sha256": "35c3fffb00b20a5b2a04edf7d0004afe3f0fb1bbb7b03d6d2df08ac0f376bccb",
+        "after_sha256": "2ddc3ace2a83404ad3ee49f3d25b330218773d2d4092ecb9c3922d376a3d5411"
+      },
+      {
+        "offset": 2078703616,
+        "size": 263232,
+        "before_sha256": "c812a1a8e4b28759cf897a5a18423b6715de8752e419a590570f7061fdb61af6",
+        "after_sha256": "48b37d1b87636d493b1d363cfb8430ee562cdc87d0bf27e3eadc8716d1141737"
+      },
+      {
+        "offset": 2082734080,
+        "size": 263232,
+        "before_sha256": "1f96cf46dbec546bd03cd664ffea0958bf4258c47ef56428e93b105aeb70ba42",
+        "after_sha256": "9b76d863633e21ef941ea2a8486dd4cd41c781dc673db72484a1e2bfcb7cfdda"
+      },
+      {
+        "offset": 2086617088,
+        "size": 263232,
+        "before_sha256": "c1a0ae4561d736e6b755d5c55453a65afe8e940740a618ea705d37140e42e027",
+        "after_sha256": "4c348e857295b0db074b24e254531ac3493130733802c075634c789339b1474d"
+      },
+      {
+        "offset": 2090860544,
+        "size": 263232,
+        "before_sha256": "996bd0c48bef3b8f464e8b23d77984e6bfab9d5f134bf4d04367c9b4372cbcad",
+        "after_sha256": "210b6f2ef1440469bab748e5342183c1691e6bb2217b76ebb32c623812a905e7"
+      },
+      {
+        "offset": 2091155456,
+        "size": 263232,
+        "before_sha256": "e51961b8885f0ba884692163047eee786e45d401e5305aac35ca2911dd2d693a",
+        "after_sha256": "4bf1646410967916025768f91ad51664943533cc75230cbe386b647920460507"
+      },
+      {
+        "offset": 2093744128,
+        "size": 263232,
+        "before_sha256": "010bd93b1ff19e74e55dec3c84cd363688e0d89174fc71c8c2fe0b080a007555",
+        "after_sha256": "0aea5ef2ee172bfd3b4c8fb507421dfdcf2214900dd2c5b55c6fc24ec6b4ebf2"
+      },
+      {
+        "offset": 2098348032,
+        "size": 263232,
+        "before_sha256": "c31d05169ce2a28c3baa5616ca79e7d116e7e7a5d4df69d9e0da03ec2cc244ec",
+        "after_sha256": "0352fa785ae7ec5d7211c489f7d6339b4a9e334d1c2251227b878cc28bb1b20d"
+      },
+      {
+        "offset": 2101739520,
+        "size": 263232,
+        "before_sha256": "e6f0fa14b3b6ba29437a07751f9f99413c4d5031ac2f95a8d776b52ee43166d3",
+        "after_sha256": "5f96e59f9cfedff20327006b5b603072d4740239662159742230ffe1d7f3638e"
+      },
+      {
+        "offset": 2102132736,
+        "size": 263232,
+        "before_sha256": "7edb02621fa09ec6aba918fbc8109fd94e26fc875cba9198ee182aa8d99c52c2",
+        "after_sha256": "541b3be8728afb488a1a3e5b7f76d86c85fdfa5f24f5b35fbabc0d549ca07606"
+      },
+      {
+        "offset": 2110865408,
+        "size": 263232,
+        "before_sha256": "2f00788bdad445c81349c5464422096b32859d9ebb847904ed2408c1da826d63",
+        "after_sha256": "4672042d0495be43a6e9206046ee93acf3b45b68765d6d719729294f1f0e5bd9"
+      },
+      {
+        "offset": 2111160320,
+        "size": 263232,
+        "before_sha256": "4684dae8d4721f3eb8a40d2ddb50d777a3860905a3c7e0a640a89f1ec243ce15",
+        "after_sha256": "2b4049c74c48a76d6768bd0c5d812d70e8b4b427937dc0cbc226523e308fae13"
+      },
+      {
+        "offset": 2113650688,
+        "size": 263232,
+        "before_sha256": "3f3f4019740f17622ca1b796a9b3535fa80e1d620ee6fff0a439ca0609956436",
+        "after_sha256": "8f81ee0b1b1006451ecf873f0a7d0f9b025ae483fdd819c25a7fc5cdb119d0fc"
+      },
+      {
+        "offset": 2118418432,
+        "size": 263232,
+        "before_sha256": "fea1454ae3a81763e90f1bec3dca602ec68280b5d754d577175adc4b074d36b5",
+        "after_sha256": "e42d0fa01542574d969635ab4376064b30a2c0c1f614efc9a35593226c507d0a"
+      },
+      {
+        "offset": 2122776576,
+        "size": 263232,
+        "before_sha256": "22d25365c1f43b0fed854ba2e2bba260d1d042410bab086efa922b38160aea72",
+        "after_sha256": "bf2484d06541eec1b51608d734b4cd13c13ce9d1e5abc278ebcebf8520b6a553"
+      },
+      {
+        "offset": 2123235328,
+        "size": 263232,
+        "before_sha256": "9f45c6eaee6e3e85eafda4229ef44d4f65c4a0320fc366eb641227b91580f9a1",
+        "after_sha256": "236a0e97ea1d78c2372a7a1b478e30c0a0bb354d2b98f59cda17936ba5f844df"
+      },
+      {
+        "offset": 2132328448,
+        "size": 263232,
+        "before_sha256": "533f13a25202849e6323184049d778696bd902146550ab46857a5f162daee9f1",
+        "after_sha256": "775d9a69a7db693fedb64755b54950e651486d72b59819e72c0dc3f5509090c3"
+      },
+      {
+        "offset": 2132623360,
+        "size": 263232,
+        "before_sha256": "5c60a6da26d24a1d12cf242d99a0599fe5f6338d45ed685f3495f2bc97716301",
+        "after_sha256": "de143553fc02306ca65dd9670e8a9fd32d4fc43933299f5e51153c41553d348e"
+      },
+      {
+        "offset": 2134458368,
+        "size": 263232,
+        "before_sha256": "19c5d454a126d55ae3021097c0ab8478b4684366a4bfb6d0d72350007b0a2da2",
+        "after_sha256": "51f73a1d0c0d7f1ecec3baaf3be094cfee72e1a01034696b8711dc542aac9ca1"
+      },
+      {
+        "offset": 2134786048,
+        "size": 263232,
+        "before_sha256": "0d943e90e364143769f31bca832fdcc0262cf5422467f5b337675a06d7a2d835",
+        "after_sha256": "d8814ecaa69cd5cf58abbded6d9e1453cd6bde2d8f72e242c2cf8b5e643d628c"
+      },
+      {
+        "offset": 2136571904,
+        "size": 263232,
+        "before_sha256": "19c5d454a126d55ae3021097c0ab8478b4684366a4bfb6d0d72350007b0a2da2",
+        "after_sha256": "51f73a1d0c0d7f1ecec3baaf3be094cfee72e1a01034696b8711dc542aac9ca1"
+      },
+      {
+        "offset": 2138292224,
+        "size": 263232,
+        "before_sha256": "0d943e90e364143769f31bca832fdcc0262cf5422467f5b337675a06d7a2d835",
+        "after_sha256": "d8814ecaa69cd5cf58abbded6d9e1453cd6bde2d8f72e242c2cf8b5e643d628c"
+      },
+      {
+        "offset": 2139996160,
+        "size": 263232,
+        "before_sha256": "19c5d454a126d55ae3021097c0ab8478b4684366a4bfb6d0d72350007b0a2da2",
+        "after_sha256": "51f73a1d0c0d7f1ecec3baaf3be094cfee72e1a01034696b8711dc542aac9ca1"
+      },
+      {
+        "offset": 2141716480,
+        "size": 263232,
+        "before_sha256": "19c5d454a126d55ae3021097c0ab8478b4684366a4bfb6d0d72350007b0a2da2",
+        "after_sha256": "51f73a1d0c0d7f1ecec3baaf3be094cfee72e1a01034696b8711dc542aac9ca1"
+      },
+      {
+        "offset": 2144305152,
+        "size": 263232,
+        "before_sha256": "09a0aa5ae50a0c624106706110a8e09f16d7919bb58e20cf5caa0d435cc31860",
+        "after_sha256": "01944427b43726021da3c9d840536829960222e80d763b78515c4dc1cea634bf"
+      },
+      {
+        "offset": 2150383616,
+        "size": 263232,
+        "before_sha256": "bad64327f999fa8fcc379cd906fd9e3776b6c38bd1fbe9a7fada7f5149107c28",
+        "after_sha256": "e78b72ceaa9bc10ee6000e5de7497a77a86c7d46058c55e868630f7bda475a33"
+      },
+      {
+        "offset": 2156281856,
+        "size": 263232,
+        "before_sha256": "0d8526f26444dd0dcae7fc1d482098f512de824db3a4f95bb4c0392bd65a2d44",
+        "after_sha256": "e0e941d57560b68fdfb6eb0c5427a0c72a9d00b2accd5c3ff9a4b32bdbc78fed"
+      },
+      {
+        "offset": 2160918528,
+        "size": 263232,
+        "before_sha256": "851ce770d68f10d74223be47ea1f9a3f142c0d87af2ada1dbbb456b8e393657f",
+        "after_sha256": "12f5ea6ff889b88ca262fa5c275b46d49aea6ecc5c0d5a203b1001290219e49d"
+      },
+      {
+        "offset": 2165489664,
+        "size": 263232,
+        "before_sha256": "56100cbc90681980654b566a45c870da3e26eef710a76497bbd553f0f49ff636",
+        "after_sha256": "367365b245e4a3f399242726d5b85db7913b8b95c071d64de2a61627d6db40d0"
+      },
+      {
+        "offset": 2169880576,
+        "size": 263232,
+        "before_sha256": "851ce770d68f10d74223be47ea1f9a3f142c0d87af2ada1dbbb456b8e393657f",
+        "after_sha256": "12f5ea6ff889b88ca262fa5c275b46d49aea6ecc5c0d5a203b1001290219e49d"
+      },
+      {
+        "offset": 2174582784,
+        "size": 263232,
+        "before_sha256": "56100cbc90681980654b566a45c870da3e26eef710a76497bbd553f0f49ff636",
+        "after_sha256": "367365b245e4a3f399242726d5b85db7913b8b95c071d64de2a61627d6db40d0"
+      },
+      {
+        "offset": 2178908160,
+        "size": 263232,
+        "before_sha256": "56100cbc90681980654b566a45c870da3e26eef710a76497bbd553f0f49ff636",
+        "after_sha256": "367365b245e4a3f399242726d5b85db7913b8b95c071d64de2a61627d6db40d0"
+      },
+      {
+        "offset": 2183643136,
+        "size": 263232,
+        "before_sha256": "851ce770d68f10d74223be47ea1f9a3f142c0d87af2ada1dbbb456b8e393657f",
+        "after_sha256": "12f5ea6ff889b88ca262fa5c275b46d49aea6ecc5c0d5a203b1001290219e49d"
+      },
+      {
+        "offset": 2187886592,
+        "size": 263232,
+        "before_sha256": "56100cbc90681980654b566a45c870da3e26eef710a76497bbd553f0f49ff636",
+        "after_sha256": "367365b245e4a3f399242726d5b85db7913b8b95c071d64de2a61627d6db40d0"
+      },
+      {
+        "offset": 2190868480,
+        "size": 263232,
+        "before_sha256": "851ce770d68f10d74223be47ea1f9a3f142c0d87af2ada1dbbb456b8e393657f",
+        "after_sha256": "12f5ea6ff889b88ca262fa5c275b46d49aea6ecc5c0d5a203b1001290219e49d"
+      }
+    ]
+  },
+  "replacements": [
+    {
+      "member": "dmap/map/00/0010/vd000010.tm2",
+      "offset": 1946861568,
+      "size": 263232,
+      "sha256": "86476a1be45ae26ef4c306ed5eefc43e5223fba8a8ebd9a33aa8ca637a9476af"
+    },
+    {
+      "member": "dmap/map/01/0020/vd010020.tm2",
+      "offset": 2082734080,
+      "size": 263232,
+      "sha256": "9b76d863633e21ef941ea2a8486dd4cd41c781dc673db72484a1e2bfcb7cfdda"
+    },
+    {
+      "member": "dmap/map/01/0030/vd010030.tm2",
+      "offset": 2086617088,
+      "size": 263232,
+      "sha256": "4c348e857295b0db074b24e254531ac3493130733802c075634c789339b1474d"
+    },
+    {
+      "member": "dmap/map/01/0040/vd010040.tm2",
+      "offset": 2090860544,
+      "size": 263232,
+      "sha256": "210b6f2ef1440469bab748e5342183c1691e6bb2217b76ebb32c623812a905e7"
+    },
+    {
+      "member": "dmap/map/01/0040/vd010040_1.tm2",
+      "offset": 2091155456,
+      "size": 263232,
+      "sha256": "4bf1646410967916025768f91ad51664943533cc75230cbe386b647920460507"
+    },
+    {
+      "member": "dmap/map/02/0010/vd020010.tm2",
+      "offset": 1992818688,
+      "size": 263232,
+      "sha256": "c55f310e19b73ac1a7e458ae2550cec634bc256b430a28644ac61613497f5f5e"
+    },
+    {
+      "member": "dmap/map/02/0020/vd020020.tm2",
+      "offset": 1998848000,
+      "size": 263232,
+      "sha256": "9b7b13d8d15aba69d14555d209e56b33fb2a7414033139e3875054b85d9eb504"
+    },
+    {
+      "member": "dmap/map/02/0040/vd020040.tm2",
+      "offset": 2003238912,
+      "size": 263232,
+      "sha256": "bdbef5b6f20bd90b59d62883121c24137b568c6a4981972fe4be26e82e3d70e1"
+    },
+    {
+      "member": "dmap/map/02/0040/vd020040_1.tm2",
+      "offset": 2003664896,
+      "size": 263232,
+      "sha256": "21ac5c5f80f59b0d96cd9ca121e1c00d11f7f09e35f98c4c446df53eed543d0e"
+    },
+    {
+      "member": "dmap/map/03/0010/vd030010.tm2",
+      "offset": 2007711744,
+      "size": 263232,
+      "sha256": "818bcb7a88f2aa1ef320531c11db15860d577a0d40a9f880401bd136160b77c9"
+    },
+    {
+      "member": "dmap/map/03/0020/vd030020.tm2",
+      "offset": 2011316224,
+      "size": 263232,
+      "sha256": "6918dc578a06839b3d8aee95725faf3fd31450db93dc86c19497b87b67a255c0"
+    },
+    {
+      "member": "dmap/map/03/0040/vd030040.tm2",
+      "offset": 2015870976,
+      "size": 263232,
+      "sha256": "5f1b8a917cbcd7469d1a82946378c2f5113fb7e81075a08e0ff9d7cf669942cf"
+    },
+    {
+      "member": "dmap/map/03/0040/vd030040_1.tm2",
+      "offset": 2016165888,
+      "size": 263232,
+      "sha256": "f0d089668a674b3431345a6521cd833de8a2a4d74dabae058de3ba4a53139749"
+    },
+    {
+      "member": "dmap/map/04/0020/vd040020.tm2",
+      "offset": 1951727616,
+      "size": 263232,
+      "sha256": "57835c2d6d3a6b0294f2e44f9141fe264ba68d8bbcfe6777de00080390bbabc5"
+    },
+    {
+      "member": "dmap/map/04/0030/vd040030.tm2",
+      "offset": 1956184064,
+      "size": 263232,
+      "sha256": "cc166d50d568723c819c1577ba4062e283e6fc150cf61026cdecc9fd7d97d8cd"
+    },
+    {
+      "member": "dmap/map/04/0040/vd040040.tm2",
+      "offset": 1960427520,
+      "size": 263232,
+      "sha256": "a9228747ff7d9c6d4dffb1831e01bdb101713dc9fc8024751256b43c5834b9b0"
+    },
+    {
+      "member": "dmap/map/04/0040/vd040040_1.tm2",
+      "offset": 1960722432,
+      "size": 263232,
+      "sha256": "21c568139778d4c90648236582a2a0941257725cc8df4775e2df5b66df403115"
+    },
+    {
+      "member": "dmap/map/05/0010/vd050010.tm2",
+      "offset": 1965735936,
+      "size": 263232,
+      "sha256": "f8ea755ef6847bece3207972a9dedd1ac887e7096f64e0ea6feb485918c7dcb1"
+    },
+    {
+      "member": "dmap/map/05/0020/vd050020.tm2",
+      "offset": 1971535872,
+      "size": 263232,
+      "sha256": "576dc9ef4e0bf97fc1675007df61f2eefdbe427c3b5ad74b205d3b785976d21f"
+    },
+    {
+      "member": "dmap/map/05/0020/vd050020_1.tm2",
+      "offset": 1971830784,
+      "size": 263232,
+      "sha256": "f1557c3ec33af0b94292d831e37b0c6533e3e489a8bbabde6036b0e9ca23abc6"
+    },
+    {
+      "member": "dmap/map/05/0030/vd050030.tm2",
+      "offset": 1975730176,
+      "size": 263232,
+      "sha256": "7beb3c6afaa53b9c675b6e115edd315b11ff7dbad525e34372645c5c74dbcfea"
+    },
+    {
+      "member": "dmap/map/05/0040/vd050040.tm2",
+      "offset": 1984413696,
+      "size": 263232,
+      "sha256": "bd534aca1676d2142d9614ab1767c8fd0ed2c1a2c61d100c35133c3114e64116"
+    },
+    {
+      "member": "dmap/map/05/0050/vd050050.tm2",
+      "offset": 1989509120,
+      "size": 263232,
+      "sha256": "bff376463fbbb629e9e80595de6aaeb72a31991d7a9beceb3cd646d8e1ac2529"
+    },
+    {
+      "member": "dmap/map/05/0050/vd050050_1.tm2",
+      "offset": 1989804032,
+      "size": 263232,
+      "sha256": "304f713209f07504742481e9bbd1d36186f8ee2a8deee5e6c649ef37b995c566"
+    },
+    {
+      "member": "dmap/map/05/0060/vd050060.tm2",
+      "offset": 1980989440,
+      "size": 263232,
+      "sha256": "1e1dae15ba92985804c23aa8d17313ddec63c17e97db908534a3c4dcf086e73f"
+    },
+    {
+      "member": "dmap/map/05/0060/vd050060_1.tm2",
+      "offset": 1981399040,
+      "size": 263232,
+      "sha256": "21a71d71ddff91bd138bf70c0e1ff55badbdb907cdcc619f76188481f498399c"
+    },
+    {
+      "member": "dmap/map/06/0010/vd060010.tm2",
+      "offset": 2072821760,
+      "size": 263232,
+      "sha256": "f6666a3d45f4a416ecb1856c6507ddd00362ed5cc024b74dac0adfc0e5265191"
+    },
+    {
+      "member": "dmap/map/06/0020/vd060020.tm2",
+      "offset": 2069676032,
+      "size": 263232,
+      "sha256": "e316446e7868d9ba7ecfc910c04a5c7693badf7609c22c497c5afd7bb94b8b84"
+    },
+    {
+      "member": "dmap/map/06/0020/vd060020_1.tm2",
+      "offset": 2070085632,
+      "size": 263232,
+      "sha256": "9a00df5f70b1c9ab6f46676a346e9034ca9164699d0ab54dfd26d9b2f3519149"
+    },
+    {
+      "member": "dmap/map/06/0030/vd060030.tm2",
+      "offset": 2059632640,
+      "size": 263232,
+      "sha256": "e73831f39ce1260a0b3cfecaf200a1ca329e5d17426916f7c6a3f19982a3ebbc"
+    },
+    {
+      "member": "dmap/map/06/0040/vd060040.tm2",
+      "offset": 2065055744,
+      "size": 263232,
+      "sha256": "e6df3286ad07411e0d4a4dadd2f9668c707ac90095e87380873ecd58fdfe56b2"
+    },
+    {
+      "member": "dmap/map/06/0050/vd060050.tm2",
+      "offset": 2078408704,
+      "size": 263232,
+      "sha256": "2ddc3ace2a83404ad3ee49f3d25b330218773d2d4092ecb9c3922d376a3d5411"
+    },
+    {
+      "member": "dmap/map/06/0050/vd060050_1.tm2",
+      "offset": 2078703616,
+      "size": 263232,
+      "sha256": "48b37d1b87636d493b1d363cfb8430ee562cdc87d0bf27e3eadc8716d1141737"
+    },
+    {
+      "member": "dmap/map/06/0060/vd060060.tm2",
+      "offset": 2053652480,
+      "size": 263232,
+      "sha256": "8ce5dcd5853abdb14fea37447fd232a61880d900c351541dcef35cb8e00aeede"
+    },
+    {
+      "member": "dmap/map/06/0060/vd060060_1.tm2",
+      "offset": 2053947392,
+      "size": 263232,
+      "sha256": "11ec717f147a0f2f1041d21fcc85e4b38e4f4760f569c8fcc555571f135e6be7"
+    },
+    {
+      "member": "dmap/map/07/0010/vd070010.tm2",
+      "offset": 2027667456,
+      "size": 263232,
+      "sha256": "7e80a8a1d9147a1c3eaf104ffc37c1685edd4740aec4b8893b1296de12a4d4f4"
+    },
+    {
+      "member": "dmap/map/07/0020/vd070020.tm2",
+      "offset": 2031550464,
+      "size": 263232,
+      "sha256": "e4c38ec39c480380ab2ca55c7f70f810e3e130ddb419ce7518655fde64d6c329"
+    },
+    {
+      "member": "dmap/map/07/0020/vd070020_1.tm2",
+      "offset": 2031943680,
+      "size": 263232,
+      "sha256": "0e6009801f0c39f8da38c03813a2c8d53fcd45ffa9ace90421d20b31ecb35f88"
+    },
+    {
+      "member": "dmap/map/07/0030/vd070030.tm2",
+      "offset": 2035908608,
+      "size": 263232,
+      "sha256": "69b4273d6a0fafedce18cd10d43e5633d84a6fe4ca4976d383dfa31eb593388a"
+    },
+    {
+      "member": "dmap/map/07/0040/vd070040.tm2",
+      "offset": 2039857152,
+      "size": 263232,
+      "sha256": "e076e9cbb9995cdc4398c398506eb6705d38d95aec1a35d14b4fc65a1d68e34f"
+    },
+    {
+      "member": "dmap/map/07/0050/vd070050.tm2",
+      "offset": 2043002880,
+      "size": 263232,
+      "sha256": "f1ee4bb473c0e79d2fc5a69f51e0324260351c239c7c1dedb1bf50d65a50c25a"
+    },
+    {
+      "member": "dmap/map/07/0050/vd070050_1.tm2",
+      "offset": 2043396096,
+      "size": 263232,
+      "sha256": "386cb96b5b63f5d572f487a0573d5e2ce3e2d0500420b7f3f6073a505d38e602"
+    },
+    {
+      "member": "dmap/map/07/0060/vd070060.tm2",
+      "offset": 2048016384,
+      "size": 263232,
+      "sha256": "556c48a8ba9f40695f149e084e4022f659e50aed2f00abaf6b6a71c6242da0e4"
+    },
+    {
+      "member": "dmap/map/07/0060/vd070060_1.tm2",
+      "offset": 2048311296,
+      "size": 263232,
+      "sha256": "6a8ee3b67073f067adf6db7c915d837571fc19bd2b6aaa514d226fee11132cfe"
+    },
+    {
+      "member": "dmap/map/08/0010/vd080010.tm2",
+      "offset": 2093744128,
+      "size": 263232,
+      "sha256": "0aea5ef2ee172bfd3b4c8fb507421dfdcf2214900dd2c5b55c6fc24ec6b4ebf2"
+    },
+    {
+      "member": "dmap/map/08/0030/vd080030.tm2",
+      "offset": 2098348032,
+      "size": 263232,
+      "sha256": "0352fa785ae7ec5d7211c489f7d6339b4a9e334d1c2251227b878cc28bb1b20d"
+    },
+    {
+      "member": "dmap/map/08/0040/vd080040.tm2",
+      "offset": 2102132736,
+      "size": 263232,
+      "sha256": "541b3be8728afb488a1a3e5b7f76d86c85fdfa5f24f5b35fbabc0d549ca07606"
+    },
+    {
+      "member": "dmap/map/08/0040/vd080040_1.tm2",
+      "offset": 2101739520,
+      "size": 263232,
+      "sha256": "5f96e59f9cfedff20327006b5b603072d4740239662159742230ffe1d7f3638e"
+    },
+    {
+      "member": "dmap/map/08/0050/vd080050.tm2",
+      "offset": 2110865408,
+      "size": 263232,
+      "sha256": "4672042d0495be43a6e9206046ee93acf3b45b68765d6d719729294f1f0e5bd9"
+    },
+    {
+      "member": "dmap/map/08/0050/vd080050_1.tm2",
+      "offset": 2111160320,
+      "size": 263232,
+      "sha256": "2b4049c74c48a76d6768bd0c5d812d70e8b4b427937dc0cbc226523e308fae13"
+    },
+    {
+      "member": "dmap/map/09/0010/vd090010.tm2",
+      "offset": 2113650688,
+      "size": 263232,
+      "sha256": "8f81ee0b1b1006451ecf873f0a7d0f9b025ae483fdd819c25a7fc5cdb119d0fc"
+    },
+    {
+      "member": "dmap/map/09/0020/vd090020.tm2",
+      "offset": 2118418432,
+      "size": 263232,
+      "sha256": "e42d0fa01542574d969635ab4376064b30a2c0c1f614efc9a35593226c507d0a"
+    },
+    {
+      "member": "dmap/map/09/0040/vd090040.tm2",
+      "offset": 2123235328,
+      "size": 263232,
+      "sha256": "236a0e97ea1d78c2372a7a1b478e30c0a0bb354d2b98f59cda17936ba5f844df"
+    },
+    {
+      "member": "dmap/map/09/0040/vd090040_1.tm2",
+      "offset": 2122776576,
+      "size": 263232,
+      "sha256": "bf2484d06541eec1b51608d734b4cd13c13ce9d1e5abc278ebcebf8520b6a553"
+    },
+    {
+      "member": "dmap/map/09/0050/vd090050.tm2",
+      "offset": 2132328448,
+      "size": 263232,
+      "sha256": "775d9a69a7db693fedb64755b54950e651486d72b59819e72c0dc3f5509090c3"
+    },
+    {
+      "member": "dmap/map/09/0050/vd090050_1.tm2",
+      "offset": 2132623360,
+      "size": 263232,
+      "sha256": "de143553fc02306ca65dd9670e8a9fd32d4fc43933299f5e51153c41553d348e"
+    },
+    {
+      "member": "dmap/map/10/0010/vd100010.tm2",
+      "offset": 2134458368,
+      "size": 263232,
+      "sha256": "51f73a1d0c0d7f1ecec3baaf3be094cfee72e1a01034696b8711dc542aac9ca1"
+    },
+    {
+      "member": "dmap/map/10/0020/vd100020.tm2",
+      "offset": 2139996160,
+      "size": 263232,
+      "sha256": "51f73a1d0c0d7f1ecec3baaf3be094cfee72e1a01034696b8711dc542aac9ca1"
+    },
+    {
+      "member": "dmap/map/10/0030/vd100030.tm2",
+      "offset": 2141716480,
+      "size": 263232,
+      "sha256": "51f73a1d0c0d7f1ecec3baaf3be094cfee72e1a01034696b8711dc542aac9ca1"
+    },
+    {
+      "member": "dmap/map/10/0040/vd100040.tm2",
+      "offset": 2136571904,
+      "size": 263232,
+      "sha256": "51f73a1d0c0d7f1ecec3baaf3be094cfee72e1a01034696b8711dc542aac9ca1"
+    },
+    {
+      "member": "dmap/map/10/0010/vd100010_1.tm2",
+      "offset": 2134786048,
+      "size": 263232,
+      "sha256": "d8814ecaa69cd5cf58abbded6d9e1453cd6bde2d8f72e242c2cf8b5e643d628c"
+    },
+    {
+      "member": "dmap/map/10/0050/vd100050.tm2",
+      "offset": 2138292224,
+      "size": 263232,
+      "sha256": "d8814ecaa69cd5cf58abbded6d9e1453cd6bde2d8f72e242c2cf8b5e643d628c"
+    },
+    {
+      "member": "dmap/map/11/0010/vd110010.tm2",
+      "offset": 2144305152,
+      "size": 263232,
+      "sha256": "01944427b43726021da3c9d840536829960222e80d763b78515c4dc1cea634bf"
+    },
+    {
+      "member": "dmap/map/12/0010/vd120010.tm2",
+      "offset": 2150383616,
+      "size": 263232,
+      "sha256": "e78b72ceaa9bc10ee6000e5de7497a77a86c7d46058c55e868630f7bda475a33"
+    },
+    {
+      "member": "dmap/map/12/0020/vd120020.tm2",
+      "offset": 2156281856,
+      "size": 263232,
+      "sha256": "e0e941d57560b68fdfb6eb0c5427a0c72a9d00b2accd5c3ff9a4b32bdbc78fed"
+    },
+    {
+      "member": "dmap/map/12/0030/vd120030.tm2",
+      "offset": 2160918528,
+      "size": 263232,
+      "sha256": "12f5ea6ff889b88ca262fa5c275b46d49aea6ecc5c0d5a203b1001290219e49d"
+    },
+    {
+      "member": "dmap/map/12/0050/vd120050.tm2",
+      "offset": 2169880576,
+      "size": 263232,
+      "sha256": "12f5ea6ff889b88ca262fa5c275b46d49aea6ecc5c0d5a203b1001290219e49d"
+    },
+    {
+      "member": "dmap/map/12/0070/vd120070.tm2",
+      "offset": 2190868480,
+      "size": 263232,
+      "sha256": "12f5ea6ff889b88ca262fa5c275b46d49aea6ecc5c0d5a203b1001290219e49d"
+    },
+    {
+      "member": "dmap/map/12/0090/vd120090.tm2",
+      "offset": 2183643136,
+      "size": 263232,
+      "sha256": "12f5ea6ff889b88ca262fa5c275b46d49aea6ecc5c0d5a203b1001290219e49d"
+    },
+    {
+      "member": "dmap/map/12/0040/vd120040.tm2",
+      "offset": 2165489664,
+      "size": 263232,
+      "sha256": "367365b245e4a3f399242726d5b85db7913b8b95c071d64de2a61627d6db40d0"
+    },
+    {
+      "member": "dmap/map/12/0060/vd120060.tm2",
+      "offset": 2174582784,
+      "size": 263232,
+      "sha256": "367365b245e4a3f399242726d5b85db7913b8b95c071d64de2a61627d6db40d0"
+    },
+    {
+      "member": "dmap/map/12/0080/vd120080.tm2",
+      "offset": 2178908160,
+      "size": 263232,
+      "sha256": "367365b245e4a3f399242726d5b85db7913b8b95c071d64de2a61627d6db40d0"
+    },
+    {
+      "member": "dmap/map/12/0100/vd120100.tm2",
+      "offset": 2187886592,
+      "size": 263232,
+      "sha256": "367365b245e4a3f399242726d5b85db7913b8b95c071d64de2a61627d6db40d0"
+    },
+    {
+      "member": "dmap/map/20/0011/name01.tm2",
+      "offset": 2022801408,
+      "size": 33856,
+      "sha256": "4f87b817d00af09c2c1a0d27bc89f6154fbab8c91fba2edea093f17a5968639e"
+    },
+    {
+      "member": "dmap/map/20/0011/name02.tm2",
+      "offset": 2022850560,
+      "size": 66624,
+      "sha256": "79081094d9f9e0ebad7952280a1a7f42ad9a3c0495612f93ca89181699d727ba"
+    },
+    {
+      "file": "SLPS_258.54",
+      "offset": 679936,
+      "size": 4659936,
+      "sha256": "499cf324700815b3a617350677e3b87a582653875aa9f7070203451bfbd8e4ac"
+    },
+    {
+      "file": "DATA/STATUS.HED",
+      "offset": 6916096,
+      "size": 9548,
+      "sha256": "5ace591713a98522f13103bc3be6fbc6303323e9e0fedbe0969784b5d9cf731c"
+    },
+    {
+      "file": "DATA/STATUS.DAT",
+      "offset": 1537376256,
+      "size": 12255232,
+      "sha256": "6c023df5125cf8b2b1e6930c964f187dd50c68030b40c3ac3ded578f1289fc9b"
+    }
+  ],
+  "whole_iso_verification": {
+    "passed": true,
+    "changed_bytes": 12209601,
+    "all_unplanned_bytes_identical": true
+  },
+  "date": "2026-10-01",
+  "scope_images": 1353,
+  "newly_localized_images": 75,
+  "existing_korean_bstart_images_preserved": 137,
+  "includes_pending_class_shop_controller_messages": true,
+  "applied_assets": [
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/00/0010/vd000010.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/00/0010/vd000010.tm2",
+      "sha256": "86476a1be45ae26ef4c306ed5eefc43e5223fba8a8ebd9a33aa8ca637a9476af",
+      "expected_original_sha256": "778d834dfd777c06c5bfa79128a07082577493fee74d219b41ea9bee0e82cdfa",
+      "generation_sha256": "a99a73ec3ea86e1e71291e079e8bb9aa61415c78d89cf0670465f7e05cb6bba5",
+      "original_png": "extracted/original/images/DMAP/dmap/map/00/0010/vd000010.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/00/0010/vd000010.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 174332,
+        "premultiplied_preview_rmse": 2.4134056407500584,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/01/0020/vd010020.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/01/0020/vd010020.tm2",
+      "sha256": "9b76d863633e21ef941ea2a8486dd4cd41c781dc673db72484a1e2bfcb7cfdda",
+      "expected_original_sha256": "1f96cf46dbec546bd03cd664ffea0958bf4258c47ef56428e93b105aeb70ba42",
+      "generation_sha256": "5b65784120dbfbcd644313143799e798b16a4df4cb58b27cec99d0f07502a018",
+      "original_png": "extracted/original/images/DMAP/dmap/map/01/0020/vd010020.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/01/0020/vd010020.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 157635,
+        "premultiplied_preview_rmse": 2.2138501718992107,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/01/0030/vd010030.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/01/0030/vd010030.tm2",
+      "sha256": "4c348e857295b0db074b24e254531ac3493130733802c075634c789339b1474d",
+      "expected_original_sha256": "c1a0ae4561d736e6b755d5c55453a65afe8e940740a618ea705d37140e42e027",
+      "generation_sha256": "e34db5ec341a920bcb43327cd1bf14b2284c0a6b67a7a442cc887eae9494667c",
+      "original_png": "extracted/original/images/DMAP/dmap/map/01/0030/vd010030.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/01/0030/vd010030.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 159363,
+        "premultiplied_preview_rmse": 2.309251927050284,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/01/0040/vd010040.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/01/0040/vd010040.tm2",
+      "sha256": "210b6f2ef1440469bab748e5342183c1691e6bb2217b76ebb32c623812a905e7",
+      "expected_original_sha256": "996bd0c48bef3b8f464e8b23d77984e6bfab9d5f134bf4d04367c9b4372cbcad",
+      "generation_sha256": "dabe811c1739ce7685535ea6636cdb004668724496f4fc4f4afa575bcb469df5",
+      "original_png": "extracted/original/images/DMAP/dmap/map/01/0040/vd010040.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/01/0040/vd010040.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 160192,
+        "premultiplied_preview_rmse": 2.1135867421579784,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/01/0040/vd010040_1.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/01/0040/vd010040_1.tm2",
+      "sha256": "4bf1646410967916025768f91ad51664943533cc75230cbe386b647920460507",
+      "expected_original_sha256": "e51961b8885f0ba884692163047eee786e45d401e5305aac35ca2911dd2d693a",
+      "generation_sha256": "dbe22b05828381cd27e2375e4dd6f0cda76b970a59307b79171d0e1d23285e1f",
+      "original_png": "extracted/original/images/DMAP/dmap/map/01/0040/vd010040_1.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/01/0040/vd010040_1.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 166545,
+        "premultiplied_preview_rmse": 2.2500724780806975,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/02/0010/vd020010.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/02/0010/vd020010.tm2",
+      "sha256": "c55f310e19b73ac1a7e458ae2550cec634bc256b430a28644ac61613497f5f5e",
+      "expected_original_sha256": "27aacfed553c7f8450b3208e37938b82468d2fce7896daf799a12d2e1aee7ab9",
+      "generation_sha256": "1af33c012e2e15cd8d8243700c177cc2245416f63eca9d29d09b2bed03715616",
+      "original_png": "extracted/original/images/DMAP/dmap/map/02/0010/vd020010.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/02/0010/vd020010.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 161854,
+        "premultiplied_preview_rmse": 2.176230036749691,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/02/0020/vd020020.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/02/0020/vd020020.tm2",
+      "sha256": "9b7b13d8d15aba69d14555d209e56b33fb2a7414033139e3875054b85d9eb504",
+      "expected_original_sha256": "f631ee701a68bc8f68e34c1e8d5571c614b5defc32d1e7bd478aad38c4a4a95a",
+      "generation_sha256": "a0c92527f742ce80323e38611e0eeb45113619f24a8777546072245dd52a04e7",
+      "original_png": "extracted/original/images/DMAP/dmap/map/02/0020/vd020020.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/02/0020/vd020020.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 170318,
+        "premultiplied_preview_rmse": 2.534941254185274,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/02/0040/vd020040.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/02/0040/vd020040.tm2",
+      "sha256": "bdbef5b6f20bd90b59d62883121c24137b568c6a4981972fe4be26e82e3d70e1",
+      "expected_original_sha256": "a3afc2edbd51a8a56ffcfb7f5a331ba9e02830c30b36bb1e35d1f97c494c3266",
+      "generation_sha256": "8ee6f69e4290fee34d9485c54097c352b05a9c385aabce71076a193650d22967",
+      "original_png": "extracted/original/images/DMAP/dmap/map/02/0040/vd020040.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/02/0040/vd020040.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 158811,
+        "premultiplied_preview_rmse": 2.269255787190539,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/02/0040/vd020040_1.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/02/0040/vd020040_1.tm2",
+      "sha256": "21ac5c5f80f59b0d96cd9ca121e1c00d11f7f09e35f98c4c446df53eed543d0e",
+      "expected_original_sha256": "173ff2773885e4e2b03ece79fa2943e9ebf050dab807dca9130e18c8feb5de94",
+      "generation_sha256": "e27ebf9635c9963056ef3e3ca31bfe50a28f3b6f03e4bd7d253e0eb90a42ca2d",
+      "original_png": "extracted/original/images/DMAP/dmap/map/02/0040/vd020040_1.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/02/0040/vd020040_1.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 157271,
+        "premultiplied_preview_rmse": 2.3175603812210523,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/03/0010/vd030010.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/03/0010/vd030010.tm2",
+      "sha256": "818bcb7a88f2aa1ef320531c11db15860d577a0d40a9f880401bd136160b77c9",
+      "expected_original_sha256": "81fff908adb2a4369a90524e59a6a4c902a6609422294d98f7ada218c0f0ebbf",
+      "generation_sha256": "e6b48999c390195fcf0072aaca91e4bf84ba1e7871783238840f7dafd9cea403",
+      "original_png": "extracted/original/images/DMAP/dmap/map/03/0010/vd030010.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/03/0010/vd030010.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 159816,
+        "premultiplied_preview_rmse": 2.495456954606206,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/03/0020/vd030020.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/03/0020/vd030020.tm2",
+      "sha256": "6918dc578a06839b3d8aee95725faf3fd31450db93dc86c19497b87b67a255c0",
+      "expected_original_sha256": "6ae1cbb119c9ae5a55e5c9b882256d9431fb5ff628a6adbce2f827695267f7a8",
+      "generation_sha256": "36030a1c7345a37042f3f8cea9b9bb19a5d4eb55bb697a3b606f9fd8260e4125",
+      "original_png": "extracted/original/images/DMAP/dmap/map/03/0020/vd030020.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/03/0020/vd030020.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 156999,
+        "premultiplied_preview_rmse": 2.4953577810250507,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/03/0040/vd030040.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/03/0040/vd030040.tm2",
+      "sha256": "5f1b8a917cbcd7469d1a82946378c2f5113fb7e81075a08e0ff9d7cf669942cf",
+      "expected_original_sha256": "7e2d71c5fa60302ce1c331b15cedc5c771cdbfc4e53ed44189fa3d7cd1e4e5a2",
+      "generation_sha256": "83783cfc0b03917b43723eb31763dcc35ff2dbe882bb00034247b868efe25576",
+      "original_png": "extracted/original/images/DMAP/dmap/map/03/0040/vd030040.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/03/0040/vd030040.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 159161,
+        "premultiplied_preview_rmse": 2.1637771363212304,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/03/0040/vd030040_1.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/03/0040/vd030040_1.tm2",
+      "sha256": "f0d089668a674b3431345a6521cd833de8a2a4d74dabae058de3ba4a53139749",
+      "expected_original_sha256": "c3fb375bed1af92c04ec502b4672f9d2a4e1a8c99a670120c0b7999dadf36222",
+      "generation_sha256": "ec67d89535c34527e96045cfc90bf4b33a0af4578f73723fe0a2b82918a9c0d3",
+      "original_png": "extracted/original/images/DMAP/dmap/map/03/0040/vd030040_1.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/03/0040/vd030040_1.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 158271,
+        "premultiplied_preview_rmse": 2.309260393119932,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/04/0020/vd040020.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/04/0020/vd040020.tm2",
+      "sha256": "57835c2d6d3a6b0294f2e44f9141fe264ba68d8bbcfe6777de00080390bbabc5",
+      "expected_original_sha256": "74dac18f658527109438cc2c0763f9f64cfd4f6059b7cee3f9fb932a8ff2766c",
+      "generation_sha256": "b1d272e5f5b78663a8d3563488e8bdf37a86528491fa61c8f019d95f60c8d44c",
+      "original_png": "extracted/original/images/DMAP/dmap/map/04/0020/vd040020.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/04/0020/vd040020.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 160769,
+        "premultiplied_preview_rmse": 2.12021637082314,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/04/0030/vd040030.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/04/0030/vd040030.tm2",
+      "sha256": "cc166d50d568723c819c1577ba4062e283e6fc150cf61026cdecc9fd7d97d8cd",
+      "expected_original_sha256": "d09e6e887422d037677d9a2a2a5d53d6c40af155be2991c47130826087a7e94d",
+      "generation_sha256": "ca9b94fd448abf07cd0031d29524c0e28d8e35ef77caee375c19920a51c1664d",
+      "original_png": "extracted/original/images/DMAP/dmap/map/04/0030/vd040030.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/04/0030/vd040030.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 165709,
+        "premultiplied_preview_rmse": 2.33331580382529,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/04/0040/vd040040.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/04/0040/vd040040.tm2",
+      "sha256": "a9228747ff7d9c6d4dffb1831e01bdb101713dc9fc8024751256b43c5834b9b0",
+      "expected_original_sha256": "f1e520d0135d398366f2565e6d7b7e59482fb6dd59c38dc682404ee3a2f2dcc8",
+      "generation_sha256": "932fb7f14aed45c2632028f0b59b7db3cba40148dc10fb261ef91d354d827ecb",
+      "original_png": "extracted/original/images/DMAP/dmap/map/04/0040/vd040040.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/04/0040/vd040040.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 166694,
+        "premultiplied_preview_rmse": 2.266138058152768,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/04/0040/vd040040_1.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/04/0040/vd040040_1.tm2",
+      "sha256": "21c568139778d4c90648236582a2a0941257725cc8df4775e2df5b66df403115",
+      "expected_original_sha256": "cced543244aee38bc02ba85f5d0ee35f003760d8ed18bf0e05895010c9f5bf35",
+      "generation_sha256": "8de46bf2328a9f3a0a16643edf2868f929bb43fb9a7d16b47c469c51c4bfbde6",
+      "original_png": "extracted/original/images/DMAP/dmap/map/04/0040/vd040040_1.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/04/0040/vd040040_1.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 166022,
+        "premultiplied_preview_rmse": 2.3259394070710893,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/05/0010/vd050010.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/05/0010/vd050010.tm2",
+      "sha256": "f8ea755ef6847bece3207972a9dedd1ac887e7096f64e0ea6feb485918c7dcb1",
+      "expected_original_sha256": "8446b2d7d182625416627a9171f76f4d8e17d548aede99a98004c8a6fe61120c",
+      "generation_sha256": "73d08788f5c7eda457b62bb50c7aea8b287177e8fdda1580a34243486756c813",
+      "original_png": "extracted/original/images/DMAP/dmap/map/05/0010/vd050010.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/05/0010/vd050010.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 159046,
+        "premultiplied_preview_rmse": 2.2906394968445807,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/05/0020/vd050020.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/05/0020/vd050020.tm2",
+      "sha256": "576dc9ef4e0bf97fc1675007df61f2eefdbe427c3b5ad74b205d3b785976d21f",
+      "expected_original_sha256": "e2c05eeb625bd2d5b5f42583ef3b33859751a48db8ad8d320e2bc328ae0a1123",
+      "generation_sha256": "0c1cbc4dc50af1ed60ca8d7017d81ad1d339c3d15ff5b90a3d7989e15b216938",
+      "original_png": "extracted/original/images/DMAP/dmap/map/05/0020/vd050020.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/05/0020/vd050020.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 171469,
+        "premultiplied_preview_rmse": 2.414622812768465,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/05/0020/vd050020_1.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/05/0020/vd050020_1.tm2",
+      "sha256": "f1557c3ec33af0b94292d831e37b0c6533e3e489a8bbabde6036b0e9ca23abc6",
+      "expected_original_sha256": "2b9e492a842a4a9dd101d923eeaf7f5635544b85d66af174c569554b8a574f59",
+      "generation_sha256": "864fe9b81fac5cf63fc53b3e372ec1a5460e933e29cfb7491ae688d42e9307ca",
+      "original_png": "extracted/original/images/DMAP/dmap/map/05/0020/vd050020_1.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/05/0020/vd050020_1.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 170798,
+        "premultiplied_preview_rmse": 2.2339368270507154,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/05/0030/vd050030.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/05/0030/vd050030.tm2",
+      "sha256": "7beb3c6afaa53b9c675b6e115edd315b11ff7dbad525e34372645c5c74dbcfea",
+      "expected_original_sha256": "efd985f8d5f5dc7e227b2f77fb23f4bae3c61fe37c65f597a3034b68a30a52bc",
+      "generation_sha256": "a966d2d6b47424540f35ba98ab4e007118350d75da69d2cd531da12cda3efdad",
+      "original_png": "extracted/original/images/DMAP/dmap/map/05/0030/vd050030.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/05/0030/vd050030.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 170226,
+        "premultiplied_preview_rmse": 2.15171912903755,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/05/0040/vd050040.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/05/0040/vd050040.tm2",
+      "sha256": "bd534aca1676d2142d9614ab1767c8fd0ed2c1a2c61d100c35133c3114e64116",
+      "expected_original_sha256": "20b0f7ae3ba9d996359807aa7c6e215330abcfe18f4216b28ffd4917743fe573",
+      "generation_sha256": "a2c183f704f30dc92e0c7637b13d69768db1a1c064b7b6548212594301bbdea2",
+      "original_png": "extracted/original/images/DMAP/dmap/map/05/0040/vd050040.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/05/0040/vd050040.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 164568,
+        "premultiplied_preview_rmse": 2.3408516828832457,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/05/0050/vd050050.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/05/0050/vd050050.tm2",
+      "sha256": "bff376463fbbb629e9e80595de6aaeb72a31991d7a9beceb3cd646d8e1ac2529",
+      "expected_original_sha256": "570aca9e76032f1eff0283f46fa99192737a751555d69fb1e1cbdc231c25e717",
+      "generation_sha256": "4d33bd119117a2a3dd6c5c5d58083bd755f5117e4a0c377d8858ce55fb7acec1",
+      "original_png": "extracted/original/images/DMAP/dmap/map/05/0050/vd050050.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/05/0050/vd050050.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 171385,
+        "premultiplied_preview_rmse": 2.1138964760513703,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/05/0050/vd050050_1.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/05/0050/vd050050_1.tm2",
+      "sha256": "304f713209f07504742481e9bbd1d36186f8ee2a8deee5e6c649ef37b995c566",
+      "expected_original_sha256": "8b86ab6fabe7d2f1f9b442a4bdcedf563ef626a3ea13d1c48b6932e3e5725051",
+      "generation_sha256": "ae0ad179d7b65e0a19ccfe587ab4f58cc375a59cf518999e0af0c88d576b121e",
+      "original_png": "extracted/original/images/DMAP/dmap/map/05/0050/vd050050_1.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/05/0050/vd050050_1.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 169326,
+        "premultiplied_preview_rmse": 2.122154125343837,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/05/0060/vd050060.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/05/0060/vd050060.tm2",
+      "sha256": "1e1dae15ba92985804c23aa8d17313ddec63c17e97db908534a3c4dcf086e73f",
+      "expected_original_sha256": "3569de19e71c8488fa3338d215742c57ca9fe5f615ddcd5707f627f7a3a4b77b",
+      "generation_sha256": "5107a646c19bea972b93625101fa7fa74f658396cb754431ae67291e347f73ce",
+      "original_png": "extracted/original/images/DMAP/dmap/map/05/0060/vd050060.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/05/0060/vd050060.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 172204,
+        "premultiplied_preview_rmse": 2.5432031291998816,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/05/0060/vd050060_1.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/05/0060/vd050060_1.tm2",
+      "sha256": "21a71d71ddff91bd138bf70c0e1ff55badbdb907cdcc619f76188481f498399c",
+      "expected_original_sha256": "04e2fda33d5426ccdf91382697840bd03a4a40b5cfd0d6a9797c324d61db12d8",
+      "generation_sha256": "831a11000dc96a0e71708ec61a7f518ca06176dfa7ea12b4105e1b24ec84bd93",
+      "original_png": "extracted/original/images/DMAP/dmap/map/05/0060/vd050060_1.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/05/0060/vd050060_1.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 162986,
+        "premultiplied_preview_rmse": 2.347100469778483,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/06/0010/vd060010.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/06/0010/vd060010.tm2",
+      "sha256": "f6666a3d45f4a416ecb1856c6507ddd00362ed5cc024b74dac0adfc0e5265191",
+      "expected_original_sha256": "1cffdeb01f6de2aed8e5560e4c976f8e10298130f4ad264918ac25bf99e6c443",
+      "generation_sha256": "a5d4d0764a11c40ba263f6aea7d46fae4ebd7cbdfa98a8eadfa21af341fd7235",
+      "original_png": "extracted/original/images/DMAP/dmap/map/06/0010/vd060010.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/06/0010/vd060010.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 178441,
+        "premultiplied_preview_rmse": 2.5987517147966814,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/06/0020/vd060020.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/06/0020/vd060020.tm2",
+      "sha256": "e316446e7868d9ba7ecfc910c04a5c7693badf7609c22c497c5afd7bb94b8b84",
+      "expected_original_sha256": "9ea78baaa44591112bac936c77fad8b04d74a4d9f0d53d538d9be4660c594867",
+      "generation_sha256": "f0d938f235739f2c895255e00b6adc9fd504eaaa62a60ea0fa8c32606a14c0f3",
+      "original_png": "extracted/original/images/DMAP/dmap/map/06/0020/vd060020.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/06/0020/vd060020.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 160443,
+        "premultiplied_preview_rmse": 2.2571779831262235,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/06/0020/vd060020_1.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/06/0020/vd060020_1.tm2",
+      "sha256": "9a00df5f70b1c9ab6f46676a346e9034ca9164699d0ab54dfd26d9b2f3519149",
+      "expected_original_sha256": "44d65e2f221250096e4c5f74fdf30d9deaf26d8bde200773bf5380054d08a327",
+      "generation_sha256": "112ea75b8c40023888c2feeeb5dabfd953a3a591299c0913034dcab6c0743f3a",
+      "original_png": "extracted/original/images/DMAP/dmap/map/06/0020/vd060020_1.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/06/0020/vd060020_1.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 159523,
+        "premultiplied_preview_rmse": 2.2386700091190312,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/06/0030/vd060030.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/06/0030/vd060030.tm2",
+      "sha256": "e73831f39ce1260a0b3cfecaf200a1ca329e5d17426916f7c6a3f19982a3ebbc",
+      "expected_original_sha256": "22e18fc282d79d76b68291f33ce0c949b9feb8b7705ff13e607df5474a8b4878",
+      "generation_sha256": "bd97345bd6b14af1407779536132ce5327a6e4b07a9871e4056cc88be26fa624",
+      "original_png": "extracted/original/images/DMAP/dmap/map/06/0030/vd060030.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/06/0030/vd060030.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 172794,
+        "premultiplied_preview_rmse": 2.405461566117683,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/06/0040/vd060040.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/06/0040/vd060040.tm2",
+      "sha256": "e6df3286ad07411e0d4a4dadd2f9668c707ac90095e87380873ecd58fdfe56b2",
+      "expected_original_sha256": "d7a4c5eda55b7c531e2127140d1262c0df504bcad7c3bb94de690146df67e8cc",
+      "generation_sha256": "75bf0bd1be2ac9c7613a255514dddc8232ad8f5e0c779b899b9017b5a3251b04",
+      "original_png": "extracted/original/images/DMAP/dmap/map/06/0040/vd060040.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/06/0040/vd060040.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 180110,
+        "premultiplied_preview_rmse": 2.38750638311841,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/06/0050/vd060050.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/06/0050/vd060050.tm2",
+      "sha256": "2ddc3ace2a83404ad3ee49f3d25b330218773d2d4092ecb9c3922d376a3d5411",
+      "expected_original_sha256": "35c3fffb00b20a5b2a04edf7d0004afe3f0fb1bbb7b03d6d2df08ac0f376bccb",
+      "generation_sha256": "cd1f9824705e38e3231750ecf717d8d6589ef7c46fb3791e5b53704e90f8fa2e",
+      "original_png": "extracted/original/images/DMAP/dmap/map/06/0050/vd060050.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/06/0050/vd060050.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 161214,
+        "premultiplied_preview_rmse": 2.470728407417581,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/06/0050/vd060050_1.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/06/0050/vd060050_1.tm2",
+      "sha256": "48b37d1b87636d493b1d363cfb8430ee562cdc87d0bf27e3eadc8716d1141737",
+      "expected_original_sha256": "c812a1a8e4b28759cf897a5a18423b6715de8752e419a590570f7061fdb61af6",
+      "generation_sha256": "5ed0e7756896f154eda6572da96c1c2147368e8f12236a1a175830528c5bd875",
+      "original_png": "extracted/original/images/DMAP/dmap/map/06/0050/vd060050_1.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/06/0050/vd060050_1.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 165309,
+        "premultiplied_preview_rmse": 2.395393751424854,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/06/0060/vd060060.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/06/0060/vd060060.tm2",
+      "sha256": "8ce5dcd5853abdb14fea37447fd232a61880d900c351541dcef35cb8e00aeede",
+      "expected_original_sha256": "ff703bc8e2a29d36ce7179462ae1b0cb8f53e7c6bafca17640fa3fcd6dcb122e",
+      "generation_sha256": "6482f76cf5488e67e5dbf76c0d365c8c9ac26001ab90b8e4f152de5729f99368",
+      "original_png": "extracted/original/images/DMAP/dmap/map/06/0060/vd060060.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/06/0060/vd060060.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 164212,
+        "premultiplied_preview_rmse": 2.2895484382485614,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/06/0060/vd060060_1.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/06/0060/vd060060_1.tm2",
+      "sha256": "11ec717f147a0f2f1041d21fcc85e4b38e4f4760f569c8fcc555571f135e6be7",
+      "expected_original_sha256": "4c6ae83b37143eb6cfb27e9419bd2abadf8f7a428cb68616e66ea078bca7678c",
+      "generation_sha256": "97640bb2eb92e691b61ef5089181edda8e55bb14a8ecc2fa1f5e8fdd768cf8c9",
+      "original_png": "extracted/original/images/DMAP/dmap/map/06/0060/vd060060_1.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/06/0060/vd060060_1.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 158362,
+        "premultiplied_preview_rmse": 2.3229858205677005,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/07/0010/vd070010.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/07/0010/vd070010.tm2",
+      "sha256": "7e80a8a1d9147a1c3eaf104ffc37c1685edd4740aec4b8893b1296de12a4d4f4",
+      "expected_original_sha256": "d4835a9702a53d49dfc2929dedc90de94306141a4bce1e4bcc930d5c9941812c",
+      "generation_sha256": "c6caa68f5ad41c57d1cb9870c37292415f0a032047724ecf13c7e728595ca686",
+      "original_png": "extracted/original/images/DMAP/dmap/map/07/0010/vd070010.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/07/0010/vd070010.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 165315,
+        "premultiplied_preview_rmse": 2.322021676894673,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/07/0020/vd070020.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/07/0020/vd070020.tm2",
+      "sha256": "e4c38ec39c480380ab2ca55c7f70f810e3e130ddb419ce7518655fde64d6c329",
+      "expected_original_sha256": "9ca8550ac6bafaa53f6e701afde90c18bfc7f3a6b9ea8f82d814ea81e96ec7e2",
+      "generation_sha256": "81ecd981fcb4b31c649512785cb36a20be0869e72fa80d8cef4c4eb5b56f0bc0",
+      "original_png": "extracted/original/images/DMAP/dmap/map/07/0020/vd070020.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/07/0020/vd070020.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 179004,
+        "premultiplied_preview_rmse": 2.5340417607576384,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/07/0020/vd070020_1.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/07/0020/vd070020_1.tm2",
+      "sha256": "0e6009801f0c39f8da38c03813a2c8d53fcd45ffa9ace90421d20b31ecb35f88",
+      "expected_original_sha256": "5c2ef6da22ca594380c1da0c0c4d4a2f2d698d611b875722ab7f79388b4c3345",
+      "generation_sha256": "b22d194ca4954c81195af1a5a8b21efce7522eb9540bdb9bdb482b55e5b58c94",
+      "original_png": "extracted/original/images/DMAP/dmap/map/07/0020/vd070020_1.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/07/0020/vd070020_1.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 157201,
+        "premultiplied_preview_rmse": 2.6521580312257442,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/07/0030/vd070030.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/07/0030/vd070030.tm2",
+      "sha256": "69b4273d6a0fafedce18cd10d43e5633d84a6fe4ca4976d383dfa31eb593388a",
+      "expected_original_sha256": "fc2d9717b6d81b6966e935045d06e35d3e58a777c2d63ca250b46ca501d0f3da",
+      "generation_sha256": "7d4e7d4fda97362de681d0a9024a56b68f06e5f863d271eada2e0ec814d862fb",
+      "original_png": "extracted/original/images/DMAP/dmap/map/07/0030/vd070030.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/07/0030/vd070030.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 180555,
+        "premultiplied_preview_rmse": 2.3777678573654972,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/07/0040/vd070040.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/07/0040/vd070040.tm2",
+      "sha256": "e076e9cbb9995cdc4398c398506eb6705d38d95aec1a35d14b4fc65a1d68e34f",
+      "expected_original_sha256": "a517d2bce8c0e45cb0156b7e27d636cfd28c7f16555a0552cd05680b142e130f",
+      "generation_sha256": "dfd870473484e6d6d25fee6593ae96c09b47b025693a5d98703d96b278b823a2",
+      "original_png": "extracted/original/images/DMAP/dmap/map/07/0040/vd070040.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/07/0040/vd070040.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 180160,
+        "premultiplied_preview_rmse": 2.5283966936970637,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/07/0050/vd070050.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/07/0050/vd070050.tm2",
+      "sha256": "f1ee4bb473c0e79d2fc5a69f51e0324260351c239c7c1dedb1bf50d65a50c25a",
+      "expected_original_sha256": "c7c2e2bf79b12b7f0feb7c485d485f2f76273ee4928565fd7c2b168592dc1146",
+      "generation_sha256": "e8b21a055745ee761a9fa338c9ec7b132cfc04bac0cc3d2795fd63306804bc89",
+      "original_png": "extracted/original/images/DMAP/dmap/map/07/0050/vd070050.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/07/0050/vd070050.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 172397,
+        "premultiplied_preview_rmse": 2.5196325000852484,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/07/0050/vd070050_1.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/07/0050/vd070050_1.tm2",
+      "sha256": "386cb96b5b63f5d572f487a0573d5e2ce3e2d0500420b7f3f6073a505d38e602",
+      "expected_original_sha256": "91f13b4dc36a198ee593e3e5b0068180829c4d2142cd6f9e51a8ab36b6341587",
+      "generation_sha256": "83969b6c8e50a437c0615ed7cc8d234c6f385c4f4f57127233a2c41ac1aa493c",
+      "original_png": "extracted/original/images/DMAP/dmap/map/07/0050/vd070050_1.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/07/0050/vd070050_1.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 167304,
+        "premultiplied_preview_rmse": 2.5742789508917627,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/07/0060/vd070060.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/07/0060/vd070060.tm2",
+      "sha256": "556c48a8ba9f40695f149e084e4022f659e50aed2f00abaf6b6a71c6242da0e4",
+      "expected_original_sha256": "d37e445c9517887fe89a4bb310cf5087783304e703ba91cd762b5bc0962416d8",
+      "generation_sha256": "3fb454f10d3f0cb4f5a8c608f678a39694b4a3748f36fc90de5f6e17c6616182",
+      "original_png": "extracted/original/images/DMAP/dmap/map/07/0060/vd070060.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/07/0060/vd070060.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 159776,
+        "premultiplied_preview_rmse": 2.4693805517058456,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/07/0060/vd070060_1.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/07/0060/vd070060_1.tm2",
+      "sha256": "6a8ee3b67073f067adf6db7c915d837571fc19bd2b6aaa514d226fee11132cfe",
+      "expected_original_sha256": "ed5cdf288873cf515cae03b1220c930731fae98fe3ff36b51027c6c47691e72b",
+      "generation_sha256": "a06de85564ad73a92a09df6b2118a2a2467a20cfcc8a255f7b72ea7eb31ed957",
+      "original_png": "extracted/original/images/DMAP/dmap/map/07/0060/vd070060_1.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/07/0060/vd070060_1.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 157114,
+        "premultiplied_preview_rmse": 2.48201827062972,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/08/0010/vd080010.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/08/0010/vd080010.tm2",
+      "sha256": "0aea5ef2ee172bfd3b4c8fb507421dfdcf2214900dd2c5b55c6fc24ec6b4ebf2",
+      "expected_original_sha256": "010bd93b1ff19e74e55dec3c84cd363688e0d89174fc71c8c2fe0b080a007555",
+      "generation_sha256": "c22776a84dc2d4609b076cfe930e2ac32657d410684e5db6f692e4ac8ae09d39",
+      "original_png": "extracted/original/images/DMAP/dmap/map/08/0010/vd080010.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/08/0010/vd080010.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 168920,
+        "premultiplied_preview_rmse": 2.741658999384988,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/08/0030/vd080030.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/08/0030/vd080030.tm2",
+      "sha256": "0352fa785ae7ec5d7211c489f7d6339b4a9e334d1c2251227b878cc28bb1b20d",
+      "expected_original_sha256": "c31d05169ce2a28c3baa5616ca79e7d116e7e7a5d4df69d9e0da03ec2cc244ec",
+      "generation_sha256": "396b4b828e8fe5ae7081b63951e7532f0dd1cbe9e5837f67b7ce18d84ae08e0d",
+      "original_png": "extracted/original/images/DMAP/dmap/map/08/0030/vd080030.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/08/0030/vd080030.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 160233,
+        "premultiplied_preview_rmse": 2.4433876725104984,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/08/0040/vd080040.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/08/0040/vd080040.tm2",
+      "sha256": "541b3be8728afb488a1a3e5b7f76d86c85fdfa5f24f5b35fbabc0d549ca07606",
+      "expected_original_sha256": "7edb02621fa09ec6aba918fbc8109fd94e26fc875cba9198ee182aa8d99c52c2",
+      "generation_sha256": "2d2aee395f1e07519037b903aaf1ee7b5f1c8e445a8f5bd91f790925c2cb1d5e",
+      "original_png": "extracted/original/images/DMAP/dmap/map/08/0040/vd080040.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/08/0040/vd080040.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 174527,
+        "premultiplied_preview_rmse": 2.3268324573038757,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/08/0040/vd080040_1.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/08/0040/vd080040_1.tm2",
+      "sha256": "5f96e59f9cfedff20327006b5b603072d4740239662159742230ffe1d7f3638e",
+      "expected_original_sha256": "e6f0fa14b3b6ba29437a07751f9f99413c4d5031ac2f95a8d776b52ee43166d3",
+      "generation_sha256": "c8fe35dd7dcdac7c58f7f17002b254de60908a43edfc5e1a695685146028e27b",
+      "original_png": "extracted/original/images/DMAP/dmap/map/08/0040/vd080040_1.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/08/0040/vd080040_1.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 188431,
+        "premultiplied_preview_rmse": 2.456233296810752,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/08/0050/vd080050.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/08/0050/vd080050.tm2",
+      "sha256": "4672042d0495be43a6e9206046ee93acf3b45b68765d6d719729294f1f0e5bd9",
+      "expected_original_sha256": "2f00788bdad445c81349c5464422096b32859d9ebb847904ed2408c1da826d63",
+      "generation_sha256": "a2f221e39a5964864a6916e89b34faf460cb855b5b1ca05da9b0a2fa64a66691",
+      "original_png": "extracted/original/images/DMAP/dmap/map/08/0050/vd080050.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/08/0050/vd080050.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 164961,
+        "premultiplied_preview_rmse": 2.5629620019281667,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/08/0050/vd080050_1.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/08/0050/vd080050_1.tm2",
+      "sha256": "2b4049c74c48a76d6768bd0c5d812d70e8b4b427937dc0cbc226523e308fae13",
+      "expected_original_sha256": "4684dae8d4721f3eb8a40d2ddb50d777a3860905a3c7e0a640a89f1ec243ce15",
+      "generation_sha256": "91ae67d2d1a8bd8dce83b16e2cf6d3dcad9c18bd83fa550fd3b6ea966b6b9d99",
+      "original_png": "extracted/original/images/DMAP/dmap/map/08/0050/vd080050_1.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/08/0050/vd080050_1.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 172400,
+        "premultiplied_preview_rmse": 2.3742616409188297,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/09/0010/vd090010.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/09/0010/vd090010.tm2",
+      "sha256": "8f81ee0b1b1006451ecf873f0a7d0f9b025ae483fdd819c25a7fc5cdb119d0fc",
+      "expected_original_sha256": "3f3f4019740f17622ca1b796a9b3535fa80e1d620ee6fff0a439ca0609956436",
+      "generation_sha256": "5d0d9129d89b0681f02607d0682e357b6e98b086b35776e5135110b8e520467a",
+      "original_png": "extracted/original/images/DMAP/dmap/map/09/0010/vd090010.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/09/0010/vd090010.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 172112,
+        "premultiplied_preview_rmse": 2.1351754649330923,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/09/0020/vd090020.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/09/0020/vd090020.tm2",
+      "sha256": "e42d0fa01542574d969635ab4376064b30a2c0c1f614efc9a35593226c507d0a",
+      "expected_original_sha256": "fea1454ae3a81763e90f1bec3dca602ec68280b5d754d577175adc4b074d36b5",
+      "generation_sha256": "91dd901d0df751889f7a0c9f185fb4c09caf1b085f97f174209ec715a2c99fdd",
+      "original_png": "extracted/original/images/DMAP/dmap/map/09/0020/vd090020.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/09/0020/vd090020.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 165622,
+        "premultiplied_preview_rmse": 2.265305279501723,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/09/0040/vd090040.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/09/0040/vd090040.tm2",
+      "sha256": "236a0e97ea1d78c2372a7a1b478e30c0a0bb354d2b98f59cda17936ba5f844df",
+      "expected_original_sha256": "9f45c6eaee6e3e85eafda4229ef44d4f65c4a0320fc366eb641227b91580f9a1",
+      "generation_sha256": "dd2efe1c0f7b35c2a37cdb495645f1faa2ad584a6b913bf9e21c2d32ddb5507f",
+      "original_png": "extracted/original/images/DMAP/dmap/map/09/0040/vd090040.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/09/0040/vd090040.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 165705,
+        "premultiplied_preview_rmse": 2.186335444408308,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/09/0040/vd090040_1.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/09/0040/vd090040_1.tm2",
+      "sha256": "bf2484d06541eec1b51608d734b4cd13c13ce9d1e5abc278ebcebf8520b6a553",
+      "expected_original_sha256": "22d25365c1f43b0fed854ba2e2bba260d1d042410bab086efa922b38160aea72",
+      "generation_sha256": "ff48ffce35cb8e8dac06d627cff1c3b8ac81b0a840dc0bcc43af562b8a44eeed",
+      "original_png": "extracted/original/images/DMAP/dmap/map/09/0040/vd090040_1.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/09/0040/vd090040_1.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 167833,
+        "premultiplied_preview_rmse": 2.178945763832508,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/09/0050/vd090050.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/09/0050/vd090050.tm2",
+      "sha256": "775d9a69a7db693fedb64755b54950e651486d72b59819e72c0dc3f5509090c3",
+      "expected_original_sha256": "533f13a25202849e6323184049d778696bd902146550ab46857a5f162daee9f1",
+      "generation_sha256": "c35c55e171a915d71b4f3698e2b664df00228ee2850446dc42c9302519add419",
+      "original_png": "extracted/original/images/DMAP/dmap/map/09/0050/vd090050.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/09/0050/vd090050.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 160832,
+        "premultiplied_preview_rmse": 2.4080987739075446,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/09/0050/vd090050_1.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/09/0050/vd090050_1.tm2",
+      "sha256": "de143553fc02306ca65dd9670e8a9fd32d4fc43933299f5e51153c41553d348e",
+      "expected_original_sha256": "5c60a6da26d24a1d12cf242d99a0599fe5f6338d45ed685f3495f2bc97716301",
+      "generation_sha256": "7b021ed19931cf5e34bd891fd5f56b0885d7923731a0e065f805e2e908731e10",
+      "original_png": "extracted/original/images/DMAP/dmap/map/09/0050/vd090050_1.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/09/0050/vd090050_1.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 166083,
+        "premultiplied_preview_rmse": 2.222982319008633,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/10/0010/vd100010.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/10/0010/vd100010.tm2",
+      "sha256": "51f73a1d0c0d7f1ecec3baaf3be094cfee72e1a01034696b8711dc542aac9ca1",
+      "expected_original_sha256": "19c5d454a126d55ae3021097c0ab8478b4684366a4bfb6d0d72350007b0a2da2",
+      "generation_sha256": "95dd58b7eb88bc1bdda6de52d4b1b8489d921cacc6436f7dcd33af62554ec4de",
+      "original_png": "extracted/original/images/DMAP/dmap/map/10/0010/vd100010.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/10/0010/vd100010.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 172077,
+        "premultiplied_preview_rmse": 2.4636682285652616,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/10/0020/vd100020.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/10/0020/vd100020.tm2",
+      "sha256": "51f73a1d0c0d7f1ecec3baaf3be094cfee72e1a01034696b8711dc542aac9ca1",
+      "expected_original_sha256": "19c5d454a126d55ae3021097c0ab8478b4684366a4bfb6d0d72350007b0a2da2",
+      "generation_sha256": "95dd58b7eb88bc1bdda6de52d4b1b8489d921cacc6436f7dcd33af62554ec4de",
+      "original_png": "extracted/original/images/DMAP/dmap/map/10/0020/vd100020.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/10/0020/vd100020.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 172077,
+        "premultiplied_preview_rmse": 2.4636682285652616,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/10/0030/vd100030.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/10/0030/vd100030.tm2",
+      "sha256": "51f73a1d0c0d7f1ecec3baaf3be094cfee72e1a01034696b8711dc542aac9ca1",
+      "expected_original_sha256": "19c5d454a126d55ae3021097c0ab8478b4684366a4bfb6d0d72350007b0a2da2",
+      "generation_sha256": "95dd58b7eb88bc1bdda6de52d4b1b8489d921cacc6436f7dcd33af62554ec4de",
+      "original_png": "extracted/original/images/DMAP/dmap/map/10/0030/vd100030.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/10/0030/vd100030.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 172077,
+        "premultiplied_preview_rmse": 2.4636682285652616,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/10/0040/vd100040.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/10/0040/vd100040.tm2",
+      "sha256": "51f73a1d0c0d7f1ecec3baaf3be094cfee72e1a01034696b8711dc542aac9ca1",
+      "expected_original_sha256": "19c5d454a126d55ae3021097c0ab8478b4684366a4bfb6d0d72350007b0a2da2",
+      "generation_sha256": "95dd58b7eb88bc1bdda6de52d4b1b8489d921cacc6436f7dcd33af62554ec4de",
+      "original_png": "extracted/original/images/DMAP/dmap/map/10/0040/vd100040.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/10/0040/vd100040.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 172077,
+        "premultiplied_preview_rmse": 2.4636682285652616,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/10/0010/vd100010_1.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/10/0010/vd100010_1.tm2",
+      "sha256": "d8814ecaa69cd5cf58abbded6d9e1453cd6bde2d8f72e242c2cf8b5e643d628c",
+      "expected_original_sha256": "0d943e90e364143769f31bca832fdcc0262cf5422467f5b337675a06d7a2d835",
+      "generation_sha256": "77125f2a7d732fe4d56fb727bacfb3280e9c7aca196e9bf1665749d044f4ca54",
+      "original_png": "extracted/original/images/DMAP/dmap/map/10/0010/vd100010_1.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/10/0010/vd100010_1.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 180128,
+        "premultiplied_preview_rmse": 2.165283739909485,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/10/0050/vd100050.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/10/0050/vd100050.tm2",
+      "sha256": "d8814ecaa69cd5cf58abbded6d9e1453cd6bde2d8f72e242c2cf8b5e643d628c",
+      "expected_original_sha256": "0d943e90e364143769f31bca832fdcc0262cf5422467f5b337675a06d7a2d835",
+      "generation_sha256": "77125f2a7d732fe4d56fb727bacfb3280e9c7aca196e9bf1665749d044f4ca54",
+      "original_png": "extracted/original/images/DMAP/dmap/map/10/0050/vd100050.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/10/0050/vd100050.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 180128,
+        "premultiplied_preview_rmse": 2.165283739909485,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/11/0010/vd110010.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/11/0010/vd110010.tm2",
+      "sha256": "01944427b43726021da3c9d840536829960222e80d763b78515c4dc1cea634bf",
+      "expected_original_sha256": "09a0aa5ae50a0c624106706110a8e09f16d7919bb58e20cf5caa0d435cc31860",
+      "generation_sha256": "078d85210682bde5210c2cd00c1d1eb4e3be8bb5caaa2bdde1a1f7d1b1c2c0f3",
+      "original_png": "extracted/original/images/DMAP/dmap/map/11/0010/vd110010.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/11/0010/vd110010.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 168959,
+        "premultiplied_preview_rmse": 2.2722063958887135,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/12/0010/vd120010.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/12/0010/vd120010.tm2",
+      "sha256": "e78b72ceaa9bc10ee6000e5de7497a77a86c7d46058c55e868630f7bda475a33",
+      "expected_original_sha256": "bad64327f999fa8fcc379cd906fd9e3776b6c38bd1fbe9a7fada7f5149107c28",
+      "generation_sha256": "affd6f0682672a679493ab84dca61280cb2fa2d460e32b244ab38cf4af99ebe4",
+      "original_png": "extracted/original/images/DMAP/dmap/map/12/0010/vd120010.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/12/0010/vd120010.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 157999,
+        "premultiplied_preview_rmse": 2.175990753771267,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/12/0020/vd120020.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/12/0020/vd120020.tm2",
+      "sha256": "e0e941d57560b68fdfb6eb0c5427a0c72a9d00b2accd5c3ff9a4b32bdbc78fed",
+      "expected_original_sha256": "0d8526f26444dd0dcae7fc1d482098f512de824db3a4f95bb4c0392bd65a2d44",
+      "generation_sha256": "b0727c3e0c44cc3f4f0bbbbecf87eab6e9334161e32e05e8d0adc11e2a993a1a",
+      "original_png": "extracted/original/images/DMAP/dmap/map/12/0020/vd120020.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/12/0020/vd120020.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 163069,
+        "premultiplied_preview_rmse": 2.210026098243963,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/12/0030/vd120030.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/12/0030/vd120030.tm2",
+      "sha256": "12f5ea6ff889b88ca262fa5c275b46d49aea6ecc5c0d5a203b1001290219e49d",
+      "expected_original_sha256": "851ce770d68f10d74223be47ea1f9a3f142c0d87af2ada1dbbb456b8e393657f",
+      "generation_sha256": "44dfed08ced0afa5543e1a75392a8df4939b19d235e0d24b5f2a311925fb83de",
+      "original_png": "extracted/original/images/DMAP/dmap/map/12/0030/vd120030.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/12/0030/vd120030.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 166396,
+        "premultiplied_preview_rmse": 2.213057185989434,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/12/0050/vd120050.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/12/0050/vd120050.tm2",
+      "sha256": "12f5ea6ff889b88ca262fa5c275b46d49aea6ecc5c0d5a203b1001290219e49d",
+      "expected_original_sha256": "851ce770d68f10d74223be47ea1f9a3f142c0d87af2ada1dbbb456b8e393657f",
+      "generation_sha256": "44dfed08ced0afa5543e1a75392a8df4939b19d235e0d24b5f2a311925fb83de",
+      "original_png": "extracted/original/images/DMAP/dmap/map/12/0050/vd120050.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/12/0050/vd120050.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 166396,
+        "premultiplied_preview_rmse": 2.213057185989434,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/12/0070/vd120070.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/12/0070/vd120070.tm2",
+      "sha256": "12f5ea6ff889b88ca262fa5c275b46d49aea6ecc5c0d5a203b1001290219e49d",
+      "expected_original_sha256": "851ce770d68f10d74223be47ea1f9a3f142c0d87af2ada1dbbb456b8e393657f",
+      "generation_sha256": "44dfed08ced0afa5543e1a75392a8df4939b19d235e0d24b5f2a311925fb83de",
+      "original_png": "extracted/original/images/DMAP/dmap/map/12/0070/vd120070.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/12/0070/vd120070.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 166396,
+        "premultiplied_preview_rmse": 2.213057185989434,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/12/0090/vd120090.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/12/0090/vd120090.tm2",
+      "sha256": "12f5ea6ff889b88ca262fa5c275b46d49aea6ecc5c0d5a203b1001290219e49d",
+      "expected_original_sha256": "851ce770d68f10d74223be47ea1f9a3f142c0d87af2ada1dbbb456b8e393657f",
+      "generation_sha256": "44dfed08ced0afa5543e1a75392a8df4939b19d235e0d24b5f2a311925fb83de",
+      "original_png": "extracted/original/images/DMAP/dmap/map/12/0090/vd120090.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/12/0090/vd120090.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 166396,
+        "premultiplied_preview_rmse": 2.213057185989434,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/12/0040/vd120040.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/12/0040/vd120040.tm2",
+      "sha256": "367365b245e4a3f399242726d5b85db7913b8b95c071d64de2a61627d6db40d0",
+      "expected_original_sha256": "56100cbc90681980654b566a45c870da3e26eef710a76497bbd553f0f49ff636",
+      "generation_sha256": "3383b3755b7175e0325d9e8bd8893db4d8b059d9fef9432529a9cc2c620379b0",
+      "original_png": "extracted/original/images/DMAP/dmap/map/12/0040/vd120040.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/12/0040/vd120040.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 165546,
+        "premultiplied_preview_rmse": 2.144472548718456,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/12/0060/vd120060.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/12/0060/vd120060.tm2",
+      "sha256": "367365b245e4a3f399242726d5b85db7913b8b95c071d64de2a61627d6db40d0",
+      "expected_original_sha256": "56100cbc90681980654b566a45c870da3e26eef710a76497bbd553f0f49ff636",
+      "generation_sha256": "3383b3755b7175e0325d9e8bd8893db4d8b059d9fef9432529a9cc2c620379b0",
+      "original_png": "extracted/original/images/DMAP/dmap/map/12/0060/vd120060.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/12/0060/vd120060.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 165546,
+        "premultiplied_preview_rmse": 2.144472548718456,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/12/0080/vd120080.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/12/0080/vd120080.tm2",
+      "sha256": "367365b245e4a3f399242726d5b85db7913b8b95c071d64de2a61627d6db40d0",
+      "expected_original_sha256": "56100cbc90681980654b566a45c870da3e26eef710a76497bbd553f0f49ff636",
+      "generation_sha256": "3383b3755b7175e0325d9e8bd8893db4d8b059d9fef9432529a9cc2c620379b0",
+      "original_png": "extracted/original/images/DMAP/dmap/map/12/0080/vd120080.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/12/0080/vd120080.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 165546,
+        "premultiplied_preview_rmse": 2.144472548718456,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/12/0100/vd120100.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/12/0100/vd120100.tm2",
+      "sha256": "367365b245e4a3f399242726d5b85db7913b8b95c071d64de2a61627d6db40d0",
+      "expected_original_sha256": "56100cbc90681980654b566a45c870da3e26eef710a76497bbd553f0f49ff636",
+      "generation_sha256": "3383b3755b7175e0325d9e8bd8893db4d8b059d9fef9432529a9cc2c620379b0",
+      "original_png": "extracted/original/images/DMAP/dmap/map/12/0100/vd120100.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/12/0100/vd120100.tm2.png",
+      "uad_sha256": "f48eb8e1746e0ca72a6b98b59b8feee49a9381e83d31520f3d0a2607b2e39b36",
+      "checks": {
+        "bpp": 8,
+        "size": [
+          512,
+          512
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 0,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 165546,
+        "premultiplied_preview_rmse": 2.144472548718456,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/20/0011/name01.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/20/0011/name01.tm2",
+      "sha256": "4f87b817d00af09c2c1a0d27bc89f6154fbab8c91fba2edea093f17a5968639e",
+      "expected_original_sha256": "066bca49ba2a907754e4f9479bd3c53e37eb74b6c4fe64fbfde5cb506dc0a1ec",
+      "generation_sha256": "8a8f7bbefc25fcced61f318e9a545a52a963a60927c0b6819d1ce7a96fb63637",
+      "original_png": "extracted/original/images/DMAP/dmap/map/20/0011/name01.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/20/0011/name01.tm2.png",
+      "uad_sha256": null,
+      "checks": {
+        "bpp": 8,
+        "size": [
+          256,
+          128
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 24,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 10864,
+        "premultiplied_preview_rmse": 14.980536485342302,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    },
+    {
+      "archive": "DMAP",
+      "member": "dmap/map/20/0011/name02.tm2",
+      "replacement": "build/dmap_map_ko_v1/textures/DMAP/dmap/map/20/0011/name02.tm2",
+      "sha256": "79081094d9f9e0ebad7952280a1a7f42ad9a3c0495612f93ca89181699d727ba",
+      "expected_original_sha256": "0c964944221f6cb8dc8b9290987f429a2fe86a6d83ec7dbcdd3738239e0c439c",
+      "generation_sha256": "8d6e5707ef9e1980d1f21a430b29d20a4019953af12672373b8a433e1c51b18a",
+      "original_png": "extracted/original/images/DMAP/dmap/map/20/0011/name02.tm2.png",
+      "preview": "outputs/dmap_map_ko_v1/native/DMAP/dmap/map/20/0011/name02.tm2.png",
+      "uad_sha256": null,
+      "checks": {
+        "bpp": 8,
+        "size": [
+          256,
+          256
+        ],
+        "header_and_palette_preserved": true,
+        "byte_exact_roundtrip": true,
+        "opaque_alpha_ties_corrected": 699,
+        "minimum_background_preview_alpha": 0,
+        "changed_bytes": 23414,
+        "premultiplied_preview_rmse": 4.7605846328095645,
+        "alpha_metric": "Clipped preview; does not predict draw-time game opacity"
+      },
+      "roundtrip_verified": true
+    }
+  ]
+}

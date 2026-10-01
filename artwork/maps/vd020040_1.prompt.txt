@@ -1,0 +1,14 @@
+Mode: built-in image_gen
+Use case: text-localization.
+Edit target: the supplied Japanese Poison Pink game UI texture. Create a Korean localized version of this one image. Preserve the original square canvas, composition, dark ornate cave map background, all bars, colors, low-resolution game texture aesthetic, black bottom strip, and exact text placement as closely as possible. Replace only lettering, remove all original Japanese lettering cleanly. Keep all empty numeric counter slots empty. Original image is 512x512; output at that same size if possible.
+Exact Korean replacements:
+Top small gold-glow title: "제1계층 허환의 미궁"
+Large gold-glow title below: "용이 사는 대동굴"
+Red left label: "승리 조건"
+Right victory condition two lines: "하스타 카엘라를" then "격파하라" (emphasize 격파, matching original oversized bold calligraphy).
+Blue left label: "패배 조건"
+Right defeat condition: "주인공의 전투 불능"
+Purple lower left label: "남은 수"
+Bottom red enemy row label: "적", right counter suffix "체"
+Bottom blue ally row label: "아군", right counter suffix "명"
+Use legible Korean brush/serif lettering, with white outlines and dark black inner shadows matching original Japanese lettering, gold for titles and red/blue/purple accents in labels. No added numbers, no additional text or watermark. All Korean text must be spelled exactly as provided.

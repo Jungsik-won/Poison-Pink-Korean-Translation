@@ -1,0 +1,79 @@
+[
+  {
+    "page": 143,
+    "png": "localization/artwork/help_user_v1/ev143.png",
+    "source": "<LOCAL_USER_HOME>/Documents/Codex/2026-09-16/referenced-chatgpt-conversation-this-is-an/outputs/ev143.png",
+    "sha256": "8243670d0d619d3db074f3c4416439451868c2e2014db843a73b2fc1c3f49970",
+    "size": [
+      640,
+      384
+    ],
+    "alpha_changed": 0
+  },
+  {
+    "page": 144,
+    "png": "localization/artwork/help_user_v1/ev144.png",
+    "source": "<LOCAL_USER_HOME>/Documents/Codex/2026-09-16/referenced-chatgpt-conversation-this-is-an/outputs/ev144.png",
+    "sha256": "192be67d7f8bab3c972c76503c9fc78663d849e6cdc7a70c9c7004c5253e2afa",
+    "size": [
+      640,
+      384
+    ],
+    "alpha_changed": 0
+  },
+  {
+    "page": 145,
+    "png": "localization/artwork/help_user_v1/ev145.png",
+    "source": "<LOCAL_USER_HOME>/Documents/Codex/2026-09-16/referenced-chatgpt-conversation-this-is-an/outputs/ev145.png",
+    "sha256": "39d583f03b7b03a60987fd7b795db002808cfeaec36ca493a89ee657b336d695",
+    "size": [
+      640,
+      384
+    ],
+    "alpha_changed": 0
+  },
+  {
+    "page": 146,
+    "png": "localization/artwork/help_user_v1/ev146.png",
+    "source": "<LOCAL_USER_HOME>/Documents/Codex/2026-09-16/referenced-chatgpt-conversation-this-is-an/outputs/ev146.png",
+    "sha256": "9e0b440dbd341c46936bb6376320f62728832f6778efcb787e9127ba1b3e84d8",
+    "size": [
+      640,
+      384
+    ],
+    "alpha_changed": 0
+  },
+  {
+    "page": 147,
+    "png": "localization/artwork/help_user_v1/ev147.png",
+    "source": "<LOCAL_USER_HOME>/Documents/Codex/2026-09-16/referenced-chatgpt-conversation-this-is-an/outputs/ev147.png",
+    "sha256": "984c6a1fae9c767d1c0d7a99c4adb6d483ecb2fef51285ca0c6f96ebcab9bf68",
+    "size": [
+      640,
+      384
+    ],
+    "alpha_changed": 0
+  },
+  {
+    "page": 148,
+    "png": "localization/artwork/help_user_v1/ev148.png",
+    "source": "<LOCAL_USER_HOME>/Documents/Codex/2026-09-16/referenced-chatgpt-conversation-this-is-an/outputs/ev148.png",
+    "sha256": "929cdcde3615afa8d74802f5232205c03ff26ed591d7d6b50f614e54f08fcc63",
+    "size": [
+      640,
+      384
+    ],
+    "alpha_changed": 0
+  },
+  {
+    "page": 149,
+    "png": "localization/artwork/help_user_v1/ev149.png",
+    "source": "<LOCAL_USER_HOME>/Documents/Codex/2026-09-16/referenced-chatgpt-conversation-this-is-an/outputs/ev149.png",
+    "sha256": "4714ffcd816b8d20672741bbae6a60f6d1b42fc16dc5a18a975b097004e6ca98",
+    "size": [
+      640,
+      384
+    ],
+    "alpha_changed": 0
+  }
+]

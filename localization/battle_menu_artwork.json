@@ -1,0 +1,23 @@
+{
+  "base_iso": "build/help_pages_v7/Poison Pink (Japan) - tutorial help.iso",
+  "base_iso_sha256": "a3f2c6c3fe10fe0ce3d15e78838a235a69730f332550f297e1b32d62f5481630",
+  "title_config": "localization/title_artwork.json",
+  "title_config_sha256": "2b478bf44fdb7aa5d0c9d742760c36e3315cf71f03aa845527b2f142644e114a",
+  "expected_title_hashes": {
+    "dmap/title/tit_lg00.tm2": "cdc773767dfb47c581813eea35dcf65bfb169583c957df090250d3a2ead13855",
+    "dmap/title/tit_tx01.tm2": "1e3a13550b383d285bfde9619b74cd86a2d9b497fb42e45ba7e7c3e326c2e22a"
+  },
+  "png": "localization/artwork/battle_menu_user_v1/sys000.png",
+  "png_sha256": "7136dceccdceb87fd88235cfb96e0d9c17e53b61cbfd97c6ab06ce56fc39204d",
+  "user_file": "extracted/original/images/STATUS/status/sys000.tm2 복사.png",
+  "source_tim2_sha256": "a534e987d1f7f303896968d032b93bd845131c4e984fbbc46006309085a38c92",
+  "uad_sha256": "0b73e5d689ff55a53919e35b5e167083431c398495584732047ebca980386d23",
+  "output_iso": "build/battle_menu_artwork_v1/Poison Pink (Japan) - custom title and battle menu.iso",
+  "review": {
+    "labels": "이동, 공격, 스킬, 명령, 열기, 포획, 도구, 귀환, 상태, 대기, 재행동, 설정, 행동순, 쌍격, 마신, 조건",
+    "sprite_layout": "64x24 menu regions; 마신 and 조건 occupy separate original sprite rectangles",
+    "wording_and_authored_layout": "reviewed from user-supplied image",
+    "transparency": "original alpha mask preserved; transparent RGB-only changes are ignored",
+    "gameplay": "deferred"
+  }
+}

@@ -1,0 +1,133 @@
+dmap/script/ft_11.rtb:0x00007f77|테이지, 여기서부터는\n두 세계를 오가게 된다
+dmap/script/ft_11.rtb:0x0000801d|깨끗한 마음은 어둠으로\n더러운 마음은 성스러움으로 이끌린다
+dmap/script/ft_11.rtb:0x000080bb|사로잡히는 순간\n마음을 잡아먹히고 말지
+dmap/script/ft_11.rtb:0x0000815b|그렇구나\n재미있는 장치네
+dmap/script/ft_11.rtb:0x000082c9|불렀...어...?
+dmap/script/ft_11.rtb:0x000083e3|그러니까 테이지는 왜\n아무렇지도 않은 거야?
+dmap/script/ft_11.rtb:0x00008481|...난 책을 갖고 있어서\n괜찮다고 했잖아?
+dmap/script/ft_11.rtb:0x00008531|그 얘기는 전에도 들었지만\n정말 그럴 수가 있어?
+dmap/script/ft_11.rtb:0x000085e3|이 책은 '리벨 웨스펠'이야\n보통 마술사의 책과는 달라
+dmap/script/ft_11.rtb:0x0000869b|확실히 마신도 그 책을\n싫어하는 것 같긴 했지만...
+dmap/script/ft_11.rtb:0x0000874b|그 책은 대체 뭐야?
+dmap/script/ft_11.rtb:0x000087de|꼬마는 알 것 없다
+dmap/script/ft_11.rtb:0x000089a6|그 얘기는 나중에 하자\n...가까이에 마신이 있어
+dmap/script/ft_11.rtb:0x00008dff|(이제 내 몸도\n 끝이 다가오는 것 같아...)
+dmap/script/ft_11.rtb:0x00008eb7|(앞으로 얼마나 버틸 수 있을까...)
+dmap/script/ft_11.rtb:0x0000900d|루티, 루티\n어디 많이 아프당가?
+dmap/script/ft_11.rtb:0x000090b7|혹시 날 걱정해 주는 거야?
+dmap/script/ft_11.rtb:0x00009152|루티, 루티\n억수로 불안해 보이구먼
+dmap/script/ft_11.rtb:0x00009200|난 괜찮아...\n걱정하지 마
+dmap/script/ft_11.rtb:0x0000928f|세상에 해를 끼치는\n이단아가...!
+dmap/script/ft_11.rtb:0x0000951d|이단아는 죽어야 할 존재다...
+dmap/script/ft_11.rtb:0x000095b8|후, 후작님...?
+dmap/script/ft_11.rtb:0x00009647|핫!!!
+dmap/script/ft_11.rtb:0x000096fb|카우포, 카우포!!\n그런 짓은 안 된당께!!!
+dmap/script/ft_11.rtb:0x000097b1|...저를 방해할\n생각입니까?
+dmap/script/ft_11.rtb:0x00009851|루티, 루티\n어서 도망가야 혀!!
+dmap/script/ft_11.rtb:0x000098f5|도, 도망가라고...?
+dmap/script/ft_11.rtb:0x0000998e|루티, 루티\n빨랑 도망가랑께!!!
+dmap/script/ft_11.rtb:0x00009a38|어, 하지만...!
+dmap/script/ft_11.rtb:0x00009ac9|하지만...!!
+dmap/script/ft_11.rtb:0x00009b7a|풋, 크크크...\n아하하하하하하!!
+dmap/script/ft_11.rtb:0x00009c28|그렇게 겁먹지 마세요\n그저 가벼운 농담이었습니다
+dmap/script/ft_11.rtb:0x00009cda|농담이라니, 왜\n그런 짓을...?
+dmap/script/ft_11.rtb:0x00009d86|곁에 있는 자들이라고 해서\n반드시 안전한 건 아닙니다
+dmap/script/ft_11.rtb:0x00009e3c|특히 그 은빛 늑대는 위험합니다
+dmap/script/ft_11.rtb:0x00009ed1|역시 라키는 뭔가\n숨기고 있는 거군요?
+dmap/script/ft_11.rtb:0x00009f7d|그는 '이제트'를 이끌기 위해서만\n존재하는 자입니다
+dmap/script/ft_11.rtb:0x0000a02b|공주님의 '궁극의 독'에도\n당신에게도 관심이 없겠지요
+dmap/script/ft_11.rtb:0x0000a0e1|테이지를 '이제트'로 만들려고\n일부러 말을 맞춰 주는 건가요?
+dmap/script/ft_11.rtb:0x0000a1a5|예... 아마도요
+dmap/script/ft_11.rtb:0x0000a23c|지금 루나셰 공주가 제물이 되어\n'이제트'가 탄생하려 하고 있습니다
+dmap/script/ft_11.rtb:0x0000a308|'이제트'가 탄생하면 그 은빛 늑대는\n더는 테이지 공주가 필요 없겠지요
+dmap/script/ft_11.rtb:0x0000a3c8|필요가 없어지면\n테이지를 죽인다고요?!
+dmap/script/ft_11.rtb:0x0000a476|너무해...!
+dmap/script/ft_11.rtb:0x0000a50b|마신은 본래 그런 존재입니다\n믿어서는 안 됩니다
+dmap/script/ft_11.rtb:0x0000a5c3|당신이 그녀를 지키는 겁니다
+dmap/script/ft_11.rtb:0x0000a658|아, 알겠습니다\n테이지는... 제가 지킬게요!!
+dmap/script/ft_11.rtb:0x0000a710|예, 부탁드립니다
+dmap/script/ft_11.rtb:0x0000a7a1|그럼, 전 이만...
+dmap/script/ft_11.rtb:0x0000a83e|예, 그럼 또 뵙지요...
+dmap/script/ft_11.rtb:0x0000aa00|너희에게 그런 지능이 있다니\n놀랍군요...
+dmap/script/ft_11.rtb:0x0000aab4|하지만 상관없지\n앞으로 재미있어질 것 같군
+dmap/script/ft_12.rtb:0x00007f23|벼, 별로...\n아무렇지도, 않아
+dmap/script/ft_12.rtb:0x00007fc3|...마음대로 해
+dmap/script/ft_12.rtb:0x00008058|그런데 왜 그렇게까지 하면서\n'궁극의 독'을 찾으려는 거야?
+dmap/script/ft_12.rtb:0x0000810a|엄마의 원수를 갚기 위해서라고\n말했잖아?
+dmap/script/ft_12.rtb:0x000081b2|그런 걸\n묻는 게 아니야
+dmap/script/ft_12.rtb:0x00008252|왜 자신을 괴롭혀 가면서까지\n남을 위해 뭔가를 하려는 거지?
+dmap/script/ft_12.rtb:0x0000832c|...아니야\n지금 내 소원은 내 이기심일 뿐이야
+dmap/script/ft_12.rtb:0x000083d0|엄마를 구하지 못한 죄를\n'궁극의 독'을 얻어서...
+dmap/script/ft_12.rtb:0x00008488|'궁극의 독'으로 원수를 갚아서\n그 죄를 씻으려는 것뿐이야...
+dmap/script/ft_12.rtb:0x0000854a|결국 누구를 위해서도 아닌\n나 자신을 위해 움직이는 거야
+dmap/script/ft_12.rtb:0x000085f8|내가 나를 용서하기 위해서
+dmap/script/ft_12.rtb:0x0000868d|...복잡하게도 생각하네
+dmap/script/ft_12.rtb:0x00008720|그러게, 하지만\n그게 인간이라고 생각해
+dmap/script/ft_12.rtb:0x000087c8|누군가를 위해서라고 말하면서\n사실은 자기 생각밖에 안 하지
+dmap/script/ft_12.rtb:0x00008880|특히 친절을 베푸는 것도\n결국 자기만족 아니겠어?
+dmap/script/ft_12.rtb:0x0000892c|자기가 상대에게 잘해 주고 싶어서\n잘해 주는 거잖아
+dmap/script/ft_12.rtb:0x000089d8|...하지만 말이야, 그게\n인간의 좋은 점 아닐까?
+dmap/script/ft_12.rtb:0x00008a8e|서로 잘해 주고 싶다는 마음만으로\n서로를 지탱해 줄 수 있으니까
+dmap/script/ft_12.rtb:0x00008b3e|난 그렇게 생각해
+dmap/script/ft_12.rtb:0x00008bcb|난 누군가에게 잘해 주고 싶다고\n생각한 적은 없어
+dmap/script/ft_12.rtb:0x00008c79|하지만 난 테이지가\n계약해 준 덕분에 아직 살아 있어...
+dmap/script/ft_12.rtb:0x00008d31|이기심으로도 사람을 구할 수 있어
+dmap/script/ft_12.rtb:0x00008e51|테이지는 왜\n'궁극의 독'을 찾는 거야?
+dmap/script/ft_12.rtb:0x00008efd|...이 세상을 파괴하기 위해서
+dmap/script/ft_12.rtb:0x00008f9a|세, 세상을 파괴한다고...?
+dmap/script/ft_12.rtb:0x00009031|이 책에 '궁극의 독'을 주면\n세상을 파괴할 힘이 깃들어
+dmap/script/ft_12.rtb:0x000090e9|그 힘으로 세상을\n파괴하는 게 내 소원이야
+dmap/script/ft_12.rtb:0x00009191|대체, 뭘 위해서...?
+dmap/script/ft_12.rtb:0x00009226|이유를 말해 봤자\n의미 없어
+dmap/script/ft_12.rtb:0x000092d4|난 이해할 수 없다고\n말하고 싶은 거야?
+dmap/script/ft_12.rtb:0x00009376|아니\n넌 감당할 수 없을 거야
+dmap/script/ft_12.rtb:0x00009414|내 말은 네게 너무 무거워
+dmap/script/ft_12.rtb:0x00009536|라키가 기다리고 있어\n가자
+dmap/script/ft_12.rtb:0x00009688|아, 기다려!!
+dmap/script/ft_12.rtb:0x00009731|커헉...!!
+dmap/script/ft_12.rtb:0x00009855|이래서야\n확실히 믿음이 안 가겠네...!
+dmap/script/ft_13.rtb:0x00007dfa|라키, 표정이 무섭네\n대체 왜 그래?
+dmap/script/ft_13.rtb:0x00007e9a|꼬마가 죽을 때가 가까워졌다
+dmap/script/ft_13.rtb:0x00007f25|테이지, 사실은 너도\n눈치채고 있었겠지?
+dmap/script/ft_13.rtb:0x00007fcf|꼬마가 약해지는 원인은\n마력의 간섭 따위가 아니다
+dmap/script/ft_13.rtb:0x0000807b|마신의 피가 꼬마의 몸을\n잠식하고 있다는 증거다
+dmap/script/ft_13.rtb:0x00008121|증상이 끝까지 진행되면\n마지막에는...
+dmap/script/ft_13.rtb:0x000081c5|몸이 마신으로 변하고\n온몸에서 피를 뿜으며 죽는다...
+dmap/script/ft_13.rtb:0x00008277|그걸 알면서도\n왜 녀석을 살려 두는 거지?
+dmap/script/ft_13.rtb:0x00008323|'이단아'는\n아주 드문 존재야...
+dmap/script/ft_13.rtb:0x000083cb|난 왜 '이단아'가\n태어났는지 알고 싶어
+dmap/script/ft_13.rtb:0x00008479|인간과 마신의 혼혈은\n일부러 만들지 않으면 생기지 않아
+dmap/script/ft_13.rtb:0x000085a8|라키, '이단아'는\n대체 어떤 존재지?
+dmap/script/ft_13.rtb:0x0000864e|왜 마신은 이단아를\n쫓아가서 죽이려는 거야?
+dmap/script/ft_13.rtb:0x0000877b|테이지... 여신 '이제트'의 탄생은\n모든 마신의 뜻이다
+dmap/script/ft_13.rtb:0x00008827|그 목적을 위해서라면\n마신들은 무슨 짓이든 해 왔다...
+dmap/script/ft_13.rtb:0x000088d5|인간과 마신의 혼혈도\n실험 중 하나였다는 거야?
+dmap/script/ft_13.rtb:0x00008a06|침묵은 긍정이라는 거네...
+dmap/script/ft_13.rtb:0x00008a9f|하지만 실패로 끝났다...
+dmap/script/ft_13.rtb:0x00008b34|어중간한 힘을 가진 이단아는\n'이제트'가 되기는커녕
+dmap/script/ft_13.rtb:0x00008be6|이 세계의 팔사스에게\n해를 끼치게 되었다
+dmap/script/ft_13.rtb:0x00008c90|팔사스에게 해를 끼치는 건\n너희도 원하지 않는다는 거야?
+dmap/script/ft_13.rtb:0x00008dcf|...너희가 말하는\n'이제트'는 대체 뭐지?
+dmap/script/ft_13.rtb:0x00008e77|사실 우리 마신은\n'이제트'의 모습을 본 적이 없다
+dmap/script/ft_13.rtb:0x00008f29|아니, 그 존재조차\n느껴 본 적이 없어
+dmap/script/ft_13.rtb:0x00008fcd|이유도 모른 채 그저\n'이제트'의 탄생을 갈망한다
+dmap/script/ft_13.rtb:0x00009079|마치 그것이\n살아가는 이유인 것처럼...
+dmap/script/ft_13.rtb:0x0000911d|...어처구니없네
+dmap/script/ft_13.rtb:0x000091aa|나도 그렇게 생각한다
+dmap/script/ft_13.rtb:0x00009231|하지만 그것이 바로\n우리가 존재하는 이유다
+dmap/script/ft_13.rtb:0x000092dd|어찌할 도리가 없어
+dmap/script/ft_13.rtb:0x00009370|...'이단아'의 피를\n없애는 건 가능할까?
+dmap/script/ft_13.rtb:0x0000941a|모른다
+dmap/script/ft_13.rtb:0x0000949d|설령 가능하다 해도\n어떻게 될지는 알 수 없다
+dmap/script/ft_13.rtb:0x00009547|알고 있어, 난 그저...
+dmap/script/ft_13.rtb:0x000095fc|그저 인간이 마를\n삼키는 모습을 보고 싶어
+dmap/script/ft_13.rtb:0x000096a0|그리고 마를 지배하는\n인간의 가능성을 보고 싶어
+dmap/script/ft_13.rtb:0x0000974c|인간이 마를 지배하면\n대체 무슨 일이 일어날까...!!
+dmap/script/ft_13.rtb:0x000097f8|테이지, 너...!
+dmap/script/ft_13.rtb:0x00009889|그러려면 '궁극의 독'이\n필요해...
+dmap/script/ft_13.rtb:0x0000992f|이 책과 그 아이에게\n'궁극의 독'을 주면 다 알 수 있어
+dmap/script/ft_13.rtb:0x000099e1|테이지, 제정신인가?!
+dmap/script/ft_13.rtb:0x00009a78|그런 아이는 버려라!
+dmap/script/ft_13.rtb:0x00009ba4|테이지!
+dmap/script/ft_13.rtb:0x00009cc1|왜지, 테이지...!
+dmap/script/ft_13.rtb:0x00009d52|네가 진정 바라는 건\n대체 뭐란 말이냐...?!

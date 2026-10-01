@@ -1,0 +1,197 @@
+dmap/script/ft_08.rtb:0x00007f4a|있잖아, 마신들은 왜\n테이지만 보면 소란을 피우는 거야?
+dmap/script/ft_08.rtb:0x00007ff6|테이지가 '이제트'이기 때문이다
+dmap/script/ft_08.rtb:0x00008091|그 '이제트'가 대체 뭔데?
+dmap/script/ft_08.rtb:0x00008128|네놈이 알 일이 아니다
+dmap/script/ft_08.rtb:0x000081bd|뭐야, 또 그 소리야!
+dmap/script/ft_08.rtb:0x00008250|왜 나한테는 아무것도\n알려 주지 않는 건데?!
+dmap/script/ft_08.rtb:0x000082f0|알려 줄 필요가 없기 때문이다
+dmap/script/ft_08.rtb:0x00008385|말을 꼭 그렇게 해야겠어?
+dmap/script/ft_08.rtb:0x0000841a|젠장, 나만 맨날\n따돌림당하잖아
+dmap/script/ft_08.rtb:0x000084b6|애초에 동료였던 적도 없다\n네가 착각한 거지
+dmap/script/ft_08.rtb:0x0000855c|동료가 아니면\n대체 뭔데?
+dmap/script/ft_08.rtb:0x000085fa|테이지의 장난감이다
+dmap/script/ft_08.rtb:0x00008695|자, 장난감이라고?!
+dmap/script/ft_08.rtb:0x0000872a|쓸데없는 얘기를 더 할\n생각은 없다... 간다
+dmap/script/ft_08.rtb:0x00008872|야, 기다리라고!!!
+dmap/script/ft_08.rtb:0x00008ce1|방금 그 마신은\n대체 뭐였지?
+dmap/script/ft_08.rtb:0x00008d7b|글쎄
+dmap/script/ft_08.rtb:0x00008e02|저런 이상한 마신들이 널 노리는데\n테이지는 아무렇지도 않아?
+dmap/script/ft_08.rtb:0x00008ebe|저런 건 내 상대도 안 돼\n쓰러뜨리면 그만이야
+dmap/script/ft_08.rtb:0x00008ff5|그런데 베세크에는 왜\n이렇게 마신이 많은 거야?
+dmap/script/ft_08.rtb:0x0000923b|...이곳은 아레아와는\n다른 이계다
+dmap/script/ft_08.rtb:0x000092db|너희 팔사스는\n'옥계 베세크'라 부르고
+dmap/script/ft_08.rtb:0x0000937f|우리는 '테트라크튀스'라 부르지
+dmap/script/ft_08.rtb:0x0000941c|테트라크... 튀스?
+dmap/script/ft_08.rtb:0x000094ab|마신의 말로\n'신에 이르는 길'이라는 뜻이다
+dmap/script/ft_08.rtb:0x00009551|신이라니, 마신의 신 말이야?
+dmap/script/ft_08.rtb:0x000095de|...글쎄
+dmap/script/ft_08.rtb:0x00009665|이곳은 우리의 세계인\n그 땅과 육지로 이어진 세계...
+dmap/script/ft_08.rtb:0x0000970d|그것이 어떤 이치에 따라\n아레아에 나타난 것이다
+dmap/script/ft_08.rtb:0x000097b3|그게 전부다
+dmap/script/ft_08.rtb:0x00009840|전부라니...\n그렇게 간단한 얘기가 아니잖아?!
+dmap/script/ft_08.rtb:0x000098ee|누가 무슨 목적으로 베세크를\n나타나게 했느냐는 질문인가?
+dmap/script/ft_08.rtb:0x000099a2|흥, 그걸 알면 고생하지 않지
+dmap/script/ft_08.rtb:0x00009a3f|누군가 일부러 나타나게 했다고?
+dmap/script/ft_08.rtb:0x00009ad8|테트라크튀스는 저절로\n나타나는 물건이 아니다
+dmap/script/ft_08.rtb:0x00009b82|하지만 우리 마신조차\n테트라크튀스에 대해서는 모른다
+dmap/script/ft_08.rtb:0x00009c30|우리가 이용하는 건\n극히 일부의 기능뿐...
+dmap/script/ft_08.rtb:0x00009cd8|그중 하나가 '궁극의 독'이\n아닐까 생각하고 있어
+dmap/script/ft_08.rtb:0x00009d88|그래서 '궁극의 독'이 있다고\n그렇게 자신 있게 말한 거구나
+dmap/script/ft_08.rtb:0x00009e48|그래, 맞아
+dmap/script/ft_08.rtb:0x00009ed3|결국 베세크에 대해서는\n아무것도 모른다는 거네...
+dmap/script/ft_08.rtb:0x00009f87|'궁극의 독'이 있다면\n그걸로 충분해
+dmap/script/ft_08.rtb:0x0000a025|자, 수다는 여기까지\n가자
+dmap/script/ft_08.rtb:0x0000a53d|그 마신과는\n대체 어디서 만났지?
+dmap/script/ft_08.rtb:0x0000a5db|...어릴 때야
+dmap/script/ft_08.rtb:0x0000a666|난 그 녀석을 만나고\n마에 눈을 떴어
+dmap/script/ft_08.rtb:0x0000a70a|하지만 그 녀석은\n분명 내 손으로 죽였는데...
+dmap/script/ft_08.rtb:0x0000a7b2|왜 이제 와서\n나타난 걸까...?
+dmap/script/ft_08.rtb:0x0000a84c|취향 고약한 '개입자'의\n짓이 아닌가?
+dmap/script/ft_08.rtb:0x0000a8f0|놈들은 늘 골칫거리를\n우리에게 떠넘기니까
+dmap/script/ft_08.rtb:0x0000a998|...개입자가 내게 '이제트'로서\n각성하도록 재촉하는 건지도
+dmap/script/ft_08.rtb:0x0000aa4e|예전에 내가 마에\n눈을 떴던 것처럼...
+dmap/script/ft_08.rtb:0x0000aaee|그 가능성도 부정할 수는 없지만
+dmap/script/ft_08.rtb:0x0000ab83|지금은 개입자에게\n신경 쓸 시간이 없다
+dmap/script/ft_08.rtb:0x0000ac21|알고 있어\n...가자
+dmap/script/ft_08.rtb:0x0000ac98|잠깐 기다려!
+dmap/script/ft_08.rtb:0x0000aeeb|있잖아, 베세크가\n대체 뭐야?
+dmap/script/ft_08.rtb:0x0000af87|라키, 설명해 줘
+dmap/script/ft_08.rtb:0x0000b016|...이곳은 이계다
+dmap/script/ft_08.rtb:0x0000b0a3|팔사스는 '옥계 베세크'라 부르고\n우리는 '테트라크튀스'라 부른다
+dmap/script/ft_08.rtb:0x0000b296|신...?
+dmap/script/ft_08.rtb:0x0000b31b|간단히 말하자면
+dmap/script/ft_08.rtb:0x0000b3a6|베세크는 그 땅과\n육지로 이어진 세계...
+dmap/script/ft_08.rtb:0x0000b446|즉, 마신의 거처다
+dmap/script/ft_08.rtb:0x0000b4db|베세크가 마신의 거처라고?!
+dmap/script/ft_08.rtb:0x0000b572|왜 그런 게\n아레아에 나타난 거야?!
+dmap/script/ft_08.rtb:0x0000b775|애초에 베세크 자체가\n무엇인지조차 알지 못한다
+dmap/script/ft_08.rtb:0x0000b827|마신이 '테트라크튀스'라 부르는\n부분도 하나의 기능에 불과하지
+dmap/script/ft_08.rtb:0x0000b8dd|우리는 그런 정체불명의 장소에\n들어와 있는 거야...?
+dmap/script/ft_08.rtb:0x0000b987|수수께끼 같은 존재이기에...
+dmap/script/ft_08.rtb:0x0000ba1c|그 안에 '궁극의 독'이\n존재할 가능성이 있어...
+dmap/script/ft_08.rtb:0x0000bac8|그러니 수수께끼든 뭐든\n앞으로 나아갈 뿐이야
+dmap/script/ft_08.rtb:0x0000bb74|하지만 베세크가 우리한테\n무슨 짓이라도 하면...
+dmap/script/ft_08.rtb:0x0000bc1c|안심해라, 테트라크튀스는\n해를 끼치지 않는다
+dmap/script/ft_08.rtb:0x0000bcc4|위험한 건 마신뿐이다
+dmap/script/ft_08.rtb:0x0000bd59|마신뿐이라니...
+dmap/script/ft_08.rtb:0x0000bde4|하고 싶은 말은 그게 다야?
+dmap/script/ft_08.rtb:0x0000be79|끝났으면 가자
+dmap/script/ft_08.rtb:0x0000bf10|꾸물거리다가는 다른 인간에게\n빼앗길 거야
+dmap/script/ft_08.rtb:0x0000bfb4|그래...
+dmap/script/ft_09.rtb:0x0000802b|(벌써 한계가 온 거야?\n 이... 고장 난 몸뚱이...)
+dmap/script/ft_09.rtb:0x000080e3|(난 아직 해야 할 일이 있어!)
+dmap/script/ft_09.rtb:0x00008184|젠장...!!!!!
+dmap/script/ft_09.rtb:0x00008322|이제 한계인 모양이군...
+dmap/script/ft_09.rtb:0x000083b9|아직 괜찮아
+dmap/script/ft_09.rtb:0x00008440|...테이지, 넌 대체\n무슨 생각을 하는 거지?
+dmap/script/ft_09.rtb:0x000084e4|저 꼬마도 만만치 않더군\n뭔가 속셈이 있는 모양이다
+dmap/script/ft_09.rtb:0x00008594|그래...? 네가 그런 말을 해?
+dmap/script/ft_09.rtb:0x0000862d|...뭐라고?
+dmap/script/ft_09.rtb:0x000086b8|너야말로 나한테\n뭘 숨기고 있는 거지?
+dmap/script/ft_09.rtb:0x0000875e|...아무것도 없다
+dmap/script/ft_09.rtb:0x000087ed|뭐, 상관없지만
+dmap/script/ft_09.rtb:0x0000887c|테이지, 우리에겐\n놀고 있을 여유가 없다
+dmap/script/ft_09.rtb:0x0000891a|저런 것에 신경 쓸\n시간 따위는 없어
+dmap/script/ft_09.rtb:0x000089c0|그건 네 생각이지?\n나하고는 상관없어
+dmap/script/ft_09.rtb:0x00008a66|테이지, 너...!
+dmap/script/ft_09.rtb:0x00008c10|테이지, 라키!\n저쪽에 마신이...
+dmap/script/ft_09.rtb:0x00008cb2|꼬마......
+dmap/script/ft_09.rtb:0x00008d4f|뭐, 뭔데...!
+dmap/script/ft_09.rtb:0x00008de0|아무것도 아니다...
+dmap/script/ft_09.rtb:0x00009378|아니야, 아니야, 아니야!!\n나는...!!
+dmap/script/ft_09.rtb:0x000093f1|나는 인간이야...!!
+dmap/script/ft_09.rtb:0x000095b9|뭐, 뭐야?!
+dmap/script/ft_09.rtb:0x00009619|뭘 그렇게 겁내는 거야?
+dmap/script/ft_09.rtb:0x00009689|어, 아, 아무것도...
+dmap/script/ft_09.rtb:0x000096f1|루티카?
+dmap/script/ft_09.rtb:0x0000976d|아무것도 아니야!!!
+dmap/script/ft_09.rtb:0x00009a46|...일찌감치 처분해야 한다고\n분명 말씀드렸을 텐데요
+dmap/script/ft_09.rtb:0x00009acf|이단아의 목숨이 다할 때\n무슨 일이 벌어지는지...
+dmap/script/ft_09.rtb:0x00009b56|당신이 모르실 리는 없겠지요?
+dmap/script/ft_09.rtb:0x00009c2e|슬슬 '이제트'의 장난에\n어울려 주는 건 그만두지 그래
+dmap/script/ft_09.rtb:0x00009cb7|...네놈이 말하지 않아도\n알고 있다
+dmap/script/ft_09.rtb:0x00009dc8|처분하라고?\n말은 쉽게 하는군
+dmap/script/ft_09.rtb:0x00009e3b|그럴 수 있다면 고생하지 않지
+dmap/script/ft_10.rtb:0x00007e8f|제기랄...!!
+dmap/script/ft_10.rtb:0x00007f20|이 고장 난 몸뚱이...!!\n제대로 움직이라고!!
+dmap/script/ft_10.rtb:0x00007fd2|난 아직 해야 할 일이 있어...
+dmap/script/ft_10.rtb:0x000080ad|테, 테이지?!
+dmap/script/ft_10.rtb:0x00008183|아, 죄송해요\n사람을 잘못 봤어요...!
+dmap/script/ft_10.rtb:0x00008243|너, 이단아구나?
+dmap/script/ft_10.rtb:0x00008353|안타깝지만 이단아는 처분하는 게\n발드 교회의 규칙이야
+dmap/script/ft_10.rtb:0x00008409|뭐, 뭐야, 갑자기!!
+dmap/script/ft_10.rtb:0x0000849a|처음 보는 사람한테\n그런 소리를 들을 이유는 없어!
+dmap/script/ft_10.rtb:0x00008548|게다가 내가 이단아라는\n증거가 어디 있는데?
+dmap/script/ft_10.rtb:0x000085fa|머리카락은 왜 은색이지?\n왜 목도리로 목을 가리고 있지?
+dmap/script/ft_10.rtb:0x000086b6|윽, 그건...!
+dmap/script/ft_10.rtb:0x00008747|왜 이런 곳에 있는지는\n모르겠지만...
+dmap/script/ft_10.rtb:0x000087f5|여기서 마주친 이상\n처분할 수밖에 없겠네
+dmap/script/ft_10.rtb:0x000088ab|웃기지 마!
+dmap/script/ft_10.rtb:0x00008936|너희 발드교의 멋대로인 사상을\n우리가 따를 이유는 없어!
+dmap/script/ft_10.rtb:0x00008a71|(어쩌지? 싸워야 하나?!)
+dmap/script/ft_10.rtb:0x00008b08|걱정 마\n한순간에 끝내 줄 테니까...
+dmap/script/ft_10.rtb:0x00008bb2|기어이 싸우겠다면\n나도 상대해 주겠어!!
+dmap/script/ft_10.rtb:0x00008c51|오랜만이네, 하슈
+dmap/script/ft_10.rtb:0x00008e29|테이지!!
+dmap/script/ft_10.rtb:0x00008e9f|하슈
+dmap/script/ft_10.rtb:0x00008eb2|테이지...라고?!
+dmap/script/ft_10.rtb:0x00008f63|여기서 뭘 하고 있는 걸까?
+dmap/script/ft_10.rtb:0x00008ffc|네가... 테이지?\n정말이야?
+dmap/script/ft_10.rtb:0x00009098|설마 내 것을 해치려는\n생각은 아니겠지?
+dmap/script/ft_10.rtb:0x00009150|거기 있는 이단아가 네 동료야?\n...거짓말이지?
+dmap/script/ft_10.rtb:0x000091f8|그런데...?\n뭐가 문제라도 있어?
+dmap/script/ft_10.rtb:0x000092a2|테이지, 그 애는 이단아야
+dmap/script/ft_10.rtb:0x0000933f|처분하지 않으면\n세상에 재앙을 불러올 거야!
+dmap/script/ft_10.rtb:0x000093e3|그렇다고 네가 이 아이를\n심판할 권리는 없어
+dmap/script/ft_10.rtb:0x00009491|난 신관이야!\n신의 대변자라고!
+dmap/script/ft_10.rtb:0x0000952b|못 본 사이에 속까지\n교회의 가르침이 배어 버렸네
+dmap/script/ft_10.rtb:0x000095e7|루티카는 이단아야\n하지만 인간이기도 해
+dmap/script/ft_10.rtb:0x0000968f|그 애는 인간이 아니야!
+dmap/script/ft_10.rtb:0x00009722|취소해, 하슈!!\n이 아이는 인간이야!
+dmap/script/ft_10.rtb:0x000097d8|테이지, 지금\n진심으로 하는 말이야?
+dmap/script/ft_10.rtb:0x0000987e|더는 말로 해 봐야\n못 알아듣겠다는 거지?
+dmap/script/ft_10.rtb:0x0000992a|싸우겠다는... 거야?
+dmap/script/ft_10.rtb:0x000099bd|교회에서는 융통성 없는\n교리밖에 안 가르쳐 줬어?
+dmap/script/ft_10.rtb:0x00009dea|머리로는 이해 못 해도\n몸으로는 이해했겠지, 하슈?
+dmap/script/ft_10.rtb:0x00009ea2|어쩔 수 없네, 패배는 패배니까\n물러나 줄게...
+dmap/script/ft_10.rtb:0x00009f54|하지만 그 애는 반드시\n너에게 재앙이 될 거야
+dmap/script/ft_10.rtb:0x00009ff8|쓸데없는 참견이야
+dmap/script/ft_10.rtb:0x0000a085|네가 좋다면\n나도 더는 할 말 없어...
+dmap/script/ft_10.rtb:0x0000a13d|이 앞의 층으로\n계속 나아갈 생각이야?
+dmap/script/ft_10.rtb:0x0000a1db|그래, 목적을 이룰 때까지\n돌아갈 생각은 없어...
+dmap/script/ft_10.rtb:0x0000a28b|...그러고 보니\n베세크 안에서 루나를 만났어
+dmap/script/ft_10.rtb:0x0000a333|정확히는 루나가 아닌 루나...\n라고 해야겠지만
+dmap/script/ft_10.rtb:0x0000a3e5|루나가 아닌 루나?
+dmap/script/ft_10.rtb:0x0000a476|넌 이해할 수 있을까...\n아니, 어려울지도 모르겠네
+dmap/script/ft_10.rtb:0x0000a52e|알았어...\n일단 기억해 둘게
+dmap/script/ft_10.rtb:0x0000a5d4|그럼, 잘 지내
+dmap/script/ft_10.rtb:0x0000a663|그래, 너도...
+dmap/script/ft_10.rtb:0x0000a7a8|변하지 않은 부분도\n있다는 건가...
+dmap/script/ft_10.rtb:0x0000a9f6|네가 이단아이든 인간이든\n나하고는 상관없어
+dmap/script/ft_10.rtb:0x0000aaa4|하지만 저 사람 말대로\n난 이단아야...
+dmap/script/ft_10.rtb:0x0000ab4e|사람들에게 미움받고 멸시당하고\n때로는 죽을 뻔하기도 했어...
+dmap/script/ft_10.rtb:0x0000ac0c|루티카\n난 푸념은 듣고 싶지 않아
+dmap/script/ft_10.rtb:0x0000acae|하지만! 이단아는 재앙을\n부른다는 말을 듣는다고!
+dmap/script/ft_10.rtb:0x0000ad5e|네가 불러 봤자\n대단한 재앙도 아닐 테고
+dmap/script/ft_10.rtb:0x0000ae00|내게 닥친 재앙쯤은\n얼마든지 떨쳐 낼 수 있어
+dmap/script/ft_10.rtb:0x0000af2d|알았으면 얌전히\n날 따라오도록 해
+dmap/script/ft_10.rtb:0x0000afd5|그게 너와 내가 나눈\n'종속의 계약'이니까
+dmap/script/ft_10.rtb:0x0000b11e|루티카는 왜\n'궁극의 독'을 찾는 거야?
+dmap/script/ft_10.rtb:0x0000b1ce|...역시 눈치챘구나
+dmap/script/ft_10.rtb:0x0000b269|네 태도를 보고도\n모를 사람은 없어
+dmap/script/ft_10.rtb:0x0000b313|...우리 엄마는\n마신에게 살해당했어
+dmap/script/ft_10.rtb:0x0000b3b7|스타그교에서는 '궁극의 독'이\n엄청난 힘이라고 전해져
+dmap/script/ft_10.rtb:0x0000b46b|그 힘을 손에 넣으면\n엄마의 원수를 갚을 수 있을 거야
+dmap/script/ft_10.rtb:0x0000b519|원수만 갚을 수 있다면\n난 어떻게 되든...
+dmap/script/ft_10.rtb:0x0000b5c3|그 원수인 마신은 어디에 있지?
+dmap/script/ft_10.rtb:0x0000b65e|아마 이 베세크 어딘가에 있을 거야
+dmap/script/ft_10.rtb:0x0000b6fd|하지만...
+dmap/script/ft_10.rtb:0x0000b786|(하지만 내겐 시간이 얼마 없어)
+dmap/script/ft_10.rtb:0x0000b81d|원수인 마신은 어디선가\n만날 수도 있겠지
+dmap/script/ft_10.rtb:0x0000b8cb|하지만, 안타깝게도...
+dmap/script/ft_10.rtb:0x0000b960|...알고 있어\n먼저 '궁극의 독'을 찾자
+dmap/script/ft_10.rtb:0x0000ba0a|현명한 사람은 호감을 사는 법이지
+dmap/script/ft_10.rtb:0x0000ba9b|자, 가자
+dmap/script/ft_10.rtb:0x0000bbc0|(머지않아 난 죽을 거야)
+dmap/script/ft_10.rtb:0x0000bc55|(그래도...)
+dmap/script/ft_10.rtb:0x0000bce6|(그래도 나는...)

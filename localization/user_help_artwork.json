@@ -1,0 +1,105 @@
+{
+  "base_iso": "build/battle_menu_artwork_v1/Poison Pink (Japan) - custom title and battle menu.iso",
+  "base_iso_sha256": "d116694d374ef4d1c657ccd0010f32e94dc9349d194f7e8b175781d06d8e4d97",
+  "output_iso": "build/user_help_artwork_v1/Poison Pink (Japan) - user artwork and help.iso",
+  "assets": [
+    {
+      "path": "dmap/ev/ev136.tm2",
+      "png": "localization/artwork/help_user_corrected_v1/ev136.png",
+      "png_sha256": "2b3c554e18137ca4b5cd91454d71526e88434e3a266c64f2b2bca4e34fcdb4ee",
+      "source_tim2_sha256": "0935d819aaf329be89e14b5aac659fa68f95ffce4444376c8dabd1dfbc99acbb"
+    },
+    {
+      "path": "dmap/ev/ev137.tm2",
+      "png": "localization/artwork/help_user_corrected_v1/ev137.png",
+      "png_sha256": "d7cd20b650b58593b18f708a0801704e30d650e0b0998d5d4497a015a63297dd",
+      "source_tim2_sha256": "5d219e9ee66b6dad308bba3134d09bfe6270e829a76d953cb1d37b9f16cacca2"
+    },
+    {
+      "path": "dmap/ev/ev138.tm2",
+      "png": "localization/artwork/help_user_v1/ev138.png",
+      "png_sha256": "616639be089896d9eeb42bd8bd35791ea605191850479512724dfb5528985c2c",
+      "source_tim2_sha256": "c82db29077a65bf9f0711c1475dddb33ef3a80d139a20fb2cbea5ac67c5cb560"
+    },
+    {
+      "path": "dmap/ev/ev139.tm2",
+      "png": "localization/artwork/help_user_v1/ev139.png",
+      "png_sha256": "eb552eb3f98ef9273e8d3fd824e879033a6584f7bce261563bd13954af7a5986",
+      "source_tim2_sha256": "731c99781ce547c7a0ffb601c5394046d46a08d21eb8d5788b1d82e420f6d3bd"
+    },
+    {
+      "path": "dmap/ev/ev140.tm2",
+      "png": "localization/artwork/help_user_corrected_v1/ev140.png",
+      "png_sha256": "8c4d2ef731faebe058b9ed1670442bf3d0aaf685199b6c126b05a3e2558caf1e",
+      "source_tim2_sha256": "98f8baf11d4a789a200371cd2436adae9a5cf39db20868ee5cde10eb2e1097e8"
+    },
+    {
+      "path": "dmap/ev/ev141.tm2",
+      "png": "localization/artwork/help_user_v1/ev141.png",
+      "png_sha256": "b1e4c84660a395f263d62a7101256b788ed209271fc4544911d539dd39edad72",
+      "source_tim2_sha256": "5d804ca23d1bc3a1e049558824de272a0cc74a6c2ac90404b83fba5a29712226"
+    },
+    {
+      "path": "dmap/ev/ev142.tm2",
+      "png": "localization/artwork/help_user_v1/ev142.png",
+      "png_sha256": "4d60da942092e379eea1283266af2618ad5302ab2cb324feea95a5725f23def0",
+      "source_tim2_sha256": "10ff878615d43b5bfbad52dfbd94283739d85e2e9341844e11b62c17d2ea24ba"
+    },
+    {
+      "path": "dmap/ev/ev143.tm2",
+      "png": "localization/artwork/help_user_v1/ev143.png",
+      "png_sha256": "8243670d0d619d3db074f3c4416439451868c2e2014db843a73b2fc1c3f49970",
+      "source_tim2_sha256": "dd14f804536a1bb89237a23ae18531497bcc7125f42814b44883633696c78f75"
+    },
+    {
+      "path": "dmap/ev/ev144.tm2",
+      "png": "localization/artwork/help_user_v1/ev144.png",
+      "png_sha256": "192be67d7f8bab3c972c76503c9fc78663d849e6cdc7a70c9c7004c5253e2afa",
+      "source_tim2_sha256": "b3f1282e1d03846e8d6b7b2ffe3baa402b378608ad0e63d0cff59ed513a42bcc"
+    },
+    {
+      "path": "dmap/ev/ev145.tm2",
+      "png": "localization/artwork/help_user_v1/ev145.png",
+      "png_sha256": "39d583f03b7b03a60987fd7b795db002808cfeaec36ca493a89ee657b336d695",
+      "source_tim2_sha256": "18d6376bc4d713e3e8f50cc331f9efb7310efb1572d79a52be48febf9872f094"
+    },
+    {
+      "path": "dmap/ev/ev146.tm2",
+      "png": "localization/artwork/help_user_v1/ev146.png",
+      "png_sha256": "9e0b440dbd341c46936bb6376320f62728832f6778efcb787e9127ba1b3e84d8",
+      "source_tim2_sha256": "1c25e826101dec1611e47ed65a7ca10447bb6cf2bd7ba21fa47264a81b1a569b"
+    },
+    {
+      "path": "dmap/ev/ev147.tm2",
+      "png": "localization/artwork/help_user_v1/ev147.png",
+      "png_sha256": "984c6a1fae9c767d1c0d7a99c4adb6d483ecb2fef51285ca0c6f96ebcab9bf68",
+      "source_tim2_sha256": "3073c86e1746393d9b7d09c944039f2c8696eac4d1327df127b07bbe0959713a"
+    },
+    {
+      "path": "dmap/ev/ev148.tm2",
+      "png": "localization/artwork/help_user_corrected_v1/ev148.png",
+      "png_sha256": "769435b44ee51b7ee64594d3580a4a993b154efb9531f62dbec4b857a27665bc",
+      "source_tim2_sha256": "53eab3dde7d3e8190ce414167c50972b533ef35af9c6038c8d662aad02ead0fc"
+    },
+    {
+      "path": "dmap/ev/ev149.tm2",
+      "png": "localization/artwork/help_user_corrected_v1/ev149.png",
+      "png_sha256": "53bde78ea7ade264c0cfb5b3bbc959cb42cc62afee41a5d0b3750f91fa8a0551",
+      "source_tim2_sha256": "b00152eb6d343ef3ecf2d32ea31dafa48191737178d132d24c4a8ed1ec198323"
+    }
+  ],
+  "review": {
+    "status": "accepted",
+    "issues": [],
+    "dimensions_verified": true,
+    "original_alpha_mask_verified": true,
+    "remaining_english": "Help, Page, ATTACK and LEVEL UP retained as authored",
+    "runtime": "deferred",
+    "terminology_notes": [
+      "Authored help uses 협공 for 双撃; adopted battle menu uses 쌍격.",
+      "Authored help uses 아이템 for 道具; adopted battle menu uses 도구."
+    ],
+    "resolved_corrections": "reports/help_label_corrections.json (six occurrences: five open-menu labels and one claw-attack label)",
+    "authorization": "User approved corrections; same error additionally found in ev140 and corrected with matching author font/background."
+  }
+}

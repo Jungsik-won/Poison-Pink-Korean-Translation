@@ -1,0 +1,19 @@
+{
+  "count": 473,
+  "kinds": {
+    "rtb_literal": 277,
+    "db_field": 196
+  },
+  "issues": [],
+  "full_game_semantic_review": false,
+  "reviewed_scene_files": [
+    "ft_01.rtb",
+    "ft_02.rtb",
+    "ft_03.rtb",
+    "ft_04.rtb",
+    "ft_05.rtb",
+    "ft_06.rtb",
+    "ft_07.rtb"
+  ],
+  "runtime_verified": false
+}

@@ -1,0 +1,528 @@
+{
+  "schema_version": 1,
+  "base_iso": "build/status_slice_v2/Poison Pink (Japan) - status slice.iso",
+  "base_iso_sha256": "3b4d9bf5a74233a3c2d60b65b5788513702cc52f3b099d4b6f1fab310536bc9f",
+  "assets": [
+    {
+      "archive": "STATUS",
+      "path": "status/sys000.tm2",
+      "source_sha256": "14e60d7062061be2778154c4e3f18f521eb225d86d3fd4038cc0d49c6d908cc0",
+      "uad_sha256": "0b73e5d689ff55a53919e35b5e167083431c398495584732047ebca980386d23",
+      "author_image": "build/ui_audit/menu-generated.png",
+      "author_image_sha256": "71a7daabc6caadc63427558ee8198ddac275de7a80e2b3bb6870ed1bb5a9f4fb",
+      "authoring": "Built-in image_gen; imported only reviewed rectangles, original palette retained.",
+      "records": [
+        {
+          "id": "sys000:43",
+          "source": "移動",
+          "target": "이동",
+          "state": "active",
+          "uad_index": 43,
+          "rect": [
+            0,
+            0,
+            64,
+            24
+          ],
+          "source_rect_sha256": "d0f0b398df64ab0ac081130d924212b4d69a7f432bafc035d1df6c5821fe667a",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "runtime_verified": false
+        },
+        {
+          "id": "sys000:44",
+          "source": "移動",
+          "target": "이동",
+          "state": "inactive",
+          "uad_index": 44,
+          "rect": [
+            64,
+            0,
+            64,
+            24
+          ],
+          "source_rect_sha256": "1014c975771871ceef0171c13924c87d3b13116e47a09fbb80afc0e1398c2c1c",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "runtime_verified": false
+        },
+        {
+          "id": "sys000:45",
+          "source": "攻撃",
+          "target": "공격",
+          "state": "active",
+          "uad_index": 45,
+          "rect": [
+            0,
+            24,
+            64,
+            24
+          ],
+          "source_rect_sha256": "2236e8f295e3b688d4eaca704ed848f75acbde300c988ecafc26bc5b39df910a",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "runtime_verified": false
+        },
+        {
+          "id": "sys000:46",
+          "source": "攻撃",
+          "target": "공격",
+          "state": "inactive",
+          "uad_index": 46,
+          "rect": [
+            64,
+            24,
+            64,
+            24
+          ],
+          "source_rect_sha256": "3c4c1db5521e77a1530a3e3ad7878988faf1f830cc3f473a8423e98148aee2c7",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "runtime_verified": false
+        },
+        {
+          "id": "sys000:29",
+          "source": "スキル",
+          "target": "스킬",
+          "state": "active",
+          "uad_index": 29,
+          "rect": [
+            0,
+            48,
+            64,
+            24
+          ],
+          "source_rect_sha256": "58443ecc389e70ad6d7eff2b180a2baee6fd7cb022323c1c8865e78aa1803959",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "runtime_verified": false
+        },
+        {
+          "id": "sys000:30",
+          "source": "スキル",
+          "target": "스킬",
+          "state": "inactive",
+          "uad_index": 30,
+          "rect": [
+            64,
+            48,
+            64,
+            24
+          ],
+          "source_rect_sha256": "70e50f3071bb08d0251816c4c9e266b77ea5a9aea9b43dffc9e19d8c4bb5e990",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "runtime_verified": false
+        },
+        {
+          "id": "sys000:31",
+          "source": "命令",
+          "target": "명령",
+          "state": "active",
+          "uad_index": 31,
+          "rect": [
+            0,
+            72,
+            64,
+            24
+          ],
+          "source_rect_sha256": "e683bddf097536dac53e0ae89c49cdd4dc2c1f0c6b41bdffea14dfbc5b85008e",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "runtime_verified": false
+        },
+        {
+          "id": "sys000:32",
+          "source": "命令",
+          "target": "명령",
+          "state": "inactive",
+          "uad_index": 32,
+          "rect": [
+            64,
+            72,
+            64,
+            24
+          ],
+          "source_rect_sha256": "7000eaf3b93eef3b25de57eddbdc60d5b358d672db6d896856a79d5941d24d60",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "runtime_verified": false
+        },
+        {
+          "id": "sys000:2",
+          "source": "開ける",
+          "target": "열기",
+          "state": "active",
+          "uad_index": 2,
+          "rect": [
+            128,
+            24,
+            64,
+            24
+          ],
+          "source_rect_sha256": "2ce6f254c814b8ea262cc88436ecf84b4de9494d109fb8606fd09541f9cdf003",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "runtime_verified": false,
+          "author_image": "build/ui_audit/menu-open-corrected.png",
+          "author_image_sha256": "6f1d9762fcb2ed30f95f92bf8bdae6f8b0c896e149e59a3b756e3585f14e2d27",
+          "notes": "Corrected after functional review; ELF exact text at file offset 0x453488 confirms 開ける. Opening action, not close menu."
+        },
+        {
+          "id": "sys000:3",
+          "source": "開ける",
+          "target": "열기",
+          "state": "inactive",
+          "uad_index": 3,
+          "rect": [
+            192,
+            24,
+            64,
+            24
+          ],
+          "source_rect_sha256": "ed8b3c54297d279415b98b1b3b53373ed9568014621b2a60096da39deaf66f49",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "runtime_verified": false,
+          "author_image": "build/ui_audit/menu-open-corrected.png",
+          "author_image_sha256": "6f1d9762fcb2ed30f95f92bf8bdae6f8b0c896e149e59a3b756e3585f14e2d27",
+          "notes": "Corrected after functional review; ELF exact text at file offset 0x453488 confirms 開ける. Opening action, not close menu."
+        },
+        {
+          "id": "sys000:4",
+          "source": "捕獲",
+          "target": "포획",
+          "state": "active",
+          "uad_index": 4,
+          "rect": [
+            128,
+            48,
+            64,
+            24
+          ],
+          "source_rect_sha256": "f2530c3be5396f5cd2f9fbbe866b04db2e4dbbc8935866f09e0914cbe14bef44",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "runtime_verified": false
+        },
+        {
+          "id": "sys000:5",
+          "source": "捕獲",
+          "target": "포획",
+          "state": "inactive",
+          "uad_index": 5,
+          "rect": [
+            192,
+            48,
+            64,
+            24
+          ],
+          "source_rect_sha256": "b3a9fc7c4efaa8137de976e1b317470f4fb0e6ffe08186279251679655ed35c6",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "runtime_verified": false
+        },
+        {
+          "id": "sys000:6",
+          "source": "道具",
+          "target": "도구",
+          "state": "active",
+          "uad_index": 6,
+          "rect": [
+            128,
+            72,
+            64,
+            24
+          ],
+          "source_rect_sha256": "6906b08a2a0c0bf618eff98b63e0f4f97a9cfda81aa52e39192c8a641030829c",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "runtime_verified": false
+        },
+        {
+          "id": "sys000:7",
+          "source": "道具",
+          "target": "도구",
+          "state": "inactive",
+          "uad_index": 7,
+          "rect": [
+            192,
+            72,
+            64,
+            24
+          ],
+          "source_rect_sha256": "9d3866b2c7a5efe2a6595b5e6ce43038f3e000d48732feb01ab73059e0e77e52",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "runtime_verified": false
+        },
+        {
+          "id": "sys000:8",
+          "source": "状態",
+          "target": "상태",
+          "state": "active",
+          "uad_index": 8,
+          "rect": [
+            128,
+            96,
+            64,
+            24
+          ],
+          "source_rect_sha256": "3be7cf9417af34bad9ce34b53333b2fc1eea890b7c6c8a00d8b5102851d43e96",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "runtime_verified": false
+        },
+        {
+          "id": "sys000:9",
+          "source": "状態",
+          "target": "상태",
+          "state": "inactive",
+          "uad_index": 9,
+          "rect": [
+            192,
+            96,
+            64,
+            24
+          ],
+          "source_rect_sha256": "3bfe8deee0ea8e0e55788d889f682b661a11ee6fca7302973e21acecc168ac13",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "runtime_verified": false
+        },
+        {
+          "id": "sys000:10",
+          "source": "待機",
+          "target": "대기",
+          "state": "active",
+          "uad_index": 10,
+          "rect": [
+            128,
+            120,
+            64,
+            24
+          ],
+          "source_rect_sha256": "885cfec29261e94633112a7ecb7309a3db1ca3294a69d03b4746134b97e3f2a0",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "runtime_verified": false
+        },
+        {
+          "id": "sys000:11",
+          "source": "待機",
+          "target": "대기",
+          "state": "inactive",
+          "uad_index": 11,
+          "rect": [
+            192,
+            120,
+            64,
+            24
+          ],
+          "source_rect_sha256": "90d86ec18fa3a83ba9483853dc0a8f512a180d9d62bce8967a098cb9fb650a73",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "runtime_verified": false
+        },
+        {
+          "id": "sys000:33",
+          "source": "開ける",
+          "target": "열기",
+          "state": "inactive_auxiliary",
+          "uad_index": 33,
+          "rect": [
+            0,
+            96,
+            64,
+            24
+          ],
+          "source_rect_sha256": "ebcc3878b770902996164f6b3075469aab888a22bbdac15a886a1ac7f5c61ac7",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "runtime_verified": false,
+          "author_image": "build/ui_audit/menu-open-corrected.png",
+          "author_image_sha256": "6f1d9762fcb2ed30f95f92bf8bdae6f8b0c896e149e59a3b756e3585f14e2d27",
+          "notes": "Corrected after functional review; ELF exact text at file offset 0x453488 confirms 開ける. Opening action, not close menu."
+        },
+        {
+          "id": "sys000:34",
+          "source": "捕獲",
+          "target": "포획",
+          "state": "inactive_auxiliary",
+          "uad_index": 34,
+          "rect": [
+            64,
+            96,
+            64,
+            24
+          ],
+          "author_rect": [
+            192,
+            48,
+            64,
+            24
+          ],
+          "source_rect_sha256": "5839afe4e88c5f592da90762198b6bacd97e99c6aee228c2a72cd2981442c35f",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "runtime_verified": false
+        },
+        {
+          "id": "sys000:35",
+          "source": "道具",
+          "target": "도구",
+          "state": "inactive_auxiliary",
+          "uad_index": 35,
+          "rect": [
+            0,
+            120,
+            64,
+            24
+          ],
+          "author_rect": [
+            192,
+            72,
+            64,
+            24
+          ],
+          "source_rect_sha256": "8031d70c4faab2fcb2cf0b7c041cb345c53b5dc342b7252b62c3fbf9792bd1f0",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "runtime_verified": false
+        },
+        {
+          "id": "sys000:36",
+          "source": "スキル",
+          "target": "스킬",
+          "state": "inactive_auxiliary",
+          "uad_index": 36,
+          "rect": [
+            64,
+            120,
+            64,
+            24
+          ],
+          "author_rect": [
+            64,
+            48,
+            64,
+            24
+          ],
+          "source_rect_sha256": "24535c8502bdb4e20d0ebf4c6efe24757ee16559a97f561dfe4d4ddf5f0e736b",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "runtime_verified": false
+        },
+        {
+          "id": "sys000:38",
+          "source": "移動",
+          "target": "이동",
+          "state": "inactive_auxiliary",
+          "uad_index": 38,
+          "rect": [
+            64,
+            144,
+            64,
+            24
+          ],
+          "author_rect": [
+            64,
+            0,
+            64,
+            24
+          ],
+          "source_rect_sha256": "fa435a1efd7a077b6bb8b01e5d6465dc3e2155ef560785dd56ef00fa70ed6afc",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "runtime_verified": false
+        },
+        {
+          "id": "sys000:39",
+          "source": "攻撃",
+          "target": "공격",
+          "state": "inactive_auxiliary",
+          "uad_index": 39,
+          "rect": [
+            64,
+            168,
+            64,
+            24
+          ],
+          "author_rect": [
+            64,
+            24,
+            64,
+            24
+          ],
+          "source_rect_sha256": "45566f10f67ea25d46e51faffa9caa55d0edcc5758b417ea0f3dfd29218978fd",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "runtime_verified": false
+        },
+        {
+          "id": "sys000:58",
+          "source": "命令",
+          "target": "명령",
+          "state": "inactive_auxiliary",
+          "uad_index": 58,
+          "rect": [
+            256,
+            128,
+            64,
+            24
+          ],
+          "author_rect": [
+            64,
+            72,
+            64,
+            24
+          ],
+          "source_rect_sha256": "3bac388fbe5c6b9eab6f26b4cc5b2d8e2316fbc07d75bbbf3e14f100331a613b",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "runtime_verified": false
+        }
+      ]
+    },
+    {
+      "archive": "DMAP",
+      "path": "dmap/ev/ev135.tm2",
+      "source_sha256": "51b141c812ae09d6d3821efac112be494da35c43e1b09ce5c689cf2f3ea4c8d2",
+      "author_image": "build/ui_audit/help-generated.png",
+      "author_image_sha256": "f139e36ffb5e81dcff1df883e7b5b67c7090dfba1b4de6262ebe0c2c0cb3dc56",
+      "authoring": "Built-in image_gen; only title and speech-bubble text rectangles imported; source illustration preserved.",
+      "records": [
+        {
+          "id": "ev135:title",
+          "rect": [
+            236,
+            28,
+            174,
+            35
+          ],
+          "source": "ユニットターン",
+          "target": "유닛 턴",
+          "source_rect_sha256": "59e9328ba2e84963f7dc36e158e53a12031f6e37637e24f5f8e100af3b58878f",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "runtime_verified": false
+        },
+        {
+          "id": "ev135:body",
+          "rect": [
+            350,
+            202,
+            215,
+            50
+          ],
+          "source": "ユニットは左から順に\n操作可能！",
+          "target": "왼쪽 유닛부터\n차례로 조작!",
+          "source_rect_sha256": "ccbfdb273ec5f0ce83a23af29737e3723ee4f0ba0488de86f8ea1bbdcb855c14",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "runtime_verified": false
+        }
+      ]
+    }
+  ]
+}

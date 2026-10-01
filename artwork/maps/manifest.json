@@ -1,0 +1,583 @@
+[
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/00/0010/vd000010.tm2.png",
+    "duplicates": [],
+    "id": "vd000010",
+    "floor": "튜토리얼",
+    "title": "마신 발톱 자국의 유적",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/01/0020/vd010020.tm2.png",
+    "duplicates": [],
+    "id": "vd010020",
+    "floor": "제1계층 허환의 미궁",
+    "title": "회색 왕궁",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/01/0030/vd010030.tm2.png",
+    "duplicates": [],
+    "id": "vd010030",
+    "floor": "제1계층 허환의 미궁",
+    "title": "주빈 없는 무도장",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/01/0040/vd010040.tm2.png",
+    "duplicates": [],
+    "id": "vd010040",
+    "floor": "제1계층 허환의 미궁",
+    "title": "공주가 있던 옥좌",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/01/0040/vd010040_1.tm2.png",
+    "duplicates": [],
+    "id": "vd010040_1",
+    "floor": "제1계층 허환의 미궁",
+    "title": "공주가 있던 옥좌",
+    "victory": "루나벨라톨을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/02/0010/vd020010.tm2.png",
+    "duplicates": [],
+    "id": "vd020010",
+    "floor": "제1계층 허환의 미궁",
+    "title": "세이로 늪지",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/02/0020/vd020020.tm2.png",
+    "duplicates": [],
+    "id": "vd020020",
+    "floor": "제1계층 허환의 미궁",
+    "title": "다이키 성채 다리",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/02/0040/vd020040.tm2.png",
+    "duplicates": [],
+    "id": "vd020040",
+    "floor": "제1계층 허환의 미궁",
+    "title": "용이 사는 대동굴",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/02/0040/vd020040_1.tm2.png",
+    "duplicates": [],
+    "id": "vd020040_1",
+    "floor": "제1계층 허환의 미궁",
+    "title": "용이 사는 대동굴",
+    "victory": "하스타 카엘라를",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/03/0010/vd030010.tm2.png",
+    "duplicates": [],
+    "id": "vd030010",
+    "floor": "제1계층 허환의 미궁",
+    "title": "리야드 유적군",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/03/0020/vd030020.tm2.png",
+    "duplicates": [],
+    "id": "vd030020",
+    "floor": "제1계층 허환의 미궁",
+    "title": "토네리 절벽의 전장",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/03/0040/vd030040.tm2.png",
+    "duplicates": [],
+    "id": "vd030040",
+    "floor": "제1계층 허환의 미궁",
+    "title": "반탈 사원문",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/03/0040/vd030040_1.tm2.png",
+    "duplicates": [],
+    "id": "vd030040_1",
+    "floor": "제1계층 허환의 미궁",
+    "title": "반탈 사원문",
+    "victory": "옷타쿠판을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/04/0020/vd040020.tm2.png",
+    "duplicates": [],
+    "id": "vd040020",
+    "floor": "제1계층 허환의 미궁",
+    "title": "브라지 언덕",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/04/0030/vd040030.tm2.png",
+    "duplicates": [],
+    "id": "vd040030",
+    "floor": "제1계층 허환의 미궁",
+    "title": "루돈 전선 기지",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/04/0040/vd040040.tm2.png",
+    "duplicates": [],
+    "id": "vd040040",
+    "floor": "제1계층 허환의 미궁",
+    "title": "카나스 마전",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/04/0040/vd040040_1.tm2.png",
+    "duplicates": [],
+    "id": "vd040040_1",
+    "floor": "제1계층 허환의 미궁",
+    "title": "카나스 마전",
+    "victory": "존 베라톨을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/05/0010/vd050010.tm2.png",
+    "duplicates": [],
+    "id": "vd050010",
+    "floor": "제2계층 미유의 숲",
+    "title": "프레그라 들판",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/05/0020/vd050020.tm2.png",
+    "duplicates": [],
+    "id": "vd050020",
+    "floor": "제2계층 미유의 숲",
+    "title": "용문정평",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/05/0020/vd050020_1.tm2.png",
+    "duplicates": [],
+    "id": "vd050020_1",
+    "floor": "제2계층 미유의 숲",
+    "title": "용문정평",
+    "victory": "만티기가스를",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/05/0030/vd050030.tm2.png",
+    "duplicates": [],
+    "id": "vd050030",
+    "floor": "제2계층 미유의 숲",
+    "title": "파토힐",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/05/0040/vd050040.tm2.png",
+    "duplicates": [],
+    "id": "vd050040",
+    "floor": "제2계층 미유의 숲",
+    "title": "푸른잎 엉겅퀴 숲",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/05/0050/vd050050.tm2.png",
+    "duplicates": [],
+    "id": "vd050050",
+    "floor": "제2계층 미유의 숲",
+    "title": "물푸레나무의 신수루",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/05/0050/vd050050_1.tm2.png",
+    "duplicates": [],
+    "id": "vd050050_1",
+    "floor": "제2계층 미유의 숲",
+    "title": "물푸레나무의 신수루",
+    "victory": "트리니티를",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/05/0060/vd050060.tm2.png",
+    "duplicates": [],
+    "id": "vd050060",
+    "floor": "제2계층 미유의 숲",
+    "title": "도도나 숲의 미유문",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/05/0060/vd050060_1.tm2.png",
+    "duplicates": [],
+    "id": "vd050060_1",
+    "floor": "제2계층 미유의 숲",
+    "title": "도도나 숲의 미유문",
+    "victory": "달리아 레기나를",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/06/0010/vd060010.tm2.png",
+    "duplicates": [],
+    "id": "vd060010",
+    "floor": "제2계층 몽환의 천공",
+    "title": "이부키노 슈텐산",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/06/0020/vd060020.tm2.png",
+    "duplicates": [],
+    "id": "vd060020",
+    "floor": "제2계층 몽환의 천공",
+    "title": "명경갈심원굴",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/06/0020/vd060020_1.tm2.png",
+    "duplicates": [],
+    "id": "vd060020_1",
+    "floor": "제2계층 몽환의 천공",
+    "title": "명경갈심원굴",
+    "victory": "엑사 기가스를",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/06/0030/vd060030.tm2.png",
+    "duplicates": [],
+    "id": "vd060030",
+    "floor": "제2계층 몽환의 천공",
+    "title": "발홀 궁전",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/06/0040/vd060040.tm2.png",
+    "duplicates": [],
+    "id": "vd060040",
+    "floor": "제2계층 몽환의 천공",
+    "title": "헤스페리스의 정원",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/06/0050/vd060050.tm2.png",
+    "duplicates": [],
+    "id": "vd060050",
+    "floor": "제2계층 몽환의 천공",
+    "title": "긴눙가가프",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/06/0050/vd060050_1.tm2.png",
+    "duplicates": [],
+    "id": "vd060050_1",
+    "floor": "제2계층 몽환의 천공",
+    "title": "긴눙가가프",
+    "victory": "아쿠아 드래곤을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/06/0060/vd060060.tm2.png",
+    "duplicates": [],
+    "id": "vd060060",
+    "floor": "제2계층 몽환의 천공",
+    "title": "고천화원의 문",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/06/0060/vd060060_1.tm2.png",
+    "duplicates": [],
+    "id": "vd060060_1",
+    "floor": "제2계층 몽환의 천공",
+    "title": "고천화원의 문",
+    "victory": "데우스 포사를",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/07/0010/vd070010.tm2.png",
+    "duplicates": [],
+    "id": "vd070010",
+    "floor": "제2계층 열사의 계계",
+    "title": "도탄의 침상",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/07/0020/vd070020.tm2.png",
+    "duplicates": [],
+    "id": "vd070020",
+    "floor": "제2계층 열사의 계계",
+    "title": "선양방벌의 사막",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/07/0020/vd070020_1.tm2.png",
+    "duplicates": [],
+    "id": "vd070020_1",
+    "floor": "제2계층 열사의 계계",
+    "title": "선양방벌의 사막",
+    "victory": "테라누스를",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/07/0030/vd070030.tm2.png",
+    "duplicates": [],
+    "id": "vd070030",
+    "floor": "제2계층 열사의 계계",
+    "title": "디크테 산",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/07/0040/vd070040.tm2.png",
+    "duplicates": [],
+    "id": "vd070040",
+    "floor": "제2계층 열사의 계계",
+    "title": "그레골다의 언덕",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/07/0050/vd070050.tm2.png",
+    "duplicates": [],
+    "id": "vd070050",
+    "floor": "제2계층 열사의 계계",
+    "title": "신주 오래국 화과산",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/07/0050/vd070050_1.tm2.png",
+    "duplicates": [],
+    "id": "vd070050_1",
+    "floor": "제2계층 열사의 계계",
+    "title": "신주 오래국 화과산",
+    "victory": "이그니스를",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/07/0060/vd070060.tm2.png",
+    "duplicates": [],
+    "id": "vd070060",
+    "floor": "제2계층 열사의 계계",
+    "title": "화염산의 문",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/07/0060/vd070060_1.tm2.png",
+    "duplicates": [],
+    "id": "vd070060_1",
+    "floor": "제2계층 열사의 계계",
+    "title": "화염산의 문",
+    "victory": "데우스 구르게스를",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/08/0010/vd080010.tm2.png",
+    "duplicates": [],
+    "id": "vd080010",
+    "floor": "제3계층 성황의 제궁",
+    "title": "제1궁 · 나붕문",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/08/0030/vd080030.tm2.png",
+    "duplicates": [],
+    "id": "vd080030",
+    "floor": "제3계층 성황의 제궁",
+    "title": "제2궁 · 백루벽",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/08/0040/vd080040.tm2.png",
+    "duplicates": [],
+    "id": "vd080040",
+    "floor": "제3계층 성황의 제궁",
+    "title": "제3궁 · 코리카차",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/08/0040/vd080040_1.tm2.png",
+    "duplicates": [],
+    "id": "vd080040_1",
+    "floor": "제3계층 성황의 제궁",
+    "title": "제3궁 · 코리카차",
+    "victory": "셰이드 드래곤을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/08/0050/vd080050.tm2.png",
+    "duplicates": [],
+    "id": "vd080050",
+    "floor": "제3계층 성황의 제궁",
+    "title": "성황의 샴발라",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/08/0050/vd080050_1.tm2.png",
+    "duplicates": [],
+    "id": "vd080050_1",
+    "floor": "제3계층 성황의 제궁",
+    "title": "성황의 샴발라",
+    "victory": "엘스테라를",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/09/0010/vd090010.tm2.png",
+    "duplicates": [],
+    "id": "vd090010",
+    "floor": "제3계층 염제의 만마전",
+    "title": "화전 · 카이나",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/09/0020/vd090020.tm2.png",
+    "duplicates": [],
+    "id": "vd090020",
+    "floor": "제3계층 염제의 만마전",
+    "title": "염전 · 하데스 동굴",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/09/0040/vd090040.tm2.png",
+    "duplicates": [],
+    "id": "vd090040",
+    "floor": "제3계층 염제의 만마전",
+    "title": "업전 · 야간후처",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/09/0040/vd090040_1.tm2.png",
+    "duplicates": [],
+    "id": "vd090040_1",
+    "floor": "제3계층 염제의 만마전",
+    "title": "업전 · 야간후처",
+    "victory": "데스팔크스를",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/09/0050/vd090050.tm2.png",
+    "duplicates": [],
+    "id": "vd090050",
+    "floor": "제3계층 염제의 만마전",
+    "title": "염제의 만마전",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/09/0050/vd090050_1.tm2.png",
+    "duplicates": [],
+    "id": "vd090050_1",
+    "floor": "제3계층 염제의 만마전",
+    "title": "염제의 만마전",
+    "victory": "레오렉스를",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/10/0010/vd100010.tm2.png",
+    "duplicates": [
+      "extracted/original/images/DMAP/dmap/map/10/0020/vd100020.tm2.png",
+      "extracted/original/images/DMAP/dmap/map/10/0030/vd100030.tm2.png",
+      "extracted/original/images/DMAP/dmap/map/10/0040/vd100040.tm2.png"
+    ],
+    "id": "vd100010",
+    "floor": "제4계층 베세크 제신부",
+    "title": "베세크의 신좌",
+    "victory": "발드 왕을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/10/0010/vd100010_1.tm2.png",
+    "duplicates": [
+      "extracted/original/images/DMAP/dmap/map/10/0050/vd100050.tm2.png"
+    ],
+    "id": "vd100010_1",
+    "floor": "제4계층 베세크 제신부",
+    "title": "진정한 신의 자리",
+    "victory": "발드 왕을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/11/0010/vd110010.tm2.png",
+    "duplicates": [],
+    "id": "vd110010",
+    "floor": "마계의 틈새",
+    "title": "고독의 여신 탄생지",
+    "victory": "루나셰를",
+    "defeat": "테이지의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/12/0010/vd120010.tm2.png",
+    "duplicates": [],
+    "id": "vd120010",
+    "floor": "불명",
+    "title": "경계의 명로",
+    "victory": "보스를",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/12/0020/vd120020.tm2.png",
+    "duplicates": [],
+    "id": "vd120020",
+    "floor": "불명",
+    "title": "경계의 명로",
+    "victory": "보스를",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/12/0030/vd120030.tm2.png",
+    "duplicates": [
+      "extracted/original/images/DMAP/dmap/map/12/0050/vd120050.tm2.png",
+      "extracted/original/images/DMAP/dmap/map/12/0070/vd120070.tm2.png",
+      "extracted/original/images/DMAP/dmap/map/12/0090/vd120090.tm2.png"
+    ],
+    "id": "vd120030",
+    "floor": "불명",
+    "title": "경계의 명로",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  },
+  {
+    "source": "extracted/original/images/DMAP/dmap/map/12/0040/vd120040.tm2.png",
+    "duplicates": [
+      "extracted/original/images/DMAP/dmap/map/12/0060/vd120060.tm2.png",
+      "extracted/original/images/DMAP/dmap/map/12/0080/vd120080.tm2.png",
+      "extracted/original/images/DMAP/dmap/map/12/0100/vd120100.tm2.png"
+    ],
+    "id": "vd120040",
+    "floor": "불명",
+    "title": "경계의 명로",
+    "victory": "모든 적을",
+    "defeat": "주인공의 전투 불능"
+  }
+]

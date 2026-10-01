@@ -1,0 +1,38 @@
+source,target,status,domain,context,notes
+テージ,테이지,approved,character,첫 튜토리얼 대화창의 화자 이름,이번 번역 구간 표기; 실제 화면과 해당 함수 인자 확인
+ハーシュ,,pending,character,RTB 원문 후보,장면과 호칭 확인 후 한국어 표기 확정
+オリフェン,,pending,character,RTB 원문 후보,인계서 영문 표기를 확정 근거로 사용하지 않음
+ラキ,라키,approved,character,첫 튜토리얼 대화창의 화자 이름,이번 번역 구간 표기; 실제 화면과 해당 함수 인자 확인
+魔凸,마신,approved,tutorial,튜토리얼의 적 유닛,코드 93ca는 CP932에서 凸이나 실제 원본 글리프는 神; original-term-glyphs.png 확인
+リベル・アウローラ,리벨 아우로라,approved,tutorial,테이지가 참조하도록 안내하는 책,현재 문맥에 맞춘 한글 표기
+ユニット,유닛,approved,tutorial,전투 조작 단위,튜토리얼 공통 용어
+スキル,스킬,approved,tutorial,전투 명령,튜토리얼 공통 용어
+ステータス,능력치,approved,tutorial,적 유닛 정보,수치 정보 확인 문맥
+短弓,단궁,approved,item,첫 출격/첫 전투 DB 표본,Codex 원문·역할 검수; 이번 시험 범위 표기. 화면 검수는 reports/status_slice_runtime.json에서 별도 추적.
+初級魔導書,초급 마도서,approved,item,첫 출격/첫 전투 DB 표본,Codex 원문·역할 검수; 이번 시험 범위 표기. 화면 검수는 reports/status_slice_runtime.json에서 별도 추적.
+革の鎧,가죽 갑옷,approved,item,첫 출격/첫 전투 DB 표본,Codex 원문·역할 검수; 이번 시험 범위 표기. 화면 검수는 reports/status_slice_runtime.json에서 별도 추적.
+ローブ,로브,approved,item,첫 출격/첫 전투 DB 표본,Codex 원문·역할 검수; 이번 시험 범위 표기. 화면 검수는 reports/status_slice_runtime.json에서 별도 추적.
+気付けの薬草,각성 약초,approved,item,첫 출격/첫 전투 DB 표본,Codex 원문·역할 검수; 이번 시험 범위 표기. 화면 검수는 reports/status_slice_runtime.json에서 별도 추적.
+パルフランマ,파르플란마,approved,skill,첫 출격/첫 전투 DB 표본,Codex 원문·역할 검수; 이번 시험 범위 표기. 화면 검수는 reports/status_slice_runtime.json에서 별도 추적.
+パルエント,파르엔토,approved,skill,첫 출격/첫 전투 DB 표본,Codex 원문·역할 검수; 이번 시험 범위 표기. 화면 검수는 reports/status_slice_runtime.json에서 별도 추적.
+パルグレド,파르그레도,approved,skill,첫 출격/첫 전투 DB 표본,Codex 원문·역할 검수; 이번 시험 범위 표기. 화면 검수는 reports/status_slice_runtime.json에서 별도 추적.
+レスアクア,레스아쿠아,approved,skill,첫 출격/첫 전투 DB 표본,Codex 원문·역할 검수; 이번 시험 범위 표기. 화면 검수는 reports/status_slice_runtime.json에서 별도 추적.
+クラアクア,클라아쿠아,approved,skill,첫 출격/첫 전투 DB 표본,Codex 원문·역할 검수; 이번 시험 범위 표기. 화면 검수는 reports/status_slice_runtime.json에서 별도 추적.
+移動,이동,approved,battle_ui,sys000 전투 명령 메뉴,UI 표본 범위; 開ける는 열기로 정정; docs/UI_PIPELINE.md
+攻撃,공격,approved,battle_ui,sys000 전투 명령 메뉴,UI 표본 범위; 開ける는 열기로 정정; docs/UI_PIPELINE.md
+スキル,스킬,approved,battle_ui,sys000 전투 명령 메뉴,UI 표본 범위; 開ける는 열기로 정정; docs/UI_PIPELINE.md
+命令,명령,approved,battle_ui,sys000 전투 명령 메뉴,UI 표본 범위; 開ける는 열기로 정정; docs/UI_PIPELINE.md
+開ける,열기,approved,battle_ui,sys000 전투 명령 메뉴,UI 표본 범위; 開ける는 열기로 정정; docs/UI_PIPELINE.md
+捕獲,포획,approved,battle_ui,sys000 전투 명령 메뉴,UI 표본 범위; 開ける는 열기로 정정; docs/UI_PIPELINE.md
+道具,도구,approved,battle_ui,sys000 전투 명령 메뉴,UI 표본 범위; 開ける는 열기로 정정; docs/UI_PIPELINE.md
+状態,상태,approved,battle_ui,sys000 전투 명령 메뉴,UI 표본 범위; 開ける는 열기로 정정; docs/UI_PIPELINE.md
+待機,대기,approved,battle_ui,sys000 전투 명령 메뉴,UI 표본 범위; 開ける는 열기로 정정; docs/UI_PIPELINE.md
+はい,예,approved,common_ui,ELF 확인창,전각 공백 변형 포함; 출격 확인창과 재행동 취소창 표시 검수; docs/UI_TITLES.md
+は　い,예,approved,common_ui,ELF 확인창,전각 공백 변형 포함; 출격 확인창과 재행동 취소창 표시 검수; docs/UI_TITLES.md
+いいえ,아니요,approved,common_ui,ELF 확인창,전각 공백 변형 포함; 출격 확인창과 재행동 취소창 표시 검수; docs/UI_TITLES.md
+アクティブスキル,액티브 스킬,approved,battle_ui,분류/명령 제목,텍스트·그림 검수; 실제 표시/기능 범위는 docs/UI_REMAINING.md 참조
+マジックスキル,마법 스킬,approved,battle_ui,분류/명령 제목,텍스트·그림 검수; 실제 표시/기능 범위는 docs/UI_REMAINING.md 참조
+魔神召喚,마신 소환,approved,battle_ui,분류/명령 제목,텍스트·그림 검수; 실제 표시/기능 범위는 docs/UI_REMAINING.md 참조
+再行動,재행동,approved,battle_ui,분류/명령 제목,텍스트·그림 검수; 실제 표시/기능 범위는 docs/UI_REMAINING.md 참조
+双撃,쌍격,approved,battle_ui,분류/명령 제목,텍스트·그림 검수; 실제 표시/기능 범위는 docs/UI_REMAINING.md 참조
+椿姫の館,춘희의 저택,approved,place,ev145·ev155 도움말,원본 표기 椿姫 확인; 기존 카탈로그 초안 관희의 저택은 오독으로 정정

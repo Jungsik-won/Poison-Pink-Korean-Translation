@@ -1,0 +1,17 @@
+{
+  "id": "DMAP:2786:0000bb34",
+  "source_sha256": "8311f325594439d594b99a6750b576a9fce934397f14df64be4c5a1802004cbb",
+  "source": "戦い方の基本を教えるぞ",
+  "target": "전투의 기본을 알려주마",
+  "role": "dialogue",
+  "status": "reviewed",
+  "reviewer": "Codex - source/binary/context review",
+  "context": "t00_0010.rtb 첫 튜토리얼 안내; 화자 ラキ",
+  "encoding_manifest": "build/korean_sentence/manifest.json",
+  "scope": "동일 22바이트 한 문장 기술 검증; 전체 RTB 파싱 완료를 의미하지 않음",
+  "runtime_review": {
+    "status": "passed",
+    "scope": "동일 22바이트 문장 출력·창 내 맞춤·이후 일본어 보존·いいえ 분기",
+    "evidence": "reports/korean_sentence_probe.json"
+  }
+}

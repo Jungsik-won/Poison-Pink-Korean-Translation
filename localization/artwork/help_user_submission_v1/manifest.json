@@ -1,0 +1,186 @@
+{
+  "status": "superseded_by_adopted_texture_exports",
+  "original_texture_size": [
+    640,
+    384
+  ],
+  "images": [
+    {
+      "submission": 1,
+      "page": "ev136",
+      "path": "localization/artwork/help_user_submission_v1/submission_01.png",
+      "size": [
+        1586,
+        992
+      ],
+      "mode": "RGB",
+      "sha256": "c8b15176a265385d4b9bffb57259ac628653a055561c7a3ea870368361b2b157",
+      "rgba_sha256": "00a44f2f4da9673d674be08a6cf8725740a3280c54d698d9e985147bde3c6a26"
+    },
+    {
+      "submission": 2,
+      "page": "ev137",
+      "path": "localization/artwork/help_user_submission_v1/submission_02.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGB",
+      "sha256": "906d286ae742836643ff3ae1b43d578bee168d3235d345cf2ad4c98f33ad631c",
+      "rgba_sha256": "bbdcb63911e0994b6cf9b601ac82ccf91a72d8a8a2f76da5c83ec86c6a18d0e1"
+    },
+    {
+      "submission": 3,
+      "page": "ev138",
+      "path": "localization/artwork/help_user_submission_v1/submission_03.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGB",
+      "sha256": "d76195b6dd8920993714adc6ab158224e1af109bf3546ebbc22abc9a81cfc5f0",
+      "rgba_sha256": "99b9d50327cdf1439f11e2f7ccfcec04f406b1a14f5b688edbe3240055aec422"
+    },
+    {
+      "submission": 4,
+      "page": "ev139",
+      "path": "localization/artwork/help_user_submission_v1/submission_04.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGB",
+      "sha256": "3abbaaf619ecfa18279370b3e6bfbd0b5672a32d55ee5a3cca7469ca73bb9701",
+      "rgba_sha256": "49a06450815218fcedceebba0aa683f588552308c11bd15e4ea7d3560fbc0e12"
+    },
+    {
+      "submission": 5,
+      "page": "ev140",
+      "path": "localization/artwork/help_user_submission_v1/submission_05.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGB",
+      "sha256": "c30a6e7d0d49db6b1dc3046e1cb91f96c8ff9b0420ab967ea8773d49dbbeb3f5",
+      "rgba_sha256": "95bf27834a2840678bc0e826bdfa55b7d89df54acb5e3dc7158edfa318389243"
+    },
+    {
+      "submission": 6,
+      "page": "ev141",
+      "path": "localization/artwork/help_user_submission_v1/submission_06.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGB",
+      "sha256": "189b68dd84766f5de68a3608f85863fd2623c7037dcd11bc2160040f259e82a4",
+      "rgba_sha256": "53c9251578f0843f62da3aaa6f3f5f4251b58d650518a66134161e4993b42774"
+    },
+    {
+      "submission": 7,
+      "page": "ev142",
+      "path": "localization/artwork/help_user_submission_v1/submission_07.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGB",
+      "sha256": "473a17988512e03c0f542f2f54b264a77b11869214cac52e1e1825e36b81d24d",
+      "rgba_sha256": "c576066950995a89f19967d7742160eab20e90773f258f29c894c0fb32fc58e4"
+    },
+    {
+      "submission": 8,
+      "page": "ev142",
+      "path": "localization/artwork/help_user_submission_v1/submission_08.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGB",
+      "sha256": "473a17988512e03c0f542f2f54b264a77b11869214cac52e1e1825e36b81d24d",
+      "rgba_sha256": "c576066950995a89f19967d7742160eab20e90773f258f29c894c0fb32fc58e4"
+    },
+    {
+      "submission": 9,
+      "page": "ev143",
+      "path": "localization/artwork/help_user_submission_v1/submission_09.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGB",
+      "sha256": "934f00c775e27bb776fe257f7d8c640b22c2f15028ec34b5dcb6c81f7a922815",
+      "rgba_sha256": "e6ebfff5fc203a1873c628ae70c902bebd04abb233d21513e2653c7640bc095f"
+    },
+    {
+      "submission": 10,
+      "page": "ev144",
+      "path": "localization/artwork/help_user_submission_v1/submission_10.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGB",
+      "sha256": "60cd4fdae677c4e5fb8fe50e1f3018dedae119a65f90cac4de5551b7ddd00d60",
+      "rgba_sha256": "82416656c1b95b9969d6abcc5cc39ba05db7070711ea3c717239a4dd9b33228e"
+    },
+    {
+      "submission": 11,
+      "page": "ev145",
+      "path": "localization/artwork/help_user_submission_v1/submission_11.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGB",
+      "sha256": "159f1ce80b013cfcf19eeec1a1bdeef92be3a3186d16a6c89d0330ba94c0a691",
+      "rgba_sha256": "b4c94ddd58ead65f6164552fcc85a05c763a208b451640655d00b25d9f43a4b9"
+    },
+    {
+      "submission": 12,
+      "page": "ev146",
+      "path": "localization/artwork/help_user_submission_v1/submission_12.png",
+      "size": [
+        1448,
+        1086
+      ],
+      "mode": "RGB",
+      "sha256": "4f5b95e3938d9d39fc5119898cf1fd54d854e43aa167369730eaae4ea49a1728",
+      "rgba_sha256": "ca22be388e4101e13706f839d54850827bd3fe5f68398adef7cb44451b9fce23"
+    }
+  ],
+  "notes": [
+    "Black outer borders and different dimensions require intended texture exports or a defined crop/resize workflow.",
+    "Image 5 reads 기술을 사용해 먼 적에게; earlier spacing/typo observation was incorrect.",
+    "Existing adopted menu uses 스킬; submitted help uses 기술 (terminology consistency decision).",
+    "Submissions 7 and 8 are byte-identical ev142 images; seven unique pages ev136 through ev142."
+  ],
+  "unique_pages_received": 11,
+  "missing_pages": [],
+  "texture_exports_received": {
+    "pages": [
+      "ev136",
+      "ev137",
+      "ev138",
+      "ev139",
+      "ev140",
+      "ev141",
+      "ev142",
+      "ev143",
+      "ev144",
+      "ev145",
+      "ev146",
+      "ev147",
+      "ev148",
+      "ev149"
+    ],
+    "sources": [
+      "localization/artwork/help_user_v1/source.json",
+      "localization/artwork/help_user_v1/source_143_149.json"
+    ],
+    "prepared": "build/user_help_artwork_v1/prepare.json",
+    "status": "All 14 pages adopted with six label corrections and built into the latest ISO"
+  },
+  "applied_report": "reports/user_help_artwork.json"
+}

@@ -1,0 +1,1700 @@
+{
+  "schema_version": 1,
+  "base_iso": "build/ui_remaining/Poison Pink (Japan) - UI titles.iso",
+  "base_iso_sha256": "4ddfba66efddfadf8f4be2b5b55e9b19644a65af4c556d9d4c4a05e214b18796",
+  "font_path": "<LOCAL_USER_HOME>/Library/Application Support/PCSX2/resources/fonts/NotoSansKR-Regular.ttf",
+  "font_sha256": "9db318b65ee9c575a43e7efd273dbdd1afef26e467eea3e1073a50e1a6595f6d",
+  "scope": "Primary help titles, captions and page navigation; embedded game screenshots/names/stats and controller icons retained.",
+  "review_notes": [
+    "Numbers normalized with NFKC and checked in order for each text region.",
+    "Overkill: remaining HP plus Overkill HP; example 33+10 and overkill value 10 retained.",
+    "Equipment and intrinsic unit use-count labels retain their original arrow positions; 00:05 and AT 052 screenshot values are untouched.",
+    "GoatAs barrier example explicitly uses Teige blunt attack; no claim all barriers share that weakness.",
+    "椿姫の館 is consistently translated 춘희의 저택; prior catalog draft 관희 was a reading error."
+  ],
+  "assets": [
+    {
+      "archive": "DMAP",
+      "path": "dmap/ev/ev136.tm2",
+      "source_sha256": "c953cf9ca7cb993479daf0f7a6015e9a43d552d3aee0213472264ff9648eb8fa",
+      "records": [
+        {
+          "id": "ev136:00",
+          "rect": [
+            245,
+            29,
+            157,
+            35
+          ],
+          "font_size": 24,
+          "source": "移動と攻撃",
+          "target": "이동과 공격",
+          "source_rect_sha256": "a40a0f235818f3709cc23447d144650a40403b018f4beee4c71d3fa25d2ddf48",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "ink": "title"
+        },
+        {
+          "id": "ev136:01",
+          "rect": [
+            207,
+            86,
+            309,
+            32
+          ],
+          "font_size": 20,
+          "source": "1ユニットターン中に出来る行動",
+          "target": "1유닛 턴에 할 수 있는 행동",
+          "source_rect_sha256": "24846da0ebafb91e40924716a8166ad90c21ee274bbb204f8b29c654f02e76e5",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev136:02",
+          "rect": [
+            225,
+            143,
+            247,
+            32
+          ],
+          "font_size": 19,
+          "source": "攻撃、スキルは1回だけ！",
+          "target": "공격·스킬은 1번만!",
+          "source_rect_sha256": "da5766f085a57dcfc43b79ee7e5013bbb052d1930e066cb51ebc05c901b83344",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev136:03",
+          "rect": [
+            436,
+            207,
+            94,
+            47
+          ],
+          "font_size": 17,
+          "source": "我を選んで\n操作せよ！",
+          "target": "나를 골라\n조작하라!",
+          "source_rect_sha256": "a2f1c396d41578295162ca3cce4a783487cb39d0b08a7308a83bf139dc1dcb6a",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "ink": "dark",
+          "fill": [
+            15,
+            15,
+            15,
+            255
+          ],
+          "stroke": 0
+        },
+        {
+          "id": "ev136:04",
+          "rect": [
+            263,
+            329,
+            116,
+            28
+          ],
+          "font_size": 22,
+          "source": "1/2 Page",
+          "target": "1/2 쪽",
+          "source_rect_sha256": "3f1d913b4caba177e78611f70b28f8875c3b46bdb24617571d6748d064e26cf7",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev136:05",
+          "rect": [
+            444,
+            329,
+            108,
+            28
+          ],
+          "font_size": 20,
+          "source": "次のページ",
+          "target": "다음 쪽",
+          "source_rect_sha256": "391e821a1100e6721d44547c77fc5e3dd1a6558256cd96f5a7791bcd974c8a1c",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        }
+      ]
+    },
+    {
+      "archive": "DMAP",
+      "path": "dmap/ev/ev137.tm2",
+      "source_sha256": "66e0df8f25ea4609635346f5aae39eebc1d564cbc7a49b0f457c96173505e99f",
+      "records": [
+        {
+          "id": "ev137:00",
+          "rect": [
+            273,
+            29,
+            95,
+            35
+          ],
+          "font_size": 24,
+          "source": "攻撃",
+          "target": "공격",
+          "source_rect_sha256": "b0f6e7979c43427af5a56b752ea9cd31b191f43e5901f400779729684ada3918",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "ink": "title"
+        },
+        {
+          "id": "ev137:01",
+          "rect": [
+            108,
+            104,
+            191,
+            29
+          ],
+          "font_size": 19,
+          "source": "敵の横まで移動して",
+          "target": "적 옆으로 이동해서",
+          "source_rect_sha256": "6555f68d58f8b3a5da44631451041be51eeef6e1da82392a6cd618ef5d09ea67",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev137:02",
+          "rect": [
+            163,
+            133,
+            78,
+            34
+          ],
+          "font_size": 21,
+          "source": "攻撃！",
+          "target": "공격!",
+          "source_rect_sha256": "86e800573d6fc52f1bbd40d0b7b1164eda7841ed038510a4510c1db8b6af3cff",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "fill": [
+            255,
+            210,
+            115,
+            255
+          ]
+        },
+        {
+          "id": "ev137:03",
+          "rect": [
+            340,
+            223,
+            223,
+            55
+          ],
+          "font_size": 18,
+          "source": "攻撃時は、\n武器を選ぶことが可能！",
+          "target": "공격할 때는\n무기를 고를 수 있습니다!",
+          "source_rect_sha256": "39a129ce6c52fb5cd56b1355a4079597b229b722800f1f1d3014d6e0ab1b98e1",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev137:04",
+          "rect": [
+            263,
+            329,
+            116,
+            28
+          ],
+          "font_size": 22,
+          "source": "2/2 Page",
+          "target": "2/2 쪽",
+          "source_rect_sha256": "2b141f55b84074724f45b335dc51cbeed7147f442df5a50bdf33d61ad299fc92",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev137:05",
+          "rect": [
+            124,
+            329,
+            54,
+            28
+          ],
+          "font_size": 20,
+          "source": "戻る",
+          "target": "뒤로",
+          "source_rect_sha256": "2c7ed80c129d919a5ed467025c4281e473f44fb1056975cefb43f457135a8273",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev137:06",
+          "rect": [
+            486,
+            329,
+            66,
+            28
+          ],
+          "font_size": 20,
+          "source": "閉じる",
+          "target": "닫기",
+          "source_rect_sha256": "9e7935ad20af8c5ea79eda47c33e3353ccff95a01b428115e83f540df47888b0",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        }
+      ]
+    },
+    {
+      "archive": "DMAP",
+      "path": "dmap/ev/ev138.tm2",
+      "source_sha256": "07aca6d9a87888ea85b3d36dcd51671250f8624f59b70cc3a7188c3803e5bd95",
+      "records": [
+        {
+          "id": "ev138:00",
+          "rect": [
+            194,
+            29,
+            255,
+            35
+          ],
+          "font_size": 24,
+          "source": "ダメージ補正について",
+          "target": "피해 보정",
+          "source_rect_sha256": "7c555ab54210b03902d7341eacd1cc5b55fc53f47eff4b6caaac7f31107ad89e",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "ink": "title"
+        },
+        {
+          "id": "ev138:01",
+          "rect": [
+            76,
+            74,
+            488,
+            31
+          ],
+          "font_size": 20,
+          "source": "攻撃は側面、背面からの方がダメージが大きい！",
+          "target": "옆이나 뒤에서 공격하면 피해가 더 큽니다!",
+          "source_rect_sha256": "f6b37ddf2816e0b638306b60110207ba598ce6617a8f7a34ed2bf67c27bc922f",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev138:02",
+          "rect": [
+            107,
+            245,
+            179,
+            61
+          ],
+          "font_size": 20,
+          "source": "横から\nダメージアップ！",
+          "target": "옆에서 공격하면\n피해 증가!",
+          "source_rect_sha256": "381da5814a40b09f9572942cde98ca5e6a070cb45e844c898a0227d966121994",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev138:03",
+          "rect": [
+            352,
+            245,
+            188,
+            61
+          ],
+          "font_size": 20,
+          "source": "後ろから更に\nダメージアップ！",
+          "target": "뒤에서 공격하면\n피해가 더 증가!",
+          "source_rect_sha256": "d5894ce09a008356664d883288d6a73864ae40e495f393c8a9f705ff1ffb8052",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev138:04",
+          "rect": [
+            263,
+            329,
+            116,
+            28
+          ],
+          "font_size": 22,
+          "source": "1/2 Page",
+          "target": "1/2 쪽",
+          "source_rect_sha256": "35001bc96c9eb23c06c4267826b796160b05f254e9726ce05d637766c88fb802",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev138:05",
+          "rect": [
+            444,
+            329,
+            108,
+            28
+          ],
+          "font_size": 20,
+          "source": "次のページ",
+          "target": "다음 쪽",
+          "source_rect_sha256": "46ddab6a947cdc74976eae5e9eae294f5c6294a04f799c3c3fb3de3209352db4",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        }
+      ]
+    },
+    {
+      "archive": "DMAP",
+      "path": "dmap/ev/ev139.tm2",
+      "source_sha256": "2a335e4294b0afe48637758999d8022a5cffc4eaeb7a85049f76c747c77a8ada",
+      "records": [
+        {
+          "id": "ev139:00",
+          "rect": [
+            151,
+            29,
+            336,
+            35
+          ],
+          "font_size": 24,
+          "source": "射程距離によるダメージ補正",
+          "target": "사정거리에 따른 피해 보정",
+          "source_rect_sha256": "7bdc63b34d834989f87f7e3029b06118671e15e03bca6988fbbd2a4458d0ffa9",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "ink": "title"
+        },
+        {
+          "id": "ev139:01",
+          "rect": [
+            93,
+            74,
+            465,
+            49
+          ],
+          "font_size": 18,
+          "source": "長弓・短弓は遠くまで攻撃可能だが\n遠いほど攻撃力が小さい！",
+          "target": "장궁·단궁은 멀리까지 공격할 수 있지만\n거리가 멀수록 공격력이 낮아집니다!",
+          "source_rect_sha256": "51898fe734d197221b9704415659af67065b0888e73884cf95d8ca848c839a64",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev139:02",
+          "rect": [
+            94,
+            123,
+            67,
+            49
+          ],
+          "font_size": 17,
+          "source": "攻撃力\n大きい",
+          "target": "공격력\n높음",
+          "source_rect_sha256": "68d6169b48cb69fc154c2153bc34e276840fc8afc2910518060fa42c0d572cea",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "line_spacing": 2
+        },
+        {
+          "id": "ev139:03",
+          "rect": [
+            248,
+            133,
+            68,
+            51
+          ],
+          "font_size": 18,
+          "source": "攻撃力\n小さい",
+          "target": "공격력\n낮음",
+          "source_rect_sha256": "dff98c667f2b562b94282924632e787164b6b4625c990359eb9be8f8d127f9b8",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev139:04",
+          "rect": [
+            395,
+            147,
+            173,
+            52
+          ],
+          "font_size": 18,
+          "source": "隣のマスからは\n攻撃が出来ない！",
+          "target": "바로 옆 칸은\n공격할 수 없습니다!",
+          "source_rect_sha256": "1b4994bd0bdb62131a8cad49203bdf148d6860214efc3de9c594d4417e3f981a",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev139:05",
+          "rect": [
+            263,
+            329,
+            116,
+            28
+          ],
+          "font_size": 22,
+          "source": "2/2 Page",
+          "target": "2/2 쪽",
+          "source_rect_sha256": "d371609ee8ddbb7793589a6619c70254a997a56e007758b9664ce839fd6ac68b",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev139:06",
+          "rect": [
+            124,
+            329,
+            54,
+            28
+          ],
+          "font_size": 20,
+          "source": "戻る",
+          "target": "뒤로",
+          "source_rect_sha256": "90c42f39d707f7864ce542c937fbce0f48acddd0c3feb89c920eacc857397aeb",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev139:07",
+          "rect": [
+            486,
+            329,
+            66,
+            28
+          ],
+          "font_size": 20,
+          "source": "閉じる",
+          "target": "닫기",
+          "source_rect_sha256": "c4887a05721485bffaf1747a96576f237d2705b07b5b7e1a0a884246ea540d90",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        }
+      ]
+    },
+    {
+      "archive": "DMAP",
+      "path": "dmap/ev/ev140.tm2",
+      "source_sha256": "f22d7a8a79b1da41a796e576dabde631272bf370ba576b6cb3b95ea5c74c50b4",
+      "records": [
+        {
+          "id": "ev140:00",
+          "rect": [
+            235,
+            29,
+            173,
+            35
+          ],
+          "font_size": 24,
+          "source": "スキルの使用",
+          "target": "스킬 사용",
+          "source_rect_sha256": "9dc8a7521d2fb8f5bc7a0fd1e7f8f4e9fcdc90bed39b75281081c4183db2c07d",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "ink": "title"
+        },
+        {
+          "id": "ev140:01",
+          "rect": [
+            126,
+            73,
+            387,
+            30
+          ],
+          "font_size": 20,
+          "source": "スキルを使って遠くの敵に大ダメージ！！",
+          "target": "스킬로 먼 적에게 큰 피해를!",
+          "source_rect_sha256": "b82b7e46257fce5d4b7cb48ff150f9c9a00e3ff0809da71cb44a694953c3f58b",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev140:02",
+          "rect": [
+            83,
+            194,
+            247,
+            31
+          ],
+          "font_size": 18,
+          "source": "スキルには回数制限がある！",
+          "target": "스킬은 사용 횟수가 제한됩니다!",
+          "source_rect_sha256": "c5ebd62805a9118e0794661d8884831a45ac0ec4542a6c9aaa661b3ec2c7481d",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev140:03",
+          "rect": [
+            93,
+            234,
+            202,
+            27
+          ],
+          "font_size": 17,
+          "source": "装備による使用可能回数",
+          "target": "장비로 얻은 사용 횟수",
+          "source_rect_sha256": "fc8efcc1f35f23ebcc8d25f78f1277849ed5308f237149e4bcc410597c39feb5",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev140:04",
+          "rect": [
+            130,
+            319,
+            237,
+            27
+          ],
+          "font_size": 17,
+          "source": "ユニット自体の使用可能回数",
+          "target": "유닛 자체의 사용 횟수",
+          "source_rect_sha256": "f5507baec7da4063efcd41efeea6a0c9253f596a7ee7638d33ebf81afdaa7328",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev140:05",
+          "rect": [
+            433,
+            276,
+            137,
+            30
+          ],
+          "font_size": 17,
+          "source": "スキルの攻撃力",
+          "target": "스킬 공격력",
+          "source_rect_sha256": "861bc8d4744a689a037d8edfa84eb26cc23ad1945c5c36caa25d75a90b363079",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        }
+      ]
+    },
+    {
+      "archive": "DMAP",
+      "path": "dmap/ev/ev141.tm2",
+      "source_sha256": "06ab899f4019a69452c267d8bd39da9fdd74d6228522ec8d88ee0ce6aeba5b88",
+      "records": [
+        {
+          "id": "ev141:00",
+          "rect": [
+            187,
+            29,
+            266,
+            35
+          ],
+          "font_size": 24,
+          "source": "スキルの種類について",
+          "target": "스킬의 종류",
+          "source_rect_sha256": "d4b1d521c8b55f84ac2ba3e36cfbdae7ef8b47a7abb3968678d3853e699c49d9",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "ink": "title"
+        },
+        {
+          "id": "ev141:01",
+          "rect": [
+            197,
+            69,
+            258,
+            30
+          ],
+          "font_size": 19,
+          "source": "スキルには、次の種類がある",
+          "target": "스킬에는 다음 종류가 있습니다",
+          "source_rect_sha256": "6fb92bc50fe163b306a7305e02e2dd91f9c6e34c2479b2060d146274ae2d9fdd",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev141:02",
+          "rect": [
+            77,
+            104,
+            150,
+            29
+          ],
+          "font_size": 17,
+          "source": "アクティブスキル",
+          "target": "액티브 스킬",
+          "source_rect_sha256": "47057be3f95da9b7a87ede07cd46cde6c015d2e945836768e3446b5c7acfe55a",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "fill": [
+            255,
+            210,
+            115,
+            255
+          ]
+        },
+        {
+          "id": "ev141:03",
+          "rect": [
+            245,
+            104,
+            144,
+            29
+          ],
+          "font_size": 17,
+          "source": "パッシブスキル",
+          "target": "패시브 스킬",
+          "source_rect_sha256": "e4696a0ec1f28112985beec36e746a22a0a3e2406387f7e17c6e7a322dae4da3",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "fill": [
+            255,
+            210,
+            115,
+            255
+          ]
+        },
+        {
+          "id": "ev141:04",
+          "rect": [
+            410,
+            104,
+            144,
+            29
+          ],
+          "font_size": 17,
+          "source": "マジックスキル",
+          "target": "마법 스킬",
+          "source_rect_sha256": "c09c6234917a2e3924ee9c3a52befbd45038a4d9f6c3d78a631acef23145a7f3",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "fill": [
+            255,
+            210,
+            115,
+            255
+          ]
+        },
+        {
+          "id": "ev141:05",
+          "rect": [
+            78,
+            138,
+            153,
+            31
+          ],
+          "font_size": 17,
+          "source": "必殺技などを行う",
+          "target": "필살기 등을 사용",
+          "source_rect_sha256": "f1e06a6950245b6f1e134b5d9b021d5a36d1d4c367f50793b33019f168d86354",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev141:06",
+          "rect": [
+            245,
+            137,
+            147,
+            50
+          ],
+          "font_size": 17,
+          "source": "ユニットの\nパラメータをアップ",
+          "target": "유닛의 능력치를\n높임",
+          "source_rect_sha256": "fbc52775450c895604af54e33b3604e89b10a38623a7079c8d8ef9c061a2a85a",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev141:07",
+          "rect": [
+            413,
+            137,
+            141,
+            50
+          ],
+          "font_size": 17,
+          "source": "攻撃・回復・援助\nなどを行う",
+          "target": "공격·회복·지원\n등을 수행",
+          "source_rect_sha256": "12b2c0ba3be591faf4488084264864832010f06812a81d5445677532b5f6d26c",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev141:08",
+          "rect": [
+            263,
+            329,
+            116,
+            28
+          ],
+          "font_size": 22,
+          "source": "1/2 Page",
+          "target": "1/2 쪽",
+          "source_rect_sha256": "21c5a6d7ff5525fb091f2798053980fed7ce10e873cedc86248daec405fa0fcf",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev141:09",
+          "rect": [
+            444,
+            329,
+            108,
+            28
+          ],
+          "font_size": 20,
+          "source": "次のページ",
+          "target": "다음 쪽",
+          "source_rect_sha256": "d34e5b222bcffdac9ef1bdb336b0c49f115a2b3150b0e13074faab8f0bb822c3",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        }
+      ]
+    },
+    {
+      "archive": "DMAP",
+      "path": "dmap/ev/ev142.tm2",
+      "source_sha256": "05e9ef8ba622bdf10faf42d5005197bbfb3488c8edea070639f27235d8cc705a",
+      "records": [
+        {
+          "id": "ev142:00",
+          "rect": [
+            207,
+            29,
+            226,
+            35
+          ],
+          "font_size": 24,
+          "source": "スキルの入手方法",
+          "target": "스킬 획득 방법",
+          "source_rect_sha256": "c1d3b8c23cfc0b387fefa489e733184d3320a1b314c9b023987acb9c85c02b81",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "ink": "title"
+        },
+        {
+          "id": "ev142:01",
+          "rect": [
+            197,
+            69,
+            267,
+            30
+          ],
+          "font_size": 20,
+          "source": "スキルの入手方法は3通り",
+          "target": "스킬을 얻는 방법은 3가지",
+          "source_rect_sha256": "7c4381b90c3a5d44d60ea183bca2cc203f791aa3dc6d1052c5837c71f0044a08",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev142:02",
+          "rect": [
+            92,
+            99,
+            83,
+            27
+          ],
+          "font_size": 18,
+          "source": "その1.",
+          "target": "방법 1.",
+          "source_rect_sha256": "72d3b43bc1d3376e2a8675d1dfbefec8f960a6d497d4925db0afd5daa2c5cd6f",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev142:03",
+          "rect": [
+            245,
+            99,
+            91,
+            27
+          ],
+          "font_size": 18,
+          "source": "その2.",
+          "target": "방법 2.",
+          "source_rect_sha256": "8059a93904762d99331f8ec92c321f07664d3a6fa590ff2b548b0a2a462a8c58",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev142:04",
+          "rect": [
+            410,
+            99,
+            91,
+            27
+          ],
+          "font_size": 18,
+          "source": "その3.",
+          "target": "방법 3.",
+          "source_rect_sha256": "c7faed2a039c7619e08e1a2f4adc74b0bc24005a9e469e371dd11165be602ec8",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev142:05",
+          "rect": [
+            95,
+            126,
+            132,
+            50
+          ],
+          "font_size": 17,
+          "source": "ユニットが\n自然に覚える",
+          "target": "유닛이 스스로\n습득",
+          "source_rect_sha256": "47b9bb647c979e6aec0c387dc3a54f8e3e770ac6674665df19d639176d3573a3",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "ink": "cyan"
+        },
+        {
+          "id": "ev142:06",
+          "rect": [
+            243,
+            126,
+            151,
+            52
+          ],
+          "font_size": 17,
+          "source": "魔神を倒し\nスキルを抽出する",
+          "target": "마신을 쓰러뜨려\n스킬 추출",
+          "source_rect_sha256": "773312eec35bdd4bbf6ae7f39a26cb594f0f5d614e15aa5ad95bfb5fa47ab00c",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "ink": "cyan"
+        },
+        {
+          "id": "ev142:07",
+          "rect": [
+            406,
+            126,
+            149,
+            73
+          ],
+          "font_size": 17,
+          "source": "武器や防具を\n購入時に最初から\n備わっている",
+          "target": "무기·방어구에\n구입할 때부터\n포함된 스킬",
+          "source_rect_sha256": "79777bbf61f23197da665464307f2701b9083073f41418548c5e3e90367a8d39",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "ink": "cyan"
+        },
+        {
+          "id": "ev142:08",
+          "rect": [
+            263,
+            329,
+            116,
+            28
+          ],
+          "font_size": 22,
+          "source": "2/2 Page",
+          "target": "2/2 쪽",
+          "source_rect_sha256": "a2ac706815e00a3686ecb871880570e5fb1bc1e3e49ef3cd32dd482b9635fd5a",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev142:09",
+          "rect": [
+            124,
+            329,
+            54,
+            28
+          ],
+          "font_size": 20,
+          "source": "戻る",
+          "target": "뒤로",
+          "source_rect_sha256": "f8302a686a7f7a52f8ea4ce2abaa3f67d236ab40993e79b343fe401144199703",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev142:10",
+          "rect": [
+            486,
+            329,
+            66,
+            28
+          ],
+          "font_size": 20,
+          "source": "閉じる",
+          "target": "닫기",
+          "source_rect_sha256": "8f8c962fd342631693cca8a19db5567548575feebc9b5905990cf369c0e34ae0",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        }
+      ]
+    },
+    {
+      "archive": "DMAP",
+      "path": "dmap/ev/ev143.tm2",
+      "source_sha256": "f26b21d13d635c93ae14261060bfe6521df41390de2d3d9608d581266d383e56",
+      "records": [
+        {
+          "id": "ev143:00",
+          "rect": [
+            235,
+            29,
+            175,
+            35
+          ],
+          "font_size": 24,
+          "source": "オーバーキル",
+          "target": "오버킬",
+          "source_rect_sha256": "59e0b818e89933f2f720d83d0585cf8b427ecc607505890b0ab09348ceccfdcb",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "ink": "title"
+        },
+        {
+          "id": "ev143:01",
+          "rect": [
+            91,
+            78,
+            460,
+            79
+          ],
+          "font_size": 19,
+          "source": "魔神にトドメを刺す時は、残りHPに加えて、\nOverkill HPに書かれた値分のダメージを与えると、\n魔神は拘束状態になる！！",
+          "target": "마신에게 마지막 일격을 가할 때, 남은 HP에\n오버킬 HP 값을 더한 만큼 피해를 주면\n마신이 구속 상태가 됩니다!",
+          "source_rect_sha256": "975fdccf19fb691655990125bbfead6097563a035047eeb7e8519d5556a5ae22",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev143:02",
+          "rect": [
+            222,
+            173,
+            125,
+            28
+          ],
+          "font_size": 20,
+          "source": "残りHP 33",
+          "target": "남은 HP 33",
+          "source_rect_sha256": "e1316ac3c1c6f588f1ae72b1326d0b2b7a8b24443e3c0e77fe435f8857d07c30",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev143:03",
+          "rect": [
+            335,
+            215,
+            131,
+            68
+          ],
+          "font_size": 16,
+          "source": "ダメージ33+10\nOVERKILL\n成功!!",
+          "target": "피해 33+10\n오버킬\n성공!",
+          "source_rect_sha256": "7f48c660373b786386f8448ad77f43b4c63a5e18e27e79ca7eeec641fcf32419",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev143:04",
+          "rect": [
+            168,
+            302,
+            187,
+            30
+          ],
+          "font_size": 20,
+          "source": "オーバーキル値 10",
+          "target": "오버킬 값 10",
+          "source_rect_sha256": "fcbc543f0df728a50af8eddfedd5563a165c7c6762ec828075acc12077ee61fa",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        }
+      ]
+    },
+    {
+      "archive": "DMAP",
+      "path": "dmap/ev/ev144.tm2",
+      "source_sha256": "6cbfb26e3ffbcf3758fc98f53bdb7923f4adf9d4081ee632971e0406cfa9acf6",
+      "records": [
+        {
+          "id": "ev144:00",
+          "rect": [
+            223,
+            29,
+            195,
+            35
+          ],
+          "font_size": 24,
+          "source": "魔神を捕獲する",
+          "target": "마신 포획",
+          "source_rect_sha256": "115d8420baa855f8085746a638f963cfb4d0918077b7f5458f3246b702f534bc",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "ink": "title"
+        },
+        {
+          "id": "ev144:01",
+          "rect": [
+            254,
+            218,
+            282,
+            97
+          ],
+          "font_size": 21,
+          "source": "オーバーキルに成功し、\n拘束状態となった魔神は\n捕獲することが出来る！！",
+          "target": "오버킬에 성공해\n구속 상태가 된 마신은\n포획할 수 있습니다!",
+          "source_rect_sha256": "75613ba5b4409d6e484b64a16e6b15da8e3582a5008d57dc464d50a52e8e29d3",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev144:02",
+          "rect": [
+            263,
+            329,
+            116,
+            28
+          ],
+          "font_size": 22,
+          "source": "1/2 Page",
+          "target": "1/2 쪽",
+          "source_rect_sha256": "18936ffeee2b18a6e2ef50f993304f4d8102ffd42c243cbf2cded02893ec25e3",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev144:03",
+          "rect": [
+            444,
+            329,
+            108,
+            28
+          ],
+          "font_size": 20,
+          "source": "次のページ",
+          "target": "다음 쪽",
+          "source_rect_sha256": "1a6595a2305593b78273be4ba342d58d0beb82fd2c4f53ecfed55dcb63f2a5f2",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        }
+      ]
+    },
+    {
+      "archive": "DMAP",
+      "path": "dmap/ev/ev145.tm2",
+      "source_sha256": "c9047f0ab8a1e921750d8f1a1e1d132750a4a335e76793bd56f0de2cfde3cfa1",
+      "records": [
+        {
+          "id": "ev145:00",
+          "rect": [
+            211,
+            29,
+            224,
+            35
+          ],
+          "font_size": 24,
+          "source": "捕獲した魔神は…",
+          "target": "포획한 마신의 활용",
+          "source_rect_sha256": "357c9748defe2724ee39e8aed88a3451309e2c4ecd754a36887a98e423101801",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "ink": "title"
+        },
+        {
+          "id": "ev145:01",
+          "rect": [
+            80,
+            68,
+            87,
+            27
+          ],
+          "font_size": 18,
+          "source": "その1.",
+          "target": "방법 1.",
+          "source_rect_sha256": "ee40ef351df6caaa4c40c4a3b3ebd1eb3f25af9887f79ec9ba921d6ce0c57615",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev145:02",
+          "rect": [
+            339,
+            68,
+            91,
+            27
+          ],
+          "font_size": 18,
+          "source": "その2.",
+          "target": "방법 2.",
+          "source_rect_sha256": "38b5497023eaefe65698601d0e6cb9dd2aa0491a0f76a6fdfa0128e4cbc1ed98",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev145:03",
+          "rect": [
+            80,
+            98,
+            242,
+            102
+          ],
+          "font_size": 18,
+          "source": "椿姫の館でブックセットに\n入れると、次の戦闘から\n自軍ユニットとして\n使用可能！！",
+          "target": "춘희의 저택에서 북 세트에\n넣으면 다음 전투부터\n아군 유닛으로\n사용할 수 있습니다!",
+          "source_rect_sha256": "a31470b5237cea0429905b52386be3cc130b35d048aec4ea7a5584ac156ae3e5",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev145:04",
+          "rect": [
+            353,
+            97,
+            172,
+            78
+          ],
+          "font_size": 18,
+          "source": "椿姫の館で解体し\nスキルを取り出す\nことが可能！！",
+          "target": "춘희의 저택에서\n해체하여 스킬을\n추출할 수 있습니다!",
+          "source_rect_sha256": "bbc2859d9091f2ddcc81803a58fa774f5760b4d383cffa1d5aa06bec384edf62",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev145:05",
+          "rect": [
+            213,
+            284,
+            108,
+            43
+          ],
+          "font_size": 15,
+          "source": "青いリングは\n味方の証",
+          "target": "파란 고리는\n아군의 표시",
+          "source_rect_sha256": "83089592d7494fc55c3c589da558f98a6915d3d9130281327f38ae76a419b51c",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "ink": "cyan",
+          "fill": [
+            125,
+            220,
+            255,
+            255
+          ]
+        },
+        {
+          "id": "ev145:06",
+          "rect": [
+            449,
+            199,
+            83,
+            28
+          ],
+          "font_size": 18,
+          "source": "スキル化",
+          "target": "스킬화",
+          "source_rect_sha256": "43d3ce4c476abf387a282d9cbd0ea6120c719e048df6e536ed787319acb56ea6",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "fill": [
+            255,
+            210,
+            115,
+            255
+          ]
+        },
+        {
+          "id": "ev145:07",
+          "rect": [
+            263,
+            329,
+            116,
+            28
+          ],
+          "font_size": 22,
+          "source": "2/2 Page",
+          "target": "2/2 쪽",
+          "source_rect_sha256": "2a5d60a94011b4abea3bc1adbc7012ba7159946bbb2046aab09cc56b75015c35",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev145:08",
+          "rect": [
+            124,
+            329,
+            54,
+            28
+          ],
+          "font_size": 20,
+          "source": "戻る",
+          "target": "뒤로",
+          "source_rect_sha256": "4649f103ed72dd0ad2a79488d0afb89ccd1ccf715c1da2a6f1b94b8a0acb3eed",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev145:09",
+          "rect": [
+            486,
+            329,
+            66,
+            28
+          ],
+          "font_size": 20,
+          "source": "閉じる",
+          "target": "닫기",
+          "source_rect_sha256": "3205b25cac7d94b6d00663ca03fb22910c62d703ef6fc5ccd19f3ce6ba7befb5",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        }
+      ]
+    },
+    {
+      "archive": "DMAP",
+      "path": "dmap/ev/ev146.tm2",
+      "source_sha256": "8bc6e13dd56ec514db2f9db6ee784fd7352187cb3de7a2a1739a0aacb408d2af",
+      "records": [
+        {
+          "id": "ev146:00",
+          "rect": [
+            258,
+            29,
+            127,
+            35
+          ],
+          "font_size": 24,
+          "source": "魔神障壁",
+          "target": "마신 장벽",
+          "source_rect_sha256": "6bd2a6a9af20a79d4395bc4ed72f8a866ef72de6ce0032beef708fe4d12ffb5c",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "ink": "title"
+        },
+        {
+          "id": "ev146:01",
+          "rect": [
+            94,
+            74,
+            445,
+            53
+          ],
+          "font_size": 19,
+          "source": "魔神の中には、魔神障壁で身を守るものがいる\nこの間、魔神はダメージを受け付けない！",
+          "target": "일부 마신은 마신 장벽으로 몸을 보호합니다.\n이때는 피해를 받지 않습니다!",
+          "source_rect_sha256": "0a8e5c5cefb182202de79af6efb943e7d125e8bcd689bf2177bff0eda6d63979",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev146:02",
+          "rect": [
+            321,
+            140,
+            80,
+            31
+          ],
+          "font_size": 19,
+          "source": "しっかり",
+          "target": "단단히",
+          "source_rect_sha256": "6c3e98cad441253fd9614292b54967728c58f67ad9a2d36ac8aadb4bfc9f6d62",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev146:03",
+          "rect": [
+            93,
+            236,
+            99,
+            44
+          ],
+          "font_size": 16,
+          "source": "弱点を\n狙いなさい！",
+          "target": "약점을\n노리세요!",
+          "source_rect_sha256": "e450812e7a920d3f795d82a15ef1ba1e57fc0a7d5f87938cd4e8bf18beff23d2",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "ink": "dark",
+          "fill": [
+            15,
+            15,
+            15,
+            255
+          ],
+          "stroke": 0
+        },
+        {
+          "id": "ev146:04",
+          "rect": [
+            93,
+            300,
+            463,
+            29
+          ],
+          "font_size": 19,
+          "source": "しかし！弱点を攻撃すれば、魔神障壁は破壊可能！！",
+          "target": "하지만 약점을 공격하면 마신 장벽을 깰 수 있습니다!",
+          "source_rect_sha256": "7016d66dee6b253be12826df63a040582ba794cb30ddef3ebcd4018d72a15adf",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev146:05",
+          "rect": [
+            263,
+            329,
+            116,
+            28
+          ],
+          "font_size": 22,
+          "source": "1/2 Page",
+          "target": "1/2 쪽",
+          "source_rect_sha256": "164adb3a2b670537a4c68549e81f05284fbfdfe4f7dbe710ef86f0086b6ce118",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev146:06",
+          "rect": [
+            444,
+            329,
+            108,
+            28
+          ],
+          "font_size": 20,
+          "source": "次のページ",
+          "target": "다음 쪽",
+          "source_rect_sha256": "d102a9864484ca7742ca967c77068f8cb139dab3e1425b59dc04b3961f44314d",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        }
+      ]
+    },
+    {
+      "archive": "DMAP",
+      "path": "dmap/ev/ev147.tm2",
+      "source_sha256": "14c5f170d540ec1af0641b193a945be7e5edc52544fadb22d530defdcad124c5",
+      "records": [
+        {
+          "id": "ev147:00",
+          "rect": [
+            248,
+            29,
+            149,
+            35
+          ],
+          "font_size": 24,
+          "source": "魔神の弱点",
+          "target": "마신의 약점",
+          "source_rect_sha256": "abf777633fe964743faa47aca93ec5eec0c596d691c667f6b55b6ccbc2af3a0f",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "ink": "title"
+        },
+        {
+          "id": "ev147:01",
+          "rect": [
+            166,
+            73,
+            313,
+            31
+          ],
+          "font_size": 20,
+          "source": "魔神障壁には、弱点が存在する！",
+          "target": "마신 장벽에는 약점이 있습니다!",
+          "source_rect_sha256": "6bc1e63bd6ce4cca43f638dfa785b43489d05108a6f13e97e731d62c86578a9f",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev147:02",
+          "rect": [
+            205,
+            107,
+            239,
+            28
+          ],
+          "font_size": 18,
+          "source": "魔神ゴートアスの弱点は…",
+          "target": "마신 고트아스의 약점은…",
+          "source_rect_sha256": "2dc86b4affcbb99c3a7ca278bfd6adeb62f3f9eb2fa7e30d02fcd171996bc16e",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev147:03",
+          "rect": [
+            125,
+            139,
+            184,
+            31
+          ],
+          "font_size": 19,
+          "source": "テージの打撃攻撃！",
+          "target": "테이지의 타격 공격!",
+          "source_rect_sha256": "420e47b4d86374a75bfb607262d812efbc83b5cba28d61d9ba86e0a8ce488fd6",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev147:04",
+          "rect": [
+            369,
+            143,
+            188,
+            35
+          ],
+          "font_size": 21,
+          "source": "魔神障壁を破壊！",
+          "target": "마신 장벽 파괴!",
+          "source_rect_sha256": "559c564fe79d2db2ad7f8896ba80f46e1b7fda35610e341f0da815f0268986df",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev147:05",
+          "rect": [
+            374,
+            267,
+            181,
+            47
+          ],
+          "font_size": 18,
+          "source": "弱点を探し出すことが\n魔神攻略のカギ！",
+          "target": "약점을 찾는 것이\n마신 공략의 핵심!",
+          "source_rect_sha256": "7b29f6d349b48eda8a908b97b38d04c8733e974bd4aa4e49d12f6873ed8f37b6",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "ink": "dark",
+          "fill": [
+            15,
+            15,
+            15,
+            255
+          ],
+          "stroke": 0
+        },
+        {
+          "id": "ev147:06",
+          "rect": [
+            263,
+            329,
+            116,
+            28
+          ],
+          "font_size": 22,
+          "source": "2/2 Page",
+          "target": "2/2 쪽",
+          "source_rect_sha256": "066bdc9ead70a4083b92020cd2cdbec9dea35b1cd9861ab74e218bfb857eda8b",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev147:07",
+          "rect": [
+            124,
+            329,
+            54,
+            28
+          ],
+          "font_size": 20,
+          "source": "戻る",
+          "target": "뒤로",
+          "source_rect_sha256": "4bd9dc885155c3287ed7c7507a0e4e79e7d2aaaef588e626a8b44f7315ecc2e6",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev147:08",
+          "rect": [
+            486,
+            329,
+            66,
+            28
+          ],
+          "font_size": 20,
+          "source": "閉じる",
+          "target": "닫기",
+          "source_rect_sha256": "30b93ab29deab8dfe2faaa79ace94b60512f4b1c1fe3dd821a083b88852b09de",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        }
+      ]
+    },
+    {
+      "archive": "DMAP",
+      "path": "dmap/ev/ev148.tm2",
+      "source_sha256": "af33d7b98f677c515ccaf68e1bdcf8c69b75ad9e048a91df5aa262baacd13086",
+      "records": [
+        {
+          "id": "ev148:00",
+          "rect": [
+            217,
+            29,
+            212,
+            35
+          ],
+          "font_size": 24,
+          "source": "ユニットの再行動",
+          "target": "유닛 재행동",
+          "source_rect_sha256": "ed48b0b298a2ae6bdac2e7d1d81d451bcc8e634b34abbbbb525b78fcdb668394",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "ink": "title"
+        },
+        {
+          "id": "ev148:01",
+          "rect": [
+            160,
+            81,
+            405,
+            54
+          ],
+          "font_size": 19,
+          "source": "行動させなかったユニットは\nリーダーのターン時に再行動させることが可能",
+          "target": "행동하지 않은 유닛은\n리더의 턴에 재행동할 수 있습니다",
+          "source_rect_sha256": "5bc6134ea992ccc8487159e651dce465a557653388c884b10528010eca550afe",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev148:02",
+          "rect": [
+            164,
+            258,
+            233,
+            54
+          ],
+          "font_size": 19,
+          "source": "移動か行動のどちらかを\n選ぶことができる",
+          "target": "이동과 행동 중 하나를\n선택할 수 있습니다",
+          "source_rect_sha256": "bf024930828128becb47761daaa2894c7f2561c149fe84a3a237fdac6a7c97fc",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev148:03",
+          "rect": [
+            263,
+            329,
+            116,
+            28
+          ],
+          "font_size": 22,
+          "source": "1/2 Page",
+          "target": "1/2 쪽",
+          "source_rect_sha256": "5303960e68a110db590169edc9fb61f1decd6c9addf31e1ac44604c92ece9e4f",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev148:04",
+          "rect": [
+            444,
+            329,
+            108,
+            28
+          ],
+          "font_size": 20,
+          "source": "次のページ",
+          "target": "다음 쪽",
+          "source_rect_sha256": "824aca34a8b62cd08855bb7906f06ea0c01cb49d846677ace80a6e2970415d1b",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        }
+      ]
+    },
+    {
+      "archive": "DMAP",
+      "path": "dmap/ev/ev149.tm2",
+      "source_sha256": "d9d57163defeadf11ca9a16c21f6e6207a1513cb9d7bdd688fd9d0a72e914ec1",
+      "records": [
+        {
+          "id": "ev149:00",
+          "rect": [
+            275,
+            29,
+            96,
+            35
+          ],
+          "font_size": 24,
+          "source": "双撃",
+          "target": "쌍격",
+          "source_rect_sha256": "eeb1745de0a74006da8c10f399b8b3fdf92df089ddfff8331c4eac59dc51c78f",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "ink": "title"
+        },
+        {
+          "id": "ev149:01",
+          "rect": [
+            262,
+            79,
+            304,
+            54
+          ],
+          "font_size": 19,
+          "source": "再行動させるユニットが2体いる\n場合は、双撃が可能！！",
+          "target": "재행동할 유닛이 2명 있으면\n쌍격을 사용할 수 있습니다!",
+          "source_rect_sha256": "4769bce8ab76a8dadbb66dc747d3c132b2270ec31455fac36a1fb384fdfe2b91",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev149:02",
+          "rect": [
+            298,
+            275,
+            200,
+            44
+          ],
+          "font_size": 24,
+          "source": "大ダメージ！！",
+          "target": "큰 피해!",
+          "source_rect_sha256": "7637210c1f1a3c0cc29897d3a2f68427a985e6d7fd09e8427e8ee521387307f8",
+          "status": "reviewed",
+          "reviewer": "Codex",
+          "fill": [
+            255,
+            180,
+            135,
+            255
+          ]
+        },
+        {
+          "id": "ev149:03",
+          "rect": [
+            263,
+            329,
+            116,
+            28
+          ],
+          "font_size": 22,
+          "source": "2/2 Page",
+          "target": "2/2 쪽",
+          "source_rect_sha256": "673f53fe08e328f7dcf4573ba721910205743f71142dad83a163a799bfbc802e",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev149:04",
+          "rect": [
+            124,
+            329,
+            54,
+            28
+          ],
+          "font_size": 20,
+          "source": "戻る",
+          "target": "뒤로",
+          "source_rect_sha256": "0eadc7a60cad5254bdbfef628d9a5dabca3a407d924cdc2be6eb733c70207123",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "ev149:05",
+          "rect": [
+            486,
+            329,
+            66,
+            28
+          ],
+          "font_size": 20,
+          "source": "閉じる",
+          "target": "닫기",
+          "source_rect_sha256": "45fd3e9546fbb8acca5004131ed34514a3bd5a33603c4a8a843f51aa7c56fbf1",
+          "status": "reviewed",
+          "reviewer": "Codex"
+        }
+      ]
+    }
+  ]
+}

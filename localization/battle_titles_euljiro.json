@@ -1,0 +1,316 @@
+{
+  "font": "<LOCAL_USER_HOME>/Library/Fonts/BMEULJIROTTF.ttf",
+  "rows": [
+    {
+      "id": "bt_ar",
+      "source": "第1階層 虚幻の迷宮",
+      "target": "제1계층 허환의 미궁"
+    },
+    {
+      "id": "bt_ar_000010",
+      "source": "チュートリアル",
+      "target": "튜토리얼"
+    },
+    {
+      "id": "bt_ar_050010",
+      "source": "第2階層 迷幽の森",
+      "target": "제2계층 미유의 숲"
+    },
+    {
+      "id": "bt_ar_060010",
+      "source": "第2階層 夢幻の天空",
+      "target": "제2계층 몽환의 천공"
+    },
+    {
+      "id": "bt_ar_070010",
+      "source": "第2階層 熱砂の戒界",
+      "target": "제2계층 열사의 계계"
+    },
+    {
+      "id": "bt_ar_080010",
+      "source": "第3階層 聖皇の祭宮",
+      "target": "제3계층 성황의 제궁"
+    },
+    {
+      "id": "bt_ar_090010",
+      "source": "第3階層 閻帝の万魔殿",
+      "target": "제3계층 염제의 만마전"
+    },
+    {
+      "id": "bt_ar_100010",
+      "source": "第4階層 ベセク祭神部",
+      "target": "제4계층 베세크 제신부"
+    },
+    {
+      "id": "bt_ar_110010",
+      "source": "魔界の狭間",
+      "target": "마계의 틈새"
+    },
+    {
+      "id": "bt_ar_120010",
+      "source": "不明",
+      "target": "불명"
+    },
+    {
+      "id": "bt_nm",
+      "source": "碧の古城跡",
+      "target": "푸른 고성터"
+    },
+    {
+      "id": "bt_nm_000010",
+      "source": "魔神爪痕の遺跡",
+      "target": "마신 발톱 자국의 유적"
+    },
+    {
+      "id": "bt_nm_010020",
+      "source": "灰色の王宮",
+      "target": "회색 왕궁"
+    },
+    {
+      "id": "bt_nm_010030",
+      "source": "主賓無き舞踏場",
+      "target": "주빈 없는 무도장"
+    },
+    {
+      "id": "bt_nm_010040",
+      "source": "姫の居た玉座",
+      "target": "공주가 있던 옥좌"
+    },
+    {
+      "id": "bt_nm_020010",
+      "source": "セイロの沼地",
+      "target": "세이로 늪지"
+    },
+    {
+      "id": "bt_nm_020020",
+      "source": "ダイキ城塞橋",
+      "target": "다이키 성채 다리"
+    },
+    {
+      "id": "bt_nm_020040",
+      "source": "竜の棲む大洞穴",
+      "target": "용이 사는 대동굴"
+    },
+    {
+      "id": "bt_nm_030010",
+      "source": "リヤドの遺跡群",
+      "target": "리야드 유적군"
+    },
+    {
+      "id": "bt_nm_030020",
+      "source": "トネリ断崖の戦場",
+      "target": "토네리 절벽의 전장"
+    },
+    {
+      "id": "bt_nm_030040",
+      "source": "バンタル寺院門",
+      "target": "반탈 사원문"
+    },
+    {
+      "id": "bt_nm_040020",
+      "source": "ブラージの丘",
+      "target": "브라지 언덕"
+    },
+    {
+      "id": "bt_nm_040030",
+      "source": "ルドンの前線基地",
+      "target": "루돈 전선 기지"
+    },
+    {
+      "id": "bt_nm_040040",
+      "source": "カナスの魔殿",
+      "target": "카나스 마전"
+    },
+    {
+      "id": "bt_nm_050010",
+      "source": "プレグラの野",
+      "target": "프레그라 들판"
+    },
+    {
+      "id": "bt_nm_050020",
+      "source": "竜門静平",
+      "target": "용문정평"
+    },
+    {
+      "id": "bt_nm_050030",
+      "source": "パトヒール",
+      "target": "파토힐"
+    },
+    {
+      "id": "bt_nm_050040",
+      "source": "蒼葉あざみの森",
+      "target": "푸른잎 엉겅퀴 숲"
+    },
+    {
+      "id": "bt_nm_050050",
+      "source": "トネリコの蜃樹楼",
+      "target": "물푸레나무의 신수루"
+    },
+    {
+      "id": "bt_nm_050060",
+      "source": "ドドナ森の迷幽門",
+      "target": "도도나 숲의 미유문"
+    },
+    {
+      "id": "bt_nm_060010",
+      "source": "伊服岐能酒呑山",
+      "target": "이부키노 슈텐산"
+    },
+    {
+      "id": "bt_nm_060020",
+      "source": "明鏡渇心院窟",
+      "target": "명경갈심원굴"
+    },
+    {
+      "id": "bt_nm_060030",
+      "source": "ヴァルホル宮殿",
+      "target": "발홀 궁전"
+    },
+    {
+      "id": "bt_nm_060040",
+      "source": "ヘスペリスの園",
+      "target": "헤스페리스의 정원"
+    },
+    {
+      "id": "bt_nm_060050",
+      "source": "ギンヌンガガプ",
+      "target": "긴눙가가프"
+    },
+    {
+      "id": "bt_nm_060060",
+      "source": "高天禍原之門",
+      "target": "고천화원의 문"
+    },
+    {
+      "id": "bt_nm_070010",
+      "source": "塗炭の沈床",
+      "target": "도탄의 침상"
+    },
+    {
+      "id": "bt_nm_070020",
+      "source": "禅譲放伐の砂漠",
+      "target": "선양방벌의 사막"
+    },
+    {
+      "id": "bt_nm_070030",
+      "source": "ディクテ山",
+      "target": "디크테 산"
+    },
+    {
+      "id": "bt_nm_070040",
+      "source": "グレゴルダの丘",
+      "target": "그레골다의 언덕"
+    },
+    {
+      "id": "bt_nm_070050",
+      "source": "神州傲来国火果山",
+      "target": "신주 오래국 화과산"
+    },
+    {
+      "id": "bt_nm_070060",
+      "source": "火焔山之門",
+      "target": "화염산의 문"
+    },
+    {
+      "id": "bt_nm_080010",
+      "source": "壱宮・羅崩門",
+      "target": "제1궁 · 나붕문"
+    },
+    {
+      "id": "bt_nm_080030",
+      "source": "弐宮・白楼壁",
+      "target": "제2궁 · 백루벽"
+    },
+    {
+      "id": "bt_nm_080040",
+      "source": "参宮・コリカチャ",
+      "target": "제3궁 · 코리카차"
+    },
+    {
+      "id": "bt_nm_080050",
+      "source": "聖皇のシャンバラ",
+      "target": "성황의 샴발라"
+    },
+    {
+      "id": "bt_nm_090010",
+      "source": "火殿・カイーナ",
+      "target": "화전 · 카이나"
+    },
+    {
+      "id": "bt_nm_090020",
+      "source": "炎殿・ハデス洞穴",
+      "target": "염전 · 하데스 동굴"
+    },
+    {
+      "id": "bt_nm_090040",
+      "source": "業殿・野干吼処",
+      "target": "업전 · 야간후처"
+    },
+    {
+      "id": "bt_nm_090050",
+      "source": "閻帝の万魔殿",
+      "target": "염제의 만마전"
+    },
+    {
+      "id": "bt_nm_100010",
+      "source": "ベセクの神の座",
+      "target": "베세크의 신좌"
+    },
+    {
+      "id": "bt_nm_100050",
+      "source": "真なる神の座",
+      "target": "진정한 신의 자리"
+    },
+    {
+      "id": "bt_nm_110010",
+      "source": "蟲毒の女神生誕処",
+      "target": "고독의 여신 탄생지"
+    },
+    {
+      "id": "bt_nm_120010",
+      "source": "狭間の冥路",
+      "target": "경계의 명로"
+    },
+    {
+      "id": "title_s_base",
+      "source": "勝利条件",
+      "target": "승리조건"
+    },
+    {
+      "id": "title_h_base",
+      "source": "敗北条件",
+      "target": "패배조건"
+    },
+    {
+      "id": "bt_tx05",
+      "source": "全ての敵を撃破せよ",
+      "target": "모든 적을\n격파하라"
+    },
+    {
+      "id": "bt_tx09",
+      "source": "主人公の戦闘不能",
+      "target": "주인공의 전투불능"
+    },
+    {
+      "id": "bt_tx13",
+      "source": "ルナーシェを撃破せよ",
+      "target": "루나셰를\n격파하라"
+    },
+    {
+      "id": "bt_tx17",
+      "source": "テージの戦闘不能",
+      "target": "테이지의 전투불능"
+    },
+    {
+      "id": "bt_tx21",
+      "source": "ボスを撃破せよ",
+      "target": "보스를\n격파하라"
+    },
+    {
+      "id": "bt_tx25",
+      "source": "バルド王を撃破せよ",
+      "target": "발드 왕을\n격파하라"
+    }
+  ],
+  "note": "Place image content is authoritative; bt_nm_040020/040030 differ from startmap.txt labels. Existing ELF names retained where appropriate. No ELF/TSV modifications."
+}

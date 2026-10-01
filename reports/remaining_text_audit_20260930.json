@@ -1,0 +1,3077 @@
+{
+  "structured_rows": 128274,
+  "semantic_revisions_overlay": true,
+  "untranslated_or_japanese_targets": [],
+  "elf_unchanged_multichar_japanese_candidates": [
+    {
+      "id": "ELF:0x00367d6e",
+      "section": ".data",
+      "offset": "3571054",
+      "virtual_address": "4615534",
+      "source": "?デフォルトパーティクル",
+      "target": "?기본 파티클",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x003dcba8",
+      "section": ".data",
+      "offset": "4049832",
+      "virtual_address": "5094312",
+      "source": "アナログコントローラ(DUALSHOCK 2)が接続されていません。",
+      "target": "아날로그 컨트롤러(DUALSHOCK 2)가 연결되어 있지 않습니다.",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x003dcbe0",
+      "section": ".data",
+      "offset": "4049888",
+      "virtual_address": "5094368",
+      "source": "コントローラ端子1 にアナログコントローラ(DUALSHOCK 2)を",
+      "target": "컨트롤러 단자 1에 아날로그 컨트롤러(DUALSHOCK 2)를",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x003dcc18",
+      "section": ".data",
+      "offset": "4049944",
+      "virtual_address": "5094424",
+      "source": "正しく接続しなおしてください。",
+      "target": "올바르게 다시 연결해 주십시오.",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00412fc0",
+      "section": ".rodata",
+      "offset": "4272064",
+      "virtual_address": "5316544",
+      "source": "TEST佐野国芳でーん■□凹凸",
+      "target": "",
+      "status": "untranslated"
+    },
+    {
+      "id": "ELF:0x00413090",
+      "section": ".rodata",
+      "offset": "4272272",
+      "virtual_address": "5316752",
+      "source": "TEST開始---------------------------------------",
+      "target": "TEST 시작---------------------------------------",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004130c0",
+      "section": ".rodata",
+      "offset": "4272320",
+      "virtual_address": "5316800",
+      "source": "シーンについての設定をします",
+      "target": "씬 관련 설정을 합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004130e0",
+      "section": ".rodata",
+      "offset": "4272352",
+      "virtual_address": "5316832",
+      "source": "シーンを選択します。○で実行、×で削除します",
+      "target": "씬을 선택합니다. ○로 실행, ×로 삭제합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413110",
+      "section": ".rodata",
+      "offset": "4272400",
+      "virtual_address": "5316880",
+      "source": "コマンドを選択します。○で実行、×で削除します",
+      "target": "커맨드를 선택합니다. ○로 실행, ×로 삭제합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413140",
+      "section": ".rodata",
+      "offset": "4272448",
+      "virtual_address": "5316928",
+      "source": "レベルを選択します。○で実行",
+      "target": "레벨을 선택합니다. ○로 실행",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413160",
+      "section": ".rodata",
+      "offset": "4272480",
+      "virtual_address": "5316960",
+      "source": "SYNCフラグのインデックスを選択します。○で設定します",
+      "target": "SYNC 플래그의 인덱스를 선택합니다. ○로 설정합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413198",
+      "section": ".rodata",
+      "offset": "4272536",
+      "virtual_address": "5317016",
+      "source": "SYNCフラグに設定する値を選択します。○で設定します",
+      "target": "SYNC 플래그에 설정할 값을 선택합니다. ○로 설정합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004131d0",
+      "section": ".rodata",
+      "offset": "4272592",
+      "virtual_address": "5317072",
+      "source": "モーフィング番号を選択します。○で実行します",
+      "target": "모핑 번호를 선택합니다. ○로 실행합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413200",
+      "section": ".rodata",
+      "offset": "4272640",
+      "virtual_address": "5317120",
+      "source": "アニメーションのスピードを選択します。□でデフォルトに戻します",
+      "target": "애니메이션 속도를 선택합니다. □로 기본값으로 되돌립니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413240",
+      "section": ".rodata",
+      "offset": "4272704",
+      "virtual_address": "5317184",
+      "source": "アニメーションの動作を選択します。○で実行します。STOPで停止、PLAYで再生、PAUSEで一時停止します",
+      "target": "애니메이션 동작을 선택합니다. ○로 실행합니다. STOP은 정지, PLAY는 재생, PAUSE는 일시정지입니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004132a0",
+      "section": ".rodata",
+      "offset": "4272800",
+      "virtual_address": "5317280",
+      "source": "アニメーションをループさせるかを選択します。LOOPでループあり、ONEでワンショトのみ",
+      "target": "애니메이션 반복 여부를 선택합니다. LOOP는 반복, ONE은 1회 재생입니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004132f8",
+      "section": ".rodata",
+      "offset": "4272888",
+      "virtual_address": "5317368",
+      "source": "モーションブレンドの動作を選択します。DEFでデフォルト、ONで有効、OFFで無効、OFF2で始めのみ無効であとは有効になります",
+      "target": "모션 블렌드 동작을 선택합니다. DEF는 기본값, ON은 유효, OFF는 무효, OFF2는 시작 부분만 무효이고 이후에는 유효합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413370",
+      "section": ".rodata",
+      "offset": "4273008",
+      "virtual_address": "5317488",
+      "source": "モーションブレンドのスピードを選択します。10で1.0倍になります",
+      "target": "모션 블렌드 속도를 선택합니다. 10이 1.0배입니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004133b0",
+      "section": ".rodata",
+      "offset": "4273072",
+      "virtual_address": "5317552",
+      "source": "ルートボーンの動作を選択します。OFFで通常動作、ALLでルートボーンのマトリクス全てが無効、TRSでルートボーンの移動のみ無効になります",
+      "target": "루트 본 동작을 선택합니다. OFF는 일반 동작, ALL은 루트 본의 모든 매트릭스 무효, TRS는 루트 본의 이동만 무효입니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413550",
+      "section": ".rodata",
+      "offset": "4273488",
+      "virtual_address": "5317968",
+      "source": "フラグ設定1について",
+      "target": "플래그 설정 1",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413568",
+      "section": ".rodata",
+      "offset": "4273512",
+      "virtual_address": "5317992",
+      "source": "フォグのオン/オフを設定します",
+      "target": "포그의 ON/OFF를 설정합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413588",
+      "section": ".rodata",
+      "offset": "4273544",
+      "virtual_address": "5318024",
+      "source": "セルシェーダの設定をします。DEFでデフォルト、OFFでオフ、ONでオンにします",
+      "target": "셀 셰이더를 설정합니다. DEF는 기본값, OFF는 끔, ON은 켬입니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004135d8",
+      "section": ".rodata",
+      "offset": "4273624",
+      "virtual_address": "5318104",
+      "source": "ポリゴンの表示を設定します",
+      "target": "폴리곤 표시를 설정합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004135f8",
+      "section": ".rodata",
+      "offset": "4273656",
+      "virtual_address": "5318136",
+      "source": "エッジの表示を設定します",
+      "target": "에지 표시를 설정합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413618",
+      "section": ".rodata",
+      "offset": "4273688",
+      "virtual_address": "5318168",
+      "source": "ボーンの表示を設定します。OFFで非表示,ONで表示、NULLでヌルオブジェクトの表示をします",
+      "target": "본 표시를 설정합니다. OFF는 숨김, ON은 표시, NULL은 널 오브젝트를 표시합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413670",
+      "section": ".rodata",
+      "offset": "4273776",
+      "virtual_address": "5318256",
+      "source": "コリジョンの表示を設定します。OFFで非表示、COLでコリジョンの表示、HIT1ではHIT1の表示、HIT2でHIT2の表示、HIT3でHITの表示、SECTIONでセクションの表示をします",
+      "target": "콜리전 표시를 설정합니다. OFF는 숨김, COL은 콜리전 표시, HIT1은 HIT1 표시, HIT2는 HIT2 표시, HIT3은 HIT 표시, SECTION은 섹션 표시입니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413710",
+      "section": ".rodata",
+      "offset": "4273936",
+      "virtual_address": "5318416",
+      "source": "マップコリジョンの設定をします。OFFで非表示、GRDで地形コリジョンの表示、FLYで飛行コリジョンの表示、CAMでカメラコリジョンの表示をします",
+      "target": "맵 콜리전을 설정합니다. OFF는 숨김, GRD는 지형 콜리전, FLY는 비행 콜리전, CAM은 카메라 콜리전을 표시합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413798",
+      "section": ".rodata",
+      "offset": "4274072",
+      "virtual_address": "5318552",
+      "source": "バウンディングボックスの表示をします。OFFで非表示、ONで表示、ROOTでROOTBDの表示をします",
+      "target": "바운딩 박스를 표시합니다. OFF는 숨김, ON은 표시, ROOT는 ROOTBD를 표시합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004137f0",
+      "section": ".rodata",
+      "offset": "4274160",
+      "virtual_address": "5318640",
+      "source": "半透明の設定をします。OFFで変更なし、ONで変更ありです",
+      "target": "반투명 설정을 합니다. OFF는 변경 없음, ON은 변경 있음입니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413828",
+      "section": ".rodata",
+      "offset": "4274216",
+      "virtual_address": "5318696",
+      "source": "半透明のモードを設定します。NONで不透明、HALFで半透明、ADDで加算、SUBで減算、NEGで反転の指定をします",
+      "target": "반투명 모드를 설정합니다. NON은 불투명, HALF는 반투명, ADD는 가산, SUB는 감산, NEG는 반전입니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413890",
+      "section": ".rodata",
+      "offset": "4274320",
+      "virtual_address": "5318800",
+      "source": "カリングの設定をします。DEFでデフォルト、OFFでカリングなし、ONでカリングあり",
+      "target": "컬링을 설정합니다. DEF는 기본값, OFF는 컬링 없음, ON은 컬링 있음입니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004138e0",
+      "section": ".rodata",
+      "offset": "4274400",
+      "virtual_address": "5318880",
+      "source": "GBONEの設定をします",
+      "target": "GBONE을 설정합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004138f8",
+      "section": ".rodata",
+      "offset": "4274424",
+      "virtual_address": "5318904",
+      "source": "カラーマスクの設定をします",
+      "target": "컬러 마스크를 설정합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413918",
+      "section": ".rodata",
+      "offset": "4274456",
+      "virtual_address": "5318936",
+      "source": "シーン環境設定の有効、無効を設定します。OFFで無効、ONで有効",
+      "target": "씬 환경 설정의 유효/무효를 설정합니다. OFF는 무효, ON은 유효",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413a98",
+      "section": ".rodata",
+      "offset": "4274840",
+      "virtual_address": "5319320",
+      "source": "フラグ設定2について",
+      "target": "플래그 설정 2",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413ab0",
+      "section": ".rodata",
+      "offset": "4274864",
+      "virtual_address": "5319344",
+      "source": "セルシェーダの色を指定します。128でもとの色になります",
+      "target": "셀 셰이더 색을 지정합니다. 128이면 원래 색이 됩니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413b18",
+      "section": ".rodata",
+      "offset": "4274968",
+      "virtual_address": "5319448",
+      "source": "フラグ設定3について",
+      "target": "플래그 설정 3",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413b48",
+      "section": ".rodata",
+      "offset": "4275016",
+      "virtual_address": "5319496",
+      "source": "オブジェクトの表示について",
+      "target": "오브젝트 표시",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413b68",
+      "section": ".rodata",
+      "offset": "4275048",
+      "virtual_address": "5319528",
+      "source": "ハイドリストを選択します。○で実行します",
+      "target": "하이드 리스트를 선택합니다. ○로 실행합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413b98",
+      "section": ".rodata",
+      "offset": "4275096",
+      "virtual_address": "5319576",
+      "source": "ハイドリストのフラグを選択します。0でそのまま、1で反転した動作をします",
+      "target": "하이드 리스트의 플래그를 선택합니다. 0은 그대로, 1은 반전 동작입니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413be0",
+      "section": ".rodata",
+      "offset": "4275168",
+      "virtual_address": "5319648",
+      "source": "オブジェクトの表示を選択します。○で実行します",
+      "target": "오브젝트 표시를 선택합니다. ○로 실행합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413c10",
+      "section": ".rodata",
+      "offset": "4275216",
+      "virtual_address": "5319696",
+      "source": "セクションの選択をします。○で実行します。*現在動作していません",
+      "target": "섹션을 선택합니다. ○로 실행합니다. *현재 동작하지 않습니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413cc8",
+      "section": ".rodata",
+      "offset": "4275400",
+      "virtual_address": "5319880",
+      "source": "効果音について",
+      "target": "효과음",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413cd8",
+      "section": ".rodata",
+      "offset": "4275416",
+      "virtual_address": "5319896",
+      "source": "効果音のバンクを選択します。○で効果音を発音します",
+      "target": "효과음 뱅크를 선택합니다. ○로 효과음을 재생합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413d10",
+      "section": ".rodata",
+      "offset": "4275472",
+      "virtual_address": "5319952",
+      "source": "効果音の音程を選択します。○で効果音を発音します",
+      "target": "효과음 음정을 선택합니다. ○로 효과음을 재생합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413d48",
+      "section": ".rodata",
+      "offset": "4275528",
+      "virtual_address": "5320008",
+      "source": "効果音のタイプを選択します。MAPでマップ用、EVEでイベント用の効果音選択します。○で効果音を読み込みます",
+      "target": "효과음 타입을 선택합니다. MAP은 맵용, EVE는 이벤트용 효과음을 선택합니다. ○로 효과음을 불러옵니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413db0",
+      "section": ".rodata",
+      "offset": "4275632",
+      "virtual_address": "5320112",
+      "source": "効果音の番号の上位2ケタを選択します。○で効果音を読み込みます",
+      "target": "효과음 번호의 상위 2자리를 선택합니다. ○로 효과음을 불러옵니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413df0",
+      "section": ".rodata",
+      "offset": "4275696",
+      "virtual_address": "5320176",
+      "source": "効果音の番号の下位4ケタを選択します。○で効果音を読み込みます",
+      "target": "효과음 번호의 하위 4자리를 선택합니다. ○로 효과음을 불러옵니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413f20",
+      "section": ".rodata",
+      "offset": "4276000",
+      "virtual_address": "5320480",
+      "source": "ムービーについて",
+      "target": "무비",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413f38",
+      "section": ".rodata",
+      "offset": "4276024",
+      "virtual_address": "5320504",
+      "source": "PSSタイプのムービーを再生します。○で再生、×で停止します。",
+      "target": "PSS 타입 무비를 재생합니다. ○로 재생, ×로 정지합니다.",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413f78",
+      "section": ".rodata",
+      "offset": "4276088",
+      "virtual_address": "5320568",
+      "source": "IPUタイプのムービーを再生します。○で再生、×で停止します。",
+      "target": "IPU 타입 무비를 재생합니다. ○로 재생, ×로 정지합니다.",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00413fe8",
+      "section": ".rodata",
+      "offset": "4276200",
+      "virtual_address": "5320680",
+      "source": "デバッグについて",
+      "target": "디버그",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414000",
+      "section": ".rodata",
+      "offset": "4276224",
+      "virtual_address": "5320704",
+      "source": "デバッグメッセージの表示を選択します。OFFで非表示、ONで全表示、ON2でCPUとGPUだけ表示します",
+      "target": "디버그 메시지 표시를 선택합니다. OFF는 숨김, ON은 전체 표시, ON2는 CPU와 GPU만 표시합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414060",
+      "section": ".rodata",
+      "offset": "4276320",
+      "virtual_address": "5320800",
+      "source": "ステータスの表示を選択します。OFFで非表示、ON1でSYNCフラグを表示、ON2でボーンネームの表示",
+      "target": "상태 표시를 선택합니다. OFF는 숨김, ON1은 SYNC 플래그 표시, ON2는 본 이름 표시입니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004140c0",
+      "section": ".rodata",
+      "offset": "4276416",
+      "virtual_address": "5320896",
+      "source": "ワールドグリッドの表示を選択します。OFFで非表示、ONで表示します",
+      "target": "월드 그리드 표시를 선택합니다. OFF는 숨김, ON은 표시합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414100",
+      "section": ".rodata",
+      "offset": "4276480",
+      "virtual_address": "5320960",
+      "source": "キャプチャ動作を選択します。OFFで無効、ONで有効になります。",
+      "target": "캡처 동작을 선택합니다. OFF는 무효, ON은 유효입니다.",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414140",
+      "section": ".rodata",
+      "offset": "4276544",
+      "virtual_address": "5321024",
+      "source": "漢字テストをします",
+      "target": "한자 테스트를 합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414158",
+      "section": ".rodata",
+      "offset": "4276568",
+      "virtual_address": "5321048",
+      "source": "バウンディングボックスのテストをします。DEFでデフォルト、CHKでチェック有効、NONでチェック無効です。ユーザーは変更しないでください",
+      "target": "바운딩 박스 테스트를 합니다. DEF는 기본값, CHK는 체크 유효, NON은 체크 무효입니다. 사용자는 변경하지 마십시오",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004141e0",
+      "section": ".rodata",
+      "offset": "4276704",
+      "virtual_address": "5321184",
+      "source": "データをリロードします。○で実行します",
+      "target": "데이터를 다시 불러옵니다. ○로 실행합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414208",
+      "section": ".rodata",
+      "offset": "4276744",
+      "virtual_address": "5321224",
+      "source": "実行モードを変更します。○で実行します",
+      "target": "실행 모드를 변경합니다. ○로 실행합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414230",
+      "section": ".rodata",
+      "offset": "4276784",
+      "virtual_address": "5321264",
+      "source": "言語を選択します。JAPANESEで日本語、ENGLISHで英語、CHINESEで中国語になります",
+      "target": "언어를 선택합니다. JAPANESE는 일본어, ENGLISH는 영어, CHINESE는 중국어입니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414280",
+      "section": ".rodata",
+      "offset": "4276864",
+      "virtual_address": "5321344",
+      "source": "ヘルプの表示を選択します。OFFで非表示、ONで表示します",
+      "target": "도움말 표시를 선택합니다. OFF는 숨김, ON은 표시합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004143a0",
+      "section": ".rodata",
+      "offset": "4277152",
+      "virtual_address": "5321632",
+      "source": "テクスチャについて",
+      "target": "텍스처",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004143b8",
+      "section": ".rodata",
+      "offset": "4277176",
+      "virtual_address": "5321656",
+      "source": "登録VLYを表示します。OFFで非表示",
+      "target": "등록된 VLY를 표시합니다. OFF는 숨김",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004143e0",
+      "section": ".rodata",
+      "offset": "4277216",
+      "virtual_address": "5321696",
+      "source": "登録テクスチャを表示します。OFFで非表示",
+      "target": "등록된 텍스처를 표시합니다. OFF는 숨김",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414408",
+      "section": ".rodata",
+      "offset": "4277256",
+      "virtual_address": "5321736",
+      "source": "テクスチャの表示倍率を選択します",
+      "target": "텍스처 표시 배율을 선택합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414430",
+      "section": ".rodata",
+      "offset": "4277296",
+      "virtual_address": "5321776",
+      "source": "ミップマップの値を選択します",
+      "target": "밉맵 값을 선택합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414450",
+      "section": ".rodata",
+      "offset": "4277328",
+      "virtual_address": "5321808",
+      "source": "拡大時のフィルタリングを選択します。Nでポイント、Lでバイリニア",
+      "target": "확대 시 필터링을 선택합니다. N은 포인트, L은 바이리니어",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414490",
+      "section": ".rodata",
+      "offset": "4277392",
+      "virtual_address": "5321872",
+      "source": "縮小時のフィルタリングを選択します。Nでポイント、Lでバイリニア、NMNでミップマップ、NMLでミップマップ線形補完、LMNでバイリニアミップマップ、LMLでトライリニア",
+      "target": "축소 시 필터링을 선택합니다. N은 포인트, L은 바이리니어, NMN은 밉맵, NML은 밉맵 선형 보간, LMN은 바이리니어 밉맵, LML은 트라이리니어",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414530",
+      "section": ".rodata",
+      "offset": "4277552",
+      "virtual_address": "5322032",
+      "source": "半透明のタイプを選択します。NONで不透明、HALFで半透明、ADDで加算、SUBで減算、NEGで反転",
+      "target": "반투명 타입을 선택합니다. NON은 불투명, HALF는 반투명, ADD는 가산, SUB는 감산, NEG는 반전",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414588",
+      "section": ".rodata",
+      "offset": "4277640",
+      "virtual_address": "5322120",
+      "source": "アルファ値を選択します。1.0で不透明になります",
+      "target": "알파 값을 선택합니다. 1.0이면 불투명이 됩니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004145b8",
+      "section": ".rodata",
+      "offset": "4277688",
+      "virtual_address": "5322168",
+      "source": "登録CLUTの表示をします。OFFで非表示です。*現在動作していません",
+      "target": "등록된 CLUT를 표시합니다. OFF는 숨김입니다. *현재 동작하지 않습니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004145f8",
+      "section": ".rodata",
+      "offset": "4277752",
+      "virtual_address": "5322232",
+      "source": "登録CELSの表示をします。OFFで非表示です。*現在動作していません",
+      "target": "등록된 CELS를 표시합니다. OFF는 숨김입니다. *현재 동작하지 않습니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414638",
+      "section": ".rodata",
+      "offset": "4277816",
+      "virtual_address": "5322296",
+      "source": "CLUTオフセットを選択します",
+      "target": "CLUT 오프셋을 선택합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004146b0",
+      "section": ".rodata",
+      "offset": "4277936",
+      "virtual_address": "5322416",
+      "source": "背景について",
+      "target": "배경",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004146c0",
+      "section": ".rodata",
+      "offset": "4277952",
+      "virtual_address": "5322432",
+      "source": "ミップマップのLを指定します。Lはミップマップの掛かる強さ",
+      "target": "밉맵의 L을 지정합니다. L은 밉맵이 적용되는 강도입니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414700",
+      "section": ".rodata",
+      "offset": "4278016",
+      "virtual_address": "5322496",
+      "source": "ミップマップのZ0を指定します。Z0はミップマップが掛かり始める距離",
+      "target": "밉맵의 Z0를 지정합니다. Z0는 밉맵 적용이 시작되는 거리입니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414748",
+      "section": ".rodata",
+      "offset": "4278088",
+      "virtual_address": "5322568",
+      "source": "地形用をシーンを選択します。OFFで非表示です。○で実行します",
+      "target": "지형용 씬을 선택합니다. OFF는 숨김입니다. ○로 실행합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414788",
+      "section": ".rodata",
+      "offset": "4278152",
+      "virtual_address": "5322632",
+      "source": "地形用コマンドを選択します。○で実行します",
+      "target": "지형용 커맨드를 선택합니다. ○로 실행합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414830",
+      "section": ".rodata",
+      "offset": "4278320",
+      "virtual_address": "5322800",
+      "source": "ライトについて",
+      "target": "라이트",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414840",
+      "section": ".rodata",
+      "offset": "4278336",
+      "virtual_address": "5322816",
+      "source": "アンビエントを指定します",
+      "target": "앰비언트를 지정합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414888",
+      "section": ".rodata",
+      "offset": "4278408",
+      "virtual_address": "5322888",
+      "source": "カメラモーションについて",
+      "target": "카메라 모션",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004148a8",
+      "section": ".rodata",
+      "offset": "4278440",
+      "virtual_address": "5322920",
+      "source": "カメラモーションの有効、無効を設定します。OFFで無効、ONで有効です、GRDで地形に対して有効になるます。有効になっている場合パッドでのカメラ移動はできなくなります",
+      "target": "카메라 모션의 유효/무효를 설정합니다. OFF는 무효, ON은 유효, GRD는 지형에 대해 유효합니다. 유효한 경우 패드로 카메라를 이동할 수 없습니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414948",
+      "section": ".rodata",
+      "offset": "4278600",
+      "virtual_address": "5323080",
+      "source": "カメラモーションのシーン番号を選択します。○で実行、×で停止します",
+      "target": "카메라 모션의 씬 번호를 선택합니다. ○로 실행, ×로 정지합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414990",
+      "section": ".rodata",
+      "offset": "4278672",
+      "virtual_address": "5323152",
+      "source": "カメラモーションのコマンド番号を選択します。○で実行、×で停止します",
+      "target": "카메라 모션의 커맨드 번호를 선택합니다. ○로 실행, ×로 정지합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004149d8",
+      "section": ".rodata",
+      "offset": "4278744",
+      "virtual_address": "5323224",
+      "source": "カメラモーションをワールド座標で再生するか、ローカル座標で再生するか指定します。WOLRDでワールド座標系、LOCALでローカル座標系",
+      "target": "카메라 모션을 월드 좌표에서 재생할지 로컬 좌표에서 재생할지 지정합니다. WOLRD는 월드 좌표계, LOCAL은 로컬 좌표계",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414a58",
+      "section": ".rodata",
+      "offset": "4278872",
+      "virtual_address": "5323352",
+      "source": "カメラモーションを有効、無効を設定します。OFFで無効、ONで有効",
+      "target": "카메라 모션의 유효/무효를 설정합니다. OFF는 무효, ON은 유효",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414a98",
+      "section": ".rodata",
+      "offset": "4278936",
+      "virtual_address": "5323416",
+      "source": "カメラモーションのFOVの有効、無効を設定します。OFFで無効、ONで有効",
+      "target": "카메라 모션 FOV의 유효/무효를 설정합니다. OFF는 무효, ON은 유효",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414b08",
+      "section": ".rodata",
+      "offset": "4279048",
+      "virtual_address": "5323528",
+      "source": "パスモーションについて",
+      "target": "패스 모션",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414b20",
+      "section": ".rodata",
+      "offset": "4279072",
+      "virtual_address": "5323552",
+      "source": "パスモーションの有効、無効を設定します。OFFで無効、ONで有効です、GRDで地形に対して有効になるます。",
+      "target": "패스 모션의 유효/무효를 설정합니다. OFF는 무효, ON은 유효, GRD는 지형에 대해 유효합니다.",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414b88",
+      "section": ".rodata",
+      "offset": "4279176",
+      "virtual_address": "5323656",
+      "source": "パスモーションのシーン番号を選択します。○で実行、×で停止します",
+      "target": "패스 모션의 씬 번호를 선택합니다. ○로 실행, ×로 정지합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414bd0",
+      "section": ".rodata",
+      "offset": "4279248",
+      "virtual_address": "5323728",
+      "source": "パスモーションのコマンド番号を選択します。○で実行、×で停止します",
+      "target": "패스 모션의 커맨드 번호를 선택합니다. ○로 실행, ×로 정지합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414c18",
+      "section": ".rodata",
+      "offset": "4279320",
+      "virtual_address": "5323800",
+      "source": "パスモーションをワールド座標で再生するか、ローカル座標で再生するか指定します。WOLRDでワールド座標系、LOCALでローカル座標系",
+      "target": "패스 모션을 월드 좌표에서 재생할지 로컬 좌표에서 재생할지 지정합니다. WOLRD는 월드 좌표계, LOCAL은 로컬 좌표계",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414c98",
+      "section": ".rodata",
+      "offset": "4279448",
+      "virtual_address": "5323928",
+      "source": "パスモーションを有効、無効を設定します。OFFで無効、ONで有効",
+      "target": "패스 모션의 유효/무효를 설정합니다. OFF는 무효, ON은 유효",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414cf0",
+      "section": ".rodata",
+      "offset": "4279536",
+      "virtual_address": "5324016",
+      "source": "影について",
+      "target": "그림자",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414d00",
+      "section": ".rodata",
+      "offset": "4279552",
+      "virtual_address": "5324032",
+      "source": "影の表示を選択します。モデルごとの指定になります",
+      "target": "그림자 표시를 선택합니다. 모델별로 지정됩니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414d38",
+      "section": ".rodata",
+      "offset": "4279608",
+      "virtual_address": "5324088",
+      "source": "シャドウボリュームの表示を選択します。NORMで通常。POLYでポリゴン表示、LINEでライン表示、OFFで非表示になります",
+      "target": "섀도 볼륨 표시를 선택합니다. NORM은 일반, POLY는 폴리곤 표시, LINE은 라인 표시, OFF는 숨김입니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414da8",
+      "section": ".rodata",
+      "offset": "4279720",
+      "virtual_address": "5324200",
+      "source": "丸影の位置を自動計算します。OFFで無効、ONで有効",
+      "target": "원형 그림자 위치를 자동 계산합니다. OFF는 무효, ON은 유효",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414dd8",
+      "section": ".rodata",
+      "offset": "4279768",
+      "virtual_address": "5324248",
+      "source": "影のタイプを選択します。SVOLでシャドウボリューム、CIRで丸影",
+      "target": "그림자 타입을 선택합니다. SVOL은 섀도 볼륨, CIR은 원형 그림자",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414e18",
+      "section": ".rodata",
+      "offset": "4279832",
+      "virtual_address": "5324312",
+      "source": "シャドウボリュームのセルシェーダに落ちる影の輝度を指定します。255でセルシェーダの一番濃い色と同じになります",
+      "target": "섀도 볼륨이 셀 셰이더에 드리우는 그림자의 휘도를 지정합니다. 255는 셀 셰이더의 가장 진한 색과 같습니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00414e88",
+      "section": ".rodata",
+      "offset": "4279944",
+      "virtual_address": "5324424",
+      "source": "シャドウボリュームのセルシェーダ以外のものに落ちる影の輝度を指定します。255で不透明な黒になります",
+      "target": "섀도 볼륨이 셀 셰이더 이외에 드리우는 그림자의 휘도를 지정합니다. 255는 불투명한 검정입니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00415900",
+      "section": ".rodata",
+      "offset": "4282624",
+      "virtual_address": "5327104",
+      "source": "ビュワー開始---------------------------------------",
+      "target": "뷰어 시작---------------------------------------",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00415980",
+      "section": ".rodata",
+      "offset": "4282752",
+      "virtual_address": "5327232",
+      "source": "キャプチャービュワー開始---------------------------------------",
+      "target": "캡처 뷰어 시작---------------------------------------",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00415a20",
+      "section": ".rodata",
+      "offset": "4282912",
+      "virtual_address": "5327392",
+      "source": "ビュワー削除---------------------------------------",
+      "target": "뷰어 삭제---------------------------------------",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00415a58",
+      "section": ".rodata",
+      "offset": "4282968",
+      "virtual_address": "5327448",
+      "source": "音声削除(%s)\n",
+      "target": "음성 삭제(%s)\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00415a68",
+      "section": ".rodata",
+      "offset": "4282984",
+      "virtual_address": "5327464",
+      "source": "ビュワー削除終了---------------------------------------",
+      "target": "뷰어 삭제 종료---------------------------------------",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00415bf8",
+      "section": ".rodata",
+      "offset": "4283384",
+      "virtual_address": "5327864",
+      "source": "scene[%d]のコマンド[%d]が存在しません\n",
+      "target": "scene[%d]의 커맨드[%d]가 존재하지 않습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00415c60",
+      "section": ".rodata",
+      "offset": "4283488",
+      "virtual_address": "5327968",
+      "source": "TEST漢字テストでーん■□凹凸",
+      "target": "",
+      "status": "untranslated"
+    },
+    {
+      "id": "ELF:0x00415cf0",
+      "section": ".rodata",
+      "offset": "4283632",
+      "virtual_address": "5328112",
+      "source": "%s の読み込みに失敗\n",
+      "target": "%s 불러오기에 실패\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004179b8",
+      "section": ".rodata",
+      "offset": "4291000",
+      "virtual_address": "5335480",
+      "source": "カーソル移動禁止 = %d",
+      "target": "커서 이동 금지 = %d",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004179d0",
+      "section": ".rodata",
+      "offset": "4291024",
+      "virtual_address": "5335504",
+      "source": "浮遊禁止         = %d",
+      "target": "부유 금지         = %d",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004179e8",
+      "section": ".rodata",
+      "offset": "4291048",
+      "virtual_address": "5335528",
+      "source": "移動禁止         = %d",
+      "target": "이동 금지         = %d",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00417a00",
+      "section": ".rodata",
+      "offset": "4291072",
+      "virtual_address": "5335552",
+      "source": "形状タイプ       = %0X (%s,%s,%s,%s) 分割(%d)",
+      "target": "형상 타입       = %0X (%s,%s,%s,%s) 분할(%d)",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00417a30",
+      "section": ".rodata",
+      "offset": "4291120",
+      "virtual_address": "5335600",
+      "source": "高さ(MIから)         = % 7.2f",
+      "target": "높이(MI 기준)         = % 7.2f",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00417a50",
+      "section": ".rodata",
+      "offset": "4291152",
+      "virtual_address": "5335632",
+      "source": "高さ(コリジョンから) = % 7.2f",
+      "target": "높이(콜리전 기준) = % 7.2f",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00417aa0",
+      "section": ".rodata",
+      "offset": "4291232",
+      "virtual_address": "5335712",
+      "source": "初期配置可能       = %d",
+      "target": "초기 배치 가능       = %d",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00417ab8",
+      "section": ".rodata",
+      "offset": "4291256",
+      "virtual_address": "5335736",
+      "source": "初期配置可能サイズ = %d",
+      "target": "초기 배치 가능 크기 = %d",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00417ad0",
+      "section": ".rodata",
+      "offset": "4291280",
+      "virtual_address": "5335760",
+      "source": "初期配置順         = %d",
+      "target": "초기 배치 순서       = %d",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00417ae8",
+      "section": ".rodata",
+      "offset": "4291304",
+      "virtual_address": "5335784",
+      "source": "初期配置向き       = %d",
+      "target": "초기 배치 방향       = %d",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00417df0",
+      "section": ".rodata",
+      "offset": "4292080",
+      "virtual_address": "5336560",
+      "source": "マップ名の表示\n",
+      "target": "맵 이름 표시\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00417e28",
+      "section": ".rodata",
+      "offset": "4292136",
+      "virtual_address": "5336616",
+      "source": "自軍処理\n",
+      "target": "아군 처리\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00417e38",
+      "section": ".rodata",
+      "offset": "4292152",
+      "virtual_address": "5336632",
+      "source": "不明なイベント %d\n",
+      "target": "알 수 없는 이벤트 %d\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00417ea8",
+      "section": ".rodata",
+      "offset": "4292264",
+      "virtual_address": "5336744",
+      "source": "移動処理\n",
+      "target": "이동 처리\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00417ef8",
+      "section": ".rodata",
+      "offset": "4292344",
+      "virtual_address": "5336824",
+      "source": "待機処理\n",
+      "target": "대기 처리\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00417f08",
+      "section": ".rodata",
+      "offset": "4292360",
+      "virtual_address": "5336840",
+      "source": "攻撃処理\n",
+      "target": "공격 처리\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00417f30",
+      "section": ".rodata",
+      "offset": "4292400",
+      "virtual_address": "5336880",
+      "source": "スキル処理\n",
+      "target": "스킬 처리\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00417f78",
+      "section": ".rodata",
+      "offset": "4292472",
+      "virtual_address": "5336952",
+      "source": "捕獲処理\n",
+      "target": "포획 처리\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00417fc0",
+      "section": ".rodata",
+      "offset": "4292544",
+      "virtual_address": "5337024",
+      "source": "再行動処理\n",
+      "target": "재행동 처리\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00418038",
+      "section": ".rodata",
+      "offset": "4292664",
+      "virtual_address": "5337144",
+      "source": "双撃処理\n",
+      "target": "쌍격 처리\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00418068",
+      "section": ".rodata",
+      "offset": "4292712",
+      "virtual_address": "5337192",
+      "source": "退喚処理\n",
+      "target": "퇴환 처리\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00418090",
+      "section": ".rodata",
+      "offset": "4292752",
+      "virtual_address": "5337232",
+      "source": "開ける処理\n",
+      "target": "열기 처리\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004180e0",
+      "section": ".rodata",
+      "offset": "4292832",
+      "virtual_address": "5337312",
+      "source": "道具処理\n",
+      "target": "도구 처리\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00418108",
+      "section": ".rodata",
+      "offset": "4292872",
+      "virtual_address": "5337352",
+      "source": "敵軍処理\n",
+      "target": "적군 처리\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00418118",
+      "section": ".rodata",
+      "offset": "4292888",
+      "virtual_address": "5337368",
+      "source": "戦闘終了判定処理\n",
+      "target": "전투 종료 판정 처리\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00418130",
+      "section": ".rodata",
+      "offset": "4292912",
+      "virtual_address": "5337392",
+      "source": "マップクリア処理\n",
+      "target": "맵 클리어 처리\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00418148",
+      "section": ".rodata",
+      "offset": "4292936",
+      "virtual_address": "5337416",
+      "source": "ゲームオーバー処理\n",
+      "target": "게임 오버 처리\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00418160",
+      "section": ".rodata",
+      "offset": "4292960",
+      "virtual_address": "5337440",
+      "source": "システムメニュー処理\n",
+      "target": "시스템 메뉴 처리\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00418178",
+      "section": ".rodata",
+      "offset": "4292984",
+      "virtual_address": "5337464",
+      "source": "ユニットウィンドウ処理\n",
+      "target": "유닛 윈도 처리\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00418190",
+      "section": ".rodata",
+      "offset": "4293008",
+      "virtual_address": "5337488",
+      "source": "レベルアップ判定\n",
+      "target": "레벨업 판정\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0041a0a8",
+      "section": ".rodata",
+      "offset": "4300968",
+      "virtual_address": "5345448",
+      "source": "TLB不一致（ロードor命令）",
+      "target": "TLB 불일치(로드 또는 명령)",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0041a0c8",
+      "section": ".rodata",
+      "offset": "4301000",
+      "virtual_address": "5345480",
+      "source": "TLB不一致（ストア）",
+      "target": "TLB 불일치(스토어)",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0041a0e0",
+      "section": ".rodata",
+      "offset": "4301024",
+      "virtual_address": "5345504",
+      "source": "アドレスエラー（ロードor命令）",
+      "target": "주소 오류(로드 또는 명령)",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0041a100",
+      "section": ".rodata",
+      "offset": "4301056",
+      "virtual_address": "5345536",
+      "source": "アドレスエラー（ストア）",
+      "target": "주소 오류(스토어)",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0041a120",
+      "section": ".rodata",
+      "offset": "4301088",
+      "virtual_address": "5345568",
+      "source": "バスエラー（命令）",
+      "target": "버스 오류(명령)",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0041a138",
+      "section": ".rodata",
+      "offset": "4301112",
+      "virtual_address": "5345592",
+      "source": "バスエラー（ロードorストア）",
+      "target": "버스 오류(로드 또는 스토어)",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0041a158",
+      "section": ".rodata",
+      "offset": "4301144",
+      "virtual_address": "5345624",
+      "source": "システムコール",
+      "target": "시스템 콜",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0041a168",
+      "section": ".rodata",
+      "offset": "4301160",
+      "virtual_address": "5345640",
+      "source": "ブレークポイント",
+      "target": "브레이크포인트",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0041a180",
+      "section": ".rodata",
+      "offset": "4301184",
+      "virtual_address": "5345664",
+      "source": "予約命令",
+      "target": "예약 명령",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0041a190",
+      "section": ".rodata",
+      "offset": "4301200",
+      "virtual_address": "5345680",
+      "source": "コプロセッサ不使用",
+      "target": "코프로세서 미사용",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0041a1a8",
+      "section": ".rodata",
+      "offset": "4301224",
+      "virtual_address": "5345704",
+      "source": "Trap 例外",
+      "target": "Trap 예외",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0041a1b8",
+      "section": ".rodata",
+      "offset": "4301240",
+      "virtual_address": "5345720",
+      "source": "算術オーバーフロー",
+      "target": "산술 오버플로",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0041a1d0",
+      "section": ".rodata",
+      "offset": "4301264",
+      "virtual_address": "5345744",
+      "source": "\n** %s 例外 **\n",
+      "target": "\n** %s 예외 **\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0041a1f8",
+      "section": ".rodata",
+      "offset": "4301304",
+      "virtual_address": "5345784",
+      "source": "PC: %x  論理アドレス: %x  物理アドレス: %x\n\n",
+      "target": "PC: %x  논리 주소: %x  물리 주소: %x\n\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0041a410",
+      "section": ".rodata",
+      "offset": "4301840",
+      "virtual_address": "5346320",
+      "source": " この関数はFNAME_DIR_ONLY=1では正しく動作しません",
+      "target": " 이 함수는 FNAME_DIR_ONLY=1에서는 올바르게 동작하지 않습니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0041a448",
+      "section": ".rodata",
+      "offset": "4301896",
+      "virtual_address": "5346376",
+      "source": "ストリームスロット %d(%d) 初期化 %s freq=%d\n",
+      "target": "스트림 슬롯 %d(%d) 초기화 %s freq=%d\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0041a5c8",
+      "section": ".rodata",
+      "offset": "4302280",
+      "virtual_address": "5346760",
+      "source": "\nErr : Moduleの数が多い max_num=%d\n",
+      "target": "\nErr : Module 수가 너무 많음 max_num=%d\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0041aa38",
+      "section": ".rodata",
+      "offset": "4303416",
+      "virtual_address": "5347896",
+      "source": ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> %d(%d)解放\n",
+      "target": ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> %d(%d) 해제\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0041ab00",
+      "section": ".rodata",
+      "offset": "4303616",
+      "virtual_address": "5348096",
+      "source": "エラー初期化",
+      "target": "오류 초기화",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0041ab30",
+      "section": ".rodata",
+      "offset": "4303664",
+      "virtual_address": "5348144",
+      "source": "FileOpen成功:(%s)\n",
+      "target": "FileOpen 성공:(%s)\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00424210",
+      "section": ".rodata",
+      "offset": "4342288",
+      "virtual_address": "5386768",
+      "source": "渉u>渉u>渉u>",
+      "target": "",
+      "status": "untranslated"
+    },
+    {
+      "id": "ELF:0x00424220",
+      "section": ".rodata",
+      "offset": "4342304",
+      "virtual_address": "5386784",
+      "source": "あなたのネットワーク設定ファイル",
+      "target": "당신의 네트워크 설정 파일",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00424960",
+      "section": ".rodata",
+      "offset": "4344160",
+      "virtual_address": "5388640",
+      "source": "同じ名前がある[%s]\n",
+      "target": "같은 이름이 있습니다[%s]\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004249a8",
+      "section": ".rodata",
+      "offset": "4344232",
+      "virtual_address": "5388712",
+      "source": "丸影モデル(%s):OBJ(%s)\n",
+      "target": "원형 그림자 모델(%s):OBJ(%s)\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004249d0",
+      "section": ".rodata",
+      "offset": "4344272",
+      "virtual_address": "5388752",
+      "source": "sync=%dは範囲外\n",
+      "target": "sync=%d는 범위 밖입니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00424a90",
+      "section": ".rodata",
+      "offset": "4344464",
+      "virtual_address": "5388944",
+      "source": "%s UPSデータではありません\n",
+      "target": "%s는 UPS 데이터가 아닙니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00424ab0",
+      "section": ".rodata",
+      "offset": "4344496",
+      "virtual_address": "5388976",
+      "source": "%s [ver %s]UPSバージョンが違う\n",
+      "target": "%s [ver %s]UPS 버전이 다릅니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00424ad0",
+      "section": ".rodata",
+      "offset": "4344528",
+      "virtual_address": "5389008",
+      "source": "%s [ver %s]UPSバージョンが古いです\n",
+      "target": "%s [ver %s]UPS 버전이 오래되었습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00424af8",
+      "section": ".rodata",
+      "offset": "4344568",
+      "virtual_address": "5389048",
+      "source": "upsz.exeをバージョンアップしてください!!",
+      "target": "upsz.exe를 버전 업해 주세요!!",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00424bd0",
+      "section": ".rodata",
+      "offset": "4344784",
+      "virtual_address": "5389264",
+      "source": "データ読み込み失敗",
+      "target": "데이터 불러오기 실패",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00424c58",
+      "section": ".rodata",
+      "offset": "4344920",
+      "virtual_address": "5389400",
+      "source": "%sと%sのオブジェクト名が一致しない!!\n",
+      "target": "%s와 %s의 오브젝트 이름이 일치하지 않습니다!!\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00424c80",
+      "section": ".rodata",
+      "offset": "4344960",
+      "virtual_address": "5389440",
+      "source": "Morph[%d][%s]:mtl(%s)が見つかりません\n",
+      "target": "Morph[%d][%s]:mtl(%s)을 찾을 수 없습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00424ca8",
+      "section": ".rodata",
+      "offset": "4345000",
+      "virtual_address": "5389480",
+      "source": "Morph[%d][%s]が見つかりません\n",
+      "target": "Morph[%d][%s]을 찾을 수 없습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00424ce8",
+      "section": ".rodata",
+      "offset": "4345064",
+      "virtual_address": "5389544",
+      "source": "Section[%d][%s]が見つかりません\n",
+      "target": "Section[%d][%s]을 찾을 수 없습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00424d60",
+      "section": ".rodata",
+      "offset": "4345184",
+      "virtual_address": "5389664",
+      "source": "Section[%d]のobj(%s)が見つかりません!!\n",
+      "target": "Section[%d]의 obj(%s)을 찾을 수 없습니다!!\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00424d88",
+      "section": ".rodata",
+      "offset": "4345224",
+      "virtual_address": "5389704",
+      "source": "Path[%d][%s]が見つかりません\n",
+      "target": "Path[%d][%s]을 찾을 수 없습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00424da8",
+      "section": ".rodata",
+      "offset": "4345256",
+      "virtual_address": "5389736",
+      "source": "Camera[%d][%s]が見つかりません\n",
+      "target": "Camera[%d][%s]을 찾을 수 없습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00424dc8",
+      "section": ".rodata",
+      "offset": "4345288",
+      "virtual_address": "5389768",
+      "source": "UPSSTACKオーバー!!",
+      "target": "UPSSTACK 오버!!",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00424df0",
+      "section": ".rodata",
+      "offset": "4345328",
+      "virtual_address": "5389808",
+      "source": "mot[%d]が設定できませんでした\n",
+      "target": "mot[%d]을 설정할 수 없었습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00424e60",
+      "section": ".rodata",
+      "offset": "4345440",
+      "virtual_address": "5389920",
+      "source": "SetUPLMtlBackImageコマンド実行",
+      "target": "SetUPLMtlBackImage 커맨드 실행",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00424f00",
+      "section": ".rodata",
+      "offset": "4345600",
+      "virtual_address": "5390080",
+      "source": "[%d]%sの最大値は%dです",
+      "target": "[%d]%s의 최댓값은 %d입니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00424f50",
+      "section": ".rodata",
+      "offset": "4345680",
+      "virtual_address": "5390160",
+      "source": "GetUPLMapCol:modelがない!!-------------------",
+      "target": "GetUPLMapCol:model이 없음!!-------------------",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00424f80",
+      "section": ".rodata",
+      "offset": "4345728",
+      "virtual_address": "5390208",
+      "source": "GetUPLMapCol:mapcolがない!!-------------------",
+      "target": "GetUPLMapCol:mapcol이 없음!!-------------------",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00424fb0",
+      "section": ".rodata",
+      "offset": "4345776",
+      "virtual_address": "5390256",
+      "source": "mapcolがNULLです------------------------------!!",
+      "target": "mapcol이 NULL입니다------------------------------!!",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00424fe8",
+      "section": ".rodata",
+      "offset": "4345832",
+      "virtual_address": "5390312",
+      "source": "tribuffが確保されてません!!(AllocUPLMapColTriBuffで確保すること)",
+      "target": "tribuff가 확보되지 않았습니다!!(AllocUPLMapColTriBuff로 확보할 것)",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00425068",
+      "section": ".rodata",
+      "offset": "4345960",
+      "virtual_address": "5390440",
+      "source": "%sコリ(%d)\n",
+      "target": "%s 콜리전(%d)\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004253c0",
+      "section": ".rodata",
+      "offset": "4346816",
+      "virtual_address": "5391296",
+      "source": "%s %d:MallocTMP_buffの空きがない\n",
+      "target": "%s %d:MallocTMP_buff의 빈 공간이 없습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004253e8",
+      "section": ".rodata",
+      "offset": "4346856",
+      "virtual_address": "5391336",
+      "source": "%s %d:指定のMallocTMP_buffがない\n",
+      "target": "%s %d:지정한 MallocTMP_buff가 없습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00425410",
+      "section": ".rodata",
+      "offset": "4346896",
+      "virtual_address": "5391376",
+      "source": "%s %d:malloctmpが0以下になった(%d)\n",
+      "target": "%s %d:malloctmp가 0 이하가 되었습니다(%d)\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00425448",
+      "section": ".rodata",
+      "offset": "4346952",
+      "virtual_address": "5391432",
+      "source": "(%08x):(%08x)アドレスおかしい\n",
+      "target": "(%08x):(%08x) 주소가 이상합니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00425478",
+      "section": ".rodata",
+      "offset": "4347000",
+      "virtual_address": "5391480",
+      "source": "%sが見つかりません\n",
+      "target": "%s을 찾을 수 없습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00425490",
+      "section": ".rodata",
+      "offset": "4347024",
+      "virtual_address": "5391504",
+      "source": "%s UPLファイルではありません\n",
+      "target": "%s는 UPL 파일이 아닙니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004254b0",
+      "section": ".rodata",
+      "offset": "4347056",
+      "virtual_address": "5391536",
+      "source": "%s[ver%d] UPLのバージョンが違います\n",
+      "target": "%s[ver%d] UPL 버전이 다릅니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004254d8",
+      "section": ".rodata",
+      "offset": "4347096",
+      "virtual_address": "5391576",
+      "source": "%s[ver%d] UPLのバージョンが古いです!!\n",
+      "target": "%s[ver%d] UPL 버전이 오래되었습니다!!\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00425500",
+      "section": ".rodata",
+      "offset": "4347136",
+      "virtual_address": "5391616",
+      "source": "uplexpをバージョンアップしてください!!\n",
+      "target": "uplexp를 버전 업해 주세요!!\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00425528",
+      "section": ".rodata",
+      "offset": "4347176",
+      "virtual_address": "5391656",
+      "source": "影モデルに通常モデルが指定されています",
+      "target": "그림자 모델에 일반 모델이 지정되어 있습니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00425550",
+      "section": ".rodata",
+      "offset": "4347216",
+      "virtual_address": "5391696",
+      "source": "通常モデルに影モデルが指定されています",
+      "target": "일반 모델에 그림자 모델이 지정되어 있습니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00425578",
+      "section": ".rodata",
+      "offset": "4347256",
+      "virtual_address": "5391736",
+      "source": "%s:obj(%s):読み込み失敗\n",
+      "target": "%s:obj(%s):불러오기 실패\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00425598",
+      "section": ".rodata",
+      "offset": "4347288",
+      "virtual_address": "5391768",
+      "source": "シャドウボリューム",
+      "target": "섀도 볼륨",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004255b0",
+      "section": ".rodata",
+      "offset": "4347312",
+      "virtual_address": "5391792",
+      "source": "mat[%d]=%d:マトリクステーブルは%dつまで!!\n",
+      "target": "mat[%d]=%d:매트릭스 테이블은 %d개까지!!\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004255e0",
+      "section": ".rodata",
+      "offset": "4347360",
+      "virtual_address": "5391840",
+      "source": "読み込み終了\n",
+      "target": "불러오기 종료\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004256d8",
+      "section": ".rodata",
+      "offset": "4347608",
+      "virtual_address": "5392088",
+      "source": "頂点サイズが合いません:obj(%s),surfbuff[%d]:calc(%d),vertsize0(%d),uv(%d),weit(%d),col(%d)\n",
+      "target": "정점 크기가 맞지 않습니다:obj(%s),surfbuff[%d]:calc(%d),vertsize0(%d),uv(%d),weit(%d),col(%d)\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00425738",
+      "section": ".rodata",
+      "offset": "4347704",
+      "virtual_address": "5392184",
+      "source": "%08xH[%08x]対応外のUPMコマンドです\n",
+      "target": "%08xH[%08x] 지원하지 않는 UPM 커맨드입니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004257a0",
+      "section": ".rodata",
+      "offset": "4347808",
+      "virtual_address": "5392288",
+      "source": "%sの読み込みに失敗しました\n",
+      "target": "%s 불러오기에 실패했습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00425828",
+      "section": ".rodata",
+      "offset": "4347944",
+      "virtual_address": "5392424",
+      "source": "%s UPMデータではありません\n",
+      "target": "%s는 UPM 데이터가 아닙니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00425848",
+      "section": ".rodata",
+      "offset": "4347976",
+      "virtual_address": "5392456",
+      "source": "%s [ver%08x]UPMバージョンが違う\n",
+      "target": "%s [ver%08x]UPM 버전이 다릅니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00425870",
+      "section": ".rodata",
+      "offset": "4348016",
+      "virtual_address": "5392496",
+      "source": "[%s]読み込み失敗\n",
+      "target": "[%s] 불러오기 실패\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004258c8",
+      "section": ".rodata",
+      "offset": "4348104",
+      "virtual_address": "5392584",
+      "source": "path[%s]読み込み失敗\n",
+      "target": "path[%s] 불러오기 실패\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004258e0",
+      "section": ".rodata",
+      "offset": "4348128",
+      "virtual_address": "5392608",
+      "source": "cam[%s]読み込み失敗\n",
+      "target": "cam[%s] 불러오기 실패\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004258f8",
+      "section": ".rodata",
+      "offset": "4348152",
+      "virtual_address": "5392632",
+      "source": "(%d)対応外の形式\n",
+      "target": "(%d) 지원하지 않는 형식\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00425910",
+      "section": ".rodata",
+      "offset": "4348176",
+      "virtual_address": "5392656",
+      "source": "テクスチャIDが足りません!!",
+      "target": "텍스처 ID가 부족합니다!!",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00425930",
+      "section": ".rodata",
+      "offset": "4348208",
+      "virtual_address": "5392688",
+      "source": "VRAMに確保しようとした!!",
+      "target": "VRAM에 확보하려 했습니다!!",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004259a8",
+      "section": ".rodata",
+      "offset": "4348328",
+      "virtual_address": "5392808",
+      "source": "CLUTの解放に失敗しました",
+      "target": "CLUT 해제에 실패했습니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004259c8",
+      "section": ".rodata",
+      "offset": "4348360",
+      "virtual_address": "5392840",
+      "source": "[%08x]のTEXHEADは登録されていません!!\n",
+      "target": "[%08x]의 TEXHEAD는 등록되어 있지 않습니다!!\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00425a00",
+      "section": ".rodata",
+      "offset": "4348416",
+      "virtual_address": "5392896",
+      "source": "システム-----------------------------",
+      "target": "시스템-----------------------------",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00425a48",
+      "section": ".rodata",
+      "offset": "4348488",
+      "virtual_address": "5392968",
+      "source": "登録テクスチャ-[total(%d/%d)]----------------------\n",
+      "target": "등록 텍스처-[total(%d/%d)]----------------------\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00425ad8",
+      "section": ".rodata",
+      "offset": "4348632",
+      "virtual_address": "5393112",
+      "source": "登録CLUT[total(%d/%d)]-----------------------\n",
+      "target": "등록 CLUT[total(%d/%d)]-----------------------\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00425b30",
+      "section": ".rodata",
+      "offset": "4348720",
+      "virtual_address": "5393200",
+      "source": "登録CELS[total(%d/%d)]-----------------------\n",
+      "target": "등록 CELS[total(%d/%d)]-----------------------\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00425c60",
+      "section": ".rodata",
+      "offset": "4349024",
+      "virtual_address": "5393504",
+      "source": "%s読み込み失敗\n",
+      "target": "%s 불러오기 실패\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00425c70",
+      "section": ".rodata",
+      "offset": "4349040",
+      "virtual_address": "5393520",
+      "source": "%s TIM2ファイルが壊れている\n",
+      "target": "%s TIM2 파일이 손상되었습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00425c90",
+      "section": ".rodata",
+      "offset": "4349072",
+      "virtual_address": "5393552",
+      "source": "%s ピクチャヘッダの取得失敗\n",
+      "target": "%s 픽처 헤더 가져오기 실패\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00425cb0",
+      "section": ".rodata",
+      "offset": "4349104",
+      "virtual_address": "5393584",
+      "source": "%s:(%s),(%d,%d)は不正なサイズです\n",
+      "target": "%s:(%s),(%d,%d)는 잘못된 크기입니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00425e28",
+      "section": ".rodata",
+      "offset": "4349480",
+      "virtual_address": "5393960",
+      "source": "変換してます---------------------------------",
+      "target": "변환 중---------------------------------",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042601f",
+      "section": ".rodata",
+      "offset": "4349983",
+      "virtual_address": "5394463",
+      "source": "Cスタックover",
+      "target": "C 스택 오버",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00426030",
+      "section": ".rodata",
+      "offset": "4350000",
+      "virtual_address": "5394480",
+      "source": "スタックerror",
+      "target": "스택 오류",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00426528",
+      "section": ".rodata",
+      "offset": "4351272",
+      "virtual_address": "5395752",
+      "source": "TBPがなくなりました",
+      "target": "TBP가 소진되었습니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00426540",
+      "section": ".rodata",
+      "offset": "4351296",
+      "virtual_address": "5395776",
+      "source": "CBPがなくなりました",
+      "target": "CBP가 소진되었습니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00426558",
+      "section": ".rodata",
+      "offset": "4351320",
+      "virtual_address": "5395800",
+      "source": "celsがなくなりました",
+      "target": "cels가 소진되었습니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00426570",
+      "section": ".rodata",
+      "offset": "4351344",
+      "virtual_address": "5395824",
+      "source": "[%s],ID(%d)テクスチャが見つからない\n",
+      "target": "[%s],ID(%d) 텍스처를 찾을 수 없습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00426598",
+      "section": ".rodata",
+      "offset": "4351384",
+      "virtual_address": "5395864",
+      "source": "[%s]ID(%d)CLUTが見つからない\n",
+      "target": "[%s]ID(%d) CLUT를 찾을 수 없습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004265b8",
+      "section": ".rodata",
+      "offset": "4351416",
+      "virtual_address": "5395896",
+      "source": "[%s]ID(%d)celsが見つからない\n",
+      "target": "[%s]ID(%d) cels를 찾을 수 없습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004265d8",
+      "section": ".rodata",
+      "offset": "4351448",
+      "virtual_address": "5395928",
+      "source": "(TEX)半透明テクスチャ領域が足りません",
+      "target": "(TEX) 반투명 텍스처 영역이 부족합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004266a0",
+      "section": ".rodata",
+      "offset": "4351648",
+      "virtual_address": "5396128",
+      "source": "(CELS)半透明テクスチャ領域が足りません",
+      "target": "(CELS) 반투명 텍스처 영역이 부족합니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00426720",
+      "section": ".rodata",
+      "offset": "4351776",
+      "virtual_address": "5396256",
+      "source": "オーバーしている(%08x,%08x)\n",
+      "target": "오버되었습니다(%08x,%08x)\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004267c8",
+      "section": ".rodata",
+      "offset": "4351944",
+      "virtual_address": "5396424",
+      "source": "パケットオーバー",
+      "target": "패킷 오버",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004267e0",
+      "section": ".rodata",
+      "offset": "4351968",
+      "virtual_address": "5396448",
+      "source": "(%s)すでにUADが設定されている\n",
+      "target": "(%s) 이미 UAD가 설정되어 있습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00426840",
+      "section": ".rodata",
+      "offset": "4352064",
+      "virtual_address": "5396544",
+      "source": "パーティクルバッファ解放失敗\n",
+      "target": "파티클 버퍼 해제 실패\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004268c0",
+      "section": ".rodata",
+      "offset": "4352192",
+      "virtual_address": "5396672",
+      "source": "vlyデータではありません",
+      "target": "vly 데이터가 아닙니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004268e8",
+      "section": ".rodata",
+      "offset": "4352232",
+      "virtual_address": "5396712",
+      "source": "VLYワークオーバー(%08x/%08x)\n",
+      "target": "VLY 워크 오버(%08x/%08x)\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00426908",
+      "section": ".rodata",
+      "offset": "4352264",
+      "virtual_address": "5396744",
+      "source": "VLY範囲外のワーク参照(%d.%d)\n",
+      "target": "VLY 범위 밖 워크 참조(%d.%d)\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00426928",
+      "section": ".rodata",
+      "offset": "4352296",
+      "virtual_address": "5396776",
+      "source": "[%s]VLYデコード失敗\n",
+      "target": "[%s] VLY 디코드 실패\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00426978",
+      "section": ".rodata",
+      "offset": "4352376",
+      "virtual_address": "5396856",
+      "source": "UAD解放失敗",
+      "target": "UAD 해제 실패",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00426a10",
+      "section": ".rodata",
+      "offset": "4352528",
+      "virtual_address": "5397008",
+      "source": "パーティクルエフェクトワークがねぇ",
+      "target": "파티클 이펙트 워크가 없습니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00426a38",
+      "section": ".rodata",
+      "offset": "4352568",
+      "virtual_address": "5397048",
+      "source": "SetPtcl:[%s]は見つかりませんでした!!\n",
+      "target": "SetPtcl:[%s]을 찾을 수 없었습니다!!\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00426a60",
+      "section": ".rodata",
+      "offset": "4352608",
+      "virtual_address": "5397088",
+      "source": "[%s]が読み込まれていない\n",
+      "target": "[%s]이 불러와지지 않았습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00426a80",
+      "section": ".rodata",
+      "offset": "4352640",
+      "virtual_address": "5397120",
+      "source": "[%s]のptcl_ctblが初期化されていない\n",
+      "target": "[%s]의 ptcl_ctbl이 초기화되지 않았습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00426ae8",
+      "section": ".rodata",
+      "offset": "4352744",
+      "virtual_address": "5397224",
+      "source": "SetStrc:[%s]は見つかりませんでした!!\n",
+      "target": "SetStrc:[%s]을 찾을 수 없었습니다!!\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00426cb0",
+      "section": ".rodata",
+      "offset": "4353200",
+      "virtual_address": "5397680",
+      "source": "フォントTexture転送+++++++++++++++++++++++++++++++++++++++++++",
+      "target": "폰트 Texture 전송+++++++++++++++++++++++++++++++++++++++++++",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00426cf4",
+      "section": ".rodata",
+      "offset": "4353268",
+      "virtual_address": "5397748",
+      "source": " @フォントCLUT転送+++++++++++++++++++++++++++++++++++++++++++",
+      "target": "",
+      "status": "untranslated"
+    },
+    {
+      "id": "ELF:0x00426d50",
+      "section": ".rodata",
+      "offset": "4353360",
+      "virtual_address": "5397840",
+      "source": "漢字バッファが足りません!!",
+      "target": "한자 버퍼가 부족합니다!!",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00427188",
+      "section": ".rodata",
+      "offset": "4354440",
+      "virtual_address": "5398920",
+      "source": "(%s)が見つかりません\n",
+      "target": "(%s)을 찾을 수 없습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004271e0",
+      "section": ".rodata",
+      "offset": "4354528",
+      "virtual_address": "5399008",
+      "source": "Nopw(%08x)/End(%08x)パケットサイズがオーバーしてます\n",
+      "target": "Nopw(%08x)/End(%08x) 패킷 크기가 초과되었습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004272f0",
+      "section": ".rodata",
+      "offset": "4354800",
+      "virtual_address": "5399280",
+      "source": "%s 読み込み失敗\n",
+      "target": "%s 불러오기 실패\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00427308",
+      "section": ".rodata",
+      "offset": "4354824",
+      "virtual_address": "5399304",
+      "source": "解放できない",
+      "target": "해제할 수 없습니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00427328",
+      "section": ".rodata",
+      "offset": "4354856",
+      "virtual_address": "5399336",
+      "source": "ファイルバッファ設定:adr(%08x),size(%08x),one(%08x)\n",
+      "target": "파일 버퍼 설정:adr(%08x),size(%08x),one(%08x)\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00427360",
+      "section": ".rodata",
+      "offset": "4354912",
+      "virtual_address": "5399392",
+      "source": "[%s]:読み込み失敗(%dbyte)\n",
+      "target": "[%s]:불러오기 실패(%dbyte)\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00427380",
+      "section": ".rodata",
+      "offset": "4354944",
+      "virtual_address": "5399424",
+      "source": "%s の読み込みに失敗\n",
+      "target": "%s 불러오기에 실패\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00427438",
+      "section": ".rodata",
+      "offset": "4355128",
+      "virtual_address": "5399608",
+      "source": "[%c]\"が見つかりません\n",
+      "target": "[%c]\"을 찾을 수 없습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00427450",
+      "section": ".rodata",
+      "offset": "4355152",
+      "virtual_address": "5399632",
+      "source": "[%c] ,がありません\n",
+      "target": "[%c] ,가 없습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00427468",
+      "section": ".rodata",
+      "offset": "4355176",
+      "virtual_address": "5399656",
+      "source": "[%c] {がありません\n",
+      "target": "[%c] {가 없습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00427480",
+      "section": ".rodata",
+      "offset": "4355200",
+      "virtual_address": "5399680",
+      "source": "[%c] }がありません\n",
+      "target": "[%c] }가 없습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00427498",
+      "section": ".rodata",
+      "offset": "4355224",
+      "virtual_address": "5399704",
+      "source": "[%c] (がありません\n",
+      "target": "[%c] (가 없습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004274b0",
+      "section": ".rodata",
+      "offset": "4355248",
+      "virtual_address": "5399728",
+      "source": "[%c] )がありません\n",
+      "target": "[%c] )가 없습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004274c8",
+      "section": ".rodata",
+      "offset": "4355272",
+      "virtual_address": "5399752",
+      "source": "[%c] =がありません\n",
+      "target": "[%c] =가 없습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004274e0",
+      "section": ".rodata",
+      "offset": "4355296",
+      "virtual_address": "5399776",
+      "source": "[%c] %cがありません\n",
+      "target": "[%c] %c가 없습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004274f8",
+      "section": ".rodata",
+      "offset": "4355320",
+      "virtual_address": "5399800",
+      "source": "[%s]対応外のコマンドです\n",
+      "target": "[%s] 지원하지 않는 커맨드입니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00427660",
+      "section": ".rodata",
+      "offset": "4355680",
+      "virtual_address": "5400160",
+      "source": "SBuffCLUT転送+++++++++++++++++++++++++++++++++++++++++++",
+      "target": "SBuffCLUT 전송+++++++++++++++++++++++++++++++++++++++++++",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004277d0",
+      "section": ".rodata",
+      "offset": "4356048",
+      "virtual_address": "5400528",
+      "source": "参照カウンタがまだあるなら",
+      "target": "참조 카운터가 아직 있다면",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00427868",
+      "section": ".rodata",
+      "offset": "4356200",
+      "virtual_address": "5400680",
+      "source": "登録Malloc[%d](%d - %d)----------------------\n",
+      "target": "등록 Malloc[%d](%d - %d)----------------------\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00427918",
+      "section": ".rodata",
+      "offset": "4356376",
+      "virtual_address": "5400856",
+      "source": "サイズが合わない:始(%d),終(%d):数(%d)\n",
+      "target": "크기가 맞지 않음:시작(%d),끝(%d):수(%d)\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00427958",
+      "section": ".rodata",
+      "offset": "4356440",
+      "virtual_address": "5400920",
+      "source": "subthreadからのumalloc()でメモリの確保に失敗、確保可能になるまで待機します(req=%d)\n",
+      "target": "subthread의 umalloc()에서 메모리 확보에 실패, 확보 가능할 때까지 대기합니다(req=%d)\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004279b0",
+      "section": ".rodata",
+      "offset": "4356528",
+      "virtual_address": "5401008",
+      "source": "%d byte確保できません\n",
+      "target": "%d byte를 확보할 수 없습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004279e0",
+      "section": ".rodata",
+      "offset": "4356576",
+      "virtual_address": "5401056",
+      "source": "メモリが確保できません!adr(0x%08x),size(%d)\n",
+      "target": "메모리를 확보할 수 없습니다!adr(0x%08x),size(%d)\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00427a90",
+      "section": ".rodata",
+      "offset": "4356752",
+      "virtual_address": "5401232",
+      "source": "%s %d:Adr(0x%08x):確保されてないメモリを解放しようとしてます\n",
+      "target": "%s %d:Adr(0x%08x):확보되지 않은 메모리를 해제하려고 합니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00427af0",
+      "section": ".rodata",
+      "offset": "4356848",
+      "virtual_address": "5401328",
+      "source": "チェック版",
+      "target": "체크 버전",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00427b00",
+      "section": ".rodata",
+      "offset": "4356864",
+      "virtual_address": "5401344",
+      "source": "Malloc解放[%d](%d - %d)----------------------\n",
+      "target": "Malloc 해제[%d](%d - %d)----------------------\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00427b30",
+      "section": ".rodata",
+      "offset": "4356912",
+      "virtual_address": "5401392",
+      "source": "Malloc解放終了--------------------------------",
+      "target": "Malloc 해제 종료--------------------------------",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00427d20",
+      "section": ".rodata",
+      "offset": "4357408",
+      "virtual_address": "5401888",
+      "source": "空きがない(%d)\n",
+      "target": "빈 공간이 없습니다(%d)\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00427ea8",
+      "section": ".rodata",
+      "offset": "4357800",
+      "virtual_address": "5402280",
+      "source": "ShadowMapワークがない",
+      "target": "ShadowMap 워크가 없습니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00428310",
+      "section": ".rodata",
+      "offset": "4358928",
+      "virtual_address": "5403408",
+      "source": "%s の読み込みに失敗\n",
+      "target": "%s 불러오기에 실패\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004285c0",
+      "section": ".rodata",
+      "offset": "4359616",
+      "virtual_address": "5404096",
+      "source": "SHDWVOL(%d):bone_numが範囲外\n",
+      "target": "SHDWVOL(%d):bone_num이 범위 밖입니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004285e0",
+      "section": ".rodata",
+      "offset": "4359648",
+      "virtual_address": "5404128",
+      "source": "SHDWVOL(%d):buff->matが範囲外\n",
+      "target": "SHDWVOL(%d):buff->mat이 범위 밖입니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004286c8",
+      "section": ".rodata",
+      "offset": "4359880",
+      "virtual_address": "5404360",
+      "source": "モーフィングテンポラリを越えた(%d/%d)\n",
+      "target": "모핑 임시 영역을 초과했습니다(%d/%d)\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00428760",
+      "section": ".rodata",
+      "offset": "4360032",
+      "virtual_address": "5404512",
+      "source": "[%s]先読みワークがない!!\n",
+      "target": "[%s] 선행 읽기 워크가 없습니다!!\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004288e8",
+      "section": ".rodata",
+      "offset": "4360424",
+      "virtual_address": "5404904",
+      "source": "%sがありません\n",
+      "target": "%s가 없습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00428910",
+      "section": ".rodata",
+      "offset": "4360464",
+      "virtual_address": "5404944",
+      "source": "%s 読み込み失敗\n",
+      "target": "%s 불러오기 실패\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00428928",
+      "section": ".rodata",
+      "offset": "4360488",
+      "virtual_address": "5404968",
+      "source": "%s:ipuデータではありません\n",
+      "target": "%s:ipu 데이터가 아닙니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00428980",
+      "section": ".rodata",
+      "offset": "4360576",
+      "virtual_address": "5405056",
+      "source": "%s データが読み込めない(%d)\n",
+      "target": "%s 데이터를 불러올 수 없습니다(%d)\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004289a0",
+      "section": ".rodata",
+      "offset": "4360608",
+      "virtual_address": "5405088",
+      "source": "%s:ipuデータではありません[%s]\n",
+      "target": "%s:ipu 데이터가 아닙니다[%s]\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004289f0",
+      "section": ".rodata",
+      "offset": "4360688",
+      "virtual_address": "5405168",
+      "source": "シークエラー",
+      "target": "시크 오류",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00428f98",
+      "section": ".rodata",
+      "offset": "4362136",
+      "virtual_address": "5406616",
+      "source": "[%d]対応外の演算子\n",
+      "target": "[%d] 지원하지 않는 연산자\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00429090",
+      "section": ".rodata",
+      "offset": "4362384",
+      "virtual_address": "5406864",
+      "source": "num(%d/%d)分割バッファ数を越えています\n",
+      "target": "num(%d/%d) 분할 버퍼 수를 초과했습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004291a0",
+      "section": ".rodata",
+      "offset": "4362656",
+      "virtual_address": "5407136",
+      "source": "(%d)マトリクスタイプの最大値を越えました",
+      "target": "(%d) 매트릭스 타입의 최댓값을 초과했습니다",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004291d0",
+      "section": ".rodata",
+      "offset": "4362704",
+      "virtual_address": "5407184",
+      "source": "%s : (%d)範囲外の頂点Index\n",
+      "target": "%s : (%d) 범위 밖의 정점 Index\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004291f0",
+      "section": ".rodata",
+      "offset": "4362736",
+      "virtual_address": "5407216",
+      "source": "%s : (%d)範囲外の法線Index\n",
+      "target": "%s : (%d) 범위 밖의 법선 Index\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00429210",
+      "section": ".rodata",
+      "offset": "4362768",
+      "virtual_address": "5407248",
+      "source": "フライメントエラー",
+      "target": "프래그먼트 오류",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00429228",
+      "section": ".rodata",
+      "offset": "4362792",
+      "virtual_address": "5407272",
+      "source": "num(%d/%d)分割バッファ数を越えています\n",
+      "target": "num(%d/%d) 분할 버퍼 수를 초과했습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00429260",
+      "section": ".rodata",
+      "offset": "4362848",
+      "virtual_address": "5407328",
+      "source": "シャドウボリューム終了-------------------------------------",
+      "target": "섀도 볼륨 종료-------------------------------------",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004292a0",
+      "section": ".rodata",
+      "offset": "4362912",
+      "virtual_address": "5407392",
+      "source": "(%d/%d)シャドウボリューム作成バッファがオーバーしました\n",
+      "target": "(%d/%d) 섀도 볼륨 생성 버퍼가 초과되었습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004292e0",
+      "section": ".rodata",
+      "offset": "4362976",
+      "virtual_address": "5407456",
+      "source": "(%d/%d)エッジスタックがオーバーしました\n",
+      "target": "(%d/%d) 에지 스택이 초과되었습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00429310",
+      "section": ".rodata",
+      "offset": "4363024",
+      "virtual_address": "5407504",
+      "source": "エッジ余っている!!(%d):model(%s),obj(%s)---\n",
+      "target": "에지가 남아 있습니다!!(%d):model(%s),obj(%s)---\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00429340",
+      "section": ".rodata",
+      "offset": "4363072",
+      "virtual_address": "5407552",
+      "source": "vertbuff作成:edge(%d/%d),per(%.2f)\n",
+      "target": "vertbuff 생성:edge(%d/%d),per(%.2f)\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00429378",
+      "section": ".rodata",
+      "offset": "4363128",
+      "virtual_address": "5407608",
+      "source": "(%d)バッファ数を越えています\n",
+      "target": "(%d) 버퍼 수를 초과했습니다\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00429398",
+      "section": ".rodata",
+      "offset": "4363160",
+      "virtual_address": "5407640",
+      "source": "サイズが合いません:adr(%08x),size(%08x)",
+      "target": "크기가 맞지 않습니다:adr(%08x),size(%08x)",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004293f0",
+      "section": ".rodata",
+      "offset": "4363248",
+      "virtual_address": "5407728",
+      "source": "%d頂点インデックスが異常",
+      "target": "%d 정점 인덱스가 비정상",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042a1c0",
+      "section": ".rodata",
+      "offset": "4366784",
+      "virtual_address": "5411264",
+      "source": "プログラムミス",
+      "target": "프로그램 오류",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042ae98",
+      "section": ".rodata",
+      "offset": "4370072",
+      "virtual_address": "5414552",
+      "source": "ダミー画面",
+      "target": "더미 화면",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042b000",
+      "section": ".rodata",
+      "offset": "4370432",
+      "virtual_address": "5414912",
+      "source": "領域の確保に失敗しました。exheap(%s) request(%d)\n",
+      "target": "영역 확보에 실패했습니다. exheap(%s) request(%d)\n",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042b710",
+      "section": ".rodata",
+      "offset": "4372240",
+      "virtual_address": "5416720",
+      "source": "arrayオブジェクトにはarrayのみが代入可",
+      "target": "array 오브젝트에는 array만 대입 가능",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042b738",
+      "section": ".rodata",
+      "offset": "4372280",
+      "virtual_address": "5416760",
+      "source": "不正な配列要素の参照",
+      "target": "잘못된 배열 요소 참조",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042b750",
+      "section": ".rodata",
+      "offset": "4372304",
+      "virtual_address": "5416784",
+      "source": "bytesオブジェクトにはbytesのみが代入可",
+      "target": "bytes 오브젝트에는 bytes만 대입 가능",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042b8f0",
+      "section": ".rodata",
+      "offset": "4372720",
+      "virtual_address": "5417200",
+      "source": ")の実態が定義されていません。",
+      "target": ")의 실체가 정의되어 있지 않습니다.",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042e260",
+      "section": ".rodata",
+      "offset": "4383328",
+      "virtual_address": "5427808",
+      "source": "なし［ＨＲ００］",
+      "target": "없음［HR00］",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042e308",
+      "section": ".rodata",
+      "offset": "4383496",
+      "virtual_address": "5427976",
+      "source": "なし［ＨＲ１１］",
+      "target": "없음［HR11］",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042e320",
+      "section": ".rodata",
+      "offset": "4383520",
+      "virtual_address": "5428000",
+      "source": "なし［ＨＲ１２］",
+      "target": "없음［HR12］",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042e338",
+      "section": ".rodata",
+      "offset": "4383544",
+      "virtual_address": "5428024",
+      "source": "なし［ＨＲ１３］",
+      "target": "없음［HR13］",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042e350",
+      "section": ".rodata",
+      "offset": "4383568",
+      "virtual_address": "5428048",
+      "source": "なし［ＨＲ１４］",
+      "target": "없음［HR14］",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042e368",
+      "section": ".rodata",
+      "offset": "4383592",
+      "virtual_address": "5428072",
+      "source": "なし［ＨＲ１５］",
+      "target": "없음［HR15］",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042e380",
+      "section": ".rodata",
+      "offset": "4383616",
+      "virtual_address": "5428096",
+      "source": "なし［ＨＲ１６］",
+      "target": "없음［HR16］",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042e398",
+      "section": ".rodata",
+      "offset": "4383640",
+      "virtual_address": "5428120",
+      "source": "なし［ＨＲ１８］",
+      "target": "없음［HR18］",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042e3c0",
+      "section": ".rodata",
+      "offset": "4383680",
+      "virtual_address": "5428160",
+      "source": "なし［ＨＲ２０］",
+      "target": "없음［HR20］",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042e3d8",
+      "section": ".rodata",
+      "offset": "4383704",
+      "virtual_address": "5428184",
+      "source": "なし［ＨＲ２１］",
+      "target": "없음［HR21］",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042e3f0",
+      "section": ".rodata",
+      "offset": "4383728",
+      "virtual_address": "5428208",
+      "source": "なし［ＨＲ２２］",
+      "target": "없음［HR22］",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042e408",
+      "section": ".rodata",
+      "offset": "4383752",
+      "virtual_address": "5428232",
+      "source": "なし［ＨＲ２４］",
+      "target": "없음［HR24］",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042e420",
+      "section": ".rodata",
+      "offset": "4383776",
+      "virtual_address": "5428256",
+      "source": "なし［ＨＲ２５］",
+      "target": "없음［HR25］",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042e4a8",
+      "section": ".rodata",
+      "offset": "4383912",
+      "virtual_address": "5428392",
+      "source": "なし［ＨＲ３４］",
+      "target": "없음［HR34］",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042e4c0",
+      "section": ".rodata",
+      "offset": "4383936",
+      "virtual_address": "5428416",
+      "source": "なし［ＨＲ３５］",
+      "target": "없음［HR35］",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042e4e8",
+      "section": ".rodata",
+      "offset": "4383976",
+      "virtual_address": "5428456",
+      "source": "なし［ＨＲ３７］",
+      "target": "없음［HR37］",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042e520",
+      "section": ".rodata",
+      "offset": "4384032",
+      "virtual_address": "5428512",
+      "source": "なし［ＨＲ４０］",
+      "target": "없음［HR40］",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042e538",
+      "section": ".rodata",
+      "offset": "4384056",
+      "virtual_address": "5428536",
+      "source": "なし［ＨＲ４１］",
+      "target": "없음［HR41］",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042e5b0",
+      "section": ".rodata",
+      "offset": "4384176",
+      "virtual_address": "5428656",
+      "source": "なし［ＨＲ５０］",
+      "target": "없음［HR50］",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0042e5c8",
+      "section": ".rodata",
+      "offset": "4384200",
+      "virtual_address": "5428680",
+      "source": "なし［ＨＲ５１］",
+      "target": "없음［HR51］",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00435638",
+      "section": ".rodata",
+      "offset": "4412984",
+      "virtual_address": "5457464",
+      "source": "%s   周目",
+      "target": "%s   회차",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x0043fc88",
+      "section": ".rodata",
+      "offset": "4455560",
+      "virtual_address": "5500040",
+      "source": "囮劔劔ｹ?囮劔劔ｹ?",
+      "target": "",
+      "status": "untranslated"
+    },
+    {
+      "id": "ELF:0x0044fb1e",
+      "section": ".sdata",
+      "offset": "4520734",
+      "virtual_address": "5565214",
+      "source": "?編制\n",
+      "target": "",
+      "status": "untranslated"
+    },
+    {
+      "id": "ELF:0x004508e8",
+      "section": ".sdata",
+      "offset": "4524264",
+      "virtual_address": "5568744",
+      "source": "TLB変更",
+      "target": "TLB 변경",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00452620",
+      "section": ".sdata",
+      "offset": "4531744",
+      "virtual_address": "5576224",
+      "source": "エラー",
+      "target": "오류",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00452d98",
+      "section": ".sdata",
+      "offset": "4533656",
+      "virtual_address": "5578136",
+      "source": "関数(",
+      "target": "함수(",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x00453120",
+      "section": ".sdata",
+      "offset": "4534560",
+      "virtual_address": "5579040",
+      "source": "珥烙",
+      "target": "",
+      "status": "untranslated"
+    },
+    {
+      "id": "ELF:0x004535e0",
+      "section": ".sdata",
+      "offset": "4535776",
+      "virtual_address": "5580256",
+      "source": "撫子",
+      "target": "나데시코",
+      "status": "deferred"
+    },
+    {
+      "id": "ELF:0x004538f6",
+      "section": ".sdata",
+      "offset": "4536566",
+      "virtual_address": "5581046",
+      "source": "ﾈBなし",
+      "target": "",
+      "status": "untranslated"
+    },
+    {
+      "id": "ELF:0x004572b8",
+      "section": ".sdata",
+      "offset": "4551352",
+      "virtual_address": "5595832",
+      "source": "UAD確認",
+      "target": "UAD 확인",
+      "status": "deferred"
+    }
+  ],
+  "scope": "Translation catalogs and v6 ELF plus staged shop messages. Does not prove all runtime paths or image translation completeness."
+}

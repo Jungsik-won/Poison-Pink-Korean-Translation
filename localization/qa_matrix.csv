@@ -1,0 +1,61 @@
+case_id,area,scenario,expected,status,build_hash,emulator_version,save_or_steps,evidence,notes
+QA001,boot,타이틀 및 새 게임,정상 부팅과 진입,passed,921f3381212f71692b25b47d9a90d09e3d18a24c785d228796f15edc04bb97c9,PCSX2 2.6.3,,reports/runtime_probe.json,원본과 실험본 각각 새 부팅 후 프롤로그 대화 도달
+QA002,font,짝수 홀수 글리프 비대칭 패턴,방향과 비트 선택 정상 및 간섭 없음,pending,,,,,
+QA003,font,겹받침 숫자 영문 기호 혼합,누락과 깨짐 없음,pending,,,,,
+QA004,dialogue,최장 문장 및 명시적 줄바꿈,창 밖 잘림 없음,pending,,,,,
+QA005,choice,동일 선택지 양쪽 분기,원본과 같은 이벤트 진행,pending,,,,,
+QA006,vm,문자열 길이 증가 감소와 루프,점프 반환과 반복 정상,pending,,,,,
+QA007,db,장비 스킬 아이템 설명,이름 설명 정상 및 스탯 불변,pending,,,,,
+QA008,save,저장 후 재로드,이벤트 상태와 글리프 정상,pending,,,,,
+QA009,font,많은 글리프 출력 후 전투와 장면 전환,캐시 오염 및 메모리 오류 없음,pending,,,,,
+QA010,ui,상점 도감 오류 메시지,번역 누락과 제어 토큰 노출 없음,pending,,,,,
+QA011,story,루트별 모든 진행과 분기,진행 불가 및 번역 누락 없음,pending,,,,,
+QA012,release,깨끗한 원본에서 차분 패치 적용,기대 해시와 실행 결과 재현,pending,,,,,
+QA013,font,기존 3글리프 한글 치환,동일 대화창 이름이 가나다로 표시,passed,,PCSX2 2.6.3,,reports/runtime_probe.json,원본 テージ와 실험본 가나다 캡처 비교; 본번역 또는 글리프 확장 아님
+QA014,savestate,에뮬레이터 상태 로드 후 재개,대화창 상태 재현,needs_investigation,,PCSX2 2.6.3,,reports/runtime_probe.json,로드 성공 로그는 있으나 재개 후 대화창 사라짐; 일반 게임 내 저장 검증과 별개
+QA015,font,32개 한글 추가 후 마지막 ID 2047 출력,원본 일본어 보존 및 새 문장 정상,passed,5ed8beed8d5781c17868f20aea2687a6ab078fb3d2bfd79386b9d3d0056b058c,PCSX2 2.6.3,docs/KOREAN_SENTENCE_PROBE.md,reports/korean_sentence_probe.json,실제 추가 글리프 10자 확인; 나머지 22자와 대규모 용량 미검증
+QA016,dialogue,동일 22바이트 번역 한 문장,한글 표시와 창 내 맞춤 정상,passed,5ed8beed8d5781c17868f20aea2687a6ab078fb3d2bfd79386b9d3d0056b058c,PCSX2 2.6.3,docs/KOREAN_SENTENCE_PROBE.md,reports/korean_sentence_probe.json,t00_0010.rtb 첫 라키 안내
+QA017,choice,번역 뒤 いいえ 선택 후 일본어 대사,이벤트 진행과 이름 장음부호 정상,passed,5ed8beed8d5781c17868f20aea2687a6ab078fb3d2bfd79386b9d3d0056b058c,PCSX2 2.6.3,docs/KOREAN_SENTENCE_PROBE.md,reports/korean_sentence_probe.json,はい 분기는 미검증
+QA018,vm,22→23바이트 문장과 はい 분기,한글 출력 및 설명 도움말 진입,passed,755adc4af8f501ca2217da4e105cce857caa8aaae833e071a4cee287dcf51d91,PCSX2 2.6.3,docs/RTB_RESIZE_RUNTIME.md,reports/rtb_resize_longer.json,해당 빌드의 いいえ·전체 루프 미검증
+QA019,vm,22→20바이트 문장과 いいえ 분기,한글 출력 및 이후 일본어 대사 진행,passed,f3ee6ad48926bae7e7f43a3ef560adeaf2439a78cf9b06f8bee901da88bbc017,PCSX2 2.6.3,docs/RTB_RESIZE_RUNTIME.md,reports/rtb_resize_shorter.json,해당 빌드의 はい 미검증
+QA020,battle,축소본 대화 종료 후 전투 진입,유닛 턴 화면 표시,passed,f3ee6ad48926bae7e7f43a3ef560adeaf2439a78cf9b06f8bee901da88bbc017,PCSX2 2.6.3,docs/RTB_RESIZE_RUNTIME.md,reports/rtb_resize_shorter.json,전투 완료 및 저장/로드는 미검증
+QA021,font,152글리프 추가와 SYSTEM.DAT 재배치,부팅 및 ID 2167 표시,passed,c930e6c1cbfcc3d7cd52efb36ca296187123a7378655b9ada4eb8eda999b1c2b,PCSX2 2.6.3 / Metal,docs/TUTORIAL_SLICE.md,reports/tutorial_slice.json,기존 일본어 보존; 151개 사용 한글 화면 확인; 여분 1자·대규모 캐시 미검증
+QA022,dialogue,본문·질문 24개와 화자 23개,깨짐 및 창 밖 잘림 없음,passed,c930e6c1cbfcc3d7cd52efb36ca296187123a7378655b9ada4eb8eda999b1c2b,PCSX2 2.6.3 / Metal,docs/TUTORIAL_SLICE.md,reports/tutorial_slice.json,질문 개행은 실제 화면에서 한 줄로 표시되며 전체 문구가 보임
+QA023,choice,동일 빌드 はい/いいえ,양쪽 안내와 전투 진행,passed,c930e6c1cbfcc3d7cd52efb36ca296187123a7378655b9ada4eb8eda999b1c2b,PCSX2 2.6.3 / Metal,docs/TUTORIAL_SLICE.md,reports/tutorial_slice.json,はい 경로 스킬 안내까지; いいえ 전투 진입까지
+QA024,battle,유닛 이동·대기 및 적 턴,다음 안내까지 정상 진행,passed,c930e6c1cbfcc3d7cd52efb36ca296187123a7378655b9ada4eb8eda999b1c2b,PCSX2 2.6.3 / Metal,docs/TUTORIAL_SLICE.md,reports/tutorial_slice.json,전투 완료·실제 스킬 사용은 미검증
+QA025,savestate,첫 대사와 스킬 대사 두 체크포인트,일시정지 저장·로드 후 대사 재현,passed,c930e6c1cbfcc3d7cd52efb36ca296187123a7378655b9ada4eb8eda999b1c2b,PCSX2 2.6.3 / Metal,docs/TUTORIAL_SLICE.md,reports/tutorial_slice.json,첫 지점 2회·스킬 지점 1회 복원; MTVU 켜짐; 게임 내 저장과 별개
+QA026,renderer,Metal 스킬 공격 연출,공격 후 필드 복귀,failed,c930e6c1cbfcc3d7cd52efb36ca296187123a7378655b9ada4eb8eda999b1c2b,PCSX2 2.6.3,docs/TUTORIAL_BATTLE_RUNTIME.md,reports/tutorial_battle.json,GSDeviceMTL::DoStretchRect assertion; 원본 ISO 동일 지점 비교는 미수행
+QA027,battle,Software에서 스킬·오버킬·포획·장벽 해제,공격과 전투 규칙 정상,passed,c930e6c1cbfcc3d7cd52efb36ca296187123a7378655b9ada4eb8eda999b1c2b,PCSX2 2.6.3,docs/TUTORIAL_BATTLE_RUNTIME.md,reports/tutorial_battle.json,동일 ISO; 스킬 5→4회 확인; 일반 적 3포획; 테이지 타격으로 장벽 해제
+QA028,battle,튜토리얼 마지막 적 처치,후속 영상과 저장 안내 도달,passed,c930e6c1cbfcc3d7cd52efb36ca296187123a7378655b9ada4eb8eda999b1c2b,PCSX2 2.6.3,docs/TUTORIAL_BATTLE_RUNTIME.md,reports/tutorial_battle.json,별도 승리 배너 캡처 없음; 본편 전투 완료 검증과 구분
+QA029,save,프롤로그 시스템 저장 후 새 부팅,시스템 저장 성공과 진행 슬롯 구분,passed,c930e6c1cbfcc3d7cd52efb36ca296187123a7378655b9ada4eb8eda999b1c2b,PCSX2 2.6.3,docs/TUTORIAL_BATTLE_RUNTIME.md,reports/tutorial_battle.json,첫 저장 성공 후 본편 슬롯은 NO DATA; 진행 저장 성공으로 간주하지 않음
+QA030,save,본편 No.01 저장 후 새 부팅 load game,동일 출격 준비 상태 복원,passed,c930e6c1cbfcc3d7cd52efb36ca296187123a7378655b9ada4eb8eda999b1c2b,PCSX2 2.6.3,docs/TUTORIAL_BATTLE_RUNTIME.md,reports/tutorial_battle.json,제1계층 회색의 왕궁; 테이지 Lv5 HP100; 3명 PP200 소지금4000; statefile 미사용
+QA031,db,아이템·스킬 16개 문자열,모두 한글 표시·잘림 없음,passed,3b4d9bf5a74233a3c2d60b65b5788513702cc52f3b099d4b6f1fab310536bc9f,PCSX2 2.6.3 Software,docs/STATUS_SLICE.md,reports/status_slice_runtime.json,16개 필드 캡처; 설명 개행 무시를 / 구분자로 보완
+QA032,battle,번역된 바람 마법 사용,피해·횟수·경험치 정상,passed,3b4d9bf5a74233a3c2d60b65b5788513702cc52f3b099d4b6f1fab310536bc9f,PCSX2 2.6.3 Software,docs/STATUS_SLICE.md,reports/status_slice_runtime.json,적 C 80→50; 사용3→2; EXP0→17
+QA033,battle,각성 약초 사용,회복·소모 정상,passed,3b4d9bf5a74233a3c2d60b65b5788513702cc52f3b099d4b6f1fab310536bc9f,PCSX2 2.6.3 Software,docs/STATUS_SLICE.md,reports/status_slice_runtime.json,테이지80→100 최대치; 3개→2개; 수면 상태 해제는 미검증
+QA034,battle,레스아쿠아 사용,HP 회복과 정상 복귀,passed,3b4d9bf5a74233a3c2d60b65b5788513702cc52f3b099d4b6f1fab310536bc9f,PCSX2 2.6.3 Software,docs/STATUS_SLICE.md,reports/status_slice_runtime.json,라키90→103 최대치; 루티카EXP0→11; 잔여 횟수 재확인은 미수행
+QA035,save,DB 시험본 No.02 저장·다음 빌드 새 부팅 로드,한글 장비·능력치 복원,passed,3b4d9bf5a74233a3c2d60b65b5788513702cc52f3b099d4b6f1fab310536bc9f,PCSX2 2.6.3 Software,docs/STATUS_SLICE.md,reports/status_slice_runtime.json,No.01 보존; v1에서 No.02 저장 후 최종 v2를 상태 파일 없이 부팅
+QA036,save,최종 ISO 일시정지 상태 저장·복원,같은 상태 화면과 HP103 유지,passed,3b4d9bf5a74233a3c2d60b65b5788513702cc52f3b099d4b6f1fab310536bc9f,PCSX2 2.6.3 Software,docs/STATUS_SLICE.md,reports/status_slice_runtime.json,같은 ISO 1회 복원; MTVU 사용
+QA037,db,추가 상태 효과·장비 교환,공포·수면/물리 이상 해제와 교환 기능 확인,pending,3b4d9bf5a74233a3c2d60b65b5788513702cc52f3b099d4b6f1fab310536bc9f,PCSX2 2.6.3 Software,docs/STATUS_SLICE.md,reports/status_slice_runtime.json,암흑·화염 일반 시전은 후속 검증 통과. 공포·수면/물리 이상 해제와 여분 장비 교환은 미검증; reports/status_slice_regression.json
+QA038,ui,TIM2 2089개 원본 왕복,전체 원본 바이트 일치,passed,0612fc3ac65db987bd5772898b3288e6cc07028543d4be131f1c15af0d824e78,PCSX2 2.6.3 Software,docs/UI_PIPELINE.md,reports/ui_texture_audit.json,4/8비트 관측 형식; 전체 GS 화면 배열 검증 아님
+QA039,ui,전투 메뉴 9종 표시·선택,번역 표시와 하위 화면 연결,passed,0612fc3ac65db987bd5772898b3288e6cc07028543d4be131f1c15af0d824e78,PCSX2 2.6.3 Software,docs/UI_PIPELINE.md,reports/ui_slice_runtime.json,최종 8종 표시 + v2 명령 표시; 명령 조각은 최종과 바이트 일치; 25변형 전부 미검증
+QA040,ui,첫 유닛 턴 도움말,"제목·본문 표시, 닫기·다음 도움말 전환",passed,f4c8190dbbf3193df91f9b762682b5edc009fb98ab3a6c21bef3e3eb4f70afc9,PCSX2 2.6.3 Software,docs/UI_PIPELINE.md,reports/ui_slice_runtime.json,최종 v3 도움말 payload가 이 실행본과 바이트 일치
+QA041,save,최종 UI ISO 새 부팅 No.02 로드,기존 저장에서 전투·한글 메뉴/스킬 표시,passed,0612fc3ac65db987bd5772898b3288e6cc07028543d4be131f1c15af0d824e78,PCSX2 2.6.3 Software,docs/UI_PIPELINE.md,reports/ui_slice_runtime.json,상태 파일 없이 새 부팅
+QA042,save,최종 UI ISO 상태 저장·복원,같은 메뉴·능력치·사용 횟수 복원,passed,0612fc3ac65db987bd5772898b3288e6cc07028543d4be131f1c15af0d824e78,PCSX2 2.6.3 Software,docs/UI_PIPELINE.md,reports/ui_slice_runtime.json,동일 ISO 1회; 일반 호환성 주장 안 함
+QA043,ui,開ける 오역 정정,"세 조각 열기 번역, 최종 화면 표시",passed,0612fc3ac65db987bd5772898b3288e6cc07028543d4be131f1c15af0d824e78,PCSX2 2.6.3 Software,docs/UI_PIPELINE.md,reports/ui_slice_runtime.json,기존 닫기 시안은 실패·교정 기록
+QA044,ui,열기·포획 유효 대상 기능,유효 상자/구속 대상에서 실제 실행,pending,0612fc3ac65db987bd5772898b3288e6cc07028543d4be131f1c15af0d824e78,PCSX2 2.6.3 Software,docs/UI_PIPELINE.md,docs/UI_PIPELINE.md,비활성 표시는 확인; 활성 조건 별도 필요
+QA045,db,암흑·화염 실제 시전,피해·전투 복귀 정상,passed,3b4d9bf5a74233a3c2d60b65b5788513702cc52f3b099d4b6f1fab310536bc9f,PCSX2 2.6.3 Software,docs/UI_PIPELINE.md,reports/status_slice_regression.json,"암흑 50→27, 화염27→-42; 상태 효과 부여와 구분"
+QA046,ui_elf,ELF 15곳과 폰트 6자 한정 주입,주소·포인터·명령어·기존 글리프·ISO 위치 보존,passed,aa1f65d793a00a97310e94ac03ef3b796f7379d107973e5927a8ad5b8fcfeca6,PCSX2 2.6.3,전체 ISO 독립 대조,reports/ui_titles.json,519바이트 변경; 총 2202글리프; 테스트 52개
+QA047,ui_choices,예/아니요 일반·강조 및 출격 양쪽 분기,아니요는 출격 준비; 예는 전투 진입,passed,aa1f65d793a00a97310e94ac03ef3b796f7379d107973e5927a8ad5b8fcfeca6,PCSX2 2.6.3,새 부팅 No.02 → 전투 시작 확인창,reports/ui_titles_runtime.json,전각 공백 は　い 두 곳 보완; 재행동 취소창은 표시만 확인
+QA048,ui_headings,이동·공격·스킬·도구·대기 상단 제목,5종 한글 표시와 목록/대상 선택 전환,passed,aa1f65d793a00a97310e94ac03ef3b796f7379d107973e5927a8ad5b8fcfeca6,PCSX2 2.6.3,No.02 첫 전투에서 각 대상/방향 선택,reports/ui_titles_runtime.json,명령·열기·포획·상태 공통 ELF 제목 출력은 미확인
+QA049,save_state,최종 제목 v2 새 부팅 로드 및 같은 ISO 상태 복원,기존 No.02 로드; 취소 확인창에서 저장 대상 선택 화면으로 복원,passed,aa1f65d793a00a97310e94ac03ef3b796f7379d107973e5927a8ad5b8fcfeca6,PCSX2 2.6.3,상태 저장 → 취소 확인창 → F3; 캡처는 실행 중,reports/ui_titles_runtime.json,진행 카드 해시 불변; CRC만으로 빌드 식별 금지; 일시정지 중 지연 캡처 제외
+QA050,ui_texture,sys011 스킬 분류 제목 3종,실제 알파·원본 팔레트·UAD 유지 후 실행 검수,pending,4ddfba66efddfadf8f4be2b5b55e9b19644a65af4c556d9d4c4a05e214b18796,PCSX2 2.6.3,파이썬 폰트 렌더링으로 3종 주입; 마법 분류는 라키·테이지 실행 확인,reports/ui_remaining_runtime.json,기존 알파 누락 해결. 액티브/마신 소환 분류의 표시 조건 확보는 남아 있어 pending 유지.
+QA051,ui_remaining,상태 이미지 제목·개별 명령명과 남은 ELF 제목,각 실제 표시 경로에서 한글 확인,pending,4ddfba66efddfadf8f4be2b5b55e9b19644a65af4c556d9d4c4a05e214b18796,PCSX2 2.6.3,상태 창 및 再行動 대상 선택에서 일본어 잔존 관찰,docs/UI_REMAINING.md,"상태 그림·재행동 제목/안내/질문과 분기 완료. 쌍격 ELF 제목/안내·발동, 공통 명령/열기/포획/상태 제목별 잔여 표시 경로는 미확인."
+QA052,ui_artwork,폰트 기반 10개 UI 조각과 ELF 6곳 주입,실제 알파·원본 팔레트·사각형·고정 용량 보존,passed,4ddfba66efddfadf8f4be2b5b55e9b19644a65af4c556d9d4c4a05e214b18796,PCSX2 2.6.3,원문과 UAD 검수 → 핀된 폰트 렌더 → 인덱스 컴파일 → 전체 ISO 대조,reports/ui_remaining.json,20084바이트 변경; 2212글리프; 관련 55테스트 통과; 기존 2202글리프 보존
+QA053,ui_runtime,마법 스킬·상태·재행동·쌍격 이미지 표시,한글·투명 배경·메뉴 상태 표시와 기존 DB 보존,passed,4ddfba66efddfadf8f4be2b5b55e9b19644a65af4c556d9d4c4a05e214b18796,PCSX2 2.6.3,새 부팅 No.02 → 라키 스킬/상태 → 테이지 명령/스킬,reports/ui_remaining_runtime.json,액티브/소환 실제 표시와 이미지 10개 개별 변형 전수 실행은 미완료
+QA054,command_runtime,재행동 대상 선택·추가 행동·종료/취소 분기,한글 4개 ELF 필드와 양쪽 질문 분기 정상,passed,4ddfba66efddfadf8f4be2b5b55e9b19644a65af4c556d9d4c4a05e214b18796,PCSX2 2.6.3,재행동 → 취소 아니요 → 라키 선택/대기 → 1/2 → 종료 아니요/예; 복원 후 취소 예,reports/ui_remaining_runtime.json,실제 라키 추가 행동과 대기 확인; 후보 2/2→1/2; 쌍격은 비활성
+QA055,save_state,통합 UI 새 부팅 No.02 및 같은 ISO 상태 복원,기존 진행 카드 보존과 명령 상태 2회 복원,passed,4ddfba66efddfadf8f4be2b5b55e9b19644a65af4c556d9d4c4a05e214b18796,PCSX2 2.6.3,명령 시작 저장 → 실제 추가 행동 종료 후 복원 → 스킬 목록에서 다시 복원,reports/ui_remaining_runtime.json,CRC C6C842C3; ISO 해시로 식별; 저장 중 정지 후 재개하여 캡처; 마지막은 F8 없이 정지
+QA056,ui_conditions,액티브·마신 소환 및 쌍격 실행 조건,분류 2종과 쌍격 제목/안내/발동 실제 검증,pending,4ddfba66efddfadf8f4be2b5b55e9b19644a65af4c556d9d4c4a05e214b18796,PCSX2 2.6.3,해당 분류를 가진 유닛/저장 및 쌍격 가능 전투 배치 확보,docs/UI_REMAINING.md,번역과 정적 주입 완료; 현재 라키/테이지는 마법 분류만 표시되고 쌍격은 비활성
+QA057,help_build,도움말 14장·100영역 번역과 주입,원본 수치·팔레트·영역 밖 픽셀·ISO 목록 보존,passed,a3f2c6c3fe10fe0ce3d15e78838a235a69730f332550f297e1b32d62f5481630,Python/Pillow,검수 JSON → 렌더 → 팔레트 컴파일 → 전체 ISO 대조,reports/help_pages.json,509340바이트 변경; 테스트 58개; 원본 잠금 해시 일치
+QA058,help_runtime,ev136~ev140 실제 표시와 페이지 이동,5장 한글 표시; 다음·뒤로·닫기 정상,passed,a3f2c6c3fe10fe0ce3d15e78838a235a69730f332550f297e1b32d62f5481630,PCSX2 2.6.3,별도 빈 카드·상태 없는 새 부팅 → 튜토리얼,reports/help_pages_runtime.json,ev141~149와 그림 미술 보완은 사용자 요청으로 뒤로 미룸
+QA059,help_save_state,같은 도움말 ISO 상태 복원과 진행 카드 보존,136 저장 → 137 닫기 → 복원 1회,passed,a3f2c6c3fe10fe0ce3d15e78838a235a69730f332550f297e1b32d62f5481630,PCSX2 2.6.3,별도 sstates·memcards 사용,reports/help_pages_runtime.json,기존 카드 해시 일치; 마지막 별도 저장은 복원 미검수
+QA060,help_runtime,ev141~ev149 표시 경로와 최종 그림 검수,실제 표시·전환 확인 및 배경 보완,deferred,a3f2c6c3fe10fe0ce3d15e78838a235a69730f332550f297e1b32d62f5481630,PCSX2 2.6.3,사용자: 그림 확인은 나중에 진행,docs/HELP_PAGES.md,14장 번역·정적 주입 완료. 141/142는 원본 DMAP RTB에서 직접 파일명 참조 없음. 재개 요청 전 추가 그림 확인하지 않음

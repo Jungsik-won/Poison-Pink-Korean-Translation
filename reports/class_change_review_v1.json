@@ -1,0 +1,1330 @@
+{
+  "status": "applied_to_iso",
+  "iso_built": true,
+  "runtime_verified": false,
+  "base_iso": "build/user_ui_test_v6/Poison Pink (Japan) - Korean user UI test v6.iso",
+  "base_iso_sha256": "3086890c313ffcbf1303671e3e0f11a1dded4194c0ad742cb54a59e61b5b3771",
+  "includes_pending_shop_and_controller_messages": true,
+  "supersedes_pending_reports": [
+    "reports/shop_messages_v1.json",
+    "reports/remaining_messages_v1.json"
+  ],
+  "descriptions": [
+    {
+      "offset": 4416272,
+      "source": "主に闇属性魔法を修得",
+      "before": "주로 암속성 마법을 습득",
+      "target": "암속성 마법 습득",
+      "capacity": 23,
+      "cells": 9
+    },
+    {
+      "offset": 4416296,
+      "source": "若干だが物理面も成長",
+      "before": "물리 능력도 조금 성장",
+      "target": "물리도 조금 성장",
+      "capacity": 23,
+      "cells": 9
+    },
+    {
+      "offset": 4416320,
+      "source": "主に火属性魔法を修得",
+      "before": "주로 화속성 마법을 습득",
+      "target": "화속성 마법 습득",
+      "capacity": 23,
+      "cells": 9
+    },
+    {
+      "offset": 4416344,
+      "source": "ＩＮＴの成長は高いが",
+      "before": "INT 성장은 높지만",
+      "target": "INT 성장 높음",
+      "capacity": 23,
+      "cells": 9
+    },
+    {
+      "offset": 4416368,
+      "source": "物理面の成長が低い",
+      "before": "물리 능력의 성장이 낮다",
+      "target": "물리 성장률은 낮다",
+      "capacity": 23,
+      "cells": 10
+    },
+    {
+      "offset": 4416392,
+      "source": "敏捷性に特化した",
+      "before": "민첩성에 특화된",
+      "target": "민첩성 위주로 성장",
+      "capacity": 23,
+      "cells": 10
+    },
+    {
+      "offset": 4416416,
+      "source": "成長とスキルを",
+      "before": "성장과 스킬을",
+      "target": "관련 스킬을",
+      "capacity": 15,
+      "cells": 6
+    },
+    {
+      "offset": 4416432,
+      "source": "修得する",
+      "before": "습득한다",
+      "target": "습득한다",
+      "capacity": 15,
+      "cells": 4
+    },
+    {
+      "offset": 4416448,
+      "source": "攻撃力に特化した",
+      "before": "공격력에 특화된",
+      "target": "공격력 위주로 성장",
+      "capacity": 23,
+      "cells": 10
+    },
+    {
+      "offset": 4416472,
+      "source": "弓術に長けた成長をし",
+      "before": "궁술에 능하게 성장해",
+      "target": "궁술에 능하며",
+      "capacity": 23,
+      "cells": 7
+    },
+    {
+      "offset": 4416496,
+      "source": "唯一魔凸召喚を覚える",
+      "before": "유일하게 마신 소환 습득",
+      "target": "마신 소환 단독습득",
+      "capacity": 23,
+      "cells": 10
+    },
+    {
+      "offset": 4416520,
+      "source": "主に水属性魔法を修得",
+      "before": "주로 수속성 마법을 습득",
+      "target": "수속성 마법 습득",
+      "capacity": 23,
+      "cells": 9
+    },
+    {
+      "offset": 4416544,
+      "source": "弓術よりも魔法に長け",
+      "before": "궁술보다 마법에 뛰어나",
+      "target": "궁술보다 마법에",
+      "capacity": 23,
+      "cells": 8
+    },
+    {
+      "offset": 4416568,
+      "source": "た支援型の成長をする",
+      "before": "지원형으로 성장한다",
+      "target": "능한 지원형 성장",
+      "capacity": 23,
+      "cells": 9
+    },
+    {
+      "offset": 4416592,
+      "source": "物理面に特化した",
+      "before": "물리 능력에 특화된",
+      "target": "물리 위주로 성장",
+      "capacity": 23,
+      "cells": 9
+    },
+    {
+      "offset": 4416616,
+      "source": "魔法に特化した",
+      "before": "마법에 특화된",
+      "target": "마법 중심 성장",
+      "capacity": 15,
+      "cells": 8
+    },
+    {
+      "offset": 4416632,
+      "source": "防御力に特化した成長",
+      "before": "방어력에 특화된 성장",
+      "target": "방어력 위주로 성장",
+      "capacity": 23,
+      "cells": 10
+    },
+    {
+      "offset": 4416656,
+      "source": "をし、聖・物理異常の",
+      "before": "을 하며, 성·물리 이상",
+      "target": "성속성·물리 이상",
+      "capacity": 23,
+      "cells": 9
+    },
+    {
+      "offset": 4416680,
+      "source": "耐性スキルなどを修得",
+      "before": "내성 스킬 등을 습득",
+      "target": "내성 스킬 등 습득",
+      "capacity": 23,
+      "cells": 10
+    },
+    {
+      "offset": 4416704,
+      "source": "攻撃力に特化した成長",
+      "before": "공격력에 특화된 성장",
+      "target": "공격력 위주로 성장",
+      "capacity": 23,
+      "cells": 10
+    },
+    {
+      "offset": 4416728,
+      "source": "をし、闇・精神異常の",
+      "before": "을 하며, 암·정신 이상",
+      "target": "암속성·정신 이상",
+      "capacity": 23,
+      "cells": 9
+    },
+    {
+      "offset": 4416752,
+      "source": "主に地属性魔法を修得",
+      "before": "주로 지속성 마법을 습득",
+      "target": "지속성 마법 습득",
+      "capacity": 23,
+      "cells": 9
+    },
+    {
+      "offset": 4416776,
+      "source": "魔法よりも物理面に",
+      "before": "마법보다 물리 능력에",
+      "target": "마법보다 물리로",
+      "capacity": 23,
+      "cells": 8
+    },
+    {
+      "offset": 4416800,
+      "source": "特化した成長をする",
+      "before": "특화된 성장을 한다",
+      "target": "성장한다",
+      "capacity": 23,
+      "cells": 4
+    },
+    {
+      "offset": 4416824,
+      "source": "主に聖属性魔法を修得",
+      "before": "주로 성속성 마법을 습득",
+      "target": "성속성 마법 습득",
+      "capacity": 23,
+      "cells": 9
+    },
+    {
+      "offset": 4416848,
+      "source": "魔法に特化した成長を",
+      "before": "마법에 특화된 성장을",
+      "target": "마법 위주로 성장",
+      "capacity": 23,
+      "cells": 9
+    },
+    {
+      "offset": 4416872,
+      "source": "魔法防御力が低い",
+      "before": "마법 방어력이 낮다",
+      "target": "마법 방어력은 낮다",
+      "capacity": 23,
+      "cells": 10
+    },
+    {
+      "offset": 4416896,
+      "source": "速度に特化した成長を",
+      "before": "속도에 특화된 성장을",
+      "target": "속도 위주로 성장",
+      "capacity": 23,
+      "cells": 9
+    },
+    {
+      "offset": 4416920,
+      "source": "し、回避や詠唱速度が",
+      "before": "하며 회피와 영창 속도를",
+      "target": "회피·영창 속도를",
+      "capacity": 23,
+      "cells": 9
+    },
+    {
+      "offset": 4416944,
+      "source": "上昇するスキルを修得",
+      "before": "높이는 스킬을 습득",
+      "target": "높이는 스킬 습득",
+      "capacity": 23,
+      "cells": 9
+    },
+    {
+      "offset": 4416968,
+      "source": "物理と魔法の",
+      "before": "물리와 마법의",
+      "target": "물리와 마법이",
+      "capacity": 15,
+      "cells": 7
+    },
+    {
+      "offset": 4416984,
+      "source": "バランスがとれた",
+      "before": "균형이 잡힌",
+      "target": "균형을 이루며",
+      "capacity": 23,
+      "cells": 7
+    },
+    {
+      "offset": 4417008,
+      "source": "成長をする",
+      "before": "성장을 한다",
+      "target": "성장한다",
+      "capacity": 15,
+      "cells": 4
+    },
+    {
+      "offset": 4417024,
+      "source": "するが物理面とＳＰＤ",
+      "before": "하지만 물리 능력과 SPD",
+      "target": "물리 능력과 SPD",
+      "capacity": 23,
+      "cells": 10
+    },
+    {
+      "offset": 4417048,
+      "source": "の成長が低い",
+      "before": "의 성장이 낮다",
+      "target": "성장률은 낮다",
+      "capacity": 15,
+      "cells": 7
+    },
+    {
+      "offset": 4417064,
+      "source": "し、魔法よりの成長を",
+      "before": "하며, 마법 쪽으로 성장",
+      "target": "마법 위주로 성장",
+      "capacity": 23,
+      "cells": 9
+    },
+    {
+      "offset": 4417088,
+      "source": "物理面に特化した成長",
+      "before": "물리 능력에 특화된 성장",
+      "target": "물리 성장률과",
+      "capacity": 23,
+      "cells": 7
+    },
+    {
+      "offset": 4417112,
+      "source": "と回避スキルの効果が",
+      "before": "과 회피 스킬의 효과가",
+      "target": "회피 스킬 효과가",
+      "capacity": 23,
+      "cells": 9
+    },
+    {
+      "offset": 4417136,
+      "source": "更に高まる",
+      "before": "더욱 높아진다",
+      "target": "더욱 높아진다",
+      "capacity": 15,
+      "cells": 7
+    },
+    {
+      "offset": 4417152,
+      "source": "魔法能力が高まり",
+      "before": "마법 능력이 높아지고",
+      "target": "마법 능력이 높아져",
+      "capacity": 23,
+      "cells": 10
+    },
+    {
+      "offset": 4417176,
+      "source": "バランスのとれた",
+      "before": "균형 잡힌",
+      "target": "균형을 이루며",
+      "capacity": 23,
+      "cells": 7
+    },
+    {
+      "offset": 4417200,
+      "source": "物理攻撃に特化した成",
+      "before": "물리 공격에 특화되어",
+      "target": "물리 공격 위주로",
+      "capacity": 23,
+      "cells": 9
+    },
+    {
+      "offset": 4417224,
+      "source": "長をする",
+      "before": "성장한다",
+      "target": "성장한다",
+      "capacity": 15,
+      "cells": 4
+    },
+    {
+      "offset": 4417240,
+      "source": "攻撃面に特化した成長",
+      "before": "공격 면에 특화된 성장",
+      "target": "공격 위주로 성장",
+      "capacity": 23,
+      "cells": 9
+    },
+    {
+      "offset": 4417264,
+      "source": "とスキルを修得する",
+      "before": "과 스킬을 습득한다",
+      "target": "관련 스킬을 습득",
+      "capacity": 23,
+      "cells": 9
+    },
+    {
+      "offset": 4417288,
+      "source": "防御面に特化した成長",
+      "before": "방어 면에 특화된 성장",
+      "target": "방어 위주로 성장",
+      "capacity": 23,
+      "cells": 9
+    }
+  ],
+  "combinations": [
+    {
+      "index": 0,
+      "source": [
+        "主に闇属性魔法を修得",
+        "若干だが物理面も成長",
+        "する"
+      ],
+      "translation": [
+        "암속성 마법 습득",
+        "물리도 조금 성장",
+        "한다"
+      ]
+    },
+    {
+      "index": 1,
+      "source": [
+        "主に火属性魔法を修得",
+        "ＩＮＴの成長は高いが",
+        "物理面の成長が低い"
+      ],
+      "translation": [
+        "화속성 마법 습득",
+        "INT 성장 높음",
+        "물리 성장률은 낮다"
+      ]
+    },
+    {
+      "index": 2,
+      "source": [
+        "敏捷性に特化した",
+        "成長とスキルを",
+        "修得する"
+      ],
+      "translation": [
+        "민첩성 위주로 성장",
+        "관련 스킬을",
+        "습득한다"
+      ]
+    },
+    {
+      "index": 3,
+      "source": [
+        "攻撃力に特化した",
+        "成長とスキルを",
+        "修得する"
+      ],
+      "translation": [
+        "공격력 위주로 성장",
+        "관련 스킬을",
+        "습득한다"
+      ]
+    },
+    {
+      "index": 4,
+      "source": [
+        "主に闇属性魔法を修得",
+        "弓術に長けた成長をし",
+        "唯一魔凸召喚を覚える"
+      ],
+      "translation": [
+        "암속성 마법 습득",
+        "궁술에 능하며",
+        "마신 소환 단독습득"
+      ]
+    },
+    {
+      "index": 5,
+      "source": [
+        "主に水属性魔法を修得",
+        "弓術よりも魔法に長け",
+        "た支援型の成長をする"
+      ],
+      "translation": [
+        "수속성 마법 습득",
+        "궁술보다 마법에",
+        "능한 지원형 성장"
+      ]
+    },
+    {
+      "index": 6,
+      "source": [
+        "物理面に特化した",
+        "成長とスキルを",
+        "修得する"
+      ],
+      "translation": [
+        "물리 위주로 성장",
+        "관련 스킬을",
+        "습득한다"
+      ]
+    },
+    {
+      "index": 7,
+      "source": [
+        "魔法に特化した",
+        "成長とスキルを",
+        "修得する"
+      ],
+      "translation": [
+        "마법 중심 성장",
+        "관련 스킬을",
+        "습득한다"
+      ]
+    },
+    {
+      "index": 8,
+      "source": [
+        "防御力に特化した成長",
+        "をし、聖・物理異常の",
+        "耐性スキルなどを修得"
+      ],
+      "translation": [
+        "방어력 위주로 성장",
+        "성속성·물리 이상",
+        "내성 스킬 등 습득"
+      ]
+    },
+    {
+      "index": 9,
+      "source": [
+        "攻撃力に特化した成長",
+        "をし、闇・精神異常の",
+        "耐性スキルなどを修得"
+      ],
+      "translation": [
+        "공격력 위주로 성장",
+        "암속성·정신 이상",
+        "내성 스킬 등 습득"
+      ]
+    },
+    {
+      "index": 10,
+      "source": [
+        "主に地属性魔法を修得",
+        "魔法よりも物理面に",
+        "特化した成長をする"
+      ],
+      "translation": [
+        "지속성 마법 습득",
+        "마법보다 물리로",
+        "성장한다"
+      ]
+    },
+    {
+      "index": 11,
+      "source": [
+        "主に聖属性魔法を修得",
+        "魔法に特化した成長を",
+        "する"
+      ],
+      "translation": [
+        "성속성 마법 습득",
+        "마법 위주로 성장",
+        "한다"
+      ]
+    },
+    {
+      "index": 12,
+      "source": [
+        "主に火属性魔法を修得",
+        "ＩＮＴの成長は高いが",
+        "魔法防御力が低い"
+      ],
+      "translation": [
+        "화속성 마법 습득",
+        "INT 성장 높음",
+        "마법 방어력은 낮다"
+      ]
+    },
+    {
+      "index": 13,
+      "source": [
+        "速度に特化した成長を",
+        "し、回避や詠唱速度が",
+        "上昇するスキルを修得"
+      ],
+      "translation": [
+        "속도 위주로 성장",
+        "회피·영창 속도를",
+        "높이는 스킬 습득"
+      ]
+    },
+    {
+      "index": 14,
+      "source": [
+        "物理と魔法の",
+        "バランスがとれた",
+        "成長をする"
+      ],
+      "translation": [
+        "물리와 마법이",
+        "균형을 이루며",
+        "성장한다"
+      ]
+    },
+    {
+      "index": 15,
+      "source": [
+        "魔法に特化した成長を",
+        "するが物理面とＳＰＤ",
+        "の成長が低い"
+      ],
+      "translation": [
+        "마법 위주로 성장",
+        "물리 능력과 SPD",
+        "성장률은 낮다"
+      ]
+    },
+    {
+      "index": 16,
+      "source": [
+        "主に火属性魔法を修得",
+        "し、魔法よりの成長を",
+        "する"
+      ],
+      "translation": [
+        "화속성 마법 습득",
+        "마법 위주로 성장",
+        "한다"
+      ]
+    },
+    {
+      "index": 17,
+      "source": [
+        "物理面に特化した成長",
+        "と回避スキルの効果が",
+        "更に高まる"
+      ],
+      "translation": [
+        "물리 성장률과",
+        "회피 스킬 효과가",
+        "더욱 높아진다"
+      ]
+    },
+    {
+      "index": 18,
+      "source": [
+        "魔法能力が高まり",
+        "バランスのとれた",
+        "成長をする"
+      ],
+      "translation": [
+        "마법 능력이 높아져",
+        "균형을 이루며",
+        "성장한다"
+      ]
+    },
+    {
+      "index": 19,
+      "source": [
+        "物理攻撃に特化した成",
+        "長をする",
+        ""
+      ],
+      "translation": [
+        "물리 공격 위주로",
+        "성장한다",
+        ""
+      ]
+    },
+    {
+      "index": 20,
+      "source": [
+        "攻撃面に特化した成長",
+        "とスキルを修得する",
+        ""
+      ],
+      "translation": [
+        "공격 위주로 성장",
+        "관련 스킬을 습득",
+        ""
+      ]
+    },
+    {
+      "index": 21,
+      "source": [
+        "防御面に特化した成長",
+        "とスキルを修得する",
+        ""
+      ],
+      "translation": [
+        "방어 위주로 성장",
+        "관련 스킬을 습득",
+        ""
+      ]
+    }
+  ],
+  "names": [
+    {
+      "key": [
+        4,
+        0,
+        "name_0"
+      ],
+      "source": "漆黒の魔姫",
+      "before": "칠흑의 마공주",
+      "target": "칠흑의 마공주",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        0,
+        "name_1"
+      ],
+      "source": "閻獄の魔姫",
+      "before": "염옥의 마공주",
+      "target": "염옥의 마공주",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        0,
+        "name_2"
+      ],
+      "source": "業火の魔姫",
+      "before": "업화의 마공주",
+      "target": "업화의 마공주",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        1,
+        "name_0"
+      ],
+      "source": "導きの賢者",
+      "before": "인도의 현자",
+      "target": "인도하는 현자",
+      "changed": true
+    },
+    {
+      "key": [
+        4,
+        1,
+        "name_1"
+      ],
+      "source": "旋嵐の賢者",
+      "before": "선폭풍의 현자",
+      "target": "회오리의 현자",
+      "changed": true
+    },
+    {
+      "key": [
+        4,
+        1,
+        "name_2"
+      ],
+      "source": "轟嵐の賢者",
+      "before": "굉 폭풍의 현자",
+      "target": "폭풍의 현자",
+      "changed": true
+    },
+    {
+      "key": [
+        4,
+        2,
+        "name_0"
+      ],
+      "source": "烙印者",
+      "before": "낙인자",
+      "target": "낙인자",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        2,
+        "name_1"
+      ],
+      "source": "闇を纏う烙印者",
+      "before": "어둠을 두른 낙인자",
+      "target": "암흑의 낙인자",
+      "changed": true
+    },
+    {
+      "key": [
+        4,
+        2,
+        "name_2"
+      ],
+      "source": "清青の烙印者",
+      "before": "청청의 낙인자",
+      "target": "청명의 낙인자",
+      "changed": true
+    },
+    {
+      "key": [
+        4,
+        3,
+        "name_0"
+      ],
+      "source": "聖騎士団長",
+      "before": "성기사단장",
+      "target": "성기사단장",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        3,
+        "name_1"
+      ],
+      "source": "閃剣の騎士団長",
+      "before": "섬검의 기사단장",
+      "target": "섬검의 기사단장",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        3,
+        "name_2"
+      ],
+      "source": "旋風の騎士団長",
+      "before": "선풍의 기사단장",
+      "target": "선풍의 기사단장",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        4,
+        "name_0"
+      ],
+      "source": "呪われた竜騎士",
+      "before": "저주받은 용기사",
+      "target": "저주받은 용기사",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        4,
+        "name_1"
+      ],
+      "source": "聖甲の重騎士",
+      "before": "성갑의 중기사",
+      "target": "성갑의 중기사",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        4,
+        "name_2"
+      ],
+      "source": "闇撃の武騎士",
+      "before": "암격의 무기사",
+      "target": "암격의 무기사",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        5,
+        "name_0"
+      ],
+      "source": "知略の神官",
+      "before": "지략의 신관",
+      "target": "지략의 신관",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        5,
+        "name_1"
+      ],
+      "source": "地を司る神官",
+      "before": "땅을 맡는 신관",
+      "target": "대지의 신관",
+      "changed": true
+    },
+    {
+      "key": [
+        4,
+        5,
+        "name_2"
+      ],
+      "source": "光を司る神官",
+      "before": "빛을 맡는 신관",
+      "target": "빛의 신관",
+      "changed": true
+    },
+    {
+      "key": [
+        4,
+        6,
+        "name_0"
+      ],
+      "source": "中位神官",
+      "before": "중위 신관",
+      "target": "중위 신관",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        6,
+        "name_1"
+      ],
+      "source": "紅蓮の魔導師",
+      "before": "홍련의 마도사",
+      "target": "홍련의 마도사",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        6,
+        "name_2"
+      ],
+      "source": "蒼風の魔導師",
+      "before": "창풍의 마도사",
+      "target": "창풍의 마도사",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        7,
+        "name_0"
+      ],
+      "source": "勇壮の神官兵",
+      "before": "용장의 신관병",
+      "target": "용맹한 신관병",
+      "changed": true
+    },
+    {
+      "key": [
+        4,
+        7,
+        "name_1"
+      ],
+      "source": "聖陽の神官騎士",
+      "before": "성양의 신관 기사",
+      "target": "성양의 신관기사",
+      "changed": true
+    },
+    {
+      "key": [
+        4,
+        7,
+        "name_2"
+      ],
+      "source": "聖月の神官騎士",
+      "before": "성월의 신관 기사",
+      "target": "성월의 신관기사",
+      "changed": true
+    },
+    {
+      "key": [
+        4,
+        8,
+        "name_0"
+      ],
+      "source": "冷徹なる射手",
+      "before": "냉철한 궁수",
+      "target": "냉철한 궁수",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        8,
+        "name_1"
+      ],
+      "source": "魔炎の射手",
+      "before": "마염의 궁수",
+      "target": "마염의 궁수",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        8,
+        "name_2"
+      ],
+      "source": "疾風の射手",
+      "before": "질풍의 궁수",
+      "target": "질풍의 궁수",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        9,
+        "name_0"
+      ],
+      "source": "修道士",
+      "before": "수도사",
+      "target": "수도사",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        9,
+        "name_1"
+      ],
+      "source": "魔槍の修道士",
+      "before": "마창의 수도사",
+      "target": "마창의 수도사",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        9,
+        "name_2"
+      ],
+      "source": "剛槍の修道士",
+      "before": "강창의 수도사",
+      "target": "강창의 수도사",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        10,
+        "name_0"
+      ],
+      "source": "剣を背負う者",
+      "before": "검을 짊어지는 사람",
+      "target": "검을 짊어진 자",
+      "changed": true
+    },
+    {
+      "key": [
+        4,
+        10,
+        "name_1"
+      ],
+      "source": "剛剣の勇者",
+      "before": "강검의 용사",
+      "target": "강검의 용사",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        10,
+        "name_2"
+      ],
+      "source": "護甲の勇者",
+      "before": "호갑의 용사",
+      "target": "호갑의 용사",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        11,
+        "name_0"
+      ],
+      "source": "冥府の破壊神",
+      "before": "명부의 파괴신",
+      "target": "명부의 파괴신",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        12,
+        "name_0"
+      ],
+      "source": "黎明の弓騎士",
+      "before": "여명의 활 기사",
+      "target": "여명의 궁기사",
+      "changed": true
+    },
+    {
+      "key": [
+        4,
+        13,
+        "name_0"
+      ],
+      "source": "紅鎧の豪将",
+      "before": "홍갑의 호장",
+      "target": "홍갑의 호장",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        14,
+        "name_0"
+      ],
+      "source": "深蒼の魔法使い",
+      "before": "심창의 마법사",
+      "target": "심창의 마법사",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        15,
+        "name_0"
+      ],
+      "source": "黄昏の冒険者",
+      "before": "황혼의 모험가",
+      "target": "황혼의 모험가",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        16,
+        "name_0"
+      ],
+      "source": "異国の尖剣士",
+      "before": "이국의 첨검사",
+      "target": "이국의 첨검사",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        17,
+        "name_0"
+      ],
+      "source": "異国の蒼穹士",
+      "before": "이국의 창사",
+      "target": "이국의 창궁사",
+      "changed": true
+    },
+    {
+      "key": [
+        4,
+        18,
+        "name_0"
+      ],
+      "source": "闇刀の暗殺者",
+      "before": "암검의 암살자",
+      "target": "암검의 암살자",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        19,
+        "name_0"
+      ],
+      "source": "陽光の聖神官",
+      "before": "햇빛의 성신관",
+      "target": "양광의 성신관",
+      "changed": true
+    },
+    {
+      "key": [
+        4,
+        20,
+        "name_0"
+      ],
+      "source": "冷徹なる闇司祭",
+      "before": "냉철한 암사제",
+      "target": "냉철한 암사제",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        21,
+        "name_0"
+      ],
+      "source": "華麗なる簒奪者",
+      "before": "화려한 강탈자",
+      "target": "화려한 강탈자",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        22,
+        "name_0"
+      ],
+      "source": "剣が得意なクク族",
+      "before": "검에 능한 쿠쿠족",
+      "target": "쿠쿠족 검사",
+      "changed": true
+    },
+    {
+      "key": [
+        4,
+        23,
+        "name_0"
+      ],
+      "source": "槍が得意なクク族",
+      "before": "창이 특기인 쿠쿠족",
+      "target": "쿠쿠족 창병",
+      "changed": true
+    },
+    {
+      "key": [
+        4,
+        24,
+        "name_0"
+      ],
+      "source": "弓が得意なクク族",
+      "before": "활이 특기인 쿠쿠족",
+      "target": "쿠쿠족 궁수",
+      "changed": true
+    },
+    {
+      "key": [
+        4,
+        25,
+        "name_0"
+      ],
+      "source": "貴族",
+      "before": "귀족",
+      "target": "귀족",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        29,
+        "name_0"
+      ],
+      "source": "漆黒の魔姫",
+      "before": "칠흑의 마공주",
+      "target": "칠흑의 마공주",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        30,
+        "name_0"
+      ],
+      "source": "導きの賢者",
+      "before": "인도의 현자",
+      "target": "인도하는 현자",
+      "changed": true
+    },
+    {
+      "key": [
+        4,
+        31,
+        "name_0"
+      ],
+      "source": "勇壮の神官兵",
+      "before": "용장의 신관병",
+      "target": "용맹한 신관병",
+      "changed": true
+    },
+    {
+      "key": [
+        4,
+        32,
+        "name_0"
+      ],
+      "source": "冷徹なる射手",
+      "before": "냉철한 궁수",
+      "target": "냉철한 궁수",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        33,
+        "name_0"
+      ],
+      "source": "修道士",
+      "before": "수도사",
+      "target": "수도사",
+      "changed": false
+    },
+    {
+      "key": [
+        4,
+        34,
+        "name_0"
+      ],
+      "source": "剣を背負う者",
+      "before": "검을 짊어지는 사람",
+      "target": "검을 짊어진 자",
+      "changed": true
+    },
+    {
+      "key": [
+        4,
+        35,
+        "name_0"
+      ],
+      "source": "剣が得意なクク族",
+      "before": "검에 능한 쿠쿠족",
+      "target": "쿠쿠족 검사",
+      "changed": true
+    },
+    {
+      "key": [
+        4,
+        36,
+        "name_0"
+      ],
+      "source": "槍が得意なクク族",
+      "before": "창이 특기인 쿠쿠족",
+      "target": "쿠쿠족 창병",
+      "changed": true
+    },
+    {
+      "key": [
+        4,
+        37,
+        "name_0"
+      ],
+      "source": "弓が得意なクク族",
+      "before": "활이 특기인 쿠쿠족",
+      "target": "쿠쿠족 궁수",
+      "changed": true
+    }
+  ],
+  "pending_files": [
+    {
+      "path": "SLPS_258.54",
+      "replacement": "build/class_change_review_v1/SLPS_258.54",
+      "sha256": "499cf324700815b3a617350677e3b87a582653875aa9f7070203451bfbd8e4ac",
+      "expected_sha256": "0a5f61a95c9a881d2c0f75f484209482da2c47589c8b03c1f0f0119ef88f760a"
+    },
+    {
+      "path": "DATA/STATUS.HED",
+      "replacement": "build/class_change_review_v1/DATA/STATUS.HED",
+      "sha256": "5ace591713a98522f13103bc3be6fbc6303323e9e0fedbe0969784b5d9cf731c",
+      "expected_sha256": "53d114ac7eaa959c39cea81f55d53f0887160cae8a6373331e447351df603577"
+    },
+    {
+      "path": "DATA/STATUS.DAT",
+      "replacement": "build/class_change_review_v1/DATA/STATUS.DAT",
+      "sha256": "6c023df5125cf8b2b1e6930c964f187dd50c68030b40c3ac3ded578f1289fc9b",
+      "expected_sha256": "09457ccb3b607b8db0f42d472cb22e0eaae235abf36066052c11ca5382d27988"
+    }
+  ],
+  "checks": {
+    "description_cell_limit": 10,
+    "all_22_combinations_checked": true,
+    "existing_font_mapping_verified": true,
+    "description_pointer_table_preserved": true,
+    "db_nontext_and_other_text_preserved": true,
+    "archive_other_members_preserved": true
+  },
+  "iso_path": "build/dmap_map_ko_v1/Poison Pink (Japan) - Korean DMAP maps v1.iso",
+  "integration_report": "reports/dmap_map_ko_v1.json",
+  "applied_via": "class_change_review_v1"
+}

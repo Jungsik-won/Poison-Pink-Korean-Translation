@@ -1,0 +1,421 @@
+{
+  "iso_path": "build/movie_subtitles_v1/Poison Pink (Japan) - Korean movie subtitles v1.iso",
+  "iso": {
+    "source_sha256": "648097edc8f2b19d8efb750e916d769aa8cd128c75323b9d379d08ed6003edc4",
+    "output_sha256": "168d0d707f4f77c4163954912832d021a5b51e6cf93cd22cfe2f20cc40af642a",
+    "bytes": 4245454848,
+    "changed_bytes": 833638747,
+    "size_preserved": true,
+    "runtime_compatibility": {
+      "elf_crc": "7502FF83",
+      "sidecar": "<LOCAL_USER_HOME>/Desktop/poison pink/build/movie_subtitles_v1/Poison Pink (Japan) - Korean movie subtitles v1.iso.pcsx2",
+      "checked_patch_addresses": 34
+    },
+    "replacements": [
+      {
+        "offset": 7243776,
+        "size": 3476,
+        "before_sha256": "ee7c469632de93248b2294b3eae2aedbe7da2dd0de434073bd6f217ff94e9600",
+        "after_sha256": "e3565e8fc3611e6b4bd5f678de01e6f9cd8654e78b4d206eab767d8a45b4b02f"
+      },
+      {
+        "offset": 3124346880,
+        "size": 86004845,
+        "before_sha256": "3e702a1b85bc4151808be426c1847752e7f95f8032129ed8209d3ac6de561927",
+        "after_sha256": "16e9cc4720b971bfc700f160611ecd18b5ab2b5c213c55960e2fca0db3f7db5a"
+      },
+      {
+        "offset": 3215015936,
+        "size": 67840684,
+        "before_sha256": "8dbabf75293952a90ccc5579446981bc81372a9afa275a4901177e44c4bc2fb2",
+        "after_sha256": "67c49ba017b71b5443baa62f763284c5b8079db89ab38bebf2bc85046a92fd1f"
+      },
+      {
+        "offset": 3288956928,
+        "size": 84796731,
+        "before_sha256": "746467033a66f691b75351a721f6672e0fa2588a4a7623cc2c037ba1cf2b60b2",
+        "after_sha256": "9513a0460e2013c0cc60bd6e1962edbd1670d1210e11b83eb8254d7b9f96d4a6"
+      },
+      {
+        "offset": 3375398912,
+        "size": 26035608,
+        "before_sha256": "218fb823ff538046793ac955a92859ea5454e93c7f7a9a11faa43340e780fe17",
+        "after_sha256": "906f9b7c1a0572f435c377400a8c38008a836a7e9812f27860cc7d7ab403579a"
+      },
+      {
+        "offset": 3405447168,
+        "size": 67513438,
+        "before_sha256": "9f3c6d8d2eb4c6f37639e30d03b905a4b8dd06d8bde795967f37170c13c172d8",
+        "after_sha256": "d132569b7f78928654aebfe986d115594d004395906293d7a7f8df985ab44a15"
+      },
+      {
+        "offset": 3476242432,
+        "size": 54574700,
+        "before_sha256": "1b0ade8e71fca88641af8c8737392c5ebe7640d95a2512b1d021210f6299f94f",
+        "after_sha256": "6528541c0bf14856bc59f136d0dbb34a85a17f163e0610ee09df3d3c73ff6345"
+      },
+      {
+        "offset": 3532718080,
+        "size": 30635335,
+        "before_sha256": "9a0dfb128cd9c2bf465d322cab84e0a06936e68567bd0b25557f3f4c42433829",
+        "after_sha256": "1b600cac986ad49832477ced746cd327cc7b05a4de9cfb8d86aab0dbd0585548"
+      },
+      {
+        "offset": 3566895104,
+        "size": 49654623,
+        "before_sha256": "35e9c7273438eb694646c1f9b6278e9db029805bf425f9b9fc0792d45fc577f6",
+        "after_sha256": "8f48cb4177b3bd149c3d61696e62a0e6bc2a61436fdda1fae9bb3d63e9d8b752"
+      },
+      {
+        "offset": 3622453248,
+        "size": 80317389,
+        "before_sha256": "3a983d8a5f34964f2f2bc408bd620f826c209c6a2238bbb96c731bc00deaffd4",
+        "after_sha256": "b37dc80064e5a129764c0f0290a121bef176eda831a35df2eef4a17275fac4b3"
+      },
+      {
+        "offset": 3708682240,
+        "size": 80315860,
+        "before_sha256": "2bedabdb982a0f4e3432d2e9324c78a098aa182887c666318166145635372cad",
+        "after_sha256": "7f998cbb231eb6bedeca26cebe80302409354fa36ca70084d8c9989d77064b91"
+      },
+      {
+        "offset": 3794911232,
+        "size": 80323063,
+        "before_sha256": "c6c61f2eece21b4e571a004cd005c6d18443dd8541ff6d3f45175960fd7b1e2f",
+        "after_sha256": "190eec971d8b98db9ec0ff8858dfb75b75df8e5fe0e6fd2ff6ece162b9f1b000"
+      },
+      {
+        "offset": 3881140224,
+        "size": 80317096,
+        "before_sha256": "b658b2fbae36097bf4b59ebbc9dbfcd1a9a0257bd8d63910024aaac029de95db",
+        "after_sha256": "04290871a89e6c1127416921ce24c7fe5468d180a79b5a20e3a32c2fcb78f12d"
+      },
+      {
+        "offset": 3975364608,
+        "size": 190851039,
+        "before_sha256": "30298ffea3196ce13685f8b3eaa02ce31c5a51b068f95c3f9f8c2941cb50ffba",
+        "after_sha256": "5e8ac86f96b3105db3d781f322bfbb985a07c85594311b0002e27049d83a7348"
+      }
+    ]
+  },
+  "base_iso": "build/semantic_revision_v4/Poison Pink (Japan) - Korean dialogue revision v4.iso",
+  "base_iso_sha256": "648097edc8f2b19d8efb750e916d769aa8cd128c75323b9d379d08ed6003edc4",
+  "whole_iso_verification": {
+    "passed": true,
+    "changed_bytes": 833638747,
+    "all_unplanned_bytes_identical": true
+  },
+  "changed_movies": [
+    {
+      "path": "movie/s02/s02.ipu",
+      "offset": 3124346880,
+      "source_bytes": 86004845,
+      "output_bytes": 85164159,
+      "source_sha256": "3e702a1b85bc4151808be426c1847752e7f95f8032129ed8209d3ac6de561927",
+      "output_sha256": "a4e0041ff8f80a6983fcc430c2692b7a42c71c0d7658edfb0b04751820a8074a"
+    },
+    {
+      "path": "movie/s03/s03.ipu",
+      "offset": 3215015936,
+      "source_bytes": 67840684,
+      "output_bytes": 67304297,
+      "source_sha256": "8dbabf75293952a90ccc5579446981bc81372a9afa275a4901177e44c4bc2fb2",
+      "output_sha256": "94b61c00f84f33ed38d12c8dd61455fd3f313553e75721288bf4b5db150f0201"
+    },
+    {
+      "path": "movie/s04/s04.ipu",
+      "offset": 3288956928,
+      "source_bytes": 84796731,
+      "output_bytes": 83870075,
+      "source_sha256": "746467033a66f691b75351a721f6672e0fa2588a4a7623cc2c037ba1cf2b60b2",
+      "output_sha256": "177fb770276945a8f8deff798d9c4fed324d7ffde029e813b09f1d6d470c9753"
+    },
+    {
+      "path": "movie/s05/s05.ipu",
+      "offset": 3375398912,
+      "source_bytes": 26035608,
+      "output_bytes": 25745325,
+      "source_sha256": "218fb823ff538046793ac955a92859ea5454e93c7f7a9a11faa43340e780fe17",
+      "output_sha256": "d44a1357d09acb4bd1524155f92b9e73787c5d0ceac3bd08c01c8d7009e8673e"
+    },
+    {
+      "path": "movie/s06/s06.ipu",
+      "offset": 3405447168,
+      "source_bytes": 67513438,
+      "output_bytes": 67095009,
+      "source_sha256": "9f3c6d8d2eb4c6f37639e30d03b905a4b8dd06d8bde795967f37170c13c172d8",
+      "output_sha256": "553bc5d073f007d1be4d0340f3d1df378923753c0f8265110bdaa8cc13e60bbb"
+    },
+    {
+      "path": "movie/s07/s07.ipu",
+      "offset": 3476242432,
+      "source_bytes": 54574700,
+      "output_bytes": 52323495,
+      "source_sha256": "1b0ade8e71fca88641af8c8737392c5ebe7640d95a2512b1d021210f6299f94f",
+      "output_sha256": "361e0601415d9852c03c98e7c36cba156f817fcb86bc9172d94aaa2e170eea92"
+    },
+    {
+      "path": "movie/s08/s08.ipu",
+      "offset": 3532718080,
+      "source_bytes": 30635335,
+      "output_bytes": 30387379,
+      "source_sha256": "9a0dfb128cd9c2bf465d322cab84e0a06936e68567bd0b25557f3f4c42433829",
+      "output_sha256": "3b5ac7677aad11c4c771d00b81fcf2ea409acd3425b2b66fb07bec12bb68c5df"
+    },
+    {
+      "path": "movie/s09/s09.ipu",
+      "offset": 3566895104,
+      "source_bytes": 49654623,
+      "output_bytes": 49127783,
+      "source_sha256": "35e9c7273438eb694646c1f9b6278e9db029805bf425f9b9fc0792d45fc577f6",
+      "output_sha256": "741e6a7a33fac0de51d3df0281bee9621365a54827afc762efcb0523cd1c8cb9"
+    },
+    {
+      "path": "movie/s10/s10.ipu",
+      "offset": 3622453248,
+      "source_bytes": 80317389,
+      "output_bytes": 78069532,
+      "source_sha256": "3a983d8a5f34964f2f2bc408bd620f826c209c6a2238bbb96c731bc00deaffd4",
+      "output_sha256": "08563346215bfb4ac64a622ac7184dee52b4d235073e5f826c79068aa7db24d4"
+    },
+    {
+      "path": "movie/s11/s11.ipu",
+      "offset": 3708682240,
+      "source_bytes": 80315860,
+      "output_bytes": 79411510,
+      "source_sha256": "2bedabdb982a0f4e3432d2e9324c78a098aa182887c666318166145635372cad",
+      "output_sha256": "86b57d0fc2e6eec7eed3040ff907d3d4f4bbf95072926ed5a749e78fea41f89e"
+    },
+    {
+      "path": "movie/s12/s12.ipu",
+      "offset": 3794911232,
+      "source_bytes": 80323063,
+      "output_bytes": 79832596,
+      "source_sha256": "c6c61f2eece21b4e571a004cd005c6d18443dd8541ff6d3f45175960fd7b1e2f",
+      "output_sha256": "1ea9d2d90a7a2c8de284e8cb229e8e1d2ff4fc03d3737b1f1b76540cb3abb573"
+    },
+    {
+      "path": "movie/s13/s13.ipu",
+      "offset": 3881140224,
+      "source_bytes": 80317096,
+      "output_bytes": 76933333,
+      "source_sha256": "b658b2fbae36097bf4b59ebbc9dbfcd1a9a0257bd8d63910024aaac029de95db",
+      "output_sha256": "4f79f2f6f7b3263f74ba61ec7a959751c018bb8848066063771adb9efcadef02"
+    },
+    {
+      "path": "movie/s14/s14.ipu",
+      "offset": 3975364608,
+      "source_bytes": 190851039,
+      "output_bytes": 153527758,
+      "source_sha256": "30298ffea3196ce13685f8b3eaa02ce31c5a51b068f95c3f9f8c2941cb50ffba",
+      "output_sha256": "6952597c45dfa732fe92f7b9f7ae333af92a57e8a5f5d93e8b06aa6845db84fc"
+    }
+  ],
+  "all_original_movie_members": [
+    {
+      "path": "movie/s01/s01.ag",
+      "offset": 3070148608,
+      "size": 2818048,
+      "sha256": "a64d6adee892c22806e0cf97088480a233a6148c786a55241188cab31f79554a"
+    },
+    {
+      "path": "movie/s01/s01.ipu",
+      "offset": 3072966656,
+      "size": 46259858,
+      "sha256": "1e97567c596da764d9b0582f06481f346087a59414e26a9254555044e40b2cc2"
+    },
+    {
+      "path": "movie/s02/s02.ag",
+      "offset": 3119235072,
+      "size": 5111808,
+      "sha256": "6d7ea13aaec6452969dd9d6c9a646055c9260b7afb15010176e5f7650710e2db"
+    },
+    {
+      "path": "movie/s02/s02.ipu",
+      "offset": 3124346880,
+      "size": 86004845,
+      "sha256": "3e702a1b85bc4151808be426c1847752e7f95f8032129ed8209d3ac6de561927"
+    },
+    {
+      "path": "movie/s03/s03.ag",
+      "offset": 3210362880,
+      "size": 4653056,
+      "sha256": "dc2f026c831f1c7c034bfcfb4df2403ae9933d52381f61e56b4a11c3552af07e"
+    },
+    {
+      "path": "movie/s03/s03.ipu",
+      "offset": 3215015936,
+      "size": 67840684,
+      "sha256": "8dbabf75293952a90ccc5579446981bc81372a9afa275a4901177e44c4bc2fb2"
+    },
+    {
+      "path": "movie/s04/s04.ag",
+      "offset": 3282862080,
+      "size": 6094848,
+      "sha256": "4faade0cc1ab86030b3c4a57cf04fa333c147015c4e65ee5acd710b11f8ab325"
+    },
+    {
+      "path": "movie/s04/s04.ipu",
+      "offset": 3288956928,
+      "size": 84796731,
+      "sha256": "746467033a66f691b75351a721f6672e0fa2588a4a7623cc2c037ba1cf2b60b2"
+    },
+    {
+      "path": "movie/s05/s05.ag",
+      "offset": 3373760512,
+      "size": 1638400,
+      "sha256": "fe893673baa1dba751f57b6d6fad5744a499d0f6a9ca8c6daff37e7e68c2bce8"
+    },
+    {
+      "path": "movie/s05/s05.ipu",
+      "offset": 3375398912,
+      "size": 26035608,
+      "sha256": "218fb823ff538046793ac955a92859ea5454e93c7f7a9a11faa43340e780fe17"
+    },
+    {
+      "path": "movie/s06/s06.ag",
+      "offset": 3401449472,
+      "size": 3997696,
+      "sha256": "880ed25f7ef0293226c440e671bb460a509aacae6b20d8559e8d9b841b44460a"
+    },
+    {
+      "path": "movie/s06/s06.ipu",
+      "offset": 3405447168,
+      "size": 67513438,
+      "sha256": "9f3c6d8d2eb4c6f37639e30d03b905a4b8dd06d8bde795967f37170c13c172d8"
+    },
+    {
+      "path": "movie/s07/s07.ag",
+      "offset": 3472965632,
+      "size": 3276800,
+      "sha256": "ff7482576a19ade592536bdd463a413e0f2c1eb30848365d56dd29678757ebc1"
+    },
+    {
+      "path": "movie/s07/s07.ipu",
+      "offset": 3476242432,
+      "size": 54574700,
+      "sha256": "1b0ade8e71fca88641af8c8737392c5ebe7640d95a2512b1d021210f6299f94f"
+    },
+    {
+      "path": "movie/s08/s08.ag",
+      "offset": 3530817536,
+      "size": 1900544,
+      "sha256": "837fe32c4802a79a10c6ab2652ef3137d027da2093bfcee8449fac64e4c40aa8"
+    },
+    {
+      "path": "movie/s08/s08.ipu",
+      "offset": 3532718080,
+      "size": 30635335,
+      "sha256": "9a0dfb128cd9c2bf465d322cab84e0a06936e68567bd0b25557f3f4c42433829"
+    },
+    {
+      "path": "movie/s09/s09.ag",
+      "offset": 3563356160,
+      "size": 3538944,
+      "sha256": "7e44932ffb89787cd78f8774c34e461d0f60d9b787a0d92eed2c86cd271cb132"
+    },
+    {
+      "path": "movie/s09/s09.ipu",
+      "offset": 3566895104,
+      "size": 49654623,
+      "sha256": "35e9c7273438eb694646c1f9b6278e9db029805bf425f9b9fc0792d45fc577f6"
+    },
+    {
+      "path": "movie/s10/s10.ag",
+      "offset": 3616555008,
+      "size": 5898240,
+      "sha256": "9263fe8040a47c31a914e213444f1d7b278d5d799f66e2d437129d6cdac8c146"
+    },
+    {
+      "path": "movie/s10/s10.ipu",
+      "offset": 3622453248,
+      "size": 80317389,
+      "sha256": "3a983d8a5f34964f2f2bc408bd620f826c209c6a2238bbb96c731bc00deaffd4"
+    },
+    {
+      "path": "movie/s11/s11.ag",
+      "offset": 3702784000,
+      "size": 5898240,
+      "sha256": "9263fe8040a47c31a914e213444f1d7b278d5d799f66e2d437129d6cdac8c146"
+    },
+    {
+      "path": "movie/s11/s11.ipu",
+      "offset": 3708682240,
+      "size": 80315860,
+      "sha256": "2bedabdb982a0f4e3432d2e9324c78a098aa182887c666318166145635372cad"
+    },
+    {
+      "path": "movie/s12/s12.ag",
+      "offset": 3789012992,
+      "size": 5898240,
+      "sha256": "9263fe8040a47c31a914e213444f1d7b278d5d799f66e2d437129d6cdac8c146"
+    },
+    {
+      "path": "movie/s12/s12.ipu",
+      "offset": 3794911232,
+      "size": 80323063,
+      "sha256": "c6c61f2eece21b4e571a004cd005c6d18443dd8541ff6d3f45175960fd7b1e2f"
+    },
+    {
+      "path": "movie/s13/s13.ag",
+      "offset": 3875241984,
+      "size": 5898240,
+      "sha256": "9263fe8040a47c31a914e213444f1d7b278d5d799f66e2d437129d6cdac8c146"
+    },
+    {
+      "path": "movie/s13/s13.ipu",
+      "offset": 3881140224,
+      "size": 80317096,
+      "sha256": "b658b2fbae36097bf4b59ebbc9dbfcd1a9a0257bd8d63910024aaac029de95db"
+    },
+    {
+      "path": "movie/s14/s14.ag",
+      "offset": 3961470976,
+      "size": 13893632,
+      "sha256": "8c3aa698891b64e6d008846e1d23a1e829fa4d529b368f9b3f6491733e9a3bac"
+    },
+    {
+      "path": "movie/s14/s14.ipu",
+      "offset": 3975364608,
+      "size": 190851039,
+      "sha256": "30298ffea3196ce13685f8b3eaa02ce31c5a51b068f95c3f9f8c2941cb50ffba"
+    },
+    {
+      "path": "movie/s15/s15.ag",
+      "offset": 4166221824,
+      "size": 5308416,
+      "sha256": "99cca0ed776f450442260e1355a59f49230d0a29e1f567b94bb0e9258388eefa"
+    },
+    {
+      "path": "movie/s15/s15.ipu",
+      "offset": 4171530240,
+      "size": 73900374,
+      "sha256": "ae7125c2c321c3abfb922cb7817683948dbe2a69e4d6d138c08b5d627a288d33"
+    }
+  ],
+  "original_audio_preserved": true,
+  "untouched_video_frames_preserved": true,
+  "untouched_videos_preserved": true,
+  "dialogue_revision_v4_preserved": true,
+  "runtime_verified": false,
+  "cue_count": 149,
+  "song_lyrics_applied": true,
+  "song_lyrics_fully_confirmed": false,
+  "translation_review_limits": "extracted_movies/korean_reviewed_v1/청취_확인필요.json",
+  "credits_layout": {
+    "tag": "s14",
+    "content_size": [
+      576,
+      432
+    ],
+    "frame_size": [
+      640,
+      480
+    ],
+    "position": [
+      32,
+      0
+    ],
+    "all_frames_reencoded": true
+  }
+}

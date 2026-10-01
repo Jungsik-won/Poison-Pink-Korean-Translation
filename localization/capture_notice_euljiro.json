@@ -1,0 +1,450 @@
+{
+  "font": "<LOCAL_USER_HOME>/Library/Fonts/BMEULJIROTTF.ttf",
+  "rows": [
+    {
+      "id": "catch_0320",
+      "source": "魔神アル・エメス",
+      "target": "마신 알 에메스",
+      "name_db_row": "status/PPPARAM.dat:0:254:name",
+      "existing_name_translation": "알 에메스",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0321",
+      "source": "魔神ネグ・エメス",
+      "target": "마신 네그 에메스",
+      "name_db_row": "status/PPPARAM.dat:0:227:name",
+      "existing_name_translation": "네그 에메스",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0330",
+      "source": "魔神ヘクト・ギガス",
+      "target": "마신 헥토 기가스",
+      "name_db_row": "status/PPPARAM.dat:0:235:name",
+      "existing_name_translation": "헥토 기가스",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0370",
+      "source": "魔神エクエス・マキナ",
+      "target": "마신 에쿠에스 마키나",
+      "name_db_row": "status/PPPARAM.dat:0:255:name",
+      "existing_name_translation": "에쿠에스 마키나",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0390",
+      "source": "魔神アルマ・マキナ",
+      "target": "마신 알마 마키나",
+      "name_db_row": "status/PPPARAM.dat:0:256:name",
+      "existing_name_translation": "알마 마키나",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0420",
+      "source": "魔神ゼムファタズマ",
+      "target": "마신 젬 파타즈마",
+      "name_db_row": "status/PPPARAM.dat:0:257:name",
+      "existing_name_translation": "젬 파타즈마",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0430",
+      "source": "魔神エクサ・ギガス",
+      "target": "마신 엑사 기가스",
+      "name_db_row": "status/PPPARAM.dat:0:134:name",
+      "existing_name_translation": "엑사 기가스",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0440",
+      "source": "魔神シェイドドラゴン",
+      "target": "마신 셰이드 드래곤",
+      "name_db_row": "status/PPPARAM.dat:0:135:name",
+      "existing_name_translation": "셰이드 드래곤",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0450",
+      "source": "魔神ルケルナ",
+      "target": "마신 루켈나",
+      "name_db_row": "status/PPPARAM.dat:0:258:name",
+      "existing_name_translation": "루켈나",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0451",
+      "source": "魔神ラテルナ",
+      "target": "마신 라테르나",
+      "name_db_row": "status/PPPARAM.dat:0:137:name",
+      "existing_name_translation": "라테르나",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0470",
+      "source": "魔神ヒーフラー",
+      "target": "마신 히플러",
+      "name_db_row": "status/PPPARAM.dat:0:251:name",
+      "existing_name_translation": "히플러",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0471",
+      "source": "魔神シーフラー",
+      "target": "마신 시플러",
+      "name_db_row": "status/PPPARAM.dat:0:247:name",
+      "existing_name_translation": "시플러",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0480",
+      "source": "魔神ラピスキュア",
+      "target": "마신 라피스큐어",
+      "name_db_row": "status/PPPARAM.dat:0:249:name",
+      "existing_name_translation": "라피스큐어",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0481",
+      "source": "魔神シルフィス",
+      "target": "마신 실피스",
+      "name_db_row": "status/PPPARAM.dat:0:218:name",
+      "existing_name_translation": "실피스",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0490",
+      "source": "魔神カース",
+      "target": "마신 카스",
+      "name_db_row": "status/PPPARAM.dat:0:212:name",
+      "existing_name_translation": "카스",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0520",
+      "source": "魔神エルフィ",
+      "target": "마신 엘피",
+      "name_db_row": "status/PPPARAM.dat:0:259:name",
+      "existing_name_translation": "엘피",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0521",
+      "source": "魔神エク・エルフィ",
+      "target": "마신 엑 엘피",
+      "name_db_row": "status/PPPARAM.dat:0:143:name",
+      "existing_name_translation": "엑 엘피",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0530",
+      "source": "魔神アラネア",
+      "target": "마신 알라네아",
+      "name_db_row": "status/PPPARAM.dat:0:260:name",
+      "existing_name_translation": "알라네아",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0531",
+      "source": "魔神エク・アラネア",
+      "target": "마신 엑 알라네아",
+      "name_db_row": "status/PPPARAM.dat:0:145:name",
+      "existing_name_translation": "엑 알라네아",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0540",
+      "source": "魔神テラヌス",
+      "target": "마신 테라누스",
+      "name_db_row": "status/PPPARAM.dat:0:146:name",
+      "existing_name_translation": "테라누스",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0550",
+      "source": "魔神アニマニュクス",
+      "target": "마신 아니마뉴크스",
+      "name_db_row": "status/PPPARAM.dat:0:147:name",
+      "existing_name_translation": "Animanux",
+      "name_correction": true
+    },
+    {
+      "id": "catch_0570",
+      "source": "魔神トリニティ",
+      "target": "마신 트리니티",
+      "name_db_row": "status/PPPARAM.dat:0:148:name",
+      "existing_name_translation": "트리니티",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0580",
+      "source": "魔神デス・ファルクス",
+      "target": "마신 데스팔크스",
+      "name_db_row": "status/PPPARAM.dat:0:149:name",
+      "existing_name_translation": "데스팔크스",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0600",
+      "source": "魔神ゴートアス",
+      "target": "마신 고트아스",
+      "name_db_row": "status/PPPARAM.dat:0:211:name",
+      "existing_name_translation": "고트아스",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0610",
+      "source": "魔神タンクルペア",
+      "target": "마신 탄클페어",
+      "name_db_row": "status/PPPARAM.dat:0:205:name",
+      "existing_name_translation": "탱크 쌍",
+      "name_correction": true
+    },
+    {
+      "id": "catch_0620",
+      "source": "魔神アクア・コクレア",
+      "target": "마신 아쿠아 코클레어",
+      "name_db_row": "status/PPPARAM.dat:0:252:name",
+      "existing_name_translation": "아쿠아 코클레어",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0621",
+      "source": "魔神イグニ・コクレア",
+      "target": "마신 이그니코 클레어",
+      "name_db_row": "status/PPPARAM.dat:0:261:name",
+      "existing_name_translation": "이그니코 클레어",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0630",
+      "source": "魔神ラケルタ",
+      "target": "마신 라켈타",
+      "name_db_row": "status/PPPARAM.dat:0:230:name",
+      "existing_name_translation": "라켈타",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0631",
+      "source": "魔神マグス・ラケルタ",
+      "target": "마신 마그스라 켈타",
+      "name_db_row": "status/PPPARAM.dat:0:234:name",
+      "existing_name_translation": "마그스라 켈타",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0640",
+      "source": "魔神ゾーン・ベラトール",
+      "target": "마신 존 베라톨",
+      "name_db_row": "status/PPPARAM.dat:0:176:name",
+      "existing_name_translation": "존 베라톨",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0650",
+      "source": "魔神アクニス",
+      "target": "마신 아크니스",
+      "name_db_row": "status/PPPARAM.dat:0:262:name",
+      "existing_name_translation": "여드름",
+      "name_correction": true
+    },
+    {
+      "id": "catch_0651",
+      "source": "魔神エク・アクニス",
+      "target": "마신 엑 아크니스",
+      "name_db_row": "status/PPPARAM.dat:0:155:name",
+      "existing_name_translation": "엑악니스",
+      "name_correction": true
+    },
+    {
+      "id": "catch_0670",
+      "source": "魔神ルナ・ベラトール",
+      "target": "마신 루나벨라톨",
+      "name_db_row": "status/PPPARAM.dat:0:173:name",
+      "existing_name_translation": "루나벨라톨",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0680",
+      "source": "魔神マクロープス",
+      "target": "마신 마크로프스",
+      "name_db_row": "status/PPPARAM.dat:0:214:name",
+      "existing_name_translation": "마크로프스",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0700",
+      "source": "魔神キャンサギガス",
+      "target": "마신 캔서기가스",
+      "name_db_row": "status/PPPARAM.dat:0:233:name",
+      "existing_name_translation": "캔자기 가스",
+      "name_correction": true
+    },
+    {
+      "id": "catch_0710",
+      "source": "魔神ダリア・レギーナ",
+      "target": "마신 달리아 레기나",
+      "name_db_row": "status/PPPARAM.dat:0:177:name",
+      "existing_name_translation": "달리아 레기나",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0720",
+      "source": "魔神マンティギガス",
+      "target": "마신 만티기가스",
+      "name_db_row": "status/PPPARAM.dat:0:161:name",
+      "existing_name_translation": "만티기가스",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0730",
+      "source": "魔神アピス",
+      "target": "마신 아피스",
+      "name_db_row": "status/PPPARAM.dat:0:215:name",
+      "existing_name_translation": "아피스",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0731",
+      "source": "魔神ウェスパ",
+      "target": "마신 웨스파",
+      "name_db_row": "status/PPPARAM.dat:0:264:name",
+      "existing_name_translation": "웨스파",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0740",
+      "source": "魔神キロプテラ",
+      "target": "마신 킬롭테라",
+      "name_db_row": "status/PPPARAM.dat:0:265:name",
+      "existing_name_translation": "킬롭테라",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0750",
+      "source": "魔神アモイノデア",
+      "target": "마신 아모이노데아",
+      "name_db_row": "status/PPPARAM.dat:0:244:name",
+      "existing_name_translation": "아모이노데아",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0770",
+      "source": "魔神ハスタルニス",
+      "target": "마신 하스탈니스",
+      "name_db_row": "status/PPPARAM.dat:0:231:name",
+      "existing_name_translation": "하스탈니스",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0780",
+      "source": "魔神マギカリアス",
+      "target": "마신 매기칼리아스",
+      "name_db_row": "status/PPPARAM.dat:0:225:name",
+      "existing_name_translation": "매기칼리아스",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0800",
+      "source": "魔神ガルデ",
+      "target": "마신 가르데",
+      "name_db_row": "status/PPPARAM.dat:0:266:name",
+      "existing_name_translation": "가르데",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0801",
+      "source": "魔神エク・ガルデ",
+      "target": "마신 엑가르데",
+      "name_db_row": "status/PPPARAM.dat:0:169:name",
+      "existing_name_translation": "엑가르데",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0810",
+      "source": "魔神レイデ・アクリス",
+      "target": "마신 레이데아크리스",
+      "name_db_row": "status/PPPARAM.dat:0:221:name",
+      "existing_name_translation": "레이데아크리스",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0850",
+      "source": "魔神イグニス",
+      "target": "마신 이그니스",
+      "name_db_row": "status/PPPARAM.dat:0:171:name",
+      "existing_name_translation": "이그니스",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0860",
+      "source": "魔神アクアドラゴン",
+      "target": "마신 아쿠아 드래곤",
+      "name_db_row": "status/PPPARAM.dat:0:172:name",
+      "existing_name_translation": "아쿠아 드래곤",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0880",
+      "source": "魔神オッタクーファン",
+      "target": "마신 옷타쿠판",
+      "name_db_row": "status/PPPARAM.dat:0:175:name",
+      "existing_name_translation": "옷타쿠판",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0890",
+      "source": "魔神ハスタ・カエルラ",
+      "target": "마신 하스타 카엘라",
+      "name_db_row": "status/PPPARAM.dat:0:174:name",
+      "existing_name_translation": "하스타 카엘라",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0910",
+      "source": "魔神トライフィード",
+      "target": "마신 트라이 피드",
+      "name_db_row": "status/PPPARAM.dat:0:263:name",
+      "existing_name_translation": "트라이 피드",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0920",
+      "source": "魔神デウス・フォサ",
+      "target": "마신 데우스 포사",
+      "name_db_row": "status/PPPARAM.dat:0:178:name",
+      "existing_name_translation": "데우스 포사",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0930",
+      "source": "魔神デウス・グルゲス",
+      "target": "마신 데우스 구르게스",
+      "name_db_row": "status/PPPARAM.dat:0:179:name",
+      "existing_name_translation": "데우스 구르게스",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0940",
+      "source": "魔神エル・ステーラ",
+      "target": "마신 엘스테라",
+      "name_db_row": "status/PPPARAM.dat:0:180:name",
+      "existing_name_translation": "엘스테라",
+      "name_correction": false
+    },
+    {
+      "id": "catch_0950",
+      "source": "魔神レオ・レクス",
+      "target": "마신 레오렉스",
+      "name_db_row": "status/PPPARAM.dat:0:181:name",
+      "existing_name_translation": "레오렉스",
+      "name_correction": false
+    },
+    {
+      "id": "catch_cmn00",
+      "source": "捕獲!!",
+      "target": "포획!!"
+    }
+  ]
+}

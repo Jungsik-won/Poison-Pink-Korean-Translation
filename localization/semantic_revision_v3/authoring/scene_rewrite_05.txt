@@ -1,0 +1,10 @@
+dmap/script/ft_99.rtb:0x00007e18|이건 대체\n무슨 장난입니까?
+dmap/script/ft_99.rtb:0x00008d9e|발드 왕의 흉행을 보고도\n아무것도 배우지 못했어?
+dmap/script/ft_99.rtb:0x00009e51|역겨워
+dmap/script/ft_99.rtb:0x0000a2a7|반가워, '이제트'
+dmap/script/ft_99.rtb:0x0000b293|웃음거리로구나\n마에 빠진 공주여...
+dmap/script/ft_99.rtb:0x0000ce16|느긋한 소리나 할 때가 아니다
+dmap/script/ft_99.rtb:0x0000d4bd|어서 빠져나가지 않으면\n소멸에 휘말려 죽는다
+dmap/script/ft_99.rtb:0x0000ec72|무너지는 발드 성에 호응하듯\n옥계 베세크도 서서히 무너져 갔다
+dmap/script/ft_99.rtb:0x0000ee91|사람들은 안정된 생활을\n되찾게 되었다...
+dmap/script/ft_99.rtb:0x0000f206|또 하나의 마도서인 리벨 웨스펠이\n여전히 존재하기 때문이다

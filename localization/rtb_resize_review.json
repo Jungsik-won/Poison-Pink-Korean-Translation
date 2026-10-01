@@ -1,0 +1,26 @@
+{
+  "longer": {
+    "id": "DMAP:2786:0000bb34",
+    "source_sha256": "8311f325594439d594b99a6750b576a9fce934397f14df64be4c5a1802004cbb",
+    "source": "戦い方の基本を教えるぞ",
+    "target": "전투의 기본을 알려주마.",
+    "role": "dialogue",
+    "status": "reviewed",
+    "reviewer": "Codex - source/binary/context review",
+    "context": "t00_0010.rtb 첫 튜토리얼 안내; 화자 ラキ",
+    "encoding_manifest": "build/korean_sentence/manifest.json",
+    "scope": "문장 길이 증가/감소 기술 검증; 첫 라키 안내의 의미와 말투 유지"
+  },
+  "shorter": {
+    "id": "DMAP:2786:0000bb34",
+    "source_sha256": "8311f325594439d594b99a6750b576a9fce934397f14df64be4c5a1802004cbb",
+    "source": "戦い方の基本を教えるぞ",
+    "target": "전투 기본을 알려주마",
+    "role": "dialogue",
+    "status": "reviewed",
+    "reviewer": "Codex - source/binary/context review",
+    "context": "t00_0010.rtb 첫 튜토리얼 안내; 화자 ラキ",
+    "encoding_manifest": "build/korean_sentence/manifest.json",
+    "scope": "문장 길이 증가/감소 기술 검증; 첫 라키 안내의 의미와 말투 유지"
+  }
+}

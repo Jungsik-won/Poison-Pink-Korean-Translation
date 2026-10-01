@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "files": {
+    "DATA/BATTLE.DAT": {
+      "size": 348864512,
+      "sha256": "7112a635604629c6d7104da697196f96c53d5e53a8c3732b7bd8b2c544cd193a"
+    },
+    "DATA/BATTLE.HED": {
+      "size": 280324,
+      "sha256": "a11baeb8b238d0602cc16374e5b23927740e2eac36a538bebbbe18c0be5e7456"
+    },
+    "DATA/CLIP.DAT": {
+      "size": 19267584,
+      "sha256": "7ef168aceaa17fcec533044830caa6f92a4d3a3d86419029762cba6197cff9ae"
+    },
+    "DATA/CLIP.HED": {
+      "size": 10780,
+      "sha256": "071d166755cb20c5549e9aec3491008c243be10c878a66732ef356b5127e6b5c"
+    },
+    "DATA/DMAP.DAT": {
+      "size": 419086336,
+      "sha256": "3983ede122ad8effc3fd381332bca88a50ad37b60e001b386c35d40f10c891b0"
+    },
+    "DATA/DMAP.HED": {
+      "size": 181016,
+      "sha256": "0321d2466e94ad30e323546b341539ec190e725e641ce8220d5ddd6407c8699a"
+    },
+    "DATA/LFACE.DAT": {
+      "size": 14467072,
+      "sha256": "664e6c8282eb9b78094184fda782897057541fad1e0f6df321a27653ec66d3a6"
+    },
+    "DATA/LFACE.HED": {
+      "size": 5764,
+      "sha256": "d000d131a0ee5e6cc9d7dbce463cf7ff8064ebf988d9de4caddd74d7b3102417"
+    },
+    "DATA/MODULES/EZMIDI.IRX": {
+      "size": 107597,
+      "sha256": "8418f446cbe4dc4d2bc1437a532f42b7a212e2739c8521206e3609e89b33ec10"
+    },
+    "DATA/MODULES/IRX/IOPRP300.IMG": {
+      "size": 275345,
+      "sha256": "02d314464c17c715d7e809297b0aba184173a98616b1fafeac27fe33fc480c82"
+    },
+    "DATA/MODULES/IRX/LIBSD.IRX": {
+      "size": 28661,
+      "sha256": "d26a8dcd121ff4ded9c819b72864ea7f4e723932cc2eab1b4f0f1c93faad43ef"
+    },
+    "DATA/MODULES/IRX/MCMAN.IRX": {
+      "size": 96181,
+      "sha256": "e4e2afe72c123faa7c5f86624185479cd800d94c065ce5d023c540aa0935830a"
+    },
+    "DATA/MODULES/IRX/MCSERV.IRX": {
+      "size": 7385,
+      "sha256": "dd33d243b91adb6fb5587ee77b212ca7fe6bb24bffa6cd128bc3d59e6cf6e6d2"
+    },
+    "DATA/MODULES/IRX/MODHSYN.IRX": {
+      "size": 63037,
+      "sha256": "804a40a38d620ecc88b81b90afb8aab262f0540187e8db25eed1ede69131fed1"
+    },
+    "DATA/MODULES/IRX/MODMIDI.IRX": {
+      "size": 21941,
+      "sha256": "c22df1c868d4baa4f51ab45e319e6b76fcab7fe0be7f0d5493a9f60285501489"
+    },
+    "DATA/MODULES/IRX/MODSEIN.IRX": {
+      "size": 9393,
+      "sha256": "14eb4e2858121dd69779a1a90e30aa04c48757d28bb349cf629e499c038ad635"
+    },
+    "DATA/MODULES/IRX/MODSESQ.IRX": {
+      "size": 13717,
+      "sha256": "d42f1e7e2f8e09f81526ac51deb2ccdaa971eba4db853fa639b022680cda557b"
+    },
+    "DATA/MODULES/IRX/PADMAN.IRX": {
+      "size": 45797,
+      "sha256": "7362ff796dced5c94a99d04fd50a774d92aa23d5605eb04d84997dd7cb5508c0"
+    },
+    "DATA/MODULES/IRX/SDRDRV.IRX": {
+      "size": 9161,
+      "sha256": "85a465ab251bde0c3d33151b3a67ec2780d57cc40ebb7df9d5ecb7bad3396b16"
+    },
+    "DATA/MODULES/IRX/SIO2MAN.IRX": {
+      "size": 6641,
+      "sha256": "565ec77e75f174cfddf72c41ccc446c1c07a3d5fb0a2ccfefad337cb8a7d0728"
+    },
+    "DATA/MODULES.DAT": {
+      "size": 753664,
+      "sha256": "1be36d60feb916b284daa9f7e7e372b478394e0efec4965f24c33a12b04092b9"
+    },
+    "DATA/MODULES.HED": {
+      "size": 836,
+      "sha256": "7c5ca03a167639fd151ae6d250bfa7268205ee3b2005a9a2f9ab08c9d4a79fed"
+    },
+    "DATA/MOVIE.DAT": {
+      "size": 1175289856,
+      "sha256": "47f16edfb25f450554a710e92275444069c23e02d1da49e728ea1764d1fb0607"
+    },
+    "DATA/MOVIE.HED": {
+      "size": 3476,
+      "sha256": "ee7c469632de93248b2294b3eae2aedbe7da2dd0de434073bd6f217ff94e9600"
+    },
+    "DATA/ROOT.DAT": {
+      "size": 16384,
+      "sha256": "988a7c7ea3aee79e70d57a282161a1a55ea169f6a3d0b4b60417a05c6f075c5d"
+    },
+    "DATA/ROOT.HED": {
+      "size": 220,
+      "sha256": "c4ee6203e727e8b62652ee0a804bc281df3d0ede4da07bcbc5b7483f2b8c3df4"
+    },
+    "DATA/SFACE.DAT": {
+      "size": 2211840,
+      "sha256": "0ae8c2b5af63fa231fa6c375097b93a7b24a44efe9458cfa3e5950e88af47cbd"
+    },
+    "DATA/SFACE.HED": {
+      "size": 5940,
+      "sha256": "76057ad4fa8be017d5180c03f6d10507453f6c82f82da18539d26c02cfcadc81"
+    },
+    "DATA/SOUND.DAT": {
+      "size": 716619776,
+      "sha256": "b1c6df9976158c971a989cd8895742c82d3280f5fe89704bdfa18c8421eeb148"
+    },
+    "DATA/SOUND.HED": {
+      "size": 14124,
+      "sha256": "7c26256d4619d88ff5899311173e28c12d5412d329b4517cba681359c328025a"
+    },
+    "DATA/STATUS.DAT": {
+      "size": 12255232,
+      "sha256": "8673befd2632769dc727ec4daa04d79e9d504f1a30d91e128cd2fcac0df63153"
+    },
+    "DATA/STATUS.HED": {
+      "size": 9548,
+      "sha256": "6cf0116b2091be16d3540b83f8f03d22bead61abcb50dc78bbb89fbe8488391f"
+    },
+    "DATA/SUBDIR.HED": {
+      "size": 68,
+      "sha256": "47d19ffef1668b1c2a4399d97c5c73e8b9716970a92f2f4465ca3b3463ee15c8"
+    },
+    "DATA/SYSTEM.DAT": {
+      "size": 1376256,
+      "sha256": "c561754add08794947206b98151f8d7c931e25b4d70d16989bda3cfa47c8e1b6"
+    },
+    "DATA/SYSTEM.HED": {
+      "size": 968,
+      "sha256": "e78e432d855ca3f9d01cc6488fa773484974d0c22e0cc15b920af157e3fdbad1"
+    },
+    "DI": {
+      "size": 128,
+      "sha256": "45b69d030cb9fcb036ab036ad428c294b39d25afb9b0f3a06d2abb26a00ab93d"
+    },
+    "MODULES/EZMIDI.IRX": {
+      "size": 107597,
+      "sha256": "8418f446cbe4dc4d2bc1437a532f42b7a212e2739c8521206e3609e89b33ec10"
+    },
+    "MODULES/IRX/IOPRP300.IMG": {
+      "size": 275345,
+      "sha256": "02d314464c17c715d7e809297b0aba184173a98616b1fafeac27fe33fc480c82"
+    },
+    "MODULES/IRX/LIBSD.IRX": {
+      "size": 28661,
+      "sha256": "d26a8dcd121ff4ded9c819b72864ea7f4e723932cc2eab1b4f0f1c93faad43ef"
+    },
+    "MODULES/IRX/MCMAN.IRX": {
+      "size": 96181,
+      "sha256": "e4e2afe72c123faa7c5f86624185479cd800d94c065ce5d023c540aa0935830a"
+    },
+    "MODULES/IRX/MCSERV.IRX": {
+      "size": 7385,
+      "sha256": "dd33d243b91adb6fb5587ee77b212ca7fe6bb24bffa6cd128bc3d59e6cf6e6d2"
+    },
+    "MODULES/IRX/MODHSYN.IRX": {
+      "size": 63037,
+      "sha256": "804a40a38d620ecc88b81b90afb8aab262f0540187e8db25eed1ede69131fed1"
+    },
+    "MODULES/IRX/MODMIDI.IRX": {
+      "size": 21941,
+      "sha256": "c22df1c868d4baa4f51ab45e319e6b76fcab7fe0be7f0d5493a9f60285501489"
+    },
+    "MODULES/IRX/MODSEIN.IRX": {
+      "size": 9393,
+      "sha256": "14eb4e2858121dd69779a1a90e30aa04c48757d28bb349cf629e499c038ad635"
+    },
+    "MODULES/IRX/MODSESQ.IRX": {
+      "size": 13717,
+      "sha256": "d42f1e7e2f8e09f81526ac51deb2ccdaa971eba4db853fa639b022680cda557b"
+    },
+    "MODULES/IRX/PADMAN.IRX": {
+      "size": 45797,
+      "sha256": "7362ff796dced5c94a99d04fd50a774d92aa23d5605eb04d84997dd7cb5508c0"
+    },
+    "MODULES/IRX/SDRDRV.IRX": {
+      "size": 9161,
+      "sha256": "85a465ab251bde0c3d33151b3a67ec2780d57cc40ebb7df9d5ecb7bad3396b16"
+    },
+    "MODULES/IRX/SIO2MAN.IRX": {
+      "size": 6641,
+      "sha256": "565ec77e75f174cfddf72c41ccc446c1c07a3d5fb0a2ccfefad337cb8a7d0728"
+    },
+    "Poison Pink (Japan).iso": {
+      "size": 4245454848,
+      "sha256": "081e5c921fc2b0f517f007dfe053935578174a6880949de961e273426b216103"
+    },
+    "SLPS_258.54": {
+      "size": 4659936,
+      "sha256": "e5656bc081796cffc28a34df0fa1b399a0ae9f1494471e5a002e62d973e797d9"
+    },
+    "SYSTEM.CNF": {
+      "size": 57,
+      "sha256": "3504614781a910fe9c5b836ba4a2ca665723731139c052f7d87d4f7d27d54b16"
+    }
+  }
+}

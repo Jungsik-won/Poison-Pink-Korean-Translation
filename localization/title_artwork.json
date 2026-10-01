@@ -1,0 +1,22 @@
+{
+  "base_iso": "build/help_pages_v7/Poison Pink (Japan) - tutorial help.iso",
+  "base_iso_sha256": "a3f2c6c3fe10fe0ce3d15e78838a235a69730f332550f297e1b32d62f5481630",
+  "output_iso": "build/title_artwork_v1/Poison Pink (Japan) - custom title.iso",
+  "method": "original_palette_premultiplied_rgba_nearest_without_resizing",
+  "assets": [
+    {
+      "path": "dmap/title/tit_lg00.tm2",
+      "user_file": "extracted/original/images/DMAP/dmap/title/tit_lg00 복사.png",
+      "png": "localization/artwork/title_user_v1/tit_lg00.png",
+      "png_sha256": "827cab43d839fe4495cf52476ac48d570cccc563f59345d14ebd81c85cb7dd64",
+      "original_tim2_sha256": "8de570f550c48838783bf90520004acab19b2face2640427b5dab3840dc62029"
+    },
+    {
+      "path": "dmap/title/tit_tx01.tm2",
+      "user_file": "extracted/original/images/DMAP/dmap/title/tit_tx01.tm2 복사.png",
+      "png": "localization/artwork/title_user_v1/tit_tx01.png",
+      "png_sha256": "b2ec9465be6a60db450c3c03140bbba8a740308f3602194f06e2efa2a724bd9e",
+      "original_tim2_sha256": "8d89a48144718238272b318a136871940eeff7f8cdd3c903937a024e080823ee"
+    }
+  ]
+}

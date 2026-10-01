@@ -1,0 +1,26 @@
+{
+  "native_review_complete": true,
+  "date": "2026-10-01",
+  "approved_ids": [
+    "bf_nm_a",
+    "bf_nm_e",
+    "bf_nm_f",
+    "bf_nm_g",
+    "bf_nm_h",
+    "bf_nm_i",
+    "bf_nm_j",
+    "bf_nm_s"
+  ],
+  "glyph_sha256": {
+    "bf_nm_a": "1f99f0b016ba50548da71826c0e201d2f1713b2c20299a1aa957b860e38e04c3",
+    "bf_nm_e": "263bcc22119bf3eb82a18cd2d2efc6e22017c9753baaa5219c9a5db5182c4512",
+    "bf_nm_f": "8ac36a4fdfd8953133ee7dcf4a48eca9113e48016ab736c9bdfb3e266e90655f",
+    "bf_nm_g": "1764613379b25cdac08e9f920b2650a544487589e2dd97d1081be4e8378ed862",
+    "bf_nm_h": "1bb1bf28040e40df0556f42728d2f23b8d3fc67f289f3aeb304504f063aa049b",
+    "bf_nm_i": "8a302513766c7d79f401649fec45dc170f53dbcc94bf72b41e6e08f804ff16d3",
+    "bf_nm_j": "ec81d416008506422f34693533b36ead76f7a210b1df5f4725ed7176e8ca6dcb",
+    "bf_nm_s": "0a05fd93bf9343e0f1f0559d491f4b840be05f0e9890fa0d94449f161d341e84"
+  },
+  "review_image": "outputs/dmap_flow_ko_v1/review/native_all.png",
+  "notes": "All 8 unique titles read correctly at native resolution. English preserved byte-for-byte. Native title bbox matches original. Korean character spacing manually checked."
+}

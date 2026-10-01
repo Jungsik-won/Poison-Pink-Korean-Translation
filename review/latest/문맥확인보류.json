@@ -1,0 +1,37 @@
+[
+  {
+    "unit": 1262,
+    "source": "リベラ、リベラ！\nキサンハヨコッチャドゲンスット？！",
+    "current_target": "리베라, 리베라!\n그대 빨리 이쪽을 어떻게 할 거야?!",
+    "reason": "キサンハヨコッチャ segmentation unresolved",
+    "action": "existing translation retained; no speculative replacement"
+  },
+  {
+    "unit": 1565,
+    "source": "モッサイ、モッサイ、\nドゲンコツモナランチャー",
+    "current_target": "못사이, 못사이,\n도겐코츠모 나란차-",
+    "reason": "モッサイ sense unresolved",
+    "action": "existing translation retained; no speculative replacement"
+  },
+  {
+    "unit": 9395,
+    "source": "カウポー、クックー　タベレ\nオラブ　ムリムリ・・・",
+    "current_target": "카우포~, 쿠쿠~ 먹어라\n오라브, 무리무리...",
+    "reason": "タベレ and argument omitted; avoid inventing who eats whom",
+    "action": "existing translation retained; no speculative replacement"
+  },
+  {
+    "unit": 10035,
+    "source": "カウポーオオマン！\nクックーイッチョンラクトチガウ",
+    "current_target": "카우포 거만해!\n쿠쿠랑은 차원이 달라",
+    "reason": "ラクトチガウ unresolved",
+    "action": "existing translation retained; no speculative replacement"
+  },
+  {
+    "unit": 6776,
+    "source": "忌み仔生み出す破壊の力、\n所持する諸事、魔界の宝",
+    "current_target": "재앙의 아이가 낳는 파괴의 힘\n소유한 모든 것, 마계의 보물",
+    "reason": "諸事 likely stylized homophone; interpretation unresolved",
+    "action": "existing translation retained; no speculative replacement"
+  }
+]

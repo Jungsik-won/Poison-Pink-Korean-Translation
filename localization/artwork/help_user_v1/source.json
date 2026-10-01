@@ -1,0 +1,104 @@
+{
+  "zip_source": "<LOCAL_USER_HOME>/Documents/Codex/2026-09-16/referenced-chatgpt-conversation-this-is-an/outputs/ev136-ev142_KO.zip",
+  "zip_sha256": "ed8aef0f27c44091bf3c3ee772a68ccd0f076c88e49ba4b619fa6f1a537e9c2d",
+  "images": [
+    {
+      "page": 136,
+      "png": "localization/artwork/help_user_v1/ev136.png",
+      "sha256": "20afc116db1af062016eda8b2e470d1ad3c5e6762645e46b68e94fca15ea8a4d",
+      "alpha_changed": 0,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "original_alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "page": 137,
+      "png": "localization/artwork/help_user_v1/ev137.png",
+      "sha256": "af69f113a034afc269c4762353b36b71ca5f6077e83e827a8171ad422843a818",
+      "alpha_changed": 0,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "original_alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "page": 138,
+      "png": "localization/artwork/help_user_v1/ev138.png",
+      "sha256": "616639be089896d9eeb42bd8bd35791ea605191850479512724dfb5528985c2c",
+      "alpha_changed": 0,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "original_alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "page": 139,
+      "png": "localization/artwork/help_user_v1/ev139.png",
+      "sha256": "eb552eb3f98ef9273e8d3fd824e879033a6584f7bce261563bd13954af7a5986",
+      "alpha_changed": 0,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "original_alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "page": 140,
+      "png": "localization/artwork/help_user_v1/ev140.png",
+      "sha256": "6cde9909fb5497d5e34061a11446b0e8aef8c6d6f1ad2056ba798bd30a1035dc",
+      "alpha_changed": 0,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "original_alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "page": 141,
+      "png": "localization/artwork/help_user_v1/ev141.png",
+      "sha256": "b1e4c84660a395f263d62a7101256b788ed209271fc4544911d539dd39edad72",
+      "alpha_changed": 0,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "original_alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "page": 142,
+      "png": "localization/artwork/help_user_v1/ev142.png",
+      "sha256": "4d60da942092e379eea1283266af2618ad5302ab2cb324feea95a5725f23def0",
+      "alpha_changed": 0,
+      "alpha_values": [
+        0,
+        255
+      ],
+      "original_alpha_values": [
+        0,
+        255
+      ]
+    }
+  ]
+}

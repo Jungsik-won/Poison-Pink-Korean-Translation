@@ -1,0 +1,711 @@
+{
+  "schema_version": 1,
+  "base_iso": "build/ui_titles_v2/Poison Pink (Japan) - UI titles.iso",
+  "base_iso_sha256": "aa1f65d793a00a97310e94ac03ef3b796f7379d107973e5927a8ad5b8fcfeca6",
+  "base_font_report": "build/ui_remaining/base-font.json",
+  "elf_sha256": "096f30c4d51edabdc0b348f9f240dac3e024f18deaa14dc4d2807b086abb4b69",
+  "artwork_font": "<LOCAL_USER_HOME>/Library/Application Support/PCSX2/resources/fonts/NotoSansKR-Regular.ttf",
+  "artwork_font_sha256": "9db318b65ee9c575a43e7efd273dbdd1afef26e467eea3e1073a50e1a6595f6d",
+  "literals": [
+    {
+      "id": "ELF:004534b8",
+      "offset": 4535480,
+      "section": ".sdata",
+      "source": "再行動",
+      "target": "재행동",
+      "raw_hex": "8dc48d7393ae",
+      "pointer_offsets": [
+        4050196
+      ],
+      "status": "reviewed",
+      "reviewer": "Codex"
+    },
+    {
+      "id": "ELF:004534c0",
+      "offset": 4535488,
+      "section": ".sdata",
+      "source": "双撃",
+      "target": "쌍격",
+      "raw_hex": "916f8c82",
+      "pointer_offsets": [
+        4050200,
+        4050900
+      ],
+      "status": "reviewed",
+      "reviewer": "Codex"
+    },
+    {
+      "id": "ELF:0042de08",
+      "offset": 4382216,
+      "section": ".rodata",
+      "source": "再行動するキャラクターを選択してください",
+      "target": "재행동할 캐릭터를 선택하세요",
+      "raw_hex": "8dc48d7393ae82b782e9834c83838389834e835e815b82f0914991f082b582c482ad82be82b382a2",
+      "pointer_offsets": [
+        4535624
+      ],
+      "status": "reviewed",
+      "reviewer": "Codex"
+    },
+    {
+      "id": "ELF:0042de38",
+      "offset": 4382264,
+      "section": ".rodata",
+      "source": "双撃を行うキャラクターを選択してください",
+      "target": "쌍격에 참여할 캐릭터를 선택하세요",
+      "raw_hex": "916f8c8282f08d7382a4834c83838389834e835e815b82f0914991f082b582c482ad82be82b382a2",
+      "pointer_offsets": [
+        4535628
+      ],
+      "status": "reviewed",
+      "reviewer": "Codex"
+    },
+    {
+      "id": "ELF:0042deb0",
+      "offset": 4382384,
+      "section": ".rodata",
+      "source": "再行動を終了しますか？",
+      "target": "재행동을 마칠까요?",
+      "raw_hex": "8dc48d7393ae82f08f4997b982b582dc82b782a98148",
+      "pointer_offsets": [
+        4535640
+      ],
+      "status": "reviewed",
+      "reviewer": "Codex"
+    },
+    {
+      "id": "ELF:0042dec8",
+      "offset": 4382408,
+      "section": ".rodata",
+      "source": "再行動をキャンセルしますか？",
+      "target": "재행동을 취소할까요?",
+      "raw_hex": "8dc48d7393ae82f0834c83838393835a838b82b582dc82b782a98148",
+      "pointer_offsets": [
+        4535644
+      ],
+      "status": "reviewed",
+      "reviewer": "Codex"
+    }
+  ],
+  "assets": [
+    {
+      "archive": "STATUS",
+      "path": "status/sys000.tm2",
+      "source_sha256": "412528b7f2844ea23290818134954dc7966ace51958472f99b770a9ab33cd440",
+      "uad_path": "status/sys000.uad",
+      "uad_sha256": "0b73e5d689ff55a53919e35b5e167083431c398495584732047ebca980386d23",
+      "import_mode": "opaque_rgb",
+      "author_image": "build/ui_remaining/artwork/sys000.png",
+      "author_image_sha256": "ef77cfe305305ebdf6ddb19b39a97349adae402661f681dd254e21dbafc30943",
+      "records": [
+        {
+          "id": "sys000:37",
+          "uad_index": 37,
+          "source": "再行動",
+          "target": "재행동",
+          "rect": [
+            0,
+            144,
+            64,
+            24
+          ],
+          "source_rect_sha256": "d550505a68c44340c1a3df18a90ed32c09d37899f4664f07e1543bee38440103",
+          "render": {
+            "background": {
+              "mode": "clear_interior",
+              "margin": 2,
+              "rgba": [
+                0,
+                0,
+                0,
+                255
+              ]
+            },
+            "font_size": 16,
+            "stroke_width": 1,
+            "fill": [
+              191,
+              165,
+              105,
+              255
+            ],
+            "stroke_fill": [
+              8,
+              0,
+              39,
+              255
+            ],
+            "align": "center",
+            "padding": 2
+          },
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "sys000:49",
+          "uad_index": 49,
+          "source": "再行動",
+          "target": "재행동",
+          "rect": [
+            0,
+            168,
+            64,
+            24
+          ],
+          "source_rect_sha256": "df6857ac3ff6807194898f6f43b24f57129506600edbbf7444716f38f08253e4",
+          "render": {
+            "background": {
+              "mode": "clear_interior",
+              "margin": 2,
+              "rgba": [
+                0,
+                0,
+                0,
+                255
+              ]
+            },
+            "font_size": 16,
+            "stroke_width": 1,
+            "fill": [
+              191,
+              165,
+              105,
+              255
+            ],
+            "stroke_fill": [
+              146,
+              0,
+              52,
+              255
+            ],
+            "align": "center",
+            "padding": 2
+          },
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "sys000:50",
+          "uad_index": 50,
+          "source": "再行動",
+          "target": "재행동",
+          "rect": [
+            0,
+            192,
+            64,
+            24
+          ],
+          "source_rect_sha256": "c90969bf3e22a840b6a0a40fadb5bc9ab8318d022aece0f1ee65528e41de67cf",
+          "render": {
+            "background": {
+              "mode": "clear_interior",
+              "margin": 2,
+              "rgba": [
+                0,
+                0,
+                0,
+                255
+              ]
+            },
+            "font_size": 16,
+            "stroke_width": 1,
+            "fill": [
+              129,
+              94,
+              71,
+              255
+            ],
+            "stroke_fill": [
+              8,
+              0,
+              39,
+              255
+            ],
+            "align": "center",
+            "padding": 2
+          },
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "sys000:40",
+          "uad_index": 40,
+          "source": "双撃",
+          "target": "쌍격",
+          "rect": [
+            64,
+            192,
+            64,
+            24
+          ],
+          "source_rect_sha256": "2666e72571e048c527da987b8aec7437702db6d79c2fcb9cb0920d6496b10a81",
+          "render": {
+            "background": {
+              "mode": "clear_interior",
+              "margin": 2,
+              "rgba": [
+                0,
+                0,
+                0,
+                255
+              ]
+            },
+            "font_size": 16,
+            "stroke_width": 1,
+            "fill": [
+              191,
+              165,
+              105,
+              255
+            ],
+            "stroke_fill": [
+              146,
+              0,
+              52,
+              255
+            ],
+            "align": "center",
+            "padding": 2
+          },
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "sys000:41",
+          "uad_index": 41,
+          "source": "双撃",
+          "target": "쌍격",
+          "rect": [
+            0,
+            216,
+            64,
+            24
+          ],
+          "source_rect_sha256": "9bbdc8e018574c8cf8f6ec1593db45d4dcc935aee561ea065d2ec0ed27893c9f",
+          "render": {
+            "background": {
+              "mode": "clear_interior",
+              "margin": 2,
+              "rgba": [
+                0,
+                0,
+                0,
+                255
+              ]
+            },
+            "font_size": 16,
+            "stroke_width": 1,
+            "fill": [
+              129,
+              94,
+              71,
+              255
+            ],
+            "stroke_fill": [
+              8,
+              0,
+              39,
+              255
+            ],
+            "align": "center",
+            "padding": 2
+          },
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "sys000:42",
+          "uad_index": 42,
+          "source": "双撃",
+          "target": "쌍격",
+          "rect": [
+            64,
+            216,
+            64,
+            24
+          ],
+          "source_rect_sha256": "6e3db7767fd3230d78257f975589389b85095f76416f1f504885f8b03e5b72e9",
+          "render": {
+            "background": {
+              "mode": "clear_interior",
+              "margin": 2,
+              "rgba": [
+                0,
+                0,
+                0,
+                255
+              ]
+            },
+            "font_size": 16,
+            "stroke_width": 1,
+            "fill": [
+              191,
+              165,
+              105,
+              255
+            ],
+            "stroke_fill": [
+              8,
+              0,
+              39,
+              255
+            ],
+            "align": "center",
+            "padding": 2
+          },
+          "status": "reviewed",
+          "reviewer": "Codex"
+        }
+      ]
+    },
+    {
+      "archive": "STATUS",
+      "path": "status/sys011.tm2",
+      "source_sha256": "c78d577d9df3f3b7ffe8dba4ec09a2bf0900686ba001589ce04bd68ef4524881",
+      "uad_path": "status/sys011.uad",
+      "uad_sha256": "a39654253aeddab82016b13ff074ce40f9a14095cfd4b3fa814f843b18c3d5e5",
+      "import_mode": "rgba_palette",
+      "author_image": "build/ui_remaining/artwork/sys011.png",
+      "author_image_sha256": "f0e03d38c19867b9a0df645b62210b3221c8c226517dc8d4510707ff4f74bb1d",
+      "records": [
+        {
+          "id": "sys011:1",
+          "uad_index": 1,
+          "source": "アクティブスキル",
+          "target": "액티브 스킬",
+          "rect": [
+            0,
+            32,
+            152,
+            32
+          ],
+          "source_rect_sha256": "3ae8bc536b3d378193955e486385160ebffe33823afa371b76c59c9305510f43",
+          "render": {
+            "background": {
+              "mode": "transparent"
+            },
+            "font_size": 17,
+            "stroke_width": 1,
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              0,
+              0,
+              0,
+              255
+            ],
+            "align": "left",
+            "padding": 8
+          },
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "sys011:2",
+          "uad_index": 2,
+          "source": "マジックスキル",
+          "target": "마법 스킬",
+          "rect": [
+            0,
+            64,
+            136,
+            32
+          ],
+          "source_rect_sha256": "b17580e2e859bc1c960b212ffcf7448581b96516ac3c9f61e217436468518d76",
+          "render": {
+            "background": {
+              "mode": "transparent"
+            },
+            "font_size": 17,
+            "stroke_width": 1,
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              0,
+              0,
+              0,
+              255
+            ],
+            "align": "left",
+            "padding": 8
+          },
+          "status": "reviewed",
+          "reviewer": "Codex"
+        },
+        {
+          "id": "sys011:3",
+          "uad_index": 3,
+          "source": "魔神召喚",
+          "target": "마신 소환",
+          "rect": [
+            0,
+            96,
+            88,
+            32
+          ],
+          "source_rect_sha256": "156920eb7c3b4cd94f7bcacafe73c6fa915677a214db852421187b7bdd038ac0",
+          "render": {
+            "background": {
+              "mode": "transparent"
+            },
+            "font_size": 17,
+            "stroke_width": 1,
+            "fill": [
+              240,
+              240,
+              240,
+              255
+            ],
+            "stroke_fill": [
+              0,
+              0,
+              0,
+              255
+            ],
+            "align": "left",
+            "padding": 8
+          },
+          "status": "reviewed",
+          "reviewer": "Codex"
+        }
+      ]
+    },
+    {
+      "archive": "STATUS",
+      "path": "status/sys015.tm2",
+      "source_sha256": "65cb17d0b8899de4c7275ed3a8b7a2878936dfbb194cc8a076a0fa6ad2430a41",
+      "uad_path": "status/sys015.uad",
+      "uad_sha256": "1b369aa4e6ac71f82cb63fed6bcd0b7caf65b4bf97158befa50707ceda3d6ce2",
+      "import_mode": "rgba_palette",
+      "author_image": "build/ui_remaining/artwork/sys015.png",
+      "author_image_sha256": "542c60f4a774510837c2fd4acb02bb7f5a75be1a223403c54e2c519f77576c81",
+      "records": [
+        {
+          "id": "sys015:3",
+          "uad_index": 3,
+          "source": "状態",
+          "target": "상태",
+          "rect": [
+            32,
+            24,
+            56,
+            24
+          ],
+          "source_rect_sha256": "e383e117f1c8dedfb51f4769228fe428436270daf669594cc87d5932873854bb",
+          "render": {
+            "background": {
+              "mode": "source_rect",
+              "rect": [
+                64,
+                0,
+                56,
+                24
+              ]
+            },
+            "font_size": 16,
+            "stroke_width": 1,
+            "fill": [
+              254,
+              221,
+              134,
+              255
+            ],
+            "stroke_fill": [
+              12,
+              1,
+              48,
+              255
+            ],
+            "align": "center",
+            "padding": 2
+          },
+          "status": "reviewed",
+          "reviewer": "Codex"
+        }
+      ]
+    }
+  ],
+  "artwork_provenance": {
+    "mode": "Python/Pillow pinned-font renderer, explicitly requested by user",
+    "pillow_version": "10.4.0",
+    "font_sha256": "9db318b65ee9c575a43e7efd273dbdd1afef26e467eea3e1073a50e1a6595f6d",
+    "assets": [
+      {
+        "path": "build/ui_remaining/artwork/sys000.png",
+        "sha256": "ef77cfe305305ebdf6ddb19b39a97349adae402661f681dd254e21dbafc30943",
+        "records": [
+          {
+            "id": "sys000:37",
+            "target": "재행동",
+            "glyph_box": [
+              8.75,
+              3.75,
+              46.25,
+              16.5
+            ],
+            "rgba_sha256": "9034dc8ca296324c6b45d806af273fd63312be59de4a09be0e65a4413e71e0ec",
+            "alpha_extrema": [
+              255,
+              255
+            ]
+          },
+          {
+            "id": "sys000:49",
+            "target": "재행동",
+            "glyph_box": [
+              8.75,
+              3.75,
+              46.25,
+              16.5
+            ],
+            "rgba_sha256": "e54bef3d084a0be4fa854e31a52df7aac1245a6d05002fbd871cccc02da6ed9c",
+            "alpha_extrema": [
+              255,
+              255
+            ]
+          },
+          {
+            "id": "sys000:50",
+            "target": "재행동",
+            "glyph_box": [
+              8.75,
+              3.75,
+              46.25,
+              16.5
+            ],
+            "rgba_sha256": "6d9a0bef7177c3ef6f3d15205e56179fc7525095cb452f691a70349d73f16444",
+            "alpha_extrema": [
+              255,
+              255
+            ]
+          },
+          {
+            "id": "sys000:40",
+            "target": "쌍격",
+            "glyph_box": [
+              16.25,
+              3.75,
+              31.5,
+              16.5
+            ],
+            "rgba_sha256": "61a4db40abda6708995e8b49f78fd82ab6f624e0dfc4c21d70ac1f04a87c2d53",
+            "alpha_extrema": [
+              255,
+              255
+            ]
+          },
+          {
+            "id": "sys000:41",
+            "target": "쌍격",
+            "glyph_box": [
+              16.25,
+              3.75,
+              31.5,
+              16.5
+            ],
+            "rgba_sha256": "8e3d5af062779dfd4a9bb75a39c0083a720f93c90210bdee22c8e8eee3b16932",
+            "alpha_extrema": [
+              255,
+              255
+            ]
+          },
+          {
+            "id": "sys000:42",
+            "target": "쌍격",
+            "glyph_box": [
+              16.25,
+              3.75,
+              31.5,
+              16.5
+            ],
+            "rgba_sha256": "55be81834b45052add9353d43d6c26c4a4e65badd8a0893098533bb47b6bf3fb",
+            "alpha_extrema": [
+              255,
+              255
+            ]
+          }
+        ]
+      },
+      {
+        "path": "build/ui_remaining/artwork/sys011.png",
+        "sha256": "f0e03d38c19867b9a0df645b62210b3221c8c226517dc8d4510707ff4f74bb1d",
+        "records": [
+          {
+            "id": "sys011:1",
+            "target": "액티브 스킬",
+            "glyph_box": [
+              8.0,
+              7.0,
+              84.0,
+              17.75
+            ],
+            "rgba_sha256": "a4acf4bf32e19e950d74568c606a6a85b5738c0907dc3e5e5faf05d73e1faf70",
+            "alpha_extrema": [
+              0,
+              255
+            ]
+          },
+          {
+            "id": "sys011:2",
+            "target": "마법 스킬",
+            "glyph_box": [
+              8.0,
+              7.0,
+              68.25,
+              17.75
+            ],
+            "rgba_sha256": "7e6b61caa19a4933701b85418963c48cd04fd96352ec68fc9a42053eaf5f7f04",
+            "alpha_extrema": [
+              0,
+              255
+            ]
+          },
+          {
+            "id": "sys011:3",
+            "target": "마신 소환",
+            "glyph_box": [
+              8.0,
+              7.0,
+              68.25,
+              17.75
+            ],
+            "rgba_sha256": "09a07b120bfe9bdbceb2aad5f6e7ea1ad372c372000929c8650b8fc9f72ca2b2",
+            "alpha_extrema": [
+              0,
+              255
+            ]
+          }
+        ]
+      },
+      {
+        "path": "build/ui_remaining/artwork/sys015.png",
+        "sha256": "542c60f4a774510837c2fd4acb02bb7f5a75be1a223403c54e2c519f77576c81",
+        "records": [
+          {
+            "id": "sys015:3",
+            "target": "상태",
+            "glyph_box": [
+              12.25,
+              3.75,
+              31.5,
+              16.5
+            ],
+            "rgba_sha256": "87c4aecf192e12e53ca0a846c7601fe65262cc95a728bafacf46150d067157ae",
+            "alpha_extrema": [
+              255,
+              255
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

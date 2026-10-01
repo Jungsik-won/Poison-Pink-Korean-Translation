@@ -1,0 +1,717 @@
+{
+  "source_elf_sha256": "e5656bc081796cffc28a34df0fa1b399a0ae9f1494471e5a002e62d973e797d9",
+  "switch_table_va": 5417696,
+  "loader_va": 2286952,
+  "opcodes": [
+    {
+      "op": 41,
+      "case_va": 2287496,
+      "vtable": 5192544,
+      "name": "new",
+      "reader": 2322840,
+      "execute": 2318544,
+      "memory_size_function": 3897952,
+      "memory_bytes": 20
+    },
+    {
+      "op": 42,
+      "case_va": 2287652,
+      "vtable": 5192504,
+      "name": "new_array",
+      "reader": 2323208,
+      "execute": 2319256,
+      "memory_size_function": 3897968,
+      "memory_bytes": 12
+    },
+    {
+      "op": 43,
+      "case_va": 2287684,
+      "vtable": 5192464,
+      "name": "clone",
+      "reader": 3896624,
+      "execute": 2319888,
+      "memory_size_function": 3897984,
+      "memory_bytes": 8
+    },
+    {
+      "op": 44,
+      "case_va": 2287728,
+      "vtable": 5192424,
+      "name": "delete_local",
+      "reader": 2322336,
+      "execute": 2320192,
+      "memory_size_function": 3898000,
+      "memory_bytes": 16
+    },
+    {
+      "op": 45,
+      "case_va": 2287756,
+      "vtable": 5195064,
+      "name": "to_integer",
+      "reader": 3896624,
+      "execute": 2302784,
+      "memory_size_function": 3896848,
+      "memory_bytes": 8
+    },
+    {
+      "op": 46,
+      "case_va": 2287776,
+      "vtable": 5195024,
+      "name": "to_bool",
+      "reader": 3896624,
+      "execute": 2303272,
+      "memory_size_function": 3896864,
+      "memory_bytes": 8
+    },
+    {
+      "op": 47,
+      "case_va": 2287796,
+      "vtable": 5194984,
+      "name": "to_float",
+      "reader": 3896624,
+      "execute": 2303656,
+      "memory_size_function": 3896880,
+      "memory_bytes": 8
+    },
+    {
+      "op": 48,
+      "case_va": 2287816,
+      "vtable": 5194944,
+      "name": "to_string",
+      "reader": 3896624,
+      "execute": 2304040,
+      "memory_size_function": 3896896,
+      "memory_bytes": 8
+    },
+    {
+      "op": 49,
+      "case_va": 2287836,
+      "vtable": 5194904,
+      "name": "load_integer",
+      "reader": 2321072,
+      "execute": 2304512,
+      "memory_size_function": 3896912,
+      "memory_bytes": 12
+    },
+    {
+      "op": 50,
+      "case_va": 2287868,
+      "vtable": 5194864,
+      "name": "load_float",
+      "reader": 2321360,
+      "execute": 2304600,
+      "memory_size_function": 3896928,
+      "memory_bytes": 12
+    },
+    {
+      "op": 51,
+      "case_va": 2287900,
+      "vtable": 5194824,
+      "name": "load_string",
+      "reader": 2321648,
+      "execute": 2304688,
+      "memory_size_function": 3896944,
+      "memory_bytes": 12
+    },
+    {
+      "op": 52,
+      "case_va": 2287932,
+      "vtable": 5194744,
+      "name": "load_global",
+      "reader": 2322336,
+      "execute": 2304776,
+      "memory_size_function": 3897016,
+      "memory_bytes": 16
+    },
+    {
+      "op": 53,
+      "case_va": 2287952,
+      "vtable": 5194704,
+      "name": "load_local",
+      "reader": 2322336,
+      "execute": 2305040,
+      "memory_size_function": 3897032,
+      "memory_bytes": 16
+    },
+    {
+      "op": 54,
+      "case_va": 2287972,
+      "vtable": 5194664,
+      "name": "load_ref",
+      "reader": 2322336,
+      "execute": 2305312,
+      "memory_size_function": 3897048,
+      "memory_bytes": 16
+    },
+    {
+      "op": 55,
+      "case_va": 2287992,
+      "vtable": 5194624,
+      "name": "load_this",
+      "reader": 2322336,
+      "execute": 2305600,
+      "memory_size_function": 3897064,
+      "memory_bytes": 16
+    },
+    {
+      "op": 56,
+      "case_va": 2288012,
+      "vtable": 5194584,
+      "name": "store_global",
+      "reader": 2322336,
+      "execute": 2305872,
+      "memory_size_function": 3897080,
+      "memory_bytes": 16
+    },
+    {
+      "op": 57,
+      "case_va": 2288032,
+      "vtable": 5194544,
+      "name": "store_local",
+      "reader": 2322336,
+      "execute": 2305960,
+      "memory_size_function": 3897096,
+      "memory_bytes": 16
+    },
+    {
+      "op": 58,
+      "case_va": 2288052,
+      "vtable": 5194504,
+      "name": "store_ref",
+      "reader": 2322336,
+      "execute": 2306056,
+      "memory_size_function": 3897112,
+      "memory_bytes": 16
+    },
+    {
+      "op": 59,
+      "case_va": 2288072,
+      "vtable": 5194464,
+      "name": "store_this",
+      "reader": 2322336,
+      "execute": 2306224,
+      "memory_size_function": 3897128,
+      "memory_bytes": 16
+    },
+    {
+      "op": 60,
+      "case_va": 2288092,
+      "vtable": 5194424,
+      "name": "store_array",
+      "reader": 3896624,
+      "execute": 2306352,
+      "memory_size_function": 3897144,
+      "memory_bytes": 8
+    },
+    {
+      "op": 61,
+      "case_va": 2288112,
+      "vtable": 5194344,
+      "name": "ass_global",
+      "reader": 2322336,
+      "execute": 2306872,
+      "memory_size_function": 3897176,
+      "memory_bytes": 16
+    },
+    {
+      "op": 62,
+      "case_va": 2288132,
+      "vtable": 5194304,
+      "name": "ass_local",
+      "reader": 2322336,
+      "execute": 2306992,
+      "memory_size_function": 3897192,
+      "memory_bytes": 16
+    },
+    {
+      "op": 63,
+      "case_va": 2288152,
+      "vtable": 5194264,
+      "name": "ass_this",
+      "reader": 2322336,
+      "execute": 2307384,
+      "memory_size_function": 3897208,
+      "memory_bytes": 16
+    },
+    {
+      "op": 64,
+      "case_va": 2288172,
+      "vtable": 5194384,
+      "name": "ass",
+      "reader": 3896624,
+      "execute": 2306760,
+      "memory_size_function": 3897160,
+      "memory_bytes": 8
+    },
+    {
+      "op": 65,
+      "case_va": 2288192,
+      "vtable": 5194224,
+      "name": "ass_sum",
+      "reader": 3896624,
+      "execute": 2307776,
+      "memory_size_function": 3897224,
+      "memory_bytes": 8
+    },
+    {
+      "op": 66,
+      "case_va": 2288212,
+      "vtable": 5194184,
+      "name": "ass_diff",
+      "reader": 3896624,
+      "execute": 2307944,
+      "memory_size_function": 3897240,
+      "memory_bytes": 8
+    },
+    {
+      "op": 67,
+      "case_va": 2288232,
+      "vtable": 5194144,
+      "name": "ass_product",
+      "reader": 3896624,
+      "execute": 2308112,
+      "memory_size_function": 3897256,
+      "memory_bytes": 8
+    },
+    {
+      "op": 68,
+      "case_va": 2288252,
+      "vtable": 5194104,
+      "name": "ass_quotient",
+      "reader": 3896624,
+      "execute": 2308448,
+      "memory_size_function": 3897272,
+      "memory_bytes": 8
+    },
+    {
+      "op": 69,
+      "case_va": 2288272,
+      "vtable": 5194064,
+      "name": "ass_sur",
+      "reader": 3896624,
+      "execute": 2308280,
+      "memory_size_function": 3897288,
+      "memory_bytes": 8
+    },
+    {
+      "op": 70,
+      "case_va": 2288292,
+      "vtable": 5194024,
+      "name": "ass_sll",
+      "reader": 3896624,
+      "execute": 2308616,
+      "memory_size_function": 3897304,
+      "memory_bytes": 8
+    },
+    {
+      "op": 71,
+      "case_va": 2288312,
+      "vtable": 5193984,
+      "name": "ass_srl",
+      "reader": 3896624,
+      "execute": 2308784,
+      "memory_size_function": 3897320,
+      "memory_bytes": 8
+    },
+    {
+      "op": 72,
+      "case_va": 2288332,
+      "vtable": 5193944,
+      "name": "ass_or",
+      "reader": 3896624,
+      "execute": 2308952,
+      "memory_size_function": 3897336,
+      "memory_bytes": 8
+    },
+    {
+      "op": 73,
+      "case_va": 2288352,
+      "vtable": 5193904,
+      "name": "ass_and",
+      "reader": 3896624,
+      "execute": 2309120,
+      "memory_size_function": 3897352,
+      "memory_bytes": 8
+    },
+    {
+      "op": 74,
+      "case_va": 2288372,
+      "vtable": 5193864,
+      "name": "ass_xor",
+      "reader": 3896624,
+      "execute": 2309288,
+      "memory_size_function": 3897368,
+      "memory_bytes": 8
+    },
+    {
+      "op": 75,
+      "case_va": 2288392,
+      "vtable": 5193824,
+      "name": "cmp_or",
+      "reader": 3896624,
+      "execute": 2309456,
+      "memory_size_function": 3897384,
+      "memory_bytes": 8
+    },
+    {
+      "op": 76,
+      "case_va": 2288412,
+      "vtable": 5193784,
+      "name": "cmp_and",
+      "reader": 3896624,
+      "execute": 2309768,
+      "memory_size_function": 3897400,
+      "memory_bytes": 8
+    },
+    {
+      "op": 77,
+      "case_va": 2288432,
+      "vtable": 5193744,
+      "name": "or",
+      "reader": 3896624,
+      "execute": 2311952,
+      "memory_size_function": 3897416,
+      "memory_bytes": 8
+    },
+    {
+      "op": 78,
+      "case_va": 2288452,
+      "vtable": 5193704,
+      "name": "xor",
+      "reader": 3896624,
+      "execute": 2312576,
+      "memory_size_function": 3897432,
+      "memory_bytes": 8
+    },
+    {
+      "op": 79,
+      "case_va": 2288472,
+      "vtable": 5193664,
+      "name": "and",
+      "reader": 3896624,
+      "execute": 2312264,
+      "memory_size_function": 3897448,
+      "memory_bytes": 8
+    },
+    {
+      "op": 80,
+      "case_va": 2288492,
+      "vtable": 5193624,
+      "name": "cmp_eq",
+      "reader": 3896624,
+      "execute": 2310080,
+      "memory_size_function": 3897464,
+      "memory_bytes": 8
+    },
+    {
+      "op": 81,
+      "case_va": 2288512,
+      "vtable": 5193584,
+      "name": "cmp_ne",
+      "reader": 3896624,
+      "execute": 2310392,
+      "memory_size_function": 3897480,
+      "memory_bytes": 8
+    },
+    {
+      "op": 82,
+      "case_va": 2288532,
+      "vtable": 5193544,
+      "name": "cmp_le",
+      "reader": 3896624,
+      "execute": 2310704,
+      "memory_size_function": 3897496,
+      "memory_bytes": 8
+    },
+    {
+      "op": 83,
+      "case_va": 2288552,
+      "vtable": 5193504,
+      "name": "cmp_ge",
+      "reader": 3896624,
+      "execute": 2311016,
+      "memory_size_function": 3897512,
+      "memory_bytes": 8
+    },
+    {
+      "op": 84,
+      "case_va": 2288572,
+      "vtable": 5193464,
+      "name": "cmp_lt",
+      "reader": 3896624,
+      "execute": 2311328,
+      "memory_size_function": 3897528,
+      "memory_bytes": 8
+    },
+    {
+      "op": 85,
+      "case_va": 2288592,
+      "vtable": 5193424,
+      "name": "cmp_gt",
+      "reader": 3896624,
+      "execute": 2311640,
+      "memory_size_function": 3897544,
+      "memory_bytes": 8
+    },
+    {
+      "op": 86,
+      "case_va": 2288612,
+      "vtable": 5193384,
+      "name": "sll",
+      "reader": 3896624,
+      "execute": 2312888,
+      "memory_size_function": 3897560,
+      "memory_bytes": 8
+    },
+    {
+      "op": 87,
+      "case_va": 2288632,
+      "vtable": 5193344,
+      "name": "srl",
+      "reader": 3896624,
+      "execute": 2313200,
+      "memory_size_function": 3897576,
+      "memory_bytes": 8
+    },
+    {
+      "op": 88,
+      "case_va": 2288652,
+      "vtable": 5193304,
+      "name": "add",
+      "reader": 3896624,
+      "execute": 2313512,
+      "memory_size_function": 3897592,
+      "memory_bytes": 8
+    },
+    {
+      "op": 89,
+      "case_va": 2288672,
+      "vtable": 5193264,
+      "name": "sub",
+      "reader": 3896624,
+      "execute": 2313824,
+      "memory_size_function": 3897608,
+      "memory_bytes": 8
+    },
+    {
+      "op": 90,
+      "case_va": 2288692,
+      "vtable": 5193224,
+      "name": "mul",
+      "reader": 3896624,
+      "execute": 2314136,
+      "memory_size_function": 3897624,
+      "memory_bytes": 8
+    },
+    {
+      "op": 91,
+      "case_va": 2288712,
+      "vtable": 5193184,
+      "name": "div",
+      "reader": 3896624,
+      "execute": 2314448,
+      "memory_size_function": 3897640,
+      "memory_bytes": 8
+    },
+    {
+      "op": 92,
+      "case_va": 2288732,
+      "vtable": 5193144,
+      "name": "sur",
+      "reader": 3896624,
+      "execute": 2314760,
+      "memory_size_function": 3897656,
+      "memory_bytes": 8
+    },
+    {
+      "op": 93,
+      "case_va": 2288752,
+      "vtable": 5192824,
+      "name": "at",
+      "reader": 3896624,
+      "execute": 2317144,
+      "memory_size_function": 3897840,
+      "memory_bytes": 8
+    },
+    {
+      "op": 94,
+      "case_va": 2288772,
+      "vtable": 5193024,
+      "name": "post_inc",
+      "reader": 3896624,
+      "execute": 2315664,
+      "memory_size_function": 3897728,
+      "memory_bytes": 8
+    },
+    {
+      "op": 95,
+      "case_va": 2288792,
+      "vtable": 5192984,
+      "name": "post_dec",
+      "reader": 3896624,
+      "execute": 2315960,
+      "memory_size_function": 3897752,
+      "memory_bytes": 8
+    },
+    {
+      "op": 96,
+      "case_va": 2288812,
+      "vtable": 5193104,
+      "name": "pre_inc",
+      "reader": 3896624,
+      "execute": 2315072,
+      "memory_size_function": 3897672,
+      "memory_bytes": 8
+    },
+    {
+      "op": 97,
+      "case_va": 2288832,
+      "vtable": 5193064,
+      "name": "pre_dec",
+      "reader": 3896624,
+      "execute": 2315368,
+      "memory_size_function": 3897696,
+      "memory_bytes": 8
+    },
+    {
+      "op": 98,
+      "case_va": 2288852,
+      "vtable": 5192944,
+      "name": "inv",
+      "reader": 3896624,
+      "execute": 2316256,
+      "memory_size_function": 3897768,
+      "memory_bytes": 8
+    },
+    {
+      "op": 99,
+      "case_va": 2288872,
+      "vtable": 5192864,
+      "name": "not",
+      "reader": 3896624,
+      "execute": 2316848,
+      "memory_size_function": 3897824,
+      "memory_bytes": 8
+    },
+    {
+      "op": 100,
+      "case_va": 2288892,
+      "vtable": 5192904,
+      "name": "comp",
+      "reader": 3896624,
+      "execute": 2316552,
+      "memory_size_function": 3897800,
+      "memory_bytes": 8
+    },
+    {
+      "op": 101,
+      "case_va": 2288912,
+      "vtable": 5192624,
+      "name": "push",
+      "reader": 3896624,
+      "execute": 2318064,
+      "memory_size_function": 3897920,
+      "memory_bytes": 8
+    },
+    {
+      "op": 102,
+      "case_va": 2288932,
+      "vtable": 5192584,
+      "name": "push_ref",
+      "reader": 3896624,
+      "execute": 2318400,
+      "memory_size_function": 3897936,
+      "memory_bytes": 8
+    },
+    {
+      "op": 103,
+      "case_va": 2288952,
+      "vtable": 5192784,
+      "name": "call",
+      "reader": 2322416,
+      "execute": 2317456,
+      "memory_size_function": 3897856,
+      "memory_bytes": 24
+    },
+    {
+      "op": 104,
+      "case_va": 2288988,
+      "vtable": 5192744,
+      "name": "immediate_call_global",
+      "reader": 2322552,
+      "execute": 2317552,
+      "memory_size_function": 3897872,
+      "memory_bytes": 20
+    },
+    {
+      "op": 105,
+      "case_va": 2289020,
+      "vtable": 5192704,
+      "name": "immediate_call_this",
+      "reader": 2322744,
+      "execute": 2317968,
+      "memory_size_function": 3897888,
+      "memory_bytes": 20
+    },
+    {
+      "op": 106,
+      "case_va": 2289040,
+      "vtable": 5192664,
+      "name": "immediate_call",
+      "reader": 2322648,
+      "execute": 2317648,
+      "memory_size_function": 3897904,
+      "memory_bytes": 20
+    },
+    {
+      "op": 107,
+      "case_va": 2289060,
+      "vtable": 5192344,
+      "name": "j",
+      "reader": 2323480,
+      "execute": 2320528,
+      "memory_size_function": 3898072,
+      "memory_bytes": 12
+    },
+    {
+      "op": 108,
+      "case_va": 2289084,
+      "vtable": 5192304,
+      "name": "jz",
+      "reader": 2323480,
+      "execute": 2320560,
+      "memory_size_function": 3898088,
+      "memory_bytes": 12
+    },
+    {
+      "op": 109,
+      "case_va": 2289104,
+      "vtable": 5192264,
+      "name": "jne",
+      "reader": 2323480,
+      "execute": 2320856,
+      "memory_size_function": 3898104,
+      "memory_bytes": 12
+    },
+    {
+      "op": 110,
+      "case_va": 2289124,
+      "vtable": 5192224,
+      "name": "ret",
+      "reader": 3896624,
+      "execute": 2320992,
+      "memory_size_function": 3898120,
+      "memory_bytes": 8
+    },
+    {
+      "op": 111,
+      "case_va": 2289144,
+      "vtable": 5192184,
+      "name": "endscript",
+      "reader": 3896624,
+      "execute": 2321032,
+      "memory_size_function": 3898136,
+      "memory_bytes": 8
+    }
+  ]
+}

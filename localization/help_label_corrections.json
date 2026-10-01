@@ -1,0 +1,159 @@
+{
+  "font": "localization/artwork/help_user_corrected_v1/support/NanumMyeongjoExtraBold.ttf",
+  "font_sha256": "a03d520bccc43ae1dc0bd5f64d143195a0ffce8318aacb0f3efb6117827eee14",
+  "pages": [
+    {
+      "page": 136,
+      "source": "localization/artwork/help_user_v1/ev136.png",
+      "source_sha256": "20afc116db1af062016eda8b2e470d1ad3c5e6762645e46b68e94fca15ea8a4d",
+      "clean": "localization/artwork/help_user_corrected_v1/support/clean_ev136.png",
+      "clean_sha256": "dffde5516d01afae3f1fd63eefafb4054249e050403525e32a7c066f868249c2",
+      "output": "localization/artwork/help_user_corrected_v1/ev136.png",
+      "edits": [
+        {
+          "box": [
+            108,
+            184,
+            177,
+            207
+          ],
+          "text": "열기",
+          "size": 18,
+          "color": "#dac18c",
+          "align": "center",
+          "stroke": 1,
+          "font": "/Library/Fonts/NanumMyeongjoExtraBold.ttf",
+          "kind": "normal",
+          "rendered_size": 18,
+          "source_text": "닫기"
+        }
+      ]
+    },
+    {
+      "page": 137,
+      "source": "localization/artwork/help_user_v1/ev137.png",
+      "source_sha256": "af69f113a034afc269c4762353b36b71ca5f6077e83e827a8171ad422843a818",
+      "clean": "localization/artwork/help_user_corrected_v1/support/clean_ev137.png",
+      "clean_sha256": "ae935b40c73125b860d3efe0d6486149bb288804716079fd67e22967d6712ff5",
+      "output": "localization/artwork/help_user_corrected_v1/ev137.png",
+      "edits": [
+        {
+          "box": [
+            95,
+            282,
+            158,
+            303
+          ],
+          "text": "열기",
+          "size": 16,
+          "color": "#94725a",
+          "align": "center",
+          "stroke": 1,
+          "font": "/Library/Fonts/NanumMyeongjoExtraBold.ttf",
+          "kind": "normal",
+          "rendered_size": 16,
+          "source_text": "닫기"
+        },
+        {
+          "box": [
+            231,
+            234,
+            299,
+            259
+          ],
+          "text": "발톱 공격",
+          "size": 17,
+          "color": "#ffead1",
+          "align": "center",
+          "stroke": 1.2,
+          "font": "/Library/Fonts/NanumMyeongjoExtraBold.ttf",
+          "kind": "normal",
+          "rendered_size": 17,
+          "source_text": "뿔 공격"
+        }
+      ]
+    },
+    {
+      "page": 140,
+      "source": "localization/artwork/help_user_v1/ev140.png",
+      "source_sha256": "6cde9909fb5497d5e34061a11446b0e8aef8c6d6f1ad2056ba798bd30a1035dc",
+      "clean": "localization/artwork/help_user_corrected_v1/support/clean_ev140.png",
+      "clean_sha256": "bcb885bd6dade4edd6bdb3156a424871aeca8593de46ea162e84f417891ccfd8",
+      "output": "localization/artwork/help_user_corrected_v1/ev140.png",
+      "edits": [
+        {
+          "box": [
+            72,
+            156,
+            123,
+            175
+          ],
+          "text": "열기",
+          "size": 12,
+          "color": "#625c4a",
+          "align": "center",
+          "stroke": 0.6,
+          "font": "/Library/Fonts/NanumMyeongjoExtraBold.ttf",
+          "kind": "dim",
+          "rendered_size": 12,
+          "source_text": "닫기"
+        }
+      ]
+    },
+    {
+      "page": 148,
+      "source": "localization/artwork/help_user_v1/ev148.png",
+      "source_sha256": "929cdcde3615afa8d74802f5232205c03ff26ed591d7d6b50f614e54f08fcc63",
+      "clean": "localization/artwork/help_user_corrected_v1/support/clean_ev148.png",
+      "clean_sha256": "767963f4206284d277bed4f651de560343e60aa8069296b2b88b1e158dc2e1b6",
+      "output": "localization/artwork/help_user_corrected_v1/ev148.png",
+      "edits": [
+        {
+          "box": [
+            90,
+            195,
+            159,
+            219
+          ],
+          "text": "열기",
+          "size": 18,
+          "color": "#dac18c",
+          "align": "center",
+          "stroke": 0.7,
+          "font": "/Library/Fonts/NanumMyeongjoExtraBold.ttf",
+          "kind": "normal",
+          "rendered_size": 18,
+          "source_text": "닫기"
+        }
+      ]
+    },
+    {
+      "page": 149,
+      "source": "localization/artwork/help_user_v1/ev149.png",
+      "source_sha256": "4714ffcd816b8d20672741bbae6a60f6d1b42fc16dc5a18a975b097004e6ca98",
+      "clean": "localization/artwork/help_user_corrected_v1/support/clean_ev149.png",
+      "clean_sha256": "bea00d0486d4bbf6e0c9a63355c51ae7c86ea080b97149630e297a39808cdd11",
+      "output": "localization/artwork/help_user_corrected_v1/ev149.png",
+      "edits": [
+        {
+          "box": [
+            90,
+            129,
+            159,
+            155
+          ],
+          "text": "열기",
+          "size": 18,
+          "color": "#dac18c",
+          "align": "center",
+          "stroke": 0.7,
+          "font": "/Library/Fonts/NanumMyeongjoExtraBold.ttf",
+          "kind": "normal",
+          "rendered_size": 18,
+          "source_text": "닫기"
+        }
+      ]
+    }
+  ],
+  "authorization": "User approved correcting mistranslated open-menu labels and claw-attack label; same additional error in ev140 included."
+}

@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "base_iso": "build/ui_slice_v3/Poison Pink (Japan) - UI slice.iso",
+  "base_iso_sha256": "0612fc3ac65db987bd5772898b3288e6cc07028543d4be131f1c15af0d824e78",
+  "base_font_report": "reports/status_slice.json",
+  "elf_sha256": "e5656bc081796cffc28a34df0fa1b399a0ae9f1494471e5a002e62d973e797d9",
+  "literals": [
+    {
+      "id": "ELF:00453468",
+      "offset": 4535400,
+      "source": "移動",
+      "raw_hex": "88da93ae",
+      "target": "이동",
+      "pointer_offsets": [
+        4050152
+      ],
+      "status": "reviewed",
+      "reviewer": "Codex",
+      "review_note": "Battle UI glossary and yes/no semantics; encoded length must stay within original NUL literal capacity. Runtime display pending."
+    },
+    {
+      "id": "ELF:00453470",
+      "offset": 4535408,
+      "source": "攻撃",
+      "raw_hex": "8d558c82",
+      "target": "공격",
+      "pointer_offsets": [
+        4050156
+      ],
+      "status": "reviewed",
+      "reviewer": "Codex",
+      "review_note": "Battle UI glossary and yes/no semantics; encoded length must stay within original NUL literal capacity. Runtime display pending."
+    },
+    {
+      "id": "ELF:00453478",
+      "offset": 4535416,
+      "source": "スキル",
+      "raw_hex": "8358834c838b",
+      "target": "스킬",
+      "pointer_offsets": [
+        4050160
+      ],
+      "status": "reviewed",
+      "reviewer": "Codex",
+      "review_note": "Battle UI glossary and yes/no semantics; encoded length must stay within original NUL literal capacity. Runtime display pending."
+    },
+    {
+      "id": "ELF:00453480",
+      "offset": 4535424,
+      "source": "命令",
+      "raw_hex": "96bd97df",
+      "target": "명령",
+      "pointer_offsets": [
+        4050164
+      ],
+      "status": "reviewed",
+      "reviewer": "Codex",
+      "review_note": "Battle UI glossary and yes/no semantics; encoded length must stay within original NUL literal capacity. Runtime display pending."
+    },
+    {
+      "id": "ELF:00453488",
+      "offset": 4535432,
+      "source": "開ける",
+      "raw_hex": "8a4a82af82e9",
+      "target": "열기",
+      "pointer_offsets": [
+        4050168
+      ],
+      "status": "reviewed",
+      "reviewer": "Codex",
+      "review_note": "Battle UI glossary and yes/no semantics; encoded length must stay within original NUL literal capacity. Runtime display pending."
+    },
+    {
+      "id": "ELF:00453490",
+      "offset": 4535440,
+      "source": "捕獲",
+      "raw_hex": "95df8a6c",
+      "target": "포획",
+      "pointer_offsets": [
+        4050172,
+        4050924
+      ],
+      "status": "reviewed",
+      "reviewer": "Codex",
+      "review_note": "Battle UI glossary and yes/no semantics; encoded length must stay within original NUL literal capacity. Runtime display pending."
+    },
+    {
+      "id": "ELF:004534a0",
+      "offset": 4535456,
+      "source": "道具",
+      "raw_hex": "93b98bef",
+      "target": "도구",
+      "pointer_offsets": [
+        4050180,
+        4535688
+      ],
+      "status": "reviewed",
+      "reviewer": "Codex",
+      "review_note": "Battle UI glossary and yes/no semantics; encoded length must stay within original NUL literal capacity. Runtime display pending."
+    },
+    {
+      "id": "ELF:004534a8",
+      "offset": 4535464,
+      "source": "状態",
+      "raw_hex": "8ff391d4",
+      "target": "상태",
+      "pointer_offsets": [
+        4050184,
+        4050400
+      ],
+      "status": "reviewed",
+      "reviewer": "Codex",
+      "review_note": "Battle UI glossary and yes/no semantics; encoded length must stay within original NUL literal capacity. Runtime display pending."
+    },
+    {
+      "id": "ELF:004534b0",
+      "offset": 4535472,
+      "source": "待機",
+      "raw_hex": "91d28b40",
+      "target": "대기",
+      "pointer_offsets": [
+        4050188
+      ],
+      "status": "reviewed",
+      "reviewer": "Codex",
+      "review_note": "Battle UI glossary and yes/no semantics; encoded length must stay within original NUL literal capacity. Runtime display pending."
+    },
+    {
+      "id": "ELF:00452808",
+      "offset": 4532232,
+      "source": "はい",
+      "raw_hex": "82cd82a2",
+      "target": "예",
+      "pointer_offsets": [
+        4532248
+      ],
+      "status": "reviewed",
+      "reviewer": "Codex",
+      "review_note": "Battle UI glossary and yes/no semantics; encoded length must stay within original NUL literal capacity. Runtime display pending."
+    },
+    {
+      "id": "ELF:00453618",
+      "offset": 4535832,
+      "source": "はい",
+      "raw_hex": "82cd82a2",
+      "target": "예",
+      "pointer_offsets": [
+        4050720,
+        4050980
+      ],
+      "status": "reviewed",
+      "reviewer": "Codex",
+      "review_note": "Battle UI glossary and yes/no semantics; encoded length must stay within original NUL literal capacity. Runtime display pending."
+    },
+    {
+      "id": "ELF:00452810",
+      "offset": 4532240,
+      "source": "いいえ",
+      "raw_hex": "82a282a282a6",
+      "target": "아니요",
+      "pointer_offsets": [
+        4532252
+      ],
+      "status": "reviewed",
+      "reviewer": "Codex",
+      "review_note": "Battle UI glossary and yes/no semantics; encoded length must stay within original NUL literal capacity. Runtime display pending."
+    },
+    {
+      "id": "ELF:00453370",
+      "offset": 4535152,
+      "source": "いいえ",
+      "raw_hex": "82a282a282a6",
+      "target": "아니요",
+      "pointer_offsets": [
+        4049988,
+        4050724,
+        4050984,
+        4535380
+      ],
+      "status": "reviewed",
+      "reviewer": "Codex",
+      "review_note": "Battle UI glossary and yes/no semantics; encoded length must stay within original NUL literal capacity. Runtime display pending."
+    },
+    {
+      "id": "ELF:00452820",
+      "offset": 4532256,
+      "source": "は　い",
+      "raw_hex": "82cd814082a2",
+      "target": "예",
+      "pointer_offsets": [],
+      "status": "reviewed",
+      "reviewer": "Codex",
+      "review_note": "Full-width-space variant found when battle-start yes remained Japanese; same affirmative meaning.",
+      "direct_reference": {
+        "offset": 1095988,
+        "words": [
+          "3c070055",
+          "e7b40004",
+          "24e71820"
+        ]
+      }
+    },
+    {
+      "id": "ELF:00453368",
+      "offset": 4535144,
+      "source": "は　い",
+      "raw_hex": "82cd814082a2",
+      "target": "예",
+      "pointer_offsets": [
+        4049984,
+        4535376
+      ],
+      "status": "reviewed",
+      "reviewer": "Codex",
+      "review_note": "Full-width-space variant found when battle-start yes remained Japanese; same affirmative meaning."
+    }
+  ],
+  "assets": []
+}

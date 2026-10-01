@@ -1,0 +1,167 @@
+{
+  "catalog_sha256": "37756560a357ed58d6e2d03345f15fce8e2de498ebf1b522c4b0ef2c1330bd52",
+  "evidence": "reports/rtb_structure_audit.json",
+  "entries": [
+    {
+      "id": "DMAP:2786:0000af6e",
+      "source_sha256": "9aac4a2e971b8f7493c6f0558b05172d5d02f1bcfe3621f26e2dee1a8b514db0",
+      "member_sha256": "979920fb8aaaa9cedb5ddc24c0b82451750f63172e1047058cccfdb7f959ce52",
+      "status": "exclude",
+      "reason": "ELF 로더 기반 전체 파싱에서 문자열 명령 경계가 아님"
+    },
+    {
+      "id": "DMAP:2787:00007b15",
+      "source_sha256": "b101be9f33fd84e1a6c321d1b194710ecfddac98c9d7bd40f98dfe61195ce849",
+      "member_sha256": "36a5330627e1adde72c4e6c76c358f5093a8ab30c3a8ecb17a27d20228ec56df",
+      "status": "exclude",
+      "reason": "ELF 로더 기반 전체 파싱에서 문자열 명령 경계가 아님"
+    },
+    {
+      "id": "DMAP:2789:0000b930",
+      "source_sha256": "617203e74424233257ffd09845ea9fd389f45793cd5de938f2c7ff9d7b84c854",
+      "member_sha256": "e2741756d244df89bb6d292b39af56147b2a6a1d6df1035ec7fefac684f83879",
+      "status": "exclude",
+      "reason": "ELF 로더 기반 전체 파싱에서 문자열 명령 경계가 아님"
+    },
+    {
+      "id": "DMAP:2799:00009d27",
+      "source_sha256": "964fd92e3ed95320a8940b8884f6debb7814b7d9438ec5267664b38d1ffd8d0c",
+      "member_sha256": "2badc4b006d12c9c73bdfd93c531ee520214c4f440e59271c2c67c1d8b324f67",
+      "status": "exclude",
+      "reason": "ELF 로더 기반 전체 파싱에서 문자열 명령 경계가 아님"
+    },
+    {
+      "id": "DMAP:2800:00007e71",
+      "source_sha256": "9aac4a2e971b8f7493c6f0558b05172d5d02f1bcfe3621f26e2dee1a8b514db0",
+      "member_sha256": "6c0dafd50859bed4a8de8ca8c7169be68b499dd975bc4cfa4e867ccbf9334987",
+      "status": "exclude",
+      "reason": "ELF 로더 기반 전체 파싱에서 문자열 명령 경계가 아님"
+    },
+    {
+      "id": "DMAP:2847:00009d2d",
+      "source_sha256": "964fd92e3ed95320a8940b8884f6debb7814b7d9438ec5267664b38d1ffd8d0c",
+      "member_sha256": "ea0f79ae8f704a7476b901f31941a3fddbb9408450237303c529f3c23eb673cd",
+      "status": "exclude",
+      "reason": "ELF 로더 기반 전체 파싱에서 문자열 명령 경계가 아님"
+    },
+    {
+      "id": "DMAP:2848:00009d4c",
+      "source_sha256": "964fd92e3ed95320a8940b8884f6debb7814b7d9438ec5267664b38d1ffd8d0c",
+      "member_sha256": "e56e58d8abb10926dcbe4934ed5fdb89d230bd565e1daf7a752da353670ab321",
+      "status": "exclude",
+      "reason": "ELF 로더 기반 전체 파싱에서 문자열 명령 경계가 아님"
+    },
+    {
+      "id": "DMAP:2851:00007d45",
+      "source_sha256": "9aac4a2e971b8f7493c6f0558b05172d5d02f1bcfe3621f26e2dee1a8b514db0",
+      "member_sha256": "026dc737384f5ad581acc42c919fea30311eb960772c72e2b10f2ea4fb67a50c",
+      "status": "exclude",
+      "reason": "ELF 로더 기반 전체 파싱에서 문자열 명령 경계가 아님"
+    },
+    {
+      "id": "DMAP:2862:00018ffd",
+      "source_sha256": "4915e8ec22454bc7f7ac9b39afedb7845645ea4b5078e91c4579a14c95286927",
+      "member_sha256": "d6a9a501dd243b5988545a9ecc57953dc4b6a9c8396a5ec27db3124b32a63958",
+      "status": "exclude",
+      "reason": "ELF 로더 기반 전체 파싱에서 문자열 명령 경계가 아님"
+    },
+    {
+      "id": "DMAP:2862:00019030",
+      "source_sha256": "4915e8ec22454bc7f7ac9b39afedb7845645ea4b5078e91c4579a14c95286927",
+      "member_sha256": "d6a9a501dd243b5988545a9ecc57953dc4b6a9c8396a5ec27db3124b32a63958",
+      "status": "exclude",
+      "reason": "ELF 로더 기반 전체 파싱에서 문자열 명령 경계가 아님"
+    },
+    {
+      "id": "DMAP:2863:000186d8",
+      "source_sha256": "4915e8ec22454bc7f7ac9b39afedb7845645ea4b5078e91c4579a14c95286927",
+      "member_sha256": "90dd5f1f455b60fd9df575c04b6d9ef4207d9a03a1808437cd330d52edbcf479",
+      "status": "exclude",
+      "reason": "ELF 로더 기반 전체 파싱에서 문자열 명령 경계가 아님"
+    },
+    {
+      "id": "DMAP:2863:0001870b",
+      "source_sha256": "4915e8ec22454bc7f7ac9b39afedb7845645ea4b5078e91c4579a14c95286927",
+      "member_sha256": "90dd5f1f455b60fd9df575c04b6d9ef4207d9a03a1808437cd330d52edbcf479",
+      "status": "exclude",
+      "reason": "ELF 로더 기반 전체 파싱에서 문자열 명령 경계가 아님"
+    },
+    {
+      "id": "DMAP:2908:0000bc6a",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "member_sha256": "b866a277064764da8c04e253ac24df713018ee9224675668aeb7f4d7efea8f99",
+      "status": "exclude",
+      "reason": "ELF 로더 기반 전체 파싱에서 문자열 명령 경계가 아님"
+    },
+    {
+      "id": "DMAP:2917:00007d45",
+      "source_sha256": "9aac4a2e971b8f7493c6f0558b05172d5d02f1bcfe3621f26e2dee1a8b514db0",
+      "member_sha256": "e30e08ebccf3c7de913e508a286baeae12add59d97dc23f1cc55c33b943f0bd4",
+      "status": "exclude",
+      "reason": "ELF 로더 기반 전체 파싱에서 문자열 명령 경계가 아님"
+    },
+    {
+      "id": "DMAP:2946:000186d8",
+      "source_sha256": "4915e8ec22454bc7f7ac9b39afedb7845645ea4b5078e91c4579a14c95286927",
+      "member_sha256": "b551d175d8940f196daf1a101100c9ffea516a5862a134a6d4f79cb40b1b6dfc",
+      "status": "exclude",
+      "reason": "ELF 로더 기반 전체 파싱에서 문자열 명령 경계가 아님"
+    },
+    {
+      "id": "DMAP:2946:0001870b",
+      "source_sha256": "4915e8ec22454bc7f7ac9b39afedb7845645ea4b5078e91c4579a14c95286927",
+      "member_sha256": "b551d175d8940f196daf1a101100c9ffea516a5862a134a6d4f79cb40b1b6dfc",
+      "status": "exclude",
+      "reason": "ELF 로더 기반 전체 파싱에서 문자열 명령 경계가 아님"
+    },
+    {
+      "id": "DMAP:3006:000090ba",
+      "source_sha256": "cbe5cfdf7c2118a9c3d78ef1d684f3afa089201352886449a06a6511cfef74a7",
+      "member_sha256": "c324883d5e676ae82bc4a5b06763c52a7c1c1f0571b3ef6c7e2ddd7c4addea99",
+      "status": "exclude",
+      "reason": "ELF 로더 기반 전체 파싱에서 문자열 명령 경계가 아님"
+    },
+    {
+      "id": "DMAP:3006:000093cc",
+      "source_sha256": "cbe5cfdf7c2118a9c3d78ef1d684f3afa089201352886449a06a6511cfef74a7",
+      "member_sha256": "c324883d5e676ae82bc4a5b06763c52a7c1c1f0571b3ef6c7e2ddd7c4addea99",
+      "status": "exclude",
+      "reason": "ELF 로더 기반 전체 파싱에서 문자열 명령 경계가 아님"
+    },
+    {
+      "id": "DMAP:3006:00009440",
+      "source_sha256": "cbe5cfdf7c2118a9c3d78ef1d684f3afa089201352886449a06a6511cfef74a7",
+      "member_sha256": "c324883d5e676ae82bc4a5b06763c52a7c1c1f0571b3ef6c7e2ddd7c4addea99",
+      "status": "exclude",
+      "reason": "ELF 로더 기반 전체 파싱에서 문자열 명령 경계가 아님"
+    },
+    {
+      "id": "DMAP:3013:0000986a",
+      "source_sha256": "a951c247e82f5022ef87ba9d30df4e266e6e388e95f30cb3bffffee05d3ecaea",
+      "member_sha256": "1f265616b67a39a68c6177df4f8d2a71f75db75230edf7bf044fb9790a144a87",
+      "status": "exclude",
+      "reason": "ELF 로더 기반 전체 파싱에서 문자열 명령 경계가 아님"
+    },
+    {
+      "id": "DMAP:3018:0000a9e8",
+      "source_sha256": "a1b8eb88b7499c2d9290aee7d36beb75bc51921a1b1d266017caeb43577978f8",
+      "member_sha256": "bb51923c3f23d1ff9009270e1a4fdf5f3faf63be1f232722be34ab6a74b8547e",
+      "status": "exclude",
+      "reason": "ELF 로더 기반 전체 파싱에서 문자열 명령 경계가 아님"
+    },
+    {
+      "id": "DMAP:3046:000095ac",
+      "source_sha256": "a951c247e82f5022ef87ba9d30df4e266e6e388e95f30cb3bffffee05d3ecaea",
+      "member_sha256": "4a344940fbd8a2d9ad16b2a75e4375fd56b8fdc8282460d5bec11b54e6d2ff9b",
+      "status": "exclude",
+      "reason": "ELF 로더 기반 전체 파싱에서 문자열 명령 경계가 아님"
+    },
+    {
+      "id": "DMAP:3048:0000973f",
+      "source_sha256": "a951c247e82f5022ef87ba9d30df4e266e6e388e95f30cb3bffffee05d3ecaea",
+      "member_sha256": "cc9c4545431766297c6861f5f31f214060b0b019b852a543cf63fefb4ab478d9",
+      "status": "exclude",
+      "reason": "ELF 로더 기반 전체 파싱에서 문자열 명령 경계가 아님"
+    }
+  ]
+}

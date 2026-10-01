@@ -1,0 +1,355 @@
+{
+  "status": "applied_to_iso",
+  "date": "2026-10-01",
+  "iso_path": "build/dmap_flow_ko_v1/Poison Pink (Japan) - Korean DMAP flow v1.iso",
+  "base_iso": "build/dmap_map_ko_v1/Poison Pink (Japan) - Korean DMAP maps v1.iso",
+  "iso": {
+    "source_sha256": "481a8ea8e042b0dd3385bb5ed56aa3b3d8e41dad222fef053c81c751854f1f3e",
+    "output_sha256": "b1ebb5db3d0613ea9fe1160f6636c7481fb4d71c43e6b2d9b67f366ea9ca06b2",
+    "bytes": 4245454848,
+    "changed_bytes": 40268,
+    "size_preserved": true,
+    "runtime_compatibility": {
+      "elf_crc": "565FA10D",
+      "sidecar": "<LOCAL_USER_HOME>/Desktop/poison pink/build/dmap_flow_ko_v1/Poison Pink (Japan) - Korean DMAP flow v1.iso.pcsx2",
+      "checked_patch_addresses": 34
+    },
+    "replacements": [
+      {
+        "offset": 2337243136,
+        "size": 33856,
+        "before_sha256": "478aa00da5d18b061c827c797338b6e95c8752c51bc1ff6d8c9ec83e37730940",
+        "after_sha256": "2af2a9119282c0820b296bc1131df3a7f84354d3786ab2bd8cd2f30a94e60349"
+      },
+      {
+        "offset": 2337308672,
+        "size": 33856,
+        "before_sha256": "478aa00da5d18b061c827c797338b6e95c8752c51bc1ff6d8c9ec83e37730940",
+        "after_sha256": "2af2a9119282c0820b296bc1131df3a7f84354d3786ab2bd8cd2f30a94e60349"
+      },
+      {
+        "offset": 2337374208,
+        "size": 33856,
+        "before_sha256": "478aa00da5d18b061c827c797338b6e95c8752c51bc1ff6d8c9ec83e37730940",
+        "after_sha256": "2af2a9119282c0820b296bc1131df3a7f84354d3786ab2bd8cd2f30a94e60349"
+      },
+      {
+        "offset": 2337439744,
+        "size": 33856,
+        "before_sha256": "478aa00da5d18b061c827c797338b6e95c8752c51bc1ff6d8c9ec83e37730940",
+        "after_sha256": "2af2a9119282c0820b296bc1131df3a7f84354d3786ab2bd8cd2f30a94e60349"
+      },
+      {
+        "offset": 2337505280,
+        "size": 33856,
+        "before_sha256": "a15db0bd5822f02e6aadd8c9e1036e44cab68cc94d5c057164570e22dc833454",
+        "after_sha256": "167335360bdeee5fe107e102e9a47786fccd8d0f475afbe44557f6d89285587f"
+      },
+      {
+        "offset": 2337570816,
+        "size": 33856,
+        "before_sha256": "c8455b2d6910f5e3537ff77d279bce773373d86dff41655b8be1fbcf54a7f336",
+        "after_sha256": "bec521467071fdd5291307b2bb27100b03d60b43434923ad2154cbb981489112"
+      },
+      {
+        "offset": 2337636352,
+        "size": 33856,
+        "before_sha256": "8cd50e234567b5b86689ae7bce7ef79ef6cf6b63a24af9fedb071c3bc248de52",
+        "after_sha256": "9f82eb95e2423a023ec02e3c88d86e002d92bdb38bc142a1344aed461954c555"
+      },
+      {
+        "offset": 2337701888,
+        "size": 33856,
+        "before_sha256": "c782f9255aeca348078bf60396cb42d2a1c600ed93124239d567e3fdef34df3c",
+        "after_sha256": "04081df3aa9746601b07bab46596a932a4e8cb5e3b5c6a262eefe97821c04d0a"
+      },
+      {
+        "offset": 2337767424,
+        "size": 33856,
+        "before_sha256": "692d7c81c880c843164b3d546f818d088990328a833180b3e63b12bbde5104cc",
+        "after_sha256": "acc90556f39ed474f611ba887b188b7d12f243fdf10f2a006b3c6416eebcd302"
+      },
+      {
+        "offset": 2337832960,
+        "size": 33856,
+        "before_sha256": "cc6459110549aecf8fa4ae4e8219c67e881b7161805f4c1764904feba90b706e",
+        "after_sha256": "6073cf74e712175974bbca6cff49e03d8a17bc5d8161c4fe776e1256580c62b7"
+      },
+      {
+        "offset": 2337898496,
+        "size": 33856,
+        "before_sha256": "e857f45cfd0dd8ef5cde544dfdee91e9512ee993134320fa07e440423861c59e",
+        "after_sha256": "882c08d861e4f3b453b021d798a208fa9376988cc23a65b2c696f2c9aa11d97c"
+      }
+    ]
+  },
+  "verification": {
+    "passed": true,
+    "changed_bytes": 40268,
+    "all_unplanned_bytes_identical": true
+  },
+  "assets": [
+    {
+      "member": "dmap/flow/bf_nm_a.tm2",
+      "target": "허환의 미궁",
+      "replacement": "build/dmap_flow_ko_v1/textures/bf_nm_a.tm2",
+      "sha256": "2af2a9119282c0820b296bc1131df3a7f84354d3786ab2bd8cd2f30a94e60349",
+      "original_sha256": "478aa00da5d18b061c827c797338b6e95c8752c51bc1ff6d8c9ec83e37730940",
+      "uad_sha256": "3ef363f3184061626705f02ec28004ad8bcafcbabbad380617411d24cae2d187",
+      "glyph": "outputs/dmap_flow_ko_v1/final_glyphs/bf_nm_a.png",
+      "glyph_sha256": "1f99f0b016ba50548da71826c0e201d2f1713b2c20299a1aa957b860e38e04c3",
+      "ink_bbox": [
+        23,
+        2,
+        203,
+        37
+      ],
+      "english_indices_identical": true,
+      "native_size": [
+        256,
+        128
+      ],
+      "palette_header_size_preserved": true,
+      "alpha_preserved": true
+    },
+    {
+      "member": "dmap/flow/bf_nm_b.tm2",
+      "target": "허환의 미궁",
+      "replacement": "build/dmap_flow_ko_v1/textures/bf_nm_b.tm2",
+      "sha256": "2af2a9119282c0820b296bc1131df3a7f84354d3786ab2bd8cd2f30a94e60349",
+      "original_sha256": "478aa00da5d18b061c827c797338b6e95c8752c51bc1ff6d8c9ec83e37730940",
+      "uad_sha256": "3ef363f3184061626705f02ec28004ad8bcafcbabbad380617411d24cae2d187",
+      "glyph": "outputs/dmap_flow_ko_v1/final_glyphs/bf_nm_a.png",
+      "glyph_sha256": "1f99f0b016ba50548da71826c0e201d2f1713b2c20299a1aa957b860e38e04c3",
+      "ink_bbox": [
+        23,
+        2,
+        203,
+        37
+      ],
+      "english_indices_identical": true,
+      "native_size": [
+        256,
+        128
+      ],
+      "palette_header_size_preserved": true,
+      "alpha_preserved": true
+    },
+    {
+      "member": "dmap/flow/bf_nm_c.tm2",
+      "target": "허환의 미궁",
+      "replacement": "build/dmap_flow_ko_v1/textures/bf_nm_c.tm2",
+      "sha256": "2af2a9119282c0820b296bc1131df3a7f84354d3786ab2bd8cd2f30a94e60349",
+      "original_sha256": "478aa00da5d18b061c827c797338b6e95c8752c51bc1ff6d8c9ec83e37730940",
+      "uad_sha256": "3ef363f3184061626705f02ec28004ad8bcafcbabbad380617411d24cae2d187",
+      "glyph": "outputs/dmap_flow_ko_v1/final_glyphs/bf_nm_a.png",
+      "glyph_sha256": "1f99f0b016ba50548da71826c0e201d2f1713b2c20299a1aa957b860e38e04c3",
+      "ink_bbox": [
+        23,
+        2,
+        203,
+        37
+      ],
+      "english_indices_identical": true,
+      "native_size": [
+        256,
+        128
+      ],
+      "palette_header_size_preserved": true,
+      "alpha_preserved": true
+    },
+    {
+      "member": "dmap/flow/bf_nm_d.tm2",
+      "target": "허환의 미궁",
+      "replacement": "build/dmap_flow_ko_v1/textures/bf_nm_d.tm2",
+      "sha256": "2af2a9119282c0820b296bc1131df3a7f84354d3786ab2bd8cd2f30a94e60349",
+      "original_sha256": "478aa00da5d18b061c827c797338b6e95c8752c51bc1ff6d8c9ec83e37730940",
+      "uad_sha256": "3ef363f3184061626705f02ec28004ad8bcafcbabbad380617411d24cae2d187",
+      "glyph": "outputs/dmap_flow_ko_v1/final_glyphs/bf_nm_a.png",
+      "glyph_sha256": "1f99f0b016ba50548da71826c0e201d2f1713b2c20299a1aa957b860e38e04c3",
+      "ink_bbox": [
+        23,
+        2,
+        203,
+        37
+      ],
+      "english_indices_identical": true,
+      "native_size": [
+        256,
+        128
+      ],
+      "palette_header_size_preserved": true,
+      "alpha_preserved": true
+    },
+    {
+      "member": "dmap/flow/bf_nm_e.tm2",
+      "target": "미유의 숲",
+      "replacement": "build/dmap_flow_ko_v1/textures/bf_nm_e.tm2",
+      "sha256": "167335360bdeee5fe107e102e9a47786fccd8d0f475afbe44557f6d89285587f",
+      "original_sha256": "a15db0bd5822f02e6aadd8c9e1036e44cab68cc94d5c057164570e22dc833454",
+      "uad_sha256": "3ef363f3184061626705f02ec28004ad8bcafcbabbad380617411d24cae2d187",
+      "glyph": "outputs/dmap_flow_ko_v1/final_glyphs/bf_nm_e.png",
+      "glyph_sha256": "263bcc22119bf3eb82a18cd2d2efc6e22017c9753baaa5219c9a5db5182c4512",
+      "ink_bbox": [
+        40,
+        2,
+        186,
+        37
+      ],
+      "english_indices_identical": true,
+      "native_size": [
+        256,
+        128
+      ],
+      "palette_header_size_preserved": true,
+      "alpha_preserved": true
+    },
+    {
+      "member": "dmap/flow/bf_nm_f.tm2",
+      "target": "몽환의 천공",
+      "replacement": "build/dmap_flow_ko_v1/textures/bf_nm_f.tm2",
+      "sha256": "bec521467071fdd5291307b2bb27100b03d60b43434923ad2154cbb981489112",
+      "original_sha256": "c8455b2d6910f5e3537ff77d279bce773373d86dff41655b8be1fbcf54a7f336",
+      "uad_sha256": "3ef363f3184061626705f02ec28004ad8bcafcbabbad380617411d24cae2d187",
+      "glyph": "outputs/dmap_flow_ko_v1/final_glyphs/bf_nm_f.png",
+      "glyph_sha256": "8ac36a4fdfd8953133ee7dcf4a48eca9113e48016ab736c9bdfb3e266e90655f",
+      "ink_bbox": [
+        22,
+        2,
+        204,
+        37
+      ],
+      "english_indices_identical": true,
+      "native_size": [
+        256,
+        128
+      ],
+      "palette_header_size_preserved": true,
+      "alpha_preserved": true
+    },
+    {
+      "member": "dmap/flow/bf_nm_g.tm2",
+      "target": "열사의 계계",
+      "replacement": "build/dmap_flow_ko_v1/textures/bf_nm_g.tm2",
+      "sha256": "9f82eb95e2423a023ec02e3c88d86e002d92bdb38bc142a1344aed461954c555",
+      "original_sha256": "8cd50e234567b5b86689ae7bce7ef79ef6cf6b63a24af9fedb071c3bc248de52",
+      "uad_sha256": "3ef363f3184061626705f02ec28004ad8bcafcbabbad380617411d24cae2d187",
+      "glyph": "outputs/dmap_flow_ko_v1/final_glyphs/bf_nm_g.png",
+      "glyph_sha256": "1764613379b25cdac08e9f920b2650a544487589e2dd97d1081be4e8378ed862",
+      "ink_bbox": [
+        21,
+        2,
+        205,
+        37
+      ],
+      "english_indices_identical": true,
+      "native_size": [
+        256,
+        128
+      ],
+      "palette_header_size_preserved": true,
+      "alpha_preserved": true
+    },
+    {
+      "member": "dmap/flow/bf_nm_h.tm2",
+      "target": "성황의 제궁",
+      "replacement": "build/dmap_flow_ko_v1/textures/bf_nm_h.tm2",
+      "sha256": "04081df3aa9746601b07bab46596a932a4e8cb5e3b5c6a262eefe97821c04d0a",
+      "original_sha256": "c782f9255aeca348078bf60396cb42d2a1c600ed93124239d567e3fdef34df3c",
+      "uad_sha256": "3ef363f3184061626705f02ec28004ad8bcafcbabbad380617411d24cae2d187",
+      "glyph": "outputs/dmap_flow_ko_v1/final_glyphs/bf_nm_h.png",
+      "glyph_sha256": "1bb1bf28040e40df0556f42728d2f23b8d3fc67f289f3aeb304504f063aa049b",
+      "ink_bbox": [
+        23,
+        2,
+        203,
+        37
+      ],
+      "english_indices_identical": true,
+      "native_size": [
+        256,
+        128
+      ],
+      "palette_header_size_preserved": true,
+      "alpha_preserved": true
+    },
+    {
+      "member": "dmap/flow/bf_nm_i.tm2",
+      "target": "염제의 만마전",
+      "replacement": "build/dmap_flow_ko_v1/textures/bf_nm_i.tm2",
+      "sha256": "acc90556f39ed474f611ba887b188b7d12f243fdf10f2a006b3c6416eebcd302",
+      "original_sha256": "692d7c81c880c843164b3d546f818d088990328a833180b3e63b12bbde5104cc",
+      "uad_sha256": "3ef363f3184061626705f02ec28004ad8bcafcbabbad380617411d24cae2d187",
+      "glyph": "outputs/dmap_flow_ko_v1/final_glyphs/bf_nm_i.png",
+      "glyph_sha256": "8a302513766c7d79f401649fec45dc170f53dbcc94bf72b41e6e08f804ff16d3",
+      "ink_bbox": [
+        5,
+        2,
+        222,
+        37
+      ],
+      "english_indices_identical": true,
+      "native_size": [
+        256,
+        128
+      ],
+      "palette_header_size_preserved": true,
+      "alpha_preserved": true
+    },
+    {
+      "member": "dmap/flow/bf_nm_j.tm2",
+      "target": "베세크 제신부",
+      "replacement": "build/dmap_flow_ko_v1/textures/bf_nm_j.tm2",
+      "sha256": "6073cf74e712175974bbca6cff49e03d8a17bc5d8161c4fe776e1256580c62b7",
+      "original_sha256": "cc6459110549aecf8fa4ae4e8219c67e881b7161805f4c1764904feba90b706e",
+      "uad_sha256": "3ef363f3184061626705f02ec28004ad8bcafcbabbad380617411d24cae2d187",
+      "glyph": "outputs/dmap_flow_ko_v1/final_glyphs/bf_nm_j.png",
+      "glyph_sha256": "ec81d416008506422f34693533b36ead76f7a210b1df5f4725ed7176e8ca6dcb",
+      "ink_bbox": [
+        6,
+        2,
+        221,
+        37
+      ],
+      "english_indices_identical": true,
+      "native_size": [
+        256,
+        128
+      ],
+      "palette_header_size_preserved": true,
+      "alpha_preserved": true
+    },
+    {
+      "member": "dmap/flow/bf_nm_s.tm2",
+      "target": "불명",
+      "replacement": "build/dmap_flow_ko_v1/textures/bf_nm_s.tm2",
+      "sha256": "882c08d861e4f3b453b021d798a208fa9376988cc23a65b2c696f2c9aa11d97c",
+      "original_sha256": "e857f45cfd0dd8ef5cde544dfdee91e9512ee993134320fa07e440423861c59e",
+      "uad_sha256": "3ef363f3184061626705f02ec28004ad8bcafcbabbad380617411d24cae2d187",
+      "glyph": "outputs/dmap_flow_ko_v1/final_glyphs/bf_nm_s.png",
+      "glyph_sha256": "0a05fd93bf9343e0f1f0559d491f4b840be05f0e9890fa0d94449f161d341e84",
+      "ink_bbox": [
+        79,
+        3,
+        148,
+        37
+      ],
+      "english_indices_identical": true,
+      "native_size": [
+        256,
+        128
+      ],
+      "palette_header_size_preserved": true,
+      "alpha_preserved": true
+    }
+  ],
+  "newly_localized_images": 11,
+  "unique_titles": 8,
+  "english_pixels_indices_unchanged": true,
+  "uad_unchanged": true,
+  "previous_map_class_shop_controller_changes_preserved": true,
+  "image_generation_mode": "built-in image_gen alpha glyphs, native palette packing",
+  "runtime_verified": false,
+  "generation_review": "outputs/dmap_flow_ko_v1/generation_review.json",
+  "unfinished_items": []
+}

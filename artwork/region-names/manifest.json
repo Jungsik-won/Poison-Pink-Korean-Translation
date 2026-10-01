@@ -1,0 +1,46 @@
+[
+  {
+    "id": "bf_nm_a",
+    "target": "허환의 미궁",
+    "duplicates": [
+      "bf_nm_b",
+      "bf_nm_c",
+      "bf_nm_d"
+    ]
+  },
+  {
+    "id": "bf_nm_e",
+    "target": "미유의 숲",
+    "duplicates": []
+  },
+  {
+    "id": "bf_nm_f",
+    "target": "몽환의 천공",
+    "duplicates": []
+  },
+  {
+    "id": "bf_nm_g",
+    "target": "열사의 계계",
+    "duplicates": []
+  },
+  {
+    "id": "bf_nm_h",
+    "target": "성황의 제궁",
+    "duplicates": []
+  },
+  {
+    "id": "bf_nm_i",
+    "target": "염제의 만마전",
+    "duplicates": []
+  },
+  {
+    "id": "bf_nm_j",
+    "target": "베세크 제신부",
+    "duplicates": []
+  },
+  {
+    "id": "bf_nm_s",
+    "target": "불명",
+    "duplicates": []
+  }
+]
