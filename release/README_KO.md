@@ -9,7 +9,7 @@
 3. xdelta3를 설치합니다.
 4. `Poison_Pink_Korean_DMAP_flow_v1.xdelta`를 적용합니다.
 5. 출력 SHA-256이 `b1ebb5db3d0613ea9fe1160f6636c7481fb4d71c43e6b2d9b67f366ea9ca06b2`인지 확인합니다.
-6. PCSX2에서 대화 표시 문제가 있으면 동봉된 `PCSX2_dialogue_compat.zip`의 안내를 따릅니다.
+6. PCSX2 2.6.3에서는 동봉된 `PCSX2_dialogue_compat.zip`의 안내에 따라 패치를 설치하고, 와이드스크린 패치를 켠 뒤 16:9로 새 부팅합니다.
 
 macOS/Linux는 `apply_patch_ko.sh`, Windows는 `apply_patch_ko.ps1`을 이용하면 원본·패치·출력 해시를 자동 검증합니다.
 
@@ -21,9 +21,20 @@ macOS/Linux는 `apply_patch_ko.sh`, Windows는 `apply_patch_ko.ps1`을 이용하
 - 클래스 체인지 문구 수정
 - 누적 대사·UI·영상 자막 한국어화 작업
 
+## 실제 실행 검증 결과
+
+- 최신 ISO SHA-256은 `b1ebb5db3d0613ea9fe1160f6636c7481fb4d71c43e6b2d9b67f366ea9ca06b2` 그대로이며 ISO를 수정하지 않았습니다.
+- PCSX2 2.6.3, 새 부팅·새 게임, 외부 패치/치트/와이드스크린 OFF, 4:3에서 전투 튜토리얼 대사와 도움말은 정상 표시됐습니다.
+- 같은 조건의 Software와 초기값 Metal 모두에서 테이 첫 초상화 대사가 누락됐습니다.
+- 일본판 원본도 Software 무패치 조건에서 같은 누락이 재현됐습니다.
+- 동봉 Widescreen 16:9 패치를 켠 Software 16:9 대조군에서는 같은 대사가 정상 표시됐습니다.
+- 이 결과만으로 한글화가 모든 환경에서 반드시 패치를 요구한다거나, 34개 패치 쓰기가 전부 필수라고 단정하지 않습니다.
+- 패치 없는 완전 정상 실행, 전체 플레이, 다른 PCSX2 버전, 실제 PlayStation 2는 검증하지 않았습니다.
+
 ## 주의
 
 - 세이브를 백업하세요.
 - 원본/수정 ISO는 배포물에 포함되지 않습니다.
 - 출력 ISO는 완전한 디스크 이미지이므로 약 4.25GB입니다. xdelta 파일 자체는 약 297MiB입니다.
 - 일부 이미지, 문맥 의존 번역, 영상 가사와 런타임 분기는 추가 검수가 필요합니다.
+- 검증한 PCSX2 2.6.3 환경과 장면에서는 외부 sidecar 패치 의존성이 남아 있습니다.

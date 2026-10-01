@@ -4,7 +4,11 @@
 
 `build/dmap_flow_ko_v1/Poison Pink (Japan) - Korean DMAP flow v1.iso`
 
-SHA-256: `b1ebb5db3d0613ea9fe1160f6636c7481fb4d71c43e6b2d9b67f366ea9ca06b2`. DMAP maps v1에 flow/bf_nm_a~j,s 11장 추가. 기존 지도 이미지 75장과 클래스·상점·컨트롤러 수정 보존. 일본어 제목만 기존 용어로 한국어화; 영어 영역의 원본 인덱스·픽셀 및 UAD 보존. 원본 제목 잉크 영역의 폭·높이·위치 유지, 한국어 자간은 시각 검수. 전체 ISO 계획 밖 바이트 동일 검증. ELF CRC 565FA10D 유지, 해당 호환 ZIP 동봉. 실제 게임 실행 미검증.
+SHA-256: `b1ebb5db3d0613ea9fe1160f6636c7481fb4d71c43e6b2d9b67f366ea9ca06b2`. DMAP maps v1에 flow/bf_nm_a~j,s 11장 추가. 기존 지도 이미지 75장과 클래스·상점·컨트롤러 수정 보존. 일본어 제목만 기존 용어로 한국어화; 영어 영역의 원본 인덱스·픽셀 및 UAD 보존. 원본 제목 잉크 영역의 폭·높이·위치 유지, 한국어 자간은 시각 검수. 전체 ISO 계획 밖 바이트 동일 검증. ELF CRC 565FA10D 유지, 해당 호환 ZIP 동봉.
+
+### 후속 제한적 PCSX2 무패치 실행 검증 (2026-10-01)
+
+PCSX2 2.6.3에서 외부 패치·치트·와이드스크린을 모두 끄고 4:3, 상태저장 없이 새 부팅·새 게임으로 확인했다. 전투 튜토리얼 대사와 도움말은 정상이나 테이 첫 초상화 대사가 Software 및 CPU/GS 초기값 Metal 모두에서 누락됐다. 일본 원본도 Software에서 같은 누락이 재현되어 한글화만의 회귀로 단정할 수 없다. 동봉 Widescreen 16:9 패치를 켠 Software 16:9 대조군에서는 같은 대사가 정상 표시됐다. 패치 OFF의 34개 대상 원본값·panelY 312, 대조군의 34개 적용·panelY 384를 확인했다. 대조군은 화면 비율과 패치를 동시에 바꿨으므로 34개 쓰기 전체의 필요성은 분리하지 못했다. 최신 ISO는 수정하지 않았고 SHA-256도 동일하다. 사용자 원본 카드·설정은 보존했고 검증 프로세스를 종료했다. 전체 플레이·다른 PCSX2 버전·실기는 미검증이다. 보고서: `reports/patchless_runtime_20261001.json`. 게임 스크린샷·세이브·BIOS·ISO는 저장소에 올리지 않는다.
 
 보고서: reports/dmap_flow_ko_v1.json. 원본 생성 결과·프롬프트·게임용 미리보기: outputs/dmap_flow_ko_v1. 빌더: tools/build_dmap_flow_ko_v1.py.
 

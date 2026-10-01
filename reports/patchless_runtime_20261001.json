@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-01",
+  "iso": "build/dmap_flow_ko_v1/Poison Pink (Japan) - Korean DMAP flow v1.iso",
+  "sha256": "b1ebb5db3d0613ea9fe1160f6636c7481fb4d71c43e6b2d9b67f366ea9ca06b2",
+  "emulator": "PCSX2 2.6.3",
+  "method": "Fresh boots, no state loaded. User memory card copied for title unlock; New Game -> Tei first portrait conversation. Isolated portable config; user config untouched.",
+  "tests": [
+    {
+      "game": "Korean latest",
+      "renderer": "Software",
+      "aspect": "4:3",
+      "patches": false,
+      "result": "Boot, memory card warning, prologue battle dialogue and tutorial help displayed; Tei first portrait dialogue invisible, persists after advancing."
+    },
+    {
+      "game": "Japanese original",
+      "renderer": "Software",
+      "aspect": "4:3",
+      "patches": false,
+      "result": "Same missing first portrait dialogue."
+    },
+    {
+      "game": "Korean latest",
+      "renderer": "default Metal; CPU/GS/Speedhacks sections reset",
+      "aspect": "4:3",
+      "patches": false,
+      "result": "Same missing first portrait dialogue."
+    },
+    {
+      "game": "Korean latest",
+      "renderer": "Software",
+      "aspect": "16:9",
+      "patches": "bundled Widescreen 16:9",
+      "result": "Same portrait conversation visible; 젠장, 마신이 왜 이렇게 많아!!"
+    }
+  ],
+  "ram_proof": {
+    "patchless_34_targets_original": true,
+    "patchless_panel_y": 312.0,
+    "patched_matching_words": 34,
+    "patched_panel_y": 384.0
+  },
+  "user_card_unchanged": true,
+  "iso_modified": false,
+  "conclusion": "Current release fails patch-free portrait dialogue verification in tested PCSX2 environments. Not solely a Korean translation regression because original reproduces. Existing bundled workaround restores tested scene; root cause not fully isolated.",
+  "limitations": [
+    "Not full-game testing",
+    "Not verified on real PS2 or other PCSX2 versions",
+    "Patch-enabled control changes both aspect and patch; no claim all 34 writes necessary",
+    "No ISO-integrated fix produced in this audit"
+  ],
+  "evidence_directory": "build/patchless_runtime_20261001/evidence",
+  "logs": [
+    "build/patchless_runtime_20261001/patched_control.log",
+    "build/patchless_runtime_20261001/card_boot2.log",
+    "build/patchless_runtime_20261001/boot.log",
+    "build/patchless_runtime_20261001/card_boot.log",
+    "build/patchless_runtime_20261001/original_boot.log",
+    "build/patchless_runtime_20261001/default_graphics.log"
+  ],
+  "test_process_stopped": true
+}

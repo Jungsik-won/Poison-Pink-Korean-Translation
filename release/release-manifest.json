@@ -21,8 +21,15 @@
     "patch_decode": "passed",
     "output_sha256": "passed",
     "byte_for_byte_compare": "passed",
-    "full_game_runtime": "not_completed"
+    "full_game_runtime": "not_completed",
+    "targeted_pcsx2_2_6_3": {
+      "scope": "fresh boot and New Game through Tei first portrait dialogue",
+      "patchless_software_4_3": "portrait dialogue missing",
+      "patchless_default_metal_4_3": "portrait dialogue missing",
+      "japanese_original_patchless_software_4_3": "same portrait dialogue missing",
+      "bundled_widescreen_patch_software_16_9": "portrait dialogue visible",
+      "report": "reports/patchless_runtime_20261001.json"
+    }
   },
   "created_at": "2026-10-01"
 }
-
