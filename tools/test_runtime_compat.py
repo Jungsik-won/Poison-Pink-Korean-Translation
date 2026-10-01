@@ -26,6 +26,46 @@ PATCH = '[Widescreen 16:9]\npatch=1,EE,00001040,word,12345678\n'
 
 
 class CompatibilityTests(unittest.TestCase):
+    def test_integrated_layout_requires_all_reviewed_words_and_keeps_context_guard(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            spec = Path(tmp) / 'layout.json'
+            spec.write_text(json.dumps({'words': [
+                dict(address='00001040', original='00000000', value='12345678'),
+                dict(address='00001048', original='00000000', value='87654321')]}))
+            before = elf()
+            with patch.object(compat, 'LAYOUT_SPEC', spec):
+                normalized, rows = compat.inspect_integrated_layout(before, before)
+                self.assertEqual(rows, [])
+                after = bytearray(before)
+                struct.pack_into('<I', after, compat.virtual_offset(after, 0x1040), 0x12345678)
+                with self.assertRaisesRegex(ValueError, 'Partial'):
+                    compat.inspect_integrated_layout(before, after)
+                struct.pack_into('<I', after, compat.virtual_offset(after, 0x1048), 0x87654321)
+                normalized, rows = compat.inspect_integrated_layout(before, after)
+                self.assertEqual(normalized, before)
+                self.assertEqual(len(rows), 2)
+                self.assertEqual(len(compat.validate_elf(before, normalized, PATCH)), 1)
+                after[compat.virtual_offset(after, 0x1044)] = 1
+                normalized, _ = compat.inspect_integrated_layout(before, after)
+                with self.assertRaisesRegex(ValueError, 'context changed'):
+                    compat.validate_elf(before, normalized, PATCH)
+                struct.pack_into('<I', after, compat.virtual_offset(after, 0x1048), 0xFFFFFFFF)
+                with self.assertRaisesRegex(ValueError, 'Unknown'):
+                    compat.inspect_integrated_layout(before, after)
+
+    def test_integrated_iso_publication_creates_no_patch_sidecar(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            source, output = Path(tmp) / 'source.iso', Path(tmp) / 'output.iso'
+            source.write_bytes(b'fixture')
+            info = dict(elf_crc='12345678', integrated_dialogue_layout=[{'address': '00001040'}], patch_count=34)
+            with patch.object(compat, 'inspect_iso', return_value=(info, PATCH.encode())), \
+                    patch.object(compat, 'publish_sidecar') as publish:
+                result = stage.overlay(source, output, [], compat.digest(source.read_bytes()))
+            publish.assert_not_called()
+            self.assertFalse(result['runtime_compatibility']['requires_external_patch'])
+            self.assertEqual(output.read_bytes(), source.read_bytes())
+            self.assertFalse(Path(str(output) + '.pcsx2').exists())
+
     def test_game_input_that_would_toggle_renderer_is_blocked(self):
         cfg = configparser.ConfigParser(interpolation=None)
         cfg.optionxform = str

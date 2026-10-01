@@ -1,13 +1,13 @@
 param(
     [Parameter(Mandatory = $true)][string]$SourceIso,
-    [string]$OutputIso = "Poison Pink (Japan) - Korean DMAP flow v1.iso",
-    [string]$PatchFile = "Poison_Pink_Korean_DMAP_flow_v1.xdelta"
+    [string]$OutputIso = "Poison Pink (Japan) - Korean standalone v1.iso",
+    [string]$PatchFile = "Poison_Pink_Korean_standalone_v1.xdelta"
 )
 
 $ErrorActionPreference = "Stop"
 $SourceSha256 = "081e5c921fc2b0f517f007dfe053935578174a6880949de961e273426b216103"
-$PatchSha256 = "8e56374561879106237e04ca3aa4875462bf0743aeac917c0987749bc5fe2a55"
-$OutputSha256 = "b1ebb5db3d0613ea9fe1160f6636c7481fb4d71c43e6b2d9b67f366ea9ca06b2"
+$PatchSha256 = "02d32af31433a7016a94e49f93efdd97d5bb1dc6dd6a3672ad2d9fb6c0715714"
+$OutputSha256 = "f7276bfe1da4b9599d5242daa74ee094ac87e3044173e3c943b6320890fed072"
 
 if (-not (Get-Command xdelta3 -ErrorAction SilentlyContinue)) {
     throw "xdelta3를 먼저 설치해 주세요."
@@ -44,4 +44,3 @@ if ($ActualOutput -ne $OutputSha256) {
 
 Write-Host "완료: $OutputIso"
 Write-Host "SHA-256: $ActualOutput"
-

@@ -191,14 +191,19 @@ def overlay(source, output, replacements, expected_sha):
         if file_hash(Path(tmp)) != result_hash.hexdigest():
             raise ValueError('Written output verification failed')
         if output.suffix.lower() == '.iso':
-            # CRC changes can silently disable PCSX2's dialogue/portrait fixes.
-            # Validate the final ELF and package its matched patch BEFORE making
-            # an ISO available. HED/DAT overlays do not enter this ISO-only gate.
+            # Validate the final ELF before publication. Legacy builds require
+            # a CRC-matched sidecar; the reviewed four-word integrated layout
+            # is self-contained. HED/DAT overlays do not enter this ISO-only gate.
             from runtime_compat import inspect_iso, publish_sidecar
             info, raw = inspect_iso(Path(tmp))
-            sidecar, sidecar_created = publish_sidecar(output, info, raw, result_hash.hexdigest())
-            compat = dict(elf_crc=info['elf_crc'], sidecar=str(sidecar),
-                          checked_patch_addresses=info['patch_count'])
+            if info.get('integrated_dialogue_layout'):
+                compat = dict(elf_crc=info['elf_crc'], requires_external_patch=False,
+                              integrated_dialogue_layout=info['integrated_dialogue_layout'],
+                              checked_patch_addresses=info['patch_count'])
+            else:
+                sidecar, sidecar_created = publish_sidecar(output, info, raw, result_hash.hexdigest())
+                compat = dict(elf_crc=info['elf_crc'], sidecar=str(sidecar),
+                              checked_patch_addresses=info['patch_count'])
         # hard-link publication refuses a raced existing destination, unlike replace().
         os.link(tmp, str(output))
         return dict(source_sha256=expected_sha, output_sha256=result_hash.hexdigest(),

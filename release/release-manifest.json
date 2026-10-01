@@ -1,35 +1,82 @@
 {
-  "release": "v0.1.0-dev",
-  "build": "dmap_flow_ko_v1",
+  "release": "v0.2.0-dev",
+  "build": "iso_dialogue_fix_v1",
   "status": "development_review",
-  "runtime_verified": false,
+  "created_at": "2026-10-01",
+  "runtime_verified": true,
+  "runtime_verified_scope": "PCSX2 2.6.3 limited scene coverage only",
+  "full_game_verified": false,
+  "requires_external_patch": false,
   "source_iso": {
     "size": 4245454848,
     "sha256": "081e5c921fc2b0f517f007dfe053935578174a6880949de961e273426b216103"
   },
   "patch": {
     "format": "xdelta3",
-    "filename": "Poison_Pink_Korean_DMAP_flow_v1.xdelta",
-    "size": 311221958,
-    "sha256": "8e56374561879106237e04ca3aa4875462bf0743aeac917c0987749bc5fe2a55"
+    "filename": "Poison_Pink_Korean_standalone_v1.xdelta",
+    "size": 311221978,
+    "sha256": "02d32af31433a7016a94e49f93efdd97d5bb1dc6dd6a3672ad2d9fb6c0715714"
   },
   "output_iso": {
+    "filename": "Poison Pink (Japan) - Korean standalone v1.iso",
     "size": 4245454848,
-    "sha256": "b1ebb5db3d0613ea9fe1160f6636c7481fb4d71c43e6b2d9b67f366ea9ca06b2"
+    "sha256": "f7276bfe1da4b9599d5242daa74ee094ac87e3044173e3c943b6320890fed072",
+    "elf_crc": "15A5210D"
+  },
+  "integrated_dialogue_layout": {
+    "base_build": "dmap_flow_ko_v1",
+    "changed_bytes": 6,
+    "all_unplanned_bytes_identical": true,
+    "original_fov_font_width_and_code_preserved": true,
+    "values": [
+      {
+        "address": "005526F4",
+        "original": "43D10000",
+        "value": "43C80000",
+        "meaning": "message indicator Y: 418 -> 400"
+      },
+      {
+        "address": "00552768",
+        "original": "42B00000",
+        "value": "42C00000",
+        "meaning": "dialogue frame extent: 88 -> 96"
+      },
+      {
+        "address": "0055276C",
+        "original": "43CF8000",
+        "value": "00000000",
+        "meaning": "dialogue frame offset: 415 -> 0"
+      },
+      {
+        "address": "0055278C",
+        "original": "439C0000",
+        "value": "43C00000",
+        "meaning": "lower panel Y: 312 -> 384"
+      }
+    ]
   },
   "verification": {
     "patch_decode": "passed",
     "output_sha256": "passed",
     "byte_for_byte_compare": "passed",
-    "full_game_runtime": "not_completed",
+    "runtime_compatibility_tests": {
+      "command": "PYTHONPATH=tools python3 -m unittest test_runtime_compat",
+      "passed": 14
+    },
     "targeted_pcsx2_2_6_3": {
-      "scope": "fresh boot and New Game through Tei first portrait dialogue",
-      "patchless_software_4_3": "portrait dialogue missing",
-      "patchless_default_metal_4_3": "portrait dialogue missing",
-      "japanese_original_patchless_software_4_3": "same portrait dialogue missing",
-      "bundled_widescreen_patch_software_16_9": "portrait dialogue visible",
-      "report": "reports/patchless_runtime_20261001.json"
+      "software_4_3_fresh_game": "first portrait dialogue, multiple speakers, two-line dialogue, prebattle menu, first main battle dialogue and unit movement passed",
+      "default_metal_4_3_fresh_game": "first portrait dialogue and subsequent progress passed",
+      "software_16_9_memory_card_copy": "existing level 23 in-game save and saved battle load passed",
+      "external_patches": false,
+      "cheats": false,
+      "widescreen_patches": false,
+      "report": "reports/iso_dialogue_fix_v1.json"
     }
   },
-  "created_at": "2026-10-01"
+  "limitations": [
+    "Not full-game verified",
+    "Other PCSX2 versions and real PlayStation 2 hardware are unverified",
+    "Known incomplete and unconfirmed translation items remain",
+    "Cold boot the new ISO and use an in-game memory-card save instead of an old savestate"
+  ]
 }

@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Check CRC-scoped PCSX2 compatibility before publishing a Poison Pink ISO.
 
-Produces a sidecar, never patches an ISO or silently installs into a user profile.
+Recognizes the reviewed ISO-integrated dialogue layout, or produces a sidecar
+for legacy builds. Never silently installs into a user profile.
 CRC follows PCSX2 v2.6.3 ElfObject::GetCRC (XOR of little-endian u32 words).
 """
 import argparse
@@ -20,6 +21,7 @@ import zlib
 
 ROOT = Path(__file__).resolve().parents[1]
 SPEC = ROOT / 'localization/runtime/pcsx2_compat.json'
+LAYOUT_SPEC = ROOT / 'localization/runtime/iso_dialogue_layout.json'
 
 
 def digest(data):
@@ -93,6 +95,32 @@ def validate_elf(original, target, patch_text):
     return checks
 
 
+def inspect_integrated_layout(original, target):
+    """Recognize the exact reviewed data-only fix, rejecting partial/unknown values.
+
+    Normalize those four words only for the existing adjacent-code/cave guard.
+    This does not accept a baked widescreen patch or relax any other target.
+    """
+    rows = json.loads(LAYOUT_SPEC.read_text())['words']
+    normalized = bytearray(target)
+    states = []
+    for row in rows:
+        address = int(row['address'], 16)
+        old, new = int(row['original'], 16), int(row['value'], 16)
+        oldpos = virtual_offset(original, address)
+        pos = virtual_offset(target, address)
+        if struct.unpack_from('<I', original, oldpos)[0] != old:
+            raise ValueError('Integrated layout baseline changed')
+        actual = struct.unpack_from('<I', target, pos)[0]
+        if actual not in (old, new):
+            raise ValueError(f'Unknown integrated layout value at {address:08X}')
+        states.append(actual == new)
+        struct.pack_into('<I', normalized, pos, old)
+    if any(states) and not all(states):
+        raise ValueError('Partial integrated dialogue layout')
+    return bytes(normalized), rows if all(states) else []
+
+
 def inspect_iso(iso):
     # Local import avoids a cycle with overlay's publication guard.
     from iso_archive_stage import iso_inventory, exact
@@ -112,7 +140,8 @@ def inspect_iso(iso):
         fp.seek(cnf['lba'] * 2048)
         if spec['elf'].encode() not in exact(fp, cnf['size']):
             raise ValueError('Unexpected boot executable')
-    checks = validate_elf(original, target, raw.decode('utf-8'))
+    normalized, integrated = inspect_integrated_layout(original, target)
+    checks = validate_elf(original, normalized, raw.decode('utf-8'))
     if len(checks) != spec['patch_count']:
         raise ValueError('Unexpected compatibility patch count')
     crc = pcsx2_crc(target)
@@ -121,10 +150,14 @@ def inspect_iso(iso):
                 patch_filename=f"{spec['serial']}_{crc}.pnach",
                 patch_source_sha256=digest(raw), provenance=spec['provenance'],
                 patch_count=len(checks), checks=checks,
-                requires_widescreen_patches=True, runtime_verified=False), raw
+                integrated_dialogue_layout=integrated,
+                requires_external_patch=not bool(integrated),
+                requires_widescreen_patches=not bool(integrated), runtime_verified=False), raw
 
 
 def publish_sidecar(iso, info, raw, iso_sha256=None):
+    if info.get('integrated_dialogue_layout'):
+        raise ValueError('Integrated dialogue ISO needs no compatibility sidecar')
     dest = Path(str(iso) + '.pcsx2')
     source_root = (ROOT / 'Poison Pink (Japan)').resolve()
     if dest.resolve() == source_root or source_root in dest.resolve().parents:
@@ -177,21 +210,23 @@ def inspect_profile(profile, info, raw):
                     conflicts.append(dict(pad=section, button=button, hotkey=action, binding=binding))
     if conflicts:
         findings.append('Game inputs overlap emulator hotkeys')
-    for key in ['EnablePatches', 'EnableWideScreenPatches', 'EnableGameFixes']:
+    integrated = bool(info.get('integrated_dialogue_layout'))
+    for key in ([] if integrated else ['EnablePatches', 'EnableWideScreenPatches', 'EnableGameFixes']):
         if not cfg.getboolean('EmuCore', key, fallback=True):
             findings.append(key + ' is disabled')
     folder = Path(cfg.get('Folders', 'Patches', fallback='patches'))
     folder = folder if folder.is_absolute() else profile / folder
     patch = folder / info['patch_filename']
-    if not patch.exists():
+    if not integrated and not patch.exists():
         findings.append('CRC-matched patch missing')
-    elif patch_directives(patch.read_text()) != patch_directives(raw.decode()):
+    elif not integrated and patch_directives(patch.read_text()) != patch_directives(raw.decode()):
         findings.append('Installed patch differs from reviewed patch')
     # Do not copy arbitrary old per-game settings into a new CRC automatically.
     for p in game_settings:
         if info['elf_crc'] not in p.stem:
             findings.append('Older per-game settings need review: ' + p.name)
-    return dict(profile=str(profile), installed_patch=str(patch), findings=findings,
+    return dict(profile=str(profile), installed_patch=str(patch) if patch.exists() else None,
+                requires_external_patch=not integrated, findings=findings,
                 game_settings=[str(p) for p in game_settings], input_conflicts=conflicts)
 
 
@@ -230,7 +265,10 @@ def inspect_states(folder, info, raw):
             row['status'] = 'different_elf_crc_do_not_migrate'
         else:
             ram = read_state_ram(path)
-            row['missing_patch_words'] = [f'{a:08X}' for a, v in parse_patch(raw.decode())
+            expected_words = ([(int(r['address'], 16), int(r['value'], 16))
+                               for r in info['integrated_dialogue_layout']]
+                              if info.get('integrated_dialogue_layout') else parse_patch(raw.decode()))
+            row['missing_patch_words'] = [f'{a:08X}' for a, v in expected_words
                                            if struct.unpack_from('<I', ram, a)[0] != v]
             state = struct.unpack_from('<I', ram, 0x62DAF0)[0]
             panel = struct.unpack_from('<f', ram, 0x62DCB4)[0]
@@ -240,6 +278,8 @@ def inspect_states(folder, info, raw):
                              'unrecognized_dialogue_layout' if state == 400 and panel != 384.0 else
                              'missing_saved_patch' if row['missing_patch_words'] else
                              'checked_patch_and_known_layout_values')
+            if info.get('integrated_dialogue_layout') and row['status'] == 'checked_patch_and_known_layout_values':
+                row['status'] = 'checked_integrated_layout_values'
         results.append(row)
     return results
 
@@ -253,7 +293,7 @@ def main():
     p.add_argument('--report', type=Path)
     args = p.parse_args()
     info, raw = inspect_iso(args.iso)
-    if args.package:
+    if args.package and not info.get('integrated_dialogue_layout'):
         h = hashlib.sha256()
         with args.iso.open('rb') as f:
             for chunk in iter(lambda: f.read(4 * 1024 * 1024), b''):
@@ -267,8 +307,9 @@ def main():
     if args.report:
         args.report.parent.mkdir(parents=True, exist_ok=True)
         args.report.write_text(json.dumps(info, ensure_ascii=False, indent=2) + '\n')
-    print(json.dumps({k: info[k] for k in ['elf_crc', 'patch_count', 'profile', 'sidecar'] if k in info}, ensure_ascii=False))
-    bad_states = [s for s in info.get('states', []) if s['status'] != 'checked_patch_and_known_layout_values']
+    print(json.dumps({k: info[k] for k in ['elf_crc', 'patch_count', 'requires_external_patch', 'profile', 'sidecar'] if k in info}, ensure_ascii=False))
+    bad_states = [s for s in info.get('states', []) if s['status'] not in
+                  ('checked_patch_and_known_layout_values', 'checked_integrated_layout_values')]
     return int(bool(info.get('profile', {}).get('findings') or bad_states))
 
 

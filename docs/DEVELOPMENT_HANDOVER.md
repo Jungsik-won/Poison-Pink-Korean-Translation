@@ -1,14 +1,24 @@
 # Poison Pink 한글화 인계서 — 검수 반영판
 
-## 최신 실행 ISO: DMAP 지역명 한글화 추가 v1 (2026-10-01)
+## 최신 실행 ISO: 외부 패치 없는 독립 실행 v1 (2026-10-01)
+
+`build/iso_dialogue_fix_v1/Poison Pink (Japan) - Korean standalone v1.iso`
+
+SHA-256: `f7276bfe1da4b9599d5242daa74ee094ac87e3044173e3c943b6320890fed072`. ELF CRC `15A5210D`.
+
+최신 DMAP flow v1 기반에 초상화 대화 레이아웃 네 값(실제 6바이트)만 반영. 외부 PCSX2 패치 없이 대화 표시. 전체 ISO 계획 밖 바이트 동일, 기존 텍스트·이미지·영상·코드·시야각·글자 폭 보존. `.iso.pcsx2` 또는 호환 ZIP을 배포하지 않음.
+
+PCSX2 2.6.3 패치 OFF 실제 확인: Software 4:3 새 게임 여러 인물·두 줄 대사, 전투 준비/첫 본편 전투 대사·유닛 이동; 기본 Metal 4:3 첫 초상화 대화; Software 16:9 기존 레벨 23 메모리카드 저장 불러오기 및 해당 전투 재개. 모든 분기/전체 엔딩/실기/다른 에뮬레이터 버전은 미검증.
+
+다음 작업은 이 ISO를 기반으로 하고 `localization/runtime/iso_dialogue_layout.json`의 네 값을 보존할 것. `runtime_compat.inspect_iso`는 통합 보정을 인식해 외부 패치가 불필요함을 반환하며, ISO overlay는 해당 빌드에 sidecar를 생성하지 않음. 후속 빌더에서 sidecar 존재를 무조건 가정하지 말 것. 이전 기반판의 PCSX2 패치 필수 안내는 최신본에 적용되지 않음. 과거 강제 상태저장을 로드하지 말고 새 부팅 후 정상 게임 저장 사용.
+
+빌더 `tools/build_iso_dialogue_fix.py`, 검증 기록 `reports/iso_dialogue_fix_v1.json`, 증거 `build/iso_dialogue_fix_v1/evidence`.
+
+## 이전 기반 ISO: DMAP 지역명 한글화 추가 v1 (2026-10-01)
 
 `build/dmap_flow_ko_v1/Poison Pink (Japan) - Korean DMAP flow v1.iso`
 
-SHA-256: `b1ebb5db3d0613ea9fe1160f6636c7481fb4d71c43e6b2d9b67f366ea9ca06b2`. DMAP maps v1에 flow/bf_nm_a~j,s 11장 추가. 기존 지도 이미지 75장과 클래스·상점·컨트롤러 수정 보존. 일본어 제목만 기존 용어로 한국어화; 영어 영역의 원본 인덱스·픽셀 및 UAD 보존. 원본 제목 잉크 영역의 폭·높이·위치 유지, 한국어 자간은 시각 검수. 전체 ISO 계획 밖 바이트 동일 검증. ELF CRC 565FA10D 유지, 해당 호환 ZIP 동봉.
-
-### 후속 제한적 PCSX2 무패치 실행 검증 (2026-10-01)
-
-PCSX2 2.6.3에서 외부 패치·치트·와이드스크린을 모두 끄고 4:3, 상태저장 없이 새 부팅·새 게임으로 확인했다. 전투 튜토리얼 대사와 도움말은 정상이나 테이 첫 초상화 대사가 Software 및 CPU/GS 초기값 Metal 모두에서 누락됐다. 일본 원본도 Software에서 같은 누락이 재현되어 한글화만의 회귀로 단정할 수 없다. 동봉 Widescreen 16:9 패치를 켠 Software 16:9 대조군에서는 같은 대사가 정상 표시됐다. 패치 OFF의 34개 대상 원본값·panelY 312, 대조군의 34개 적용·panelY 384를 확인했다. 대조군은 화면 비율과 패치를 동시에 바꿨으므로 34개 쓰기 전체의 필요성은 분리하지 못했다. 최신 ISO는 수정하지 않았고 SHA-256도 동일하다. 사용자 원본 카드·설정은 보존했고 검증 프로세스를 종료했다. 전체 플레이·다른 PCSX2 버전·실기는 미검증이다. 보고서: `reports/patchless_runtime_20261001.json`. 게임 스크린샷·세이브·BIOS·ISO는 저장소에 올리지 않는다.
+SHA-256: `b1ebb5db3d0613ea9fe1160f6636c7481fb4d71c43e6b2d9b67f366ea9ca06b2`. DMAP maps v1에 flow/bf_nm_a~j,s 11장 추가. 기존 지도 이미지 75장과 클래스·상점·컨트롤러 수정 보존. 일본어 제목만 기존 용어로 한국어화; 영어 영역의 원본 인덱스·픽셀 및 UAD 보존. 원본 제목 잉크 영역의 폭·높이·위치 유지, 한국어 자간은 시각 검수. 전체 ISO 계획 밖 바이트 동일 검증. ELF CRC 565FA10D 유지, 해당 호환 ZIP 동봉. 실제 게임 실행 미검증.
 
 보고서: reports/dmap_flow_ko_v1.json. 원본 생성 결과·프롬프트·게임용 미리보기: outputs/dmap_flow_ko_v1. 빌더: tools/build_dmap_flow_ko_v1.py.
 

@@ -8,16 +8,16 @@ PlayStation 2용 일본판 **Poison Pink**를 한국어로 즐길 수 있도록 
 
 ## 최신 개발판
 
-**v0.1.0-dev · DMAP flow v1**
+**v0.2.0-dev · Standalone dialogue layout v1**
 
 - 누적 한국어 대사 및 UI 작업 반영
 - 지역명 이미지 11종 최신본 반영
 - 월드/지역 지도 이미지 최신본 반영
 - 상점 메시지와 컨트롤러 안내문 반영
 - 클래스 체인지 관련 문구 수정 반영
-- PCSX2 대화 표시 호환 패치 동봉
+- 초상화 대화 레이아웃 수정 4개 값을 ISO에 통합
 - 구조·해시·재구성 검증 완료
-- PCSX2 2.6.3의 새 부팅·새 게임으로 제한적 실행 검증 완료
+- PCSX2 2.6.3 외부 패치 OFF 실제 실행 검증 완료
 - 전체 게임 플레이와 모든 분기의 런타임 검증은 미완료
 
 | 지역명 이미지 | 지도 이미지 |
@@ -26,15 +26,15 @@ PlayStation 2용 일본판 **Poison Pink**를 한국어로 즐길 수 있도록 
 
 ## 다운로드와 적용
 
-1. 이 저장소의 **Releases**에서 `Poison_Pink_Korean_DMAP_flow_v1.xdelta`를 받습니다.
+1. 이 저장소의 **Releases**에서 `Poison_Pink_Korean_standalone_v1.xdelta`를 받습니다.
 2. 본인이 소유한 일본판 ISO의 SHA-256이 아래 원본 해시와 일치하는지 확인합니다.
 3. [xdelta3](https://github.com/jmacd/xdelta)를 설치합니다.
 4. Release의 자동 적용 스크립트 또는 아래 명령을 사용합니다.
 
 ```bash
 xdelta3 -d -s "Poison Pink (Japan).iso" \
-  "Poison_Pink_Korean_DMAP_flow_v1.xdelta" \
-  "Poison Pink (Japan) - Korean DMAP flow v1.iso"
+  "Poison_Pink_Korean_standalone_v1.xdelta" \
+  "Poison Pink (Japan) - Korean standalone v1.iso"
 ```
 
 macOS/Linux에서는 `scripts/apply_patch_ko.sh`, Windows PowerShell에서는 `scripts/apply_patch_ko.ps1`을 사용할 수 있습니다. 두 스크립트 모두 원본·패치·출력 해시를 확인하며 기존 출력 파일을 덮어쓰지 않습니다.
@@ -46,29 +46,28 @@ macOS/Linux에서는 `scripts/apply_patch_ko.sh`, Windows PowerShell에서는 `s
 | 지원 원본 | Poison Pink 일본판 ISO |
 | 원본 ISO 크기 | 4,245,454,848 bytes |
 | 원본 SHA-256 | `081e5c921fc2b0f517f007dfe053935578174a6880949de961e273426b216103` |
-| xdelta 크기 | 311,221,958 bytes |
-| xdelta SHA-256 | `8e56374561879106237e04ca3aa4875462bf0743aeac917c0987749bc5fe2a55` |
+| xdelta 크기 | 311,221,978 bytes |
+| xdelta SHA-256 | `02d32af31433a7016a94e49f93efdd97d5bb1dc6dd6a3672ad2d9fb6c0715714` |
 | 출력 ISO 크기 | 4,245,454,848 bytes |
-| 출력 SHA-256 | `b1ebb5db3d0613ea9fe1160f6636c7481fb4d71c43e6b2d9b67f366ea9ca06b2` |
+| 출력 SHA-256 | `f7276bfe1da4b9599d5242daa74ee094ac87e3044173e3c943b6320890fed072` |
 
 패치 적용 후 ISO가 약 4.25GB인 것은 패치가 원본에 파일을 단순 추가하는 방식이 아니라, 에뮬레이터가 읽을 수 있는 **완전한 디스크 이미지 전체를 재구성**하기 때문입니다. 다운로드하는 xdelta 파일 자체는 약 297MiB이며, 완성 ISO와 원본 ISO를 동시에 보관하면 저장 공간이 두 배가량 필요합니다.
 
-## PCSX2 대화 표시 호환 패치
+## 외부 PCSX2 패치 없는 독립 실행판
 
-현재 릴리스는 **검증한 PCSX2 2.6.3 환경과 장면에서 외부 sidecar 패치 의존성이 남아 있습니다.** `release/pcsx2/SLPS-25854_565FA10D.pnach`를 PCSX2 데이터 폴더의 `patches`에 복사하고, 와이드스크린 패치를 켠 뒤 16:9로 새 부팅하세요. 이전 상태저장은 사용하지 않는 편이 안전합니다. 자세한 내용은 같은 폴더의 `README.txt`와 Release의 `PCSX2_dialogue_compat.zip`을 참고하세요.
+이번 xdelta를 정품 일본판 원본 ISO에 한 번 적용하면 대화 레이아웃 수정이 내장된 `Korean standalone v1` ISO가 생성됩니다. 이 최신판은 `.pnach`, `.iso.pcsx2`, 호환 ZIP 없이 실행하도록 만들었으며 PCSX2의 외부 패치·치트·와이드스크린 패치를 모두 끈 상태로 검증했습니다.
+
+이전 DMAP flow v1 ISO의 4,245,454,848바이트 중 실제 6바이트만 변경했습니다. 초상화 대화 레이아웃용 4개 float 값만 통합했고, 기존 번역·이미지·영상과 원래 4:3 시야각·폰트 폭·와이드스크린 코드는 그대로 보존했습니다. ELF CRC는 `15A5210D`입니다.
 
 ### 2026-10-01 제한적 실행 검증
 
-최신 ISO의 SHA-256은 그대로 `b1ebb5db3d0613ea9fe1160f6636c7481fb4d71c43e6b2d9b67f366ea9ca06b2`이며, 이번 검증으로 ISO를 수정하지 않았습니다. PCSX2 2.6.3에서 상태저장 없이 새로 부팅하고 새 게임으로 테이의 첫 초상화 대사까지 확인했습니다. 사용자 원본 메모리카드와 설정은 변경하지 않았습니다.
-
-| 조건 | 확인 결과 |
+| PCSX2 2.6.3 조건 | 확인 결과 |
 |---|---|
-| 최신 한국어판 · Software · 4:3 · 외부 패치/치트/와이드스크린 OFF | 전투 튜토리얼 대사와 도움말은 정상. 테이 첫 초상화 대사는 누락 |
-| 최신 한국어판 · Metal 및 CPU/GS 초기값 · 4:3 · 패치 OFF | 같은 초상화 대사 누락 재현 |
-| 일본판 원본 · Software · 4:3 · 패치 OFF | 같은 초상화 대사 누락 재현 |
-| 최신 한국어판 · Software · 16:9 · 동봉 Widescreen 16:9 패치 ON | 같은 초상화 대사 정상 표시 |
+| Software · 4:3 · 외부 패치/치트/와이드스크린 OFF · 새 게임 | 첫 초상화 대사, 여러 인물 대화, 두 줄 대사, 전투 준비, 첫 본편 전투 대사와 유닛 이동 확인 |
+| 기본 Metal · 4:3 · 외부 패치 OFF · 새 게임 | 첫 초상화 대사와 이후 진행 확인 |
+| Software · 16:9 · 외부 패치/와이드스크린 OFF · 기존 레벨 23 메모리카드 복사본 | 게임 내 저장 불러오기와 해당 전투 로딩 확인 |
 
-패치 OFF에서는 RAM의 34개 대상이 원본값이고 패널 Y가 312였으며, 대조군에서는 34개 타깃 적용과 패널 Y 384를 확인했습니다. 다만 대조군은 화면 비율과 패치를 함께 바꿨으므로 **34개 쓰기가 모두 반드시 필요하다고 단정하지 않습니다.** 일본 원본에서도 같은 누락이 재현되어 한글화만의 회귀로 단정할 수 없고, 반대로 패치 없는 완전 정상 실행이나 실기 호환도 보장할 수 없습니다. 전체 기록은 [`reports/patchless_runtime_20261001.json`](reports/patchless_runtime_20261001.json)에 있습니다.
+과거 강제 상태저장은 이전 실행 파일과 화면 배치를 함께 복원할 수 있으므로 사용하지 마세요. 새 ISO를 새로 부팅한 뒤 게임 내 메모리카드 저장을 사용해야 합니다. 사용자 원본 설정과 메모리카드 해시는 검증 전후 동일했고 검증 프로세스는 종료했습니다. 상세 기록은 [`reports/iso_dialogue_fix_v1.json`](reports/iso_dialogue_fix_v1.json)에 있습니다.
 
 ## 현재 알려진 한계
 
@@ -76,8 +75,8 @@ macOS/Linux에서는 `scripts/apply_patch_ko.sh`, Windows PowerShell에서는 `s
 - 일부 이미지와 문맥 의존 문장은 추가 번역·검수가 필요합니다.
 - 영상 자막 중 노래 가사 등 일부 표현은 추가 확인이 필요합니다.
 - RTB 크기 변경 제어 흐름, 폰트 용량, 아카이브 무변경 부팅 관련 검증 게이트가 아직 닫히지 않았습니다.
-- PCSX2 2.6.3의 검증 장면에서는 외부 sidecar 패치 없이 초상화 대사가 누락됐습니다. 다른 PCSX2 버전과 설정은 미검증입니다.
-- 실제 PlayStation 2와 전체 게임 구간은 검증하지 않았습니다.
+- 이번 실행 검증은 PCSX2 2.6.3의 명시된 장면과 설정에 한정됩니다.
+- 다른 PCSX2 버전, 실제 PlayStation 2, 전체 게임 구간과 모든 분기·시설·엔딩은 검증하지 않았습니다.
 
 ## 저장소 구성
 
@@ -87,7 +86,7 @@ macOS/Linux에서는 `scripts/apply_patch_ko.sh`, Windows PowerShell에서는 `s
 - `review/latest/` — 최신 전체 대사 검수본과 수정 내역
 - `reports/` — 최신 빌드 및 잔여 작업 검증 보고서
 - `docs/DEVELOPMENT_HANDOVER.md` — 다음 작업을 바로 이어가기 위한 상세 인계 문서
-- `release/` — 적용 안내, 해시, PCSX2 호환 자료
+- `release/` — 적용 안내, 해시, 배포 매니페스트
 
 빌드를 다시 진행할 때는 먼저 [개발 인계 문서](docs/DEVELOPMENT_HANDOVER.md)와 [파이프라인 문서](docs/LOCALIZATION_PIPELINE.md), `localization/pipeline.json`을 함께 확인하세요.
 

@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "description": "ISO-integrated portrait dialogue layout; keeps original 4:3 FOV, font width and executable instructions",
+  "provenance": "Dialogue layout constants from PCSX2 2.6.3 bundled Arapapa patch; isolated ELF tests on 2026-10-01",
+  "words": [
+    {"address": "005526F4", "original": "43D10000", "value": "43C80000", "meaning": "message indicator Y: 418 -> 400"},
+    {"address": "00552768", "original": "42B00000", "value": "42C00000", "meaning": "dialogue frame extent: 88 -> 96"},
+    {"address": "0055276C", "original": "43CF8000", "value": "00000000", "meaning": "dialogue frame offset: 415 -> 0"},
+    {"address": "0055278C", "original": "439C0000", "value": "43C00000", "meaning": "lower panel Y: 312 -> 384"}
+  ]
+}

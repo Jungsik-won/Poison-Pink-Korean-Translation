@@ -1,0 +1,200 @@
+{
+  "status": "applied_and_sample_runtime_verified",
+  "date": "2026-10-01",
+  "iso_path": "build/iso_dialogue_fix_v1/Poison Pink (Japan) - Korean standalone v1.iso",
+  "base_iso": "build/dmap_flow_ko_v1/Poison Pink (Japan) - Korean DMAP flow v1.iso",
+  "iso": {
+    "source_sha256": "b1ebb5db3d0613ea9fe1160f6636c7481fb4d71c43e6b2d9b67f366ea9ca06b2",
+    "output_sha256": "f7276bfe1da4b9599d5242daa74ee094ac87e3044173e3c943b6320890fed072",
+    "bytes": 4245454848,
+    "changed_bytes": 6,
+    "size_preserved": true,
+    "runtime_compatibility": {
+      "elf_crc": "15A5210D",
+      "requires_external_patch": false,
+      "integrated_dialogue_layout": [
+        {
+          "address": "005526F4",
+          "original": "43D10000",
+          "value": "43C80000",
+          "meaning": "message indicator Y: 418 -> 400"
+        },
+        {
+          "address": "00552768",
+          "original": "42B00000",
+          "value": "42C00000",
+          "meaning": "dialogue frame extent: 88 -> 96"
+        },
+        {
+          "address": "0055276C",
+          "original": "43CF8000",
+          "value": "00000000",
+          "meaning": "dialogue frame offset: 415 -> 0"
+        },
+        {
+          "address": "0055278C",
+          "original": "439C0000",
+          "value": "43C00000",
+          "meaning": "lower panel Y: 312 -> 384"
+        }
+      ],
+      "checked_patch_addresses": 34
+    },
+    "replacements": [
+      {
+        "offset": 5215988,
+        "size": 4,
+        "before_sha256": "b0b53e78021647e26d6af39d2dcd74845b24b16cc5fdb15431a9e081a12cb8d2",
+        "after_sha256": "ac8fb139930df65fdb788559d7299840c359549afc851b82ba08d1485e67f3b7"
+      },
+      {
+        "offset": 5216104,
+        "size": 4,
+        "before_sha256": "0252f8f46323335b8af5d5b1aa72f45b4dfe84a35ae0f274889381483831c130",
+        "after_sha256": "fff0350d107ca59142d04f52e0643ee4bc2d9df870b79b406258b6fd28ee27b0"
+      },
+      {
+        "offset": 5216108,
+        "size": 4,
+        "before_sha256": "bbda2300a0be85c28fe78c918d5127e4de4bbd31eb76a62f451d701381f34bf8",
+        "after_sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+      },
+      {
+        "offset": 5216140,
+        "size": 4,
+        "before_sha256": "87a3f3e1459f0ff6f289583e670600b6637ce692a5c0f0368ca961c6afb29e5d",
+        "after_sha256": "78f5af241f919204c38ae9564af088b07accc5fcb699f6d96a6179ee984f0b8d"
+      }
+    ]
+  },
+  "verification": {
+    "passed": true,
+    "changed_bytes": 6,
+    "all_unplanned_bytes_identical": true
+  },
+  "changes": [
+    {
+      "address": "005526F4",
+      "original": "43D10000",
+      "value": "43C80000",
+      "meaning": "message indicator Y: 418 -> 400",
+      "elf_offset": 4536052,
+      "iso_offset": 5215988
+    },
+    {
+      "address": "00552768",
+      "original": "42B00000",
+      "value": "42C00000",
+      "meaning": "dialogue frame extent: 88 -> 96",
+      "elf_offset": 4536168,
+      "iso_offset": 5216104
+    },
+    {
+      "address": "0055276C",
+      "original": "43CF8000",
+      "value": "00000000",
+      "meaning": "dialogue frame offset: 415 -> 0",
+      "elf_offset": 4536172,
+      "iso_offset": 5216108
+    },
+    {
+      "address": "0055278C",
+      "original": "439C0000",
+      "value": "43C00000",
+      "meaning": "lower panel Y: 312 -> 384",
+      "elf_offset": 4536204,
+      "iso_offset": 5216140
+    }
+  ],
+  "elf_crc": "15A5210D",
+  "requires_external_patch": false,
+  "runtime_verified": true,
+  "original_fov_font_width_and_code_preserved": true,
+  "previous_translation_images_movies_preserved": true,
+  "runtime_checks": {
+    "software_4_3": {
+      "cold_boot_iso": true,
+      "external_patches": false,
+      "cheats": false,
+      "widescreen_patches": false,
+      "first_portrait_dialogue": true,
+      "multiple_speakers": true,
+      "two_line_dialogue": true,
+      "prebattle_menu": true,
+      "main_battle_loaded": true,
+      "main_battle_dialogue": true,
+      "unit_movement_and_command_menu": true,
+      "ram_proof": "build/iso_dialogue_fix_v1/ram_proof_software.json"
+    },
+    "default_metal_4_3": {
+      "cold_boot_iso": true,
+      "external_patches": false,
+      "first_portrait_dialogue": true,
+      "advance_dialogue": true,
+      "ram_proof": "build/iso_dialogue_fix_v1/ram_proof_metal.json",
+      "battle_tested": false
+    },
+    "software_16_9_card_load": {
+      "cold_boot_iso": true,
+      "external_patches": false,
+      "widescreen_patches": false,
+      "existing_level_23_game_save_loaded": true,
+      "test_card_is_copy": true,
+      "battle_tested": true,
+      "saved_battle_loaded": true
+    }
+  },
+  "runtime_verified_scope": "PCSX2 2.6.3: Software 4:3 fresh Tei intro, two-line/multiple-speaker portrait dialogue, first main battle dialogue and unit movement; default Metal 4:3 intro; Software 16:9 existing Lv23 memory-card load. Not full-game coverage. Saved Lv23 battle also loaded successfully in Software 16:9.",
+  "tests": {
+    "command": "PYTHONPATH=tools python3 -m unittest test_runtime_compat",
+    "passed": 14
+  },
+  "full_game_verified": false,
+  "evidence": [
+    "build/iso_dialogue_fix_v1/evidence/card_load_confirm.png",
+    "build/iso_dialogue_fix_v1/evidence/card_load_menu.png",
+    "build/iso_dialogue_fix_v1/evidence/card_loaded.png",
+    "build/iso_dialogue_fix_v1/evidence/card_save_list.png",
+    "build/iso_dialogue_fix_v1/evidence/card_saved_battle_loaded.png",
+    "build/iso_dialogue_fix_v1/evidence/metal_dialogue_next.png",
+    "build/iso_dialogue_fix_v1/evidence/metal_first_dialogue.png",
+    "build/iso_dialogue_fix_v1/evidence/software_battle_entry.png",
+    "build/iso_dialogue_fix_v1/evidence/software_combat_dialogue.png",
+    "build/iso_dialogue_fix_v1/evidence/software_combat_loaded.png",
+    "build/iso_dialogue_fix_v1/evidence/software_combat_move.png",
+    "build/iso_dialogue_fix_v1/evidence/software_combat_turn.png",
+    "build/iso_dialogue_fix_v1/evidence/software_dialogue_more.png",
+    "build/iso_dialogue_fix_v1/evidence/software_dialogue_next.png",
+    "build/iso_dialogue_fix_v1/evidence/software_dialogue_tei.png",
+    "build/iso_dialogue_fix_v1/evidence/software_first_dialogue.png",
+    "build/iso_dialogue_fix_v1/evidence/software_main_battle.png",
+    "build/iso_dialogue_fix_v1/evidence/software_multiline.png",
+    "build/iso_dialogue_fix_v1/evidence/software_prebattle_conditions.png",
+    "build/iso_dialogue_fix_v1/evidence/software_scene_progress.png",
+    "build/iso_dialogue_fix_v1/evidence/software_start_battle.png"
+  ],
+  "limitations": [
+    "전체 게임, 모든 분기·시설·엔딩은 미검증",
+    "실기 PS2 및 PCSX2 다른 버전은 미검증",
+    "기존 한글화의 미완성·미확정 번역 항목 유지",
+    "과거 강제 상태저장을 불러오면 이전 실행 파일과 화면 배치도 복원되므로 새 부팅 후 게임 내 메모리카드를 사용할 것"
+  ],
+  "test_process_stopped": true,
+  "user_files_preserved": [
+    {
+      "path": "<LOCAL_USER_HOME>/Library/Application Support/PCSX2/inis/PCSX2.ini",
+      "sha256": "redacted",
+      "unchanged": true
+    },
+    {
+      "path": "<LOCAL_USER_HOME>/Library/Application Support/PCSX2/memcards/Mcd001.ps2",
+      "sha256": "redacted",
+      "unchanged": true
+    },
+    {
+      "path": "<LOCAL_USER_HOME>/Library/Application Support/PCSX2/memcards/Mcd002.ps2",
+      "sha256": "redacted",
+      "unchanged": true
+    }
+  ]
+}

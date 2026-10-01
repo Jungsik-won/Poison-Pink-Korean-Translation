@@ -1,4 +1,3 @@
 081e5c921fc2b0f517f007dfe053935578174a6880949de961e273426b216103  Poison Pink (Japan).iso
-8e56374561879106237e04ca3aa4875462bf0743aeac917c0987749bc5fe2a55  Poison_Pink_Korean_DMAP_flow_v1.xdelta
-b1ebb5db3d0613ea9fe1160f6636c7481fb4d71c43e6b2d9b67f366ea9ca06b2  Poison Pink (Japan) - Korean DMAP flow v1.iso
-
+02d32af31433a7016a94e49f93efdd97d5bb1dc6dd6a3672ad2d9fb6c0715714  Poison_Pink_Korean_standalone_v1.xdelta
+f7276bfe1da4b9599d5242daa74ee094ac87e3044173e3c943b6320890fed072  Poison Pink (Japan) - Korean standalone v1.iso

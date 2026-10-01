@@ -59,7 +59,8 @@
     "user_ui_test_v5_entire_iso_verified": true,
     "user_ui_test_v6_entire_iso_verified": true,
     "dmap_map_ko_v1_entire_iso_verified": true,
-    "dmap_flow_ko_v1_entire_iso_verified": true
+    "dmap_flow_ko_v1_entire_iso_verified": true,
+    "iso_dialogue_fix_v1_entire_iso_verified": true
   },
   "gates": {
     "rtb_instruction_boundaries": true,
@@ -140,11 +141,13 @@
   "ui_translation_file": "localization/ui_slice.json",
   "ui_catalog": "localization/ui_catalog.json",
   "latest_experimental_build": {
-    "path": "build/dmap_flow_ko_v1/Poison Pink (Japan) - Korean DMAP flow v1.iso",
-    "sha256": "b1ebb5db3d0613ea9fe1160f6636c7481fb4d71c43e6b2d9b67f366ea9ca06b2",
-    "pcsx2_sidecar": "build/dmap_flow_ko_v1/Poison Pink (Japan) - Korean DMAP flow v1.iso.pcsx2",
-    "report": "reports/dmap_flow_ko_v1.json",
-    "runtime_verified": false
+    "path": "build/iso_dialogue_fix_v1/Poison Pink (Japan) - Korean standalone v1.iso",
+    "sha256": "f7276bfe1da4b9599d5242daa74ee094ac87e3044173e3c943b6320890fed072",
+    "report": "reports/iso_dialogue_fix_v1.json",
+    "runtime_verified": true,
+    "runtime_verified_scope": "PCSX2 2.6.3: Software 4:3 fresh Tei intro, two-line/multiple-speaker portrait dialogue, first main battle dialogue and unit movement; default Metal 4:3 intro; Software 16:9 existing Lv23 memory-card load. Not full-game coverage. Saved Lv23 battle also loaded successfully in Software 16:9.",
+    "requires_external_patch": false,
+    "pcsx2_sidecar": null
   },
   "ui_titles_translation_file": "localization/ui_titles.json",
   "ui_remaining_translation_file": "localization/ui_remaining.json",
@@ -685,5 +688,12 @@
     "psds": 16,
     "source_movie_build": "reports/movie_subtitles_v1.json",
     "runtime_verified": false
+  },
+  "standalone_dialogue_layout": {
+    "spec": "localization/runtime/iso_dialogue_layout.json",
+    "builder": "tools/build_iso_dialogue_fix.py",
+    "external_patch_required": false,
+    "preserve_in_future_builds": true,
+    "report": "reports/iso_dialogue_fix_v1.json"
   }
 }

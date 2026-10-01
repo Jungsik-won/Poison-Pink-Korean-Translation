@@ -2,12 +2,12 @@
 set -euo pipefail
 
 SOURCE_SHA256="081e5c921fc2b0f517f007dfe053935578174a6880949de961e273426b216103"
-PATCH_SHA256="8e56374561879106237e04ca3aa4875462bf0743aeac917c0987749bc5fe2a55"
-OUTPUT_SHA256="b1ebb5db3d0613ea9fe1160f6636c7481fb4d71c43e6b2d9b67f366ea9ca06b2"
-PATCH_NAME="Poison_Pink_Korean_DMAP_flow_v1.xdelta"
+PATCH_SHA256="02d32af31433a7016a94e49f93efdd97d5bb1dc6dd6a3672ad2d9fb6c0715714"
+OUTPUT_SHA256="f7276bfe1da4b9599d5242daa74ee094ac87e3044173e3c943b6320890fed072"
+PATCH_NAME="Poison_Pink_Korean_standalone_v1.xdelta"
 
 source_iso="${1:-}"
-output_iso="${2:-Poison Pink (Japan) - Korean DMAP flow v1.iso}"
+output_iso="${2:-Poison Pink (Japan) - Korean standalone v1.iso}"
 patch_file="${3:-$PATCH_NAME}"
 
 if [[ -z "$source_iso" ]]; then
@@ -56,4 +56,3 @@ actual_output="$(sha256_file "$output_iso")"
 
 echo "완료: $output_iso"
 echo "SHA-256: $actual_output"
-
